@@ -328,7 +328,10 @@ function readMetadataFromForm() {
     state.dataset.id ||
     createIdFromTitle(state.dataset.title);
 
-  updateInterface();
+renderMeasurements();
+renderSources();
+drawChart();
+updateJsonPreview();
 }
 
 
