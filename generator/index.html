@@ -2,1613 +2,531 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>BRUCHLAST-Kurvengenerator</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  <meta
+    name="description"
+    content="Kurvengenerator für wissenschaftlich nachvollziehbare BRUCHLAST-Diagramme."
+  >
 
-    :root {
-      --gelb: #f2c500;
-      --dunkel: #202020;
-      --grau: #666;
-      --hellgrau: #f3f3f3;
-      --rand: #d5d5d5;
-      --weiss: #ffffff;
-      --rot: #b42318;
-      --gruen: #18794e;
-    }
+  <title>Kurvengenerator | Z-PANEL</title>
 
-    body {
-      margin: 0;
-      background: var(--hellgrau);
-      color: var(--dunkel);
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    header {
-      padding: 24px 20px;
-      background: var(--dunkel);
-      color: var(--weiss);
-    }
-
-    .header-inhalt {
-      width: min(1400px, 100%);
-      margin: 0 auto;
-    }
-
-    header h1 {
-      margin: 10px 0 6px;
-      font-size: clamp(28px, 4vw, 44px);
-    }
-
-    header p {
-      margin: 0;
-      color: #dddddd;
-    }
-
-    .zurueck {
-      color: var(--gelb);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    main {
-      width: min(1400px, calc(100% - 24px));
-      margin: 24px auto 60px;
-    }
-
-    .layout {
-      display: grid;
-      grid-template-columns: minmax(320px, 460px) minmax(500px, 1fr);
-      gap: 22px;
-      align-items: start;
-    }
-
-    .karte {
-      padding: 22px;
-      background: var(--weiss);
-      border: 1px solid var(--rand);
-      border-radius: 16px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-    }
-
-    .karte h2 {
-      margin: 0 0 18px;
-      font-size: 24px;
-    }
-
-    .karte h3 {
-      margin: 28px 0 14px;
-      padding-top: 18px;
-      border-top: 1px solid var(--rand);
-    }
-
-    .formulargruppe {
-      margin-bottom: 15px;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 6px;
-      font-weight: bold;
-    }
-
-    input,
-    select,
-    textarea,
-    button {
-      font: inherit;
-    }
-
-    input,
-    select,
-    textarea {
-      width: 100%;
-      padding: 11px 12px;
-      border: 1px solid #bcbcbc;
-      border-radius: 8px;
-      background: white;
-    }
-
-    input:focus,
-    select:focus,
-    textarea:focus {
-      border-color: #8f7300;
-      outline: 3px solid rgba(242, 197, 0, 0.22);
-    }
-
-    .zweispaltig {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-
-    .hilfetext {
-      margin-top: 5px;
-      color: var(--grau);
-      font-size: 13px;
-      line-height: 1.4;
-    }
-
-    .buttonzeile {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    button,
-    .datei-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 42px;
-      padding: 10px 15px;
-      border: 0;
-      border-radius: 8px;
-      background: var(--dunkel);
-      color: white;
-      cursor: pointer;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    button:hover,
-    .datei-button:hover {
-      opacity: 0.88;
-    }
-
-    button.gelb {
-      background: var(--gelb);
-      color: var(--dunkel);
-    }
-
-    button.hell {
-      border: 1px solid var(--rand);
-      background: white;
-      color: var(--dunkel);
-    }
-
-    button.rot {
-      background: var(--rot);
-    }
-
-    button.klein {
-      min-height: 34px;
-      padding: 7px 10px;
-      font-size: 14px;
-    }
-
-    .datei-button input {
-      display: none;
-    }
-
-    .tabelle-wrapper {
-      overflow-x: auto;
-      margin-top: 12px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 760px;
-    }
-
-    th,
-    td {
-      padding: 9px 7px;
-      border-bottom: 1px solid var(--rand);
-      text-align: left;
-      vertical-align: middle;
-    }
-
-    th {
-      background: #fafafa;
-      font-size: 14px;
-    }
-
-    td input,
-    td select {
-      min-width: 110px;
-      padding: 8px;
-    }
-
-    td .prozentwert {
-      white-space: nowrap;
-      font-weight: bold;
-    }
-
-    .diagramm-kopf {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-
-    .diagramm-kopf h2 {
-      margin-bottom: 4px;
-    }
-
-    .diagramm-kopf p {
-      margin: 0;
-      color: var(--grau);
-    }
-
-    .canvas-wrapper {
-      position: relative;
-      width: 100%;
-      min-height: 520px;
-      overflow: hidden;
-      border: 1px solid var(--rand);
-      border-radius: 12px;
-      background: white;
-    }
-
-    canvas {
-      display: block;
-      width: 100%;
-      height: 520px;
-    }
-
-    .tooltip {
-      position: fixed;
-      z-index: 1000;
-      display: none;
-      max-width: 330px;
-      padding: 12px 14px;
-      border: 1px solid #999;
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.98);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-      pointer-events: none;
-      font-size: 14px;
-      line-height: 1.45;
-    }
-
-    .tooltip strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    .quellenliste {
-      display: grid;
-      gap: 10px;
-      margin-top: 14px;
-    }
-
-    .quelle {
-      padding: 14px;
-      border: 1px solid var(--rand);
-      border-radius: 10px;
-      background: #fafafa;
-    }
-
-    .quelle-kopf {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      align-items: start;
-    }
-
-    .quelle strong {
-      display: block;
-      margin-bottom: 4px;
-    }
-
-    .quelle p {
-      margin: 4px 0;
-      color: #444;
-      font-size: 14px;
-      line-height: 1.4;
-    }
-
-    .quelle a {
-      color: #725c00;
-      overflow-wrap: anywhere;
-    }
-
-    details {
-      margin-top: 22px;
-    }
-
-    details summary {
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .status {
-      min-height: 22px;
-      margin-top: 12px;
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-    .status.erfolg {
-      color: var(--gruen);
-    }
-
-    .status.fehler {
-      color: var(--rot);
-    }
-
-    .hinweisbox {
-      margin-top: 18px;
-      padding: 14px;
-      border-left: 5px solid var(--gelb);
-      background: #fffbea;
-      line-height: 1.5;
-    }
-
-    @media (max-width: 1000px) {
-      .layout {
-        grid-template-columns: 1fr;
-      }
-
-      .canvas-wrapper {
-        min-height: 460px;
-      }
-
-      canvas {
-        height: 460px;
-      }
-    }
-
-    @media (max-width: 600px) {
-      main {
-        width: min(100% - 14px, 1400px);
-      }
-
-      .karte {
-        padding: 16px;
-        border-radius: 10px;
-      }
-
-      .zweispaltig {
-        grid-template-columns: 1fr;
-      }
-
-      .canvas-wrapper {
-        min-height: 390px;
-      }
-
-      canvas {
-        height: 390px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="generator.css">
 </head>
 
 <body>
 
-<header>
-  <div class="header-inhalt">
-    <a class="zurueck" href="../">← Zurück zum Z-PANEL</a>
-    <h1>BRUCHLAST-Kurvengenerator</h1>
-    <p>Messwerte erfassen, normieren, darstellen und mit Quellen dokumentieren.</p>
-  </div>
-</header>
+  <header>
+    <div class="header-content">
 
-<main>
+      <a class="back-link" href="../index.html">
+        ← Zurück zum Z-PANEL
+      </a>
 
-  <div class="layout">
+      <h1>BRUCHLAST-Kurvengenerator</h1>
 
-    <section class="karte">
+      <p>
+        Messwerte erfassen, Quellen dokumentieren und Belastungsverläufe
+        nachvollziehbar darstellen.
+      </p>
 
-      <h2>Messreihe</h2>
+    </div>
+  </header>
 
-      <div class="formulargruppe">
-        <label for="titel">Titel der Messreihe</label>
-        <input id="titel" type="text" value="Atmosphärische CO₂-Konzentration">
-      </div>
 
-      <div class="formulargruppe">
-        <label for="grenze">Planetare Grenze</label>
-        <select id="grenze">
-          <option>Klimawandel</option>
-          <option>Integrität der Biosphäre</option>
-          <option>Landnutzungsänderungen</option>
-          <option>Süßwasserveränderungen</option>
-          <option>Biogeochemische Kreisläufe</option>
-          <option>Ozeanversauerung</option>
-          <option>Neue Substanzen</option>
-          <option>Atmosphärische Aerosole</option>
-          <option>Stratosphärischer Ozonabbau</option>
-          <option>Sonstiges</option>
-        </select>
-      </div>
+  <main>
 
-      <div class="formulargruppe">
-        <label for="einheit">Einheit</label>
-        <input id="einheit" type="text" value="ppm" placeholder="z. B. ppm, °C, %, Mio. t">
-      </div>
+    <div class="layout">
 
-      <div class="zweispaltig">
+      <!-- Linke Spalte: Eingaben -->
+      <section class="card">
 
-        <div class="formulargruppe">
-          <label for="untererWert">Unterer Bezugswert</label>
-          <input id="untererWert" type="number" step="any" value="280">
-          <div class="hilfetext">Entspricht bei steigender Belastung 0 %.</div>
-        </div>
+        <h2>Messreihe</h2>
 
-        <div class="formulargruppe">
-          <label for="obererWert">Oberer Bezugswert</label>
-          <input id="obererWert" type="number" step="any" value="450">
-          <div class="hilfetext">Entspricht bei steigender Belastung 100 %.</div>
-        </div>
+        <div class="form-group">
+          <label for="dataset-title">
+            Titel
+          </label>
 
-      </div>
-
-      <div class="formulargruppe">
-        <label for="richtung">Belastungsrichtung</label>
-        <select id="richtung">
-          <option value="steigend">Steigender Messwert = steigende Belastung</option>
-          <option value="fallend">Fallender Messwert = steigende Belastung</option>
-        </select>
-      </div>
-
-      <h3>Messwerte</h3>
-
-      <div class="tabelle-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Jahr</th>
-              <th>Originalwert</th>
-              <th>Quelle</th>
-              <th>Belastung</th>
-              <th></th>
-            </tr>
-          </thead>
-
-          <tbody id="messwertTabelle"></tbody>
-        </table>
-      </div>
-
-      <div class="buttonzeile">
-        <button class="gelb" id="zeileHinzufuegen" type="button">
-          + Messwert hinzufügen
-        </button>
-
-        <button class="hell" id="beispielLaden" type="button">
-          Beispieldaten laden
-        </button>
-      </div>
-
-      <details open>
-        <summary>Zentrale Quellenverwaltung</summary>
-
-        <div class="hinweisbox">
-          Jede Quelle wird nur einmal angelegt. In der Messwerttabelle kann sie
-          anschließend beliebig oft ausgewählt werden.
-        </div>
-
-        <div class="zweispaltig" style="margin-top: 18px;">
-
-          <div class="formulargruppe">
-            <label for="quellenKurzname">Kurzname</label>
-            <input id="quellenKurzname" type="text" placeholder="z. B. NOAA CO₂">
-          </div>
-
-          <div class="formulargruppe">
-            <label for="quellenInstitution">Institution oder Autor</label>
-            <input id="quellenInstitution" type="text" placeholder="z. B. NOAA">
-          </div>
-
-        </div>
-
-        <div class="formulargruppe">
-          <label for="quellenTitel">Titel der Quelle oder des Datensatzes</label>
-          <input id="quellenTitel" type="text">
-        </div>
-
-        <div class="formulargruppe">
-          <label for="quellenUrl">Internetadresse</label>
-          <input id="quellenUrl" type="url" placeholder="https://...">
-        </div>
-
-        <div class="zweispaltig">
-
-          <div class="formulargruppe">
-            <label for="quellenJahr">Veröffentlichungsjahr</label>
-            <input id="quellenJahr" type="number" min="1500" max="2200">
-          </div>
-
-          <div class="formulargruppe">
-            <label for="quellenAbruf">Abrufdatum</label>
-            <input id="quellenAbruf" type="date">
-          </div>
-
-        </div>
-
-        <div class="formulargruppe">
-          <label for="quellenFundstelle">Fundstelle</label>
           <input
-            id="quellenFundstelle"
+            id="dataset-title"
             type="text"
-            placeholder="z. B. Tabelle 2, Seite 17 oder Dateiname"
+            placeholder="z. B. Atmosphärische CO₂-Konzentration"
           >
         </div>
 
-        <div class="formulargruppe">
-          <label for="quellenAnmerkung">Anmerkung</label>
-          <textarea id="quellenAnmerkung" rows="3"></textarea>
-        </div>
 
-        <div class="buttonzeile">
-          <button class="gelb" id="quelleSpeichern" type="button">
-            Quelle hinzufügen
-          </button>
-        </div>
+        <div class="form-group">
+          <label for="dataset-short-title">
+            Kurzbezeichnung
+          </label>
 
-        <div id="quellenStatus" class="status"></div>
-        <div id="quellenListe" class="quellenliste"></div>
-
-      </details>
-
-      <h3>Speichern und Laden</h3>
-
-      <div class="buttonzeile">
-
-        <button class="gelb" id="jsonExport" type="button">
-          JSON herunterladen
-        </button>
-
-        <label class="datei-button hell">
-          JSON öffnen
-          <input id="jsonImport" type="file" accept=".json,application/json">
-        </label>
-
-        <button class="hell" id="lokalSpeichern" type="button">
-          Im Browser speichern
-        </button>
-
-        <button class="rot" id="allesLoeschen" type="button">
-          Eingaben zurücksetzen
-        </button>
-
-      </div>
-
-      <div id="speicherStatus" class="status"></div>
-
-    </section>
-
-    <section class="karte">
-
-      <div class="diagramm-kopf">
-        <div>
-          <h2 id="diagrammTitel">Atmosphärische CO₂-Konzentration</h2>
-          <p id="diagrammUntertitel">Klimawandel · Einheit: ppm</p>
-        </div>
-
-        <button class="hell" id="diagrammNeuZeichnen" type="button">
-          Diagramm aktualisieren
-        </button>
-      </div>
-
-      <div class="canvas-wrapper">
-        <canvas id="diagramm"></canvas>
-      </div>
-
-      <div class="hinweisbox">
-        Originalwerte mit Einheit werden direkt am Messpunkt angezeigt, wenn
-        ausreichend Platz vorhanden ist. Beim Bewegen der Maus über einen Punkt
-        erscheinen immer Originalwert, Belastungswert und Quelle.
-      </div>
-
-    </section>
-
-  </div>
-
-</main>
-
-<div id="tooltip" class="tooltip"></div>
-
-<script>
-  "use strict";
-
-  const speicherSchluessel = "z-panel-generator-v1";
-
-  const zustand = {
-    quellen: [],
-    messwerte: [],
-    punktPositionen: []
-  };
-
-  const elemente = {
-    titel: document.getElementById("titel"),
-    grenze: document.getElementById("grenze"),
-    einheit: document.getElementById("einheit"),
-    untererWert: document.getElementById("untererWert"),
-    obererWert: document.getElementById("obererWert"),
-    richtung: document.getElementById("richtung"),
-
-    messwertTabelle: document.getElementById("messwertTabelle"),
-    zeileHinzufuegen: document.getElementById("zeileHinzufuegen"),
-    beispielLaden: document.getElementById("beispielLaden"),
-
-    quellenKurzname: document.getElementById("quellenKurzname"),
-    quellenInstitution: document.getElementById("quellenInstitution"),
-    quellenTitel: document.getElementById("quellenTitel"),
-    quellenUrl: document.getElementById("quellenUrl"),
-    quellenJahr: document.getElementById("quellenJahr"),
-    quellenAbruf: document.getElementById("quellenAbruf"),
-    quellenFundstelle: document.getElementById("quellenFundstelle"),
-    quellenAnmerkung: document.getElementById("quellenAnmerkung"),
-    quelleSpeichern: document.getElementById("quelleSpeichern"),
-    quellenStatus: document.getElementById("quellenStatus"),
-    quellenListe: document.getElementById("quellenListe"),
-
-    diagramm: document.getElementById("diagramm"),
-    diagrammTitel: document.getElementById("diagrammTitel"),
-    diagrammUntertitel: document.getElementById("diagrammUntertitel"),
-    diagrammNeuZeichnen: document.getElementById("diagrammNeuZeichnen"),
-    tooltip: document.getElementById("tooltip"),
-
-    jsonExport: document.getElementById("jsonExport"),
-    jsonImport: document.getElementById("jsonImport"),
-    lokalSpeichern: document.getElementById("lokalSpeichern"),
-    allesLoeschen: document.getElementById("allesLoeschen"),
-    speicherStatus: document.getElementById("speicherStatus")
-  };
-
-  function neueId(prefix) {
-    return prefix + "-" + Date.now() + "-" +
-      Math.random().toString(16).slice(2);
-  }
-
-  function heutigesDatum() {
-    return new Date().toISOString().slice(0, 10);
-  }
-
-  function zahlEinlesen(wert) {
-    if (wert === null || wert === undefined || wert === "") {
-      return null;
-    }
-
-    const normalisiert = String(wert).replace(",", ".");
-    const zahl = Number(normalisiert);
-
-    return Number.isFinite(zahl) ? zahl : null;
-  }
-
-  function zahlFormatieren(wert, nachkommastellen = 2) {
-    if (!Number.isFinite(wert)) {
-      return "";
-    }
-
-    return new Intl.NumberFormat("de-DE", {
-      maximumFractionDigits: nachkommastellen
-    }).format(wert);
-  }
-
-  function htmlSicher(text) {
-    return String(text ?? "")
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-  }
-
-  function statusAnzeigen(element, text, typ = "erfolg") {
-    element.textContent = text;
-    element.className = "status " + typ;
-
-    window.setTimeout(() => {
-      if (element.textContent === text) {
-        element.textContent = "";
-        element.className = "status";
-      }
-    }, 4000);
-  }
-
-  function belastungBerechnen(originalwert) {
-    const unten = zahlEinlesen(elemente.untererWert.value);
-    const oben = zahlEinlesen(elemente.obererWert.value);
-
-    if (
-      originalwert === null ||
-      unten === null ||
-      oben === null ||
-      unten === oben
-    ) {
-      return null;
-    }
-
-    let prozent;
-
-    if (elemente.richtung.value === "steigend") {
-      prozent = ((originalwert - unten) / (oben - unten)) * 100;
-    } else {
-      prozent = ((oben - originalwert) / (oben - unten)) * 100;
-    }
-
-    return prozent;
-  }
-
-  function quelleNachId(id) {
-    return zustand.quellen.find(quelle => quelle.id === id) || null;
-  }
-
-  function quellenauswahlHtml(gewaehlteId = "") {
-    const optionen = zustand.quellen.map(quelle => {
-      const ausgewaehlt = quelle.id === gewaehlteId ? "selected" : "";
-
-      return `
-        <option value="${htmlSicher(quelle.id)}" ${ausgewaehlt}>
-          ${htmlSicher(quelle.id)} – ${htmlSicher(quelle.kurzname)}
-        </option>
-      `;
-    }).join("");
-
-    return `
-      <option value="">Keine Quelle</option>
-      ${optionen}
-    `;
-  }
-
-  function messwertHinzufuegen(daten = {}) {
-    zustand.messwerte.push({
-      id: daten.id || neueId("m"),
-      jahr: daten.jahr ?? "",
-      wert: daten.wert ?? "",
-      quellenId: daten.quellenId || ""
-    });
-
-    messwertTabelleNeuAufbauen();
-  }
-
-  function messwertTabelleNeuAufbauen() {
-    elemente.messwertTabelle.innerHTML = "";
-
-    zustand.messwerte.forEach(messwert => {
-      const zeile = document.createElement("tr");
-
-      const wertAlsZahl = zahlEinlesen(messwert.wert);
-      const prozent = belastungBerechnen(wertAlsZahl);
-
-      zeile.innerHTML = `
-        <td>
           <input
-            type="number"
-            class="jahr"
-            value="${htmlSicher(messwert.jahr)}"
-            min="0"
-            max="2200"
-            aria-label="Jahr"
-          >
-        </td>
-
-        <td>
-          <input
+            id="dataset-short-title"
             type="text"
-            inputmode="decimal"
-            class="wert"
-            value="${htmlSicher(messwert.wert)}"
-            aria-label="Originalwert"
+            placeholder="z. B. CO₂-Konzentration"
           >
-        </td>
+        </div>
 
-        <td>
-          <select class="quelle-auswahl" aria-label="Quelle">
-            ${quellenauswahlHtml(messwert.quellenId)}
+
+        <div class="form-group">
+          <label for="dataset-description">
+            Kurzbeschreibung
+          </label>
+
+          <textarea
+            id="dataset-description"
+            rows="3"
+            placeholder="Was zeigt diese Messreihe?"
+          ></textarea>
+        </div>
+
+
+        <div class="form-group">
+          <label for="planetary-boundary">
+            Planetare Grenze
+          </label>
+
+          <select id="planetary-boundary">
+
+            <option value="">
+              Bitte auswählen
+            </option>
+
+            <option value="Klimawandel">
+              Klimawandel
+            </option>
+
+            <option value="Integrität der Biosphäre">
+              Integrität der Biosphäre
+            </option>
+
+            <option value="Landnutzungsänderung">
+              Landnutzungsänderung
+            </option>
+
+            <option value="Süßwasserveränderung">
+              Süßwasserveränderung
+            </option>
+
+            <option value="Biogeochemische Kreisläufe">
+              Biogeochemische Kreisläufe
+            </option>
+
+            <option value="Ozeanversauerung">
+              Ozeanversauerung
+            </option>
+
+            <option value="Neue Substanzen">
+              Neue Substanzen
+            </option>
+
+            <option value="Atmosphärische Aerosole">
+              Atmosphärische Aerosole
+            </option>
+
+            <option value="Stratosphärischer Ozonabbau">
+              Stratosphärischer Ozonabbau
+            </option>
+
+            <option value="Sonstiges">
+              Sonstiges
+            </option>
+
           </select>
-        </td>
+        </div>
 
-        <td>
-          <span class="prozentwert">
-            ${prozent === null ? "–" : zahlFormatieren(prozent, 1) + " %"}
-          </span>
-        </td>
 
-        <td>
-          <button class="rot klein loeschen" type="button">
-            Löschen
-          </button>
-        </td>
-      `;
+        <div class="two-columns">
 
-      const jahrFeld = zeile.querySelector(".jahr");
-      const wertFeld = zeile.querySelector(".wert");
-      const quelleFeld = zeile.querySelector(".quelle-auswahl");
-      const loeschenButton = zeile.querySelector(".loeschen");
+          <div class="form-group">
+            <label for="dataset-unit">
+              Einheit
+            </label>
 
-      jahrFeld.addEventListener("input", event => {
-        messwert.jahr = event.target.value;
-        diagrammZeichnen();
-      });
-
-      wertFeld.addEventListener("input", event => {
-        messwert.wert = event.target.value;
-        messwertTabelleNeuAufbauen();
-        diagrammZeichnen();
-      });
-
-      quelleFeld.addEventListener("change", event => {
-        messwert.quellenId = event.target.value;
-        diagrammZeichnen();
-      });
-
-      loeschenButton.addEventListener("click", () => {
-        zustand.messwerte = zustand.messwerte.filter(
-          eintrag => eintrag.id !== messwert.id
-        );
-
-        messwertTabelleNeuAufbauen();
-        diagrammZeichnen();
-      });
-
-      elemente.messwertTabelle.appendChild(zeile);
-    });
-  }
-
-  function quelleSpeichern() {
-    const kurzname = elemente.quellenKurzname.value.trim();
-
-    if (!kurzname) {
-      statusAnzeigen(
-        elemente.quellenStatus,
-        "Bitte mindestens einen Kurznamen eingeben.",
-        "fehler"
-      );
-      return;
-    }
-
-    const quelle = {
-      id: "Q" + String(zustand.quellen.length + 1).padStart(3, "0"),
-      kurzname,
-      institution: elemente.quellenInstitution.value.trim(),
-      titel: elemente.quellenTitel.value.trim(),
-      url: elemente.quellenUrl.value.trim(),
-      jahr: elemente.quellenJahr.value.trim(),
-      abrufdatum: elemente.quellenAbruf.value,
-      fundstelle: elemente.quellenFundstelle.value.trim(),
-      anmerkung: elemente.quellenAnmerkung.value.trim()
-    };
-
-    zustand.quellen.push(quelle);
-
-    quellenFormularLeeren();
-    quellenListeNeuAufbauen();
-    messwertTabelleNeuAufbauen();
-    diagrammZeichnen();
-
-    statusAnzeigen(
-      elemente.quellenStatus,
-      "Quelle " + quelle.id + " wurde hinzugefügt."
-    );
-  }
-
-  function quellenFormularLeeren() {
-    elemente.quellenKurzname.value = "";
-    elemente.quellenInstitution.value = "";
-    elemente.quellenTitel.value = "";
-    elemente.quellenUrl.value = "";
-    elemente.quellenJahr.value = "";
-    elemente.quellenAbruf.value = heutigesDatum();
-    elemente.quellenFundstelle.value = "";
-    elemente.quellenAnmerkung.value = "";
-  }
-
-  function quelleLoeschen(id) {
-    const wirdVerwendet = zustand.messwerte.some(
-      messwert => messwert.quellenId === id
-    );
-
-    if (wirdVerwendet) {
-      const bestaetigt = window.confirm(
-        "Diese Quelle wird bereits Messwerten zugeordnet. " +
-        "Soll sie trotzdem gelöscht werden?"
-      );
-
-      if (!bestaetigt) {
-        return;
-      }
-    }
-
-    zustand.quellen = zustand.quellen.filter(quelle => quelle.id !== id);
-
-    zustand.messwerte.forEach(messwert => {
-      if (messwert.quellenId === id) {
-        messwert.quellenId = "";
-      }
-    });
-
-    quellenListeNeuAufbauen();
-    messwertTabelleNeuAufbauen();
-    diagrammZeichnen();
-  }
-
-  function quellenListeNeuAufbauen() {
-    if (zustand.quellen.length === 0) {
-      elemente.quellenListe.innerHTML =
-        "<p>Noch keine Quelle angelegt.</p>";
-      return;
-    }
-
-    elemente.quellenListe.innerHTML = zustand.quellen.map(quelle => {
-      const url = quelle.url
-        ? `
-          <p>
-            <a
-              href="${htmlSicher(quelle.url)}"
-              target="_blank"
-              rel="noopener noreferrer"
+            <input
+              id="dataset-unit"
+              type="text"
+              placeholder="z. B. ppm"
             >
-              Quelle öffnen
-            </a>
-          </p>
-        `
-        : "";
+          </div>
 
-      const bibliografie = [
-        quelle.institution,
-        quelle.titel,
-        quelle.jahr
-      ].filter(Boolean).join(" · ");
 
-      return `
-        <article class="quelle">
-          <div class="quelle-kopf">
-            <div>
-              <strong>
-                ${htmlSicher(quelle.id)} – ${htmlSicher(quelle.kurzname)}
-              </strong>
+          <div class="form-group">
+            <label for="burden-direction">
+              Belastungsrichtung
+            </label>
 
-              ${
-                bibliografie
-                  ? `<p>${htmlSicher(bibliografie)}</p>`
-                  : ""
-              }
+            <select id="burden-direction">
 
-              ${
-                quelle.fundstelle
-                  ? `<p>Fundstelle: ${htmlSicher(quelle.fundstelle)}</p>`
-                  : ""
-              }
+              <option value="increasing">
+                Steigender Wert = steigende Belastung
+              </option>
 
-              ${
-                quelle.abrufdatum
-                  ? `<p>Abrufdatum: ${htmlSicher(quelle.abrufdatum)}</p>`
-                  : ""
-              }
+              <option value="decreasing">
+                Fallender Wert = steigende Belastung
+              </option>
 
-              ${url}
+            </select>
+          </div>
+
+        </div>
+
+
+        <h3>Bezugswerte</h3>
+
+        <div class="two-columns">
+
+          <div class="form-group">
+            <label for="lower-reference">
+              Unterer Bezugswert
+            </label>
+
+            <input
+              id="lower-reference"
+              type="number"
+              step="any"
+              placeholder="0"
+            >
+
+            <div class="help-text">
+              Entspricht 0 % Belastung.
             </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="upper-reference">
+              Oberer Bezugswert
+            </label>
+
+            <input
+              id="upper-reference"
+              type="number"
+              step="any"
+              placeholder="100"
+            >
+
+            <div class="help-text">
+              Entspricht 100 % Belastung.
+            </div>
+          </div>
+
+        </div>
+
+
+        <h3>Messwerte</h3>
+
+        <div class="table-wrapper">
+
+          <table>
+
+            <thead>
+              <tr>
+                <th>Jahr</th>
+                <th>Originalwert</th>
+                <th>Quelle</th>
+                <th>Belastung</th>
+                <th>Aktion</th>
+              </tr>
+            </thead>
+
+            <tbody id="values-table-body">
+              <!-- Messwertzeilen werden per JavaScript eingefügt -->
+            </tbody>
+
+          </table>
+
+        </div>
+
+
+        <div class="button-row">
+
+          <button
+            id="add-value-button"
+            class="primary"
+            type="button"
+          >
+            + Messwert hinzufügen
+          </button>
+
+        </div>
+
+
+        <h3>Quellenverwaltung</h3>
+
+        <div class="form-group">
+          <label for="source-short-name">
+            Kurzname
+          </label>
+
+          <input
+            id="source-short-name"
+            type="text"
+            placeholder="z. B. NOAA CO₂"
+          >
+        </div>
+
+
+        <div class="form-group">
+          <label for="source-institution">
+            Institution
+          </label>
+
+          <input
+            id="source-institution"
+            type="text"
+            placeholder="z. B. NOAA Global Monitoring Laboratory"
+          >
+        </div>
+
+
+        <div class="form-group">
+          <label for="source-title">
+            Titel der Quelle oder des Datensatzes
+          </label>
+
+          <input
+            id="source-title"
+            type="text"
+            placeholder="z. B. Trends in Atmospheric Carbon Dioxide"
+          >
+        </div>
+
+
+        <div class="form-group">
+          <label for="source-url">
+            Internetadresse
+          </label>
+
+          <input
+            id="source-url"
+            type="url"
+            placeholder="https://..."
+          >
+        </div>
+
+
+        <div class="two-columns">
+
+          <div class="form-group">
+            <label for="source-accessed">
+              Abrufdatum
+            </label>
+
+            <input
+              id="source-accessed"
+              type="date"
+            >
+          </div>
+
+
+          <div class="form-group">
+            <label for="source-location">
+              Fundstelle
+            </label>
+
+            <input
+              id="source-location"
+              type="text"
+              placeholder="Tabelle, Seite oder Datei"
+            >
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="source-note">
+            Anmerkung
+          </label>
+
+          <textarea
+            id="source-note"
+            rows="2"
+            placeholder="Optionale Hinweise zur Quelle"
+          ></textarea>
+        </div>
+
+
+        <div class="button-row">
+
+          <button
+            id="add-source-button"
+            class="primary"
+            type="button"
+          >
+            Quelle speichern
+          </button>
+
+        </div>
+
+
+        <div
+          id="source-list"
+          class="source-list"
+        >
+          <!-- Quellen werden per JavaScript eingefügt -->
+        </div>
+
+
+        <h3>Speichern und Exportieren</h3>
+
+        <div class="button-row">
+
+          <button
+            id="save-button"
+            type="button"
+          >
+            Im Browser speichern
+          </button>
+
+
+          <button
+            id="load-button"
+            class="secondary"
+            type="button"
+          >
+            Gespeicherte Daten laden
+          </button>
+
+
+          <button
+            id="export-button"
+            class="secondary"
+            type="button"
+          >
+            JSON exportieren
+          </button>
+
+
+          <label class="file-button secondary">
+
+            JSON importieren
+
+            <input
+              id="import-file"
+              type="file"
+              accept=".json,application/json"
+            >
+
+          </label>
+
+
+          <button
+            id="example-button"
+            class="secondary"
+            type="button"
+          >
+            Beispieldaten laden
+          </button>
+
+
+          <button
+            id="reset-button"
+            class="danger"
+            type="button"
+          >
+            Alles zurücksetzen
+          </button>
+
+        </div>
+
+
+        <div
+          id="status-message"
+          class="status"
+          aria-live="polite"
+        ></div>
+
+      </section>
+
+
+      <!-- Rechte Spalte: Diagramm -->
+      <section class="card">
+
+        <div class="chart-header">
+
+          <div>
+            <h2 id="chart-title">
+              Diagramm
+            </h2>
+
+            <p id="chart-subtitle">
+              Noch keine Messwerte vorhanden.
+            </p>
+          </div>
+
+
+          <div class="button-row">
 
             <button
+              id="download-chart-button"
+              class="secondary"
               type="button"
-              class="rot klein"
-              data-quelle-loeschen="${htmlSicher(quelle.id)}"
             >
-              Löschen
+              Diagramm als PNG
             </button>
+
           </div>
-        </article>
-      `;
-    }).join("");
 
-    elemente.quellenListe
-      .querySelectorAll("[data-quelle-loeschen]")
-      .forEach(button => {
-        button.addEventListener("click", () => {
-          quelleLoeschen(button.dataset.quelleLoeschen);
-        });
-      });
-  }
+        </div>
 
-  function gueltigeMesswerte() {
-    return zustand.messwerte
-      .map(messwert => {
-        const jahr = zahlEinlesen(messwert.jahr);
-        const wert = zahlEinlesen(messwert.wert);
-        const prozent = belastungBerechnen(wert);
 
-        return {
-          ...messwert,
-          jahr,
-          wert,
-          prozent
-        };
-      })
-      .filter(messwert =>
-        messwert.jahr !== null &&
-        messwert.wert !== null &&
-        messwert.prozent !== null
-      )
-      .sort((a, b) => a.jahr - b.jahr);
-  }
+        <div class="chart-wrapper">
 
-  function canvasGroesseAnpassen(canvas, context) {
-    const rechteck = canvas.getBoundingClientRect();
-    const faktor = window.devicePixelRatio || 1;
+          <canvas
+            id="chart-canvas"
+            aria-label="Diagramm der Messreihe"
+          >
+            Ihr Browser unterstützt keine Canvas-Darstellung.
+          </canvas>
 
-    canvas.width = Math.round(rechteck.width * faktor);
-    canvas.height = Math.round(rechteck.height * faktor);
+        </div>
 
-    context.setTransform(faktor, 0, 0, faktor, 0, 0);
 
-    return {
-      breite: rechteck.width,
-      hoehe: rechteck.height
-    };
-  }
+        <div class="notice">
 
-  function diagrammZeichnen() {
-    const canvas = elemente.diagramm;
-    const context = canvas.getContext("2d");
+          <strong>Hinweis zur Darstellung:</strong>
 
-    const { breite, hoehe } = canvasGroesseAnpassen(canvas, context);
+          Gespeichert werden die wissenschaftlichen Originalwerte.
+          Die prozentuale Belastung wird aus den beiden Bezugswerten
+          und der gewählten Belastungsrichtung berechnet.
 
-    context.clearRect(0, 0, breite, hoehe);
+        </div>
 
-    const titel = elemente.titel.value.trim() || "Unbenannte Messreihe";
-    const grenze = elemente.grenze.value;
-    const einheit = elemente.einheit.value.trim();
 
-    elemente.diagrammTitel.textContent = titel;
-    elemente.diagrammUntertitel.textContent =
-      grenze + (einheit ? " · Einheit: " + einheit : "");
+        <details>
 
-    const messwerte = gueltigeMesswerte();
+          <summary>
+            Datenstruktur anzeigen
+          </summary>
 
-    const rand = {
-      links: 72,
-      rechts: 38,
-      oben: 45,
-      unten: 65
-    };
+          <pre id="json-preview">
+Noch keine Daten vorhanden.
+          </pre>
 
-    const plotBreite = breite - rand.links - rand.rechts;
-    const plotHoehe = hoehe - rand.oben - rand.unten;
+        </details>
 
-    context.fillStyle = "#ffffff";
-    context.fillRect(0, 0, breite, hoehe);
+      </section>
 
-    context.font = "13px Arial";
-    context.lineWidth = 1;
+    </div>
 
-    for (let prozent = 0; prozent <= 100; prozent += 20) {
-      const y = rand.oben + plotHoehe - (prozent / 100) * plotHoehe;
+  </main>
 
-      context.beginPath();
-      context.strokeStyle = prozent === 100 ? "#999999" : "#dddddd";
-      context.moveTo(rand.links, y);
-      context.lineTo(rand.links + plotBreite, y);
-      context.stroke();
 
-      context.fillStyle = "#444444";
-      context.textAlign = "right";
-      context.textBaseline = "middle";
-      context.fillText(prozent + " %", rand.links - 10, y);
-    }
+  <div
+    id="chart-tooltip"
+    class="tooltip"
+    role="tooltip"
+  ></div>
 
-    context.beginPath();
-    context.strokeStyle = "#444444";
-    context.lineWidth = 1.5;
-    context.moveTo(rand.links, rand.oben);
-    context.lineTo(rand.links, rand.oben + plotHoehe);
-    context.lineTo(rand.links + plotBreite, rand.oben + plotHoehe);
-    context.stroke();
 
-    context.save();
-    context.translate(20, rand.oben + plotHoehe / 2);
-    context.rotate(-Math.PI / 2);
-    context.textAlign = "center";
-    context.fillStyle = "#222222";
-    context.font = "bold 14px Arial";
-    context.fillText("Normierte Belastung", 0, 0);
-    context.restore();
-
-    context.textAlign = "center";
-    context.fillStyle = "#222222";
-    context.font = "bold 14px Arial";
-    context.fillText(
-      "Jahr",
-      rand.links + plotBreite / 2,
-      hoehe - 18
-    );
-
-    if (messwerte.length === 0) {
-      context.fillStyle = "#666666";
-      context.font = "16px Arial";
-      context.textAlign = "center";
-      context.fillText(
-        "Bitte mindestens einen gültigen Messwert eingeben.",
-        breite / 2,
-        hoehe / 2
-      );
-
-      zustand.punktPositionen = [];
-      return;
-    }
-
-    let kleinstesJahr = Math.min(...messwerte.map(wert => wert.jahr));
-    let groesstesJahr = Math.max(...messwerte.map(wert => wert.jahr));
-
-    if (kleinstesJahr === groesstesJahr) {
-      kleinstesJahr -= 1;
-      groesstesJahr += 1;
-    }
-
-    const xPosition = jahr =>
-      rand.links +
-      ((jahr - kleinstesJahr) / (groesstesJahr - kleinstesJahr)) *
-      plotBreite;
-
-    const yPosition = prozent => {
-      const begrenzt = Math.max(0, Math.min(100, prozent));
-
-      return rand.oben +
-        plotHoehe -
-        (begrenzt / 100) * plotHoehe;
-    };
-
-    const maximaleXBeschriftungen = Math.max(
-      2,
-      Math.floor(plotBreite / 90)
-    );
-
-    const xIntervall = Math.max(
-      1,
-      Math.ceil(messwerte.length / maximaleXBeschriftungen)
-    );
-
-    messwerte.forEach((messwert, index) => {
-      if (
-        index % xIntervall !== 0 &&
-        index !== messwerte.length - 1
-      ) {
-        return;
-      }
-
-      const x = xPosition(messwert.jahr);
-
-      context.beginPath();
-      context.strokeStyle = "#dddddd";
-      context.lineWidth = 1;
-      context.moveTo(x, rand.oben);
-      context.lineTo(x, rand.oben + plotHoehe);
-      context.stroke();
-
-      context.fillStyle = "#444444";
-      context.font = "12px Arial";
-      context.textAlign = "center";
-      context.textBaseline = "top";
-      context.fillText(
-        String(messwert.jahr),
-        x,
-        rand.oben + plotHoehe + 10
-      );
-    });
-
-    context.beginPath();
-
-    messwerte.forEach((messwert, index) => {
-      const x = xPosition(messwert.jahr);
-      const y = yPosition(messwert.prozent);
-
-      if (index === 0) {
-        context.moveTo(x, y);
-      } else {
-        context.lineTo(x, y);
-      }
-    });
-
-    context.strokeStyle = "#202020";
-    context.lineWidth = 3;
-    context.lineJoin = "round";
-    context.lineCap = "round";
-    context.stroke();
-
-    zustand.punktPositionen = [];
-
-    const platzProPunkt = plotBreite / Math.max(messwerte.length, 1);
-    const beschriftungDirektAnzeigen =
-      messwerte.length <= 12 && platzProPunkt >= 65;
-
-    messwerte.forEach((messwert, index) => {
-      const x = xPosition(messwert.jahr);
-      const y = yPosition(messwert.prozent);
-
-      context.beginPath();
-      context.fillStyle = "#f2c500";
-      context.strokeStyle = "#202020";
-      context.lineWidth = 2;
-      context.arc(x, y, 6, 0, Math.PI * 2);
-      context.fill();
-      context.stroke();
-
-      const quelle = quelleNachId(messwert.quellenId);
-
-      zustand.punktPositionen.push({
-        x,
-        y,
-        messwert,
-        quelle
-      });
-
-      if (beschriftungDirektAnzeigen) {
-        const text = zahlFormatieren(messwert.wert) +
-          (einheit ? " " + einheit : "");
-
-        const beschriftungY =
-          y < rand.oben + 40 ? y + 17 : y - 14;
-
-        context.font = "bold 12px Arial";
-        context.textAlign = "center";
-        context.textBaseline =
-          y < rand.oben + 40 ? "top" : "bottom";
-
-        const textBreite = context.measureText(text).width;
-
-        context.fillStyle = "rgba(255,255,255,0.88)";
-        context.fillRect(
-          x - textBreite / 2 - 4,
-          beschriftungY -
-            (y < rand.oben + 40 ? 2 : 15),
-          textBreite + 8,
-          17
-        );
-
-        context.fillStyle = "#202020";
-        context.fillText(text, x, beschriftungY);
-      }
-    });
-  }
-
-  function tooltipAnzeigen(event) {
-    const canvasRechteck = elemente.diagramm.getBoundingClientRect();
-
-    const mausX = event.clientX - canvasRechteck.left;
-    const mausY = event.clientY - canvasRechteck.top;
-
-    const punkt = zustand.punktPositionen.find(position => {
-      const abstand = Math.hypot(
-        position.x - mausX,
-        position.y - mausY
-      );
-
-      return abstand <= 12;
-    });
-
-    if (!punkt) {
-      elemente.tooltip.style.display = "none";
-      return;
-    }
-
-    const einheit = elemente.einheit.value.trim();
-
-    const quelleText = punkt.quelle
-      ? `
-        <br>
-        <strong>Quelle</strong>
-        ${htmlSicher(punkt.quelle.id)} –
-        ${htmlSicher(punkt.quelle.kurzname)}
-        ${
-          punkt.quelle.url
-            ? "<br>Link ist in der Quellenverwaltung hinterlegt."
-            : ""
-        }
-      `
-      : `
-        <br>
-        <strong>Quelle</strong>
-        Keine Quelle zugeordnet
-      `;
-
-    elemente.tooltip.innerHTML = `
-      <strong>${htmlSicher(punkt.messwert.jahr)}</strong>
-      Originalwert:
-      ${htmlSicher(zahlFormatieren(punkt.messwert.wert))}
-      ${htmlSicher(einheit)}
-      <br>
-      Belastung:
-      ${htmlSicher(zahlFormatieren(punkt.messwert.prozent, 1))} %
-      ${quelleText}
-    `;
-
-    elemente.tooltip.style.left =
-      Math.min(event.clientX + 15, window.innerWidth - 350) + "px";
-
-    elemente.tooltip.style.top =
-      Math.min(event.clientY + 15, window.innerHeight - 190) + "px";
-
-    elemente.tooltip.style.display = "block";
-  }
-
-  function datenObjektErstellen() {
-    return {
-      format: "z-panel-messreihe",
-      version: 1,
-      erstelltAm: new Date().toISOString(),
-      messreihe: {
-        titel: elemente.titel.value.trim(),
-        planetareGrenze: elemente.grenze.value,
-        einheit: elemente.einheit.value.trim(),
-        untererBezugswert: zahlEinlesen(elemente.untererWert.value),
-        obererBezugswert: zahlEinlesen(elemente.obererWert.value),
-        belastungsrichtung: elemente.richtung.value,
-        messwerte: zustand.messwerte.map(messwert => ({
-          jahr: zahlEinlesen(messwert.jahr),
-          wert: zahlEinlesen(messwert.wert),
-          quellenId: messwert.quellenId || null
-        }))
-      },
-      quellen: zustand.quellen
-    };
-  }
-
-  function datenObjektLaden(daten) {
-    if (!daten || !daten.messreihe) {
-      throw new Error("Die Datei enthält keine gültige Messreihe.");
-    }
-
-    elemente.titel.value = daten.messreihe.titel || "";
-    elemente.grenze.value =
-      daten.messreihe.planetareGrenze || "Sonstiges";
-
-    elemente.einheit.value = daten.messreihe.einheit || "";
-    elemente.untererWert.value =
-      daten.messreihe.untererBezugswert ?? "";
-
-    elemente.obererWert.value =
-      daten.messreihe.obererBezugswert ?? "";
-
-    elemente.richtung.value =
-      daten.messreihe.belastungsrichtung || "steigend";
-
-    zustand.quellen = Array.isArray(daten.quellen)
-      ? daten.quellen
-      : [];
-
-    zustand.messwerte = Array.isArray(daten.messreihe.messwerte)
-      ? daten.messreihe.messwerte.map(messwert => ({
-          id: neueId("m"),
-          jahr: messwert.jahr ?? "",
-          wert: messwert.wert ?? "",
-          quellenId: messwert.quellenId || ""
-        }))
-      : [];
-
-    quellenListeNeuAufbauen();
-    messwertTabelleNeuAufbauen();
-    diagrammZeichnen();
-  }
-
-  function jsonHerunterladen() {
-    const daten = datenObjektErstellen();
-    const dateiInhalt = JSON.stringify(daten, null, 2);
-    const blob = new Blob(
-      [dateiInhalt],
-      { type: "application/json;charset=utf-8" }
-    );
-
-    const link = document.createElement("a");
-    const titel = elemente.titel.value.trim() || "messreihe";
-
-    const dateiname = titel
-      .toLowerCase()
-      .replaceAll("ä", "ae")
-      .replaceAll("ö", "oe")
-      .replaceAll("ü", "ue")
-      .replaceAll("ß", "ss")
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
-
-    link.href = URL.createObjectURL(blob);
-    link.download = (dateiname || "messreihe") + ".json";
-
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-
-    URL.revokeObjectURL(link.href);
-
-    statusAnzeigen(
-      elemente.speicherStatus,
-      "JSON-Datei wurde erstellt."
-    );
-  }
-
-  function lokalSpeichern() {
-    try {
-      localStorage.setItem(
-        speicherSchluessel,
-        JSON.stringify(datenObjektErstellen())
-      );
-
-      statusAnzeigen(
-        elemente.speicherStatus,
-        "Messreihe wurde in diesem Browser gespeichert."
-      );
-    } catch (fehler) {
-      statusAnzeigen(
-        elemente.speicherStatus,
-        "Speichern fehlgeschlagen: " + fehler.message,
-        "fehler"
-      );
-    }
-  }
-
-  function lokalGespeicherteDatenLaden() {
-    const gespeichert = localStorage.getItem(speicherSchluessel);
-
-    if (!gespeichert) {
-      return false;
-    }
-
-    try {
-      datenObjektLaden(JSON.parse(gespeichert));
-      return true;
-    } catch (fehler) {
-      console.error("Lokale Daten konnten nicht geladen werden.", fehler);
-      return false;
-    }
-  }
-
-  function beispielLaden() {
-    elemente.titel.value = "Atmosphärische CO₂-Konzentration";
-    elemente.grenze.value = "Klimawandel";
-    elemente.einheit.value = "ppm";
-    elemente.untererWert.value = "280";
-    elemente.obererWert.value = "450";
-    elemente.richtung.value = "steigend";
-
-    zustand.quellen = [
-      {
-        id: "Q001",
-        kurzname: "NOAA CO₂",
-        institution: "NOAA Global Monitoring Laboratory",
-        titel: "Trends in Atmospheric Carbon Dioxide",
-        url: "https://gml.noaa.gov/ccgg/trends/",
-        jahr: "",
-        abrufdatum: heutigesDatum(),
-        fundstelle: "Atmospheric CO₂ trend data",
-        anmerkung: "Beispielquelle"
-      }
-    ];
-
-    zustand.messwerte = [
-      { id: neueId("m"), jahr: 1960, wert: 316.9, quellenId: "Q001" },
-      { id: neueId("m"), jahr: 1970, wert: 325.7, quellenId: "Q001" },
-      { id: neueId("m"), jahr: 1980, wert: 338.8, quellenId: "Q001" },
-      { id: neueId("m"), jahr: 1990, wert: 354.4, quellenId: "Q001" },
-      { id: neueId("m"), jahr: 2000, wert: 369.7, quellenId: "Q001" },
-      { id: neueId("m"), jahr: 2010, wert: 389.9, quellenId: "Q001" },
-      { id: neueId("m"), jahr: 2020, wert: 414.2, quellenId: "Q001" }
-    ];
-
-    quellenListeNeuAufbauen();
-    messwertTabelleNeuAufbauen();
-    diagrammZeichnen();
-  }
-
-  function allesZuruecksetzen() {
-    const bestaetigt = window.confirm(
-      "Sollen alle aktuellen Eingaben und lokal gespeicherten Daten gelöscht werden?"
-    );
-
-    if (!bestaetigt) {
-      return;
-    }
-
-    localStorage.removeItem(speicherSchluessel);
-
-    zustand.quellen = [];
-    zustand.messwerte = [];
-
-    elemente.titel.value = "";
-    elemente.grenze.value = "Klimawandel";
-    elemente.einheit.value = "";
-    elemente.untererWert.value = "";
-    elemente.obererWert.value = "";
-    elemente.richtung.value = "steigend";
-
-    messwertHinzufuegen();
-    messwertHinzufuegen();
-
-    quellenListeNeuAufbauen();
-    diagrammZeichnen();
-
-    statusAnzeigen(
-      elemente.speicherStatus,
-      "Alle Eingaben wurden zurückgesetzt."
-    );
-  }
-
-  [
-    elemente.titel,
-    elemente.grenze,
-    elemente.einheit,
-    elemente.untererWert,
-    elemente.obererWert,
-    elemente.richtung
-  ].forEach(element => {
-    element.addEventListener("input", () => {
-      messwertTabelleNeuAufbauen();
-      diagrammZeichnen();
-    });
-
-    element.addEventListener("change", () => {
-      messwertTabelleNeuAufbauen();
-      diagrammZeichnen();
-    });
-  });
-
-  elemente.zeileHinzufuegen.addEventListener("click", () => {
-    messwertHinzufuegen();
-    diagrammZeichnen();
-  });
-
-  elemente.beispielLaden.addEventListener("click", beispielLaden);
-  elemente.quelleSpeichern.addEventListener("click", quelleSpeichern);
-  elemente.diagrammNeuZeichnen.addEventListener("click", diagrammZeichnen);
-  elemente.jsonExport.addEventListener("click", jsonHerunterladen);
-  elemente.lokalSpeichern.addEventListener("click", lokalSpeichern);
-  elemente.allesLoeschen.addEventListener("click", allesZuruecksetzen);
-
-  elemente.jsonImport.addEventListener("change", event => {
-    const datei = event.target.files[0];
-
-    if (!datei) {
-      return;
-    }
-
-    const leser = new FileReader();
-
-    leser.onload = () => {
-      try {
-        const daten = JSON.parse(leser.result);
-        datenObjektLaden(daten);
-
-        statusAnzeigen(
-          elemente.speicherStatus,
-          "JSON-Datei wurde geladen."
-        );
-      } catch (fehler) {
-        statusAnzeigen(
-          elemente.speicherStatus,
-          "Die JSON-Datei konnte nicht geladen werden: " +
-            fehler.message,
-          "fehler"
-        );
-      }
-
-      event.target.value = "";
-    };
-
-    leser.onerror = () => {
-      statusAnzeigen(
-        elemente.speicherStatus,
-        "Die Datei konnte nicht gelesen werden.",
-        "fehler"
-      );
-    };
-
-    leser.readAsText(datei);
-  });
-
-  elemente.diagramm.addEventListener("mousemove", tooltipAnzeigen);
-
-  elemente.diagramm.addEventListener("mouseleave", () => {
-    elemente.tooltip.style.display = "none";
-  });
-
-  window.addEventListener("resize", diagrammZeichnen);
-
-  elemente.quellenAbruf.value = heutigesDatum();
-
-  if (!lokalGespeicherteDatenLaden()) {
-    beispielLaden();
-  }
-</script>
+  <script src="generator.js"></script>
 
 </body>
 </html>
