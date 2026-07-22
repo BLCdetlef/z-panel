@@ -56,7 +56,8 @@ const state = {
 
 // Punkte des Diagramms für die Maus-Erkennung
 let chartPoints = [];
-
+// ID der Quelle, die gerade bearbeitet wird
+let editingSourceId = null;
 
 // ============================================================
 // 2. HTML-Elemente
@@ -558,6 +559,8 @@ function renderMeasurements() {
 // ============================================================
 
 function clearSourceForm() {
+  editingSourceId = null;
+
   elements.sourceShortName.value = "";
   elements.sourceInstitution.value = "";
   elements.sourceTitle.value = "";
@@ -565,40 +568,102 @@ function clearSourceForm() {
   elements.sourceAccessed.value = getToday();
   elements.sourceLocation.value = "";
   elements.sourceNote.value = "";
+
+  elements.addSourceButton.textContent = "Quelle speichern";
+}
+
+function editSource(sourceId) {
+  const source = getSourceById(sourceId);
+
+  if (!source) {
+    setStatus("Die Quelle wurde nicht gefunden.", "error");
+    return;
+  }
+
+  editingSourceId = sourceId;
+
+  elements.sourceShortName.value = source.shortName || "";
+  elements.sourceInstitution.value = source.institution || "";
+  elements.sourceTitle.value = source.title || "";
+  elements.sourceUrl.value = source.url || "";
+  elements.sourceAccessed.value = source.accessed || "";
+  elements.sourceLocation.value = source.dataset || "";
+  elements.sourceNote.value = source.note || "";
+
+  elements.addSourceButton.textContent = "Änderungen übernehmen";
+
+  elements.sourceShortName.focus();
+
+  setStatus(`${sourceId} wird bearbeitet.`);
 }
 
 
+
 function addSource() {
-  const shortName =
-    elements.sourceShortName.value.trim();
-
-  const institution =
-    elements.sourceInstitution.value.trim();
-
-  const title =
-    elements.sourceTitle.value.trim();
-
-  const url =
-    elements.sourceUrl.value.trim();
-
-  const accessed =
-    elements.sourceAccessed.value;
-
-  const location =
-    elements.sourceLocation.value.trim();
-
-  const note =
-    elements.sourceNote.value.trim();
+  const shortName = elements.sourceShortName.value.trim();
+  const institution = elements.sourceInstitution.value.trim();
+  const title = elements.sourceTitle.value.trim();
+  const url = elements.sourceUrl.value.trim();
+  const accessed = elements.sourceAccessed.value;
+  const location = elements.sourceLocation.value.trim();
+  const note = elements.sourceNote.value.trim();
 
   if (!shortName && !title) {
     setStatus(
       "Bitte mindestens einen Kurznamen oder einen Quellentitel eingeben.",
       "error"
     );
-
     return;
   }
 
+  if (editingSourceId) {
+    const source = getSourceById(editingSourceId);
+
+    if (!source) {
+      setStatus("Die zu bearbeitende Quelle wurde nicht gefunden.", "error");
+      return;
+    }
+
+    source.shortName = shortName;
+    source.institution = institution;
+    source.title = title;
+    source.url = url;
+    source.accessed = accessed;
+    source.dataset = location;
+    source.note = note;
+
+    const updatedSourceId = editingSourceId;
+
+    clearSourceForm();
+    renderSources();
+    renderMeasurements();
+    drawChart();
+    updateJsonPreview();
+
+    setStatus(`${updatedSourceId} wurde aktualisiert.`);
+    return;
+  }
+
+  state.sources.push({
+    id: createSourceId(),
+    shortName,
+    institution,
+    title,
+    publicationYear: "",
+    url,
+    dataset: location,
+    accessed,
+    license: "",
+    note
+  });
+
+  clearSourceForm();
+  renderSources();
+  renderMeasurements();
+  updateJsonPreview();
+
+  setStatus("Quelle wurde gespeichert.");
+}
   state.sources.push({
     id: createSourceId(),
     shortName,
@@ -720,16 +785,31 @@ function renderSources() {
           : ""
       }
 
-      ${sourceLink}
+${sourceLink}
 
-      <button
-        type="button"
-        class="danger small remove-source"
-      >
-        Quelle löschen
-      </button>
+<div class="source-actions">
+  <button
+    type="button"
+    class="edit-source"
+  >
+    Quelle bearbeiten
+  </button>
+
+  <button
+    type="button"
+    class="remove-source"
+  >
+    Quelle löschen
+  </button>
+</div>
     `;
 
+    sourceCard
+      .querySelector(".edit-source")
+      .addEventListener("click", () => {
+        editSource(source.id);
+      });
+    
     sourceCard
       .querySelector(".remove-source")
       .addEventListener("click", () => {
