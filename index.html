@@ -1,532 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <meta
-    name="description"
-    content="Kurvengenerator für wissenschaftlich nachvollziehbare BRUCHLAST-Diagramme."
-  >
-
-  <title>Kurvengenerator | Z-PANEL</title>
-
-  <link rel="stylesheet" href="generator.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZUSTAND – News-Panel</title>
+  <link rel="stylesheet" href="news.css">
 </head>
-
 <body>
+  <main class="panel" aria-live="polite">
+    <header class="panel-header">
+      <div class="brand">
+        <span class="brand-name">ZUSTAND</span>
+        <span class="brand-subtitle">Nachrichten zu unseren Lebensgrundlagen</span>
+      </div>
+      <div class="counter" id="news-counter">1 / 1</div>
+    </header>
 
-  <header>
-    <div class="header-content">
+    <section class="news-card" id="news-card">
+      <div class="visual" id="news-visual" hidden>
+        <img id="news-image" alt="">
+      </div>
 
-      <a class="back-link" href="../index.html">
-        ← Zurück zum Z-PANEL
-      </a>
-
-      <h1>BRUCHLAST-Kurvengenerator</h1>
-
-      <p>
-        Messwerte erfassen, Quellen dokumentieren und Belastungsverläufe
-        nachvollziehbar darstellen.
-      </p>
-
-    </div>
-  </header>
-
-
-  <main>
-
-    <div class="layout">
-
-      <!-- Linke Spalte: Eingaben -->
-      <section class="card">
-
-        <h2>Messreihe</h2>
-
-        <div class="form-group">
-          <label for="dataset-title">
-            Titel
-          </label>
-
-          <input
-            id="dataset-title"
-            type="text"
-            placeholder="z. B. Atmosphärische CO₂-Konzentration"
-          >
+      <div class="content">
+        <div class="meta">
+          <span id="news-category">ZUSTAND</span>
+          <span aria-hidden="true">·</span>
+          <time id="news-date"></time>
         </div>
 
-
-        <div class="form-group">
-          <label for="dataset-short-title">
-            Kurzbezeichnung
-          </label>
-
-          <input
-            id="dataset-short-title"
-            type="text"
-            placeholder="z. B. CO₂-Konzentration"
-          >
-        </div>
-
-
-        <div class="form-group">
-          <label for="dataset-description">
-            Kurzbeschreibung
-          </label>
-
-          <textarea
-            id="dataset-description"
-            rows="3"
-            placeholder="Was zeigt diese Messreihe?"
-          ></textarea>
-        </div>
-
-
-        <div class="form-group">
-          <label for="planetary-boundary">
-            Planetare Grenze
-          </label>
-
-          <select id="planetary-boundary">
-
-            <option value="">
-              Bitte auswählen
-            </option>
-
-            <option value="Klimawandel">
-              Klimawandel
-            </option>
-
-            <option value="Integrität der Biosphäre">
-              Integrität der Biosphäre
-            </option>
-
-            <option value="Landnutzungsänderung">
-              Landnutzungsänderung
-            </option>
-
-            <option value="Süßwasserveränderung">
-              Süßwasserveränderung
-            </option>
-
-            <option value="Biogeochemische Kreisläufe">
-              Biogeochemische Kreisläufe
-            </option>
-
-            <option value="Ozeanversauerung">
-              Ozeanversauerung
-            </option>
-
-            <option value="Neue Substanzen">
-              Neue Substanzen
-            </option>
-
-            <option value="Atmosphärische Aerosole">
-              Atmosphärische Aerosole
-            </option>
-
-            <option value="Stratosphärischer Ozonabbau">
-              Stratosphärischer Ozonabbau
-            </option>
-
-            <option value="Sonstiges">
-              Sonstiges
-            </option>
-
-          </select>
-        </div>
-
-
-        <div class="two-columns">
-
-          <div class="form-group">
-            <label for="dataset-unit">
-              Einheit
-            </label>
-
-            <input
-              id="dataset-unit"
-              type="text"
-              placeholder="z. B. ppm"
-            >
-          </div>
-
-
-          <div class="form-group">
-            <label for="burden-direction">
-              Belastungsrichtung
-            </label>
-
-            <select id="burden-direction">
-
-              <option value="increasing">
-                Steigender Wert = steigende Belastung
-              </option>
-
-              <option value="decreasing">
-                Fallender Wert = steigende Belastung
-              </option>
-
-            </select>
-          </div>
-
-        </div>
-
-
-        <h3>Bezugswerte</h3>
-
-        <div class="two-columns">
-
-          <div class="form-group">
-            <label for="lower-reference">
-              Unterer Bezugswert
-            </label>
-
-            <input
-              id="lower-reference"
-              type="number"
-              step="any"
-              placeholder="0"
-            >
-
-            <div class="help-text">
-              Entspricht 0 % Belastung.
-            </div>
-          </div>
-
-
-          <div class="form-group">
-            <label for="upper-reference">
-              Oberer Bezugswert
-            </label>
-
-            <input
-              id="upper-reference"
-              type="number"
-              step="any"
-              placeholder="100"
-            >
-
-            <div class="help-text">
-              Entspricht 100 % Belastung.
-            </div>
-          </div>
-
-        </div>
-
-
-        <h3>Messwerte</h3>
-
-        <div class="table-wrapper">
-
-          <table>
-
-            <thead>
-              <tr>
-                <th>Jahr</th>
-                <th>Originalwert</th>
-                <th>Quelle</th>
-                <th>Belastung</th>
-                <th>Aktion</th>
-              </tr>
-            </thead>
-
-            <tbody id="values-table-body">
-              <!-- Messwertzeilen werden per JavaScript eingefügt -->
-            </tbody>
-
-          </table>
-
-        </div>
-
-
-        <div class="button-row">
-
-          <button
-            id="add-value-button"
-            class="primary"
-            type="button"
-          >
-            + Messwert hinzufügen
-          </button>
-
-        </div>
-
-
-        <h3>Quellenverwaltung</h3>
-
-        <div class="form-group">
-          <label for="source-short-name">
-            Kurzname
-          </label>
-
-          <input
-            id="source-short-name"
-            type="text"
-            placeholder="z. B. NOAA CO₂"
-          >
-        </div>
-
-
-        <div class="form-group">
-          <label for="source-institution">
-            Institution
-          </label>
-
-          <input
-            id="source-institution"
-            type="text"
-            placeholder="z. B. NOAA Global Monitoring Laboratory"
-          >
-        </div>
-
-
-        <div class="form-group">
-          <label for="source-title">
-            Titel der Quelle oder des Datensatzes
-          </label>
-
-          <input
-            id="source-title"
-            type="text"
-            placeholder="z. B. Trends in Atmospheric Carbon Dioxide"
-          >
-        </div>
-
-
-        <div class="form-group">
-          <label for="source-url">
-            Internetadresse
-          </label>
-
-          <input
-            id="source-url"
-            type="url"
-            placeholder="https://..."
-          >
-        </div>
-
-
-        <div class="two-columns">
-
-          <div class="form-group">
-            <label for="source-accessed">
-              Abrufdatum
-            </label>
-
-            <input
-              id="source-accessed"
-              type="date"
-            >
-          </div>
-
-
-          <div class="form-group">
-            <label for="source-location">
-              Fundstelle
-            </label>
-
-            <input
-              id="source-location"
-              type="text"
-              placeholder="Tabelle, Seite oder Datei"
-            >
-          </div>
-
-        </div>
-
-
-        <div class="form-group">
-          <label for="source-note">
-            Anmerkung
-          </label>
-
-          <textarea
-            id="source-note"
-            rows="2"
-            placeholder="Optionale Hinweise zur Quelle"
-          ></textarea>
-        </div>
-
-
-        <div class="button-row">
-
-          <button
-            id="add-source-button"
-            class="primary"
-            type="button"
-          >
-            Quelle speichern
-          </button>
-
-        </div>
-
-
-        <div
-          id="source-list"
-          class="source-list"
-        >
-          <!-- Quellen werden per JavaScript eingefügt -->
-        </div>
-
-
-        <h3>Speichern und Exportieren</h3>
-
-        <div class="button-row">
-
-          <button
-            id="save-button"
-            type="button"
-          >
-            Im Browser speichern
-          </button>
-
-
-          <button
-            id="load-button"
-            class="secondary"
-            type="button"
-          >
-            Gespeicherte Daten laden
-          </button>
-
-
-          <button
-            id="export-button"
-            class="secondary"
-            type="button"
-          >
-            JSON exportieren
-          </button>
-
-
-          <label class="file-button secondary">
-
-            JSON importieren
-
-            <input
-              id="import-file"
-              type="file"
-              accept=".json,application/json"
-            >
-
-          </label>
-
-
-          <button
-            id="example-button"
-            class="secondary"
-            type="button"
-          >
-            Beispieldaten laden
-          </button>
-
-
-          <button
-            id="reset-button"
-            class="danger"
-            type="button"
-          >
-            Alles zurücksetzen
-          </button>
-
-        </div>
-
-
-        <div
-          id="status-message"
-          class="status"
-          aria-live="polite"
-        ></div>
-
-      </section>
-
-
-      <!-- Rechte Spalte: Diagramm -->
-      <section class="card">
-
-        <div class="chart-header">
-
-          <div>
-            <h2 id="chart-title">
-              Diagramm
-            </h2>
-
-            <p id="chart-subtitle">
-              Noch keine Messwerte vorhanden.
-            </p>
-          </div>
-
-
-          <div class="button-row">
-
-            <button
-              id="download-chart-button"
-              class="secondary"
-              type="button"
-            >
-              Diagramm als PNG
-            </button>
-
-          </div>
-
-        </div>
-
-
-        <div class="chart-wrapper">
-
-          <canvas
-            id="chart-canvas"
-            aria-label="Diagramm der Messreihe"
-          >
-            Ihr Browser unterstützt keine Canvas-Darstellung.
-          </canvas>
-
-        </div>
-
-
-        <div class="notice">
-
-          <strong>Hinweis zur Darstellung:</strong>
-
-          Gespeichert werden die wissenschaftlichen Originalwerte.
-          Die prozentuale Belastung wird aus den beiden Bezugswerten
-          und der gewählten Belastungsrichtung berechnet.
-
-        </div>
-
-
-        <details>
-
-          <summary>
-            Datenstruktur anzeigen
-          </summary>
-
-          <pre id="json-preview">
-Noch keine Daten vorhanden.
-          </pre>
-
-        </details>
-
-      </section>
-
-    </div>
-
+        <h1 id="news-title">Meldungen werden geladen …</h1>
+        <p class="summary" id="news-summary"></p>
+        <blockquote id="news-highlight" hidden></blockquote>
+
+        <footer class="source">
+          <span>Quelle:</span>
+          <a id="news-source-link" target="_blank" rel="noopener noreferrer">
+            <span id="news-source-name"></span>
+          </a>
+        </footer>
+      </div>
+    </section>
+
+    <footer class="panel-footer">
+      <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+      <div class="footer-line">
+        <span>Wissenschaftlich einordnen. Gemeinsam diskutieren.</span>
+        <button id="pause-button" type="button">Pause</button>
+      </div>
+    </footer>
+
+    <div class="error-message" id="error-message" hidden></div>
   </main>
 
-
-  <div
-    id="chart-tooltip"
-    class="tooltip"
-    role="tooltip"
-  ></div>
-
-
-  <script src="generator.js"></script>
-
+  <script src="news.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "displaySeconds": 12
+  },
+  "items": [
+    {
+      "id": "demo-001",
+      "active": true,
+      "date": "2026-07-23",
+      "category": "ZUSTAND",
+      "title": "Wie steht es um unsere natürlichen Lebensgrundlagen?",
+      "summary": "Das ZUSTAND-News-Panel sammelt ausgewählte, wissenschaftlich belastbare Meldungen zu Klima, Biodiversität, Meeren, Böden, Wasser und weiteren planetaren Belastungsgrenzen.",
+      "highlight": "Nicht jede Schlagzeile wird übernommen. Entscheidend sind nachvollziehbare Quellen und eine verständliche Einordnung.",
+      "sourceName": "ZUSTAND – redaktioneller Einführungstext",
+      "sourceUrl": "",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "demo-002",
+      "active": true,
+      "date": "2026-07-23",
+      "category": "Planetare Grenzen",
+      "title": "Messwerte zeigen Entwicklungen – aber sie brauchen Einordnung",
+      "summary": "Ein einzelner Wert erklärt noch keinen langfristigen Trend. Deshalb sollen Meldungen künftig möglichst mit Zeitreihen, Bezugsgrößen und der ursprünglichen wissenschaftlichen Quelle verbunden werden.",
+      "highlight": "Das Ziel ist keine Katastrophenkommunikation, sondern eine realistische Grundlage für Diskussion und verantwortliches Handeln.",
+      "sourceName": "ZUSTAND – redaktioneller Einführungstext",
+      "sourceUrl": "",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "demo-003",
+      "active": true,
+      "date": "2026-07-23",
+      "category": "Dialog",
+      "title": "Wissenschaftliche Erkenntnisse gehören in die Öffentlichkeit",
+      "summary": "Das Panel soll in Lehrveranstaltungen, bei öffentlichen Veranstaltungen und später möglicherweise auf dem ZUSTAND-Anhänger eingesetzt werden. Jede Meldung soll zum Nachfragen und Diskutieren einladen.",
+      "highlight": "Wissenschaftlich einordnen. Gemeinsam diskutieren.",
+      "sourceName": "ZUSTAND – Projektbeschreibung",
+      "sourceUrl": "",
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  ]
+}
