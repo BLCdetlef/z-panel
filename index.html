@@ -1,15 +1,191 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<title>Z-PANEL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Z-PANEL</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      color: #1d1d1d;
+    }
+
+    header {
+      padding: 36px 20px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin: 0;
+      color: #555;
+      font-size: 18px;
+    }
+
+    main {
+      width: min(1000px, calc(100% - 32px));
+      margin: 30px auto 60px;
+    }
+
+    .kachelbereich {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .kachel {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 220px;
+      padding: 28px;
+      border: 2px solid #d8d8d8;
+      border-radius: 18px;
+      background: white;
+      color: inherit;
+      text-decoration: none;
+      transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .kachel:hover,
+    .kachel:focus-visible {
+      transform: translateY(-4px);
+      border-color: #e0b400;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+      outline: none;
+    }
+
+    .symbol {
+      margin-bottom: 22px;
+      font-size: 48px;
+    }
+
+    .kachel h2 {
+      margin: 0 0 10px;
+      font-size: 26px;
+    }
+
+    .kachel p {
+      margin: 0;
+      color: #5a5a5a;
+      line-height: 1.5;
+    }
+
+    .hinweis {
+      margin-top: 28px;
+      padding: 18px 20px;
+      border-left: 5px solid #e0b400;
+      background: white;
+      line-height: 1.5;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 34px;
+      }
+
+      .kachelbereich {
+        grid-template-columns: 1fr;
+      }
+
+      .kachel {
+        min-height: 190px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>Z-PANEL</h1>
+  <header>
+    <h1>Z-PANEL</h1>
+    <p>ZUSTAND-Newspanel und BRUCHLAST-Kurvengenerator</p>
+  </header>
 
-<p>Projekt wird aufgebaut...</p>
+  <main>
+
+    <section class="kachelbereich">
+
+      <a class="kachel" href="news/">
+        <div>
+          <div class="symbol">📰</div>
+          <h2>ZUSTAND-News</h2>
+          <p>
+            Aktuelle Meldungen, Diagramme und Quellen
+            automatisch in einer Endlosschleife anzeigen.
+          </p>
+        </div>
+      </a>
+
+      <a class="kachel" href="generator/">
+        <div>
+          <div class="symbol">📈</div>
+          <h2>Kurvengenerator</h2>
+          <p>
+            Messwerte mit Jahr eingeben, in Prozent umrechnen
+            und als einzelne BRUCHLAST-Kurve darstellen.
+          </p>
+        </div>
+      </a>
+
+      <a class="kachel" href="chart/">
+        <div>
+          <div class="symbol">📊</div>
+          <h2>BRUCHLAST-Charts</h2>
+          <p>
+            Fertige und freigegebene Messreihen
+            bildschirmfüllend präsentieren.
+          </p>
+        </div>
+      </a>
+
+      <a class="kachel" href="admin/">
+        <div>
+          <div class="symbol">⚙️</div>
+          <h2>Datenverwaltung</h2>
+          <p>
+            Messreihen, Quellen, Texte und die Reihenfolge
+            der Nachrichten verwalten.
+          </p>
+        </div>
+      </a>
+
+    </section>
+
+    <div class="hinweis">
+      Die Unterseiten sind noch nicht angelegt. Beim Anklicken erscheint
+      deshalb vorerst eine Fehlermeldung. Das ist normal.
+    </div>
+
+  </main>
+
+  <footer>
+    Z-PANEL · BRUCHLAST · ZUSTAND
+  </footer>
 
 </body>
 </html>
