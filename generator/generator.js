@@ -268,8 +268,6 @@ function getValidMeasurements() {
 
 
 function getExportData() {
-  readMetadataFromForm();
-
   return {
     format: "z-panel-dataset",
     schemaVersion: 1,
