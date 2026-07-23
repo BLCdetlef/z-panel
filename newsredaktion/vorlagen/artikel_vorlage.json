@@ -1,0 +1,41 @@
+{
+  "id": "",
+  "status": "entwurf",
+  "title": "",
+  "subtitle": "",
+  "summary": "",
+  "planetaryBoundary": "",
+  "keywords": [],
+  "imageId": "",
+  "sourceId": "",
+  "sourceTitle": "",
+  "sourceUrl": "",
+  "publicationDate": "",
+  "author": "",
+  "editor": "",
+  "created": "",
+  "lastModified": "",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [
+    {
+      "label": "",
+      "value": "",
+      "unit": "",
+      "source": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "",
+      "url": ""
+    }
+  ],
+  "license": "",
+  "notes": ""
+}

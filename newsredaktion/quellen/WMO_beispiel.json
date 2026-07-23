@@ -1,0 +1,10 @@
+{
+  "id": "WMO",
+  "name": "World Meteorological Organization",
+  "shortName": "WMO",
+  "website": "https://wmo.int",
+  "country": "International",
+  "type": "UN-Sonderorganisation",
+  "trustLevel": "high",
+  "notes": "Beispieldatei; vor Verwendung fachlich prüfen."
+}
