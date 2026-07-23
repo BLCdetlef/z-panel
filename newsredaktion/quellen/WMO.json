@@ -1,0 +1,10 @@
+{
+  "id": "WMO",
+  "name": "World Meteorological Organization",
+  "shortName": "WMO",
+  "website": "https://wmo.int/",
+  "country": "Vereinte Nationen / international",
+  "type": "UN-Sonderorganisation; wissenschaftliche Primär- und Synthesequelle",
+  "trustLevel": "very_high",
+  "notes": "Die WMO ist die Sonderorganisation der Vereinten Nationen für Wetter, Klima und Wasser. Für ZUSTAND bevorzugt werden offizielle Berichte, Datenseiten und Pressemitteilungen, die unmittelbar auf einen WMO-Bericht verweisen."
+}
