@@ -50,9 +50,15 @@ body {
   letter-spacing: .08em;
 }
 
-.brand-subtitle,
+.brand-subtitle {
+  color: var(--muted);
+  font-size: clamp(1.05rem, 1.6vw, 1.4rem);
+}
+
 .counter {
   color: var(--muted);
+  font-size: clamp(1.1rem, 1.7vw, 1.5rem);
+  font-weight: 700;
 }
 
 .news-card {
@@ -123,14 +129,19 @@ blockquote {
 }
 
 .source {
-  margin-top: 2rem;
-  color: var(--muted);
+  margin-top: 2.5rem;
+  color: var(--text);
+  font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+  line-height: 1.45;
+  font-weight: 600;
 }
 
 .source a {
   color: var(--text);
   text-decoration-color: var(--accent);
   text-underline-offset: .25em;
+  text-decoration-thickness: 2px;
+  font-weight: 700;
 }
 
 .panel-footer { display: grid; gap: .85rem; }
