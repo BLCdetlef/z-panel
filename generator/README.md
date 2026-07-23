@@ -1,5 +1,15 @@
 # News-Generator
 
+Der Generator liest alle passenden JSON-Dateien automatisch ein.
+
+## Gelesene Ordner
+
+- `newsredaktion/artikel/`
+- `newsredaktion/quellen/`
+- `assets/images/`
+
+`index.json` wird nicht mehr benötigt und vom Generator ignoriert.
+
 ## Windows
 
 Doppelklick auf:
@@ -12,11 +22,4 @@ Doppelklick auf:
 python generator/news_erzeugen.py
 ```
 
-Der Generator liest:
-
-- `newsredaktion/artikel/index.json`
-- `newsredaktion/quellen/index.json`
-- Artikeldateien in `newsredaktion/artikel/`
-- Bilder und Bildmetadaten in `assets/images/`
-
-Bei Fehlern wird keine neue `news.json` geschrieben.
+Bei Fehlern wird keine neue `news.json` erzeugt. Erfolgreich geprüfte Artikel werden nach Veröffentlichungsdatum sortiert; der neueste Beitrag steht zuerst.
