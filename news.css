@@ -147,7 +147,7 @@ blockquote {
 }
 
 .progress {
-  height: .35rem;
+  height: .7rem;
   overflow: hidden;
   border-radius: 999px;
   background: rgba(255,255,255,.12);
