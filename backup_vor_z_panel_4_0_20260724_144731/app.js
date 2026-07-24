@@ -1,7 +1,6 @@
 "use strict";
 
 const ROTATION_SECONDS = 30;
-const TRANSITION_MS = 360;
 
 const boundaryNames = {
   KL: "Klimawandel",
@@ -21,11 +20,8 @@ const state = {
   paused: false,
   remainingMs: ROTATION_SECONDS * 1000,
   lastTick: performance.now(),
-  animationFrame: null,
-  transitionToken: 0
+  animationFrame: null
 };
-
-const imageCache = new Map();
 
 const stage = document.getElementById("stage");
 const image = document.getElementById("article-image");
@@ -60,7 +56,6 @@ function formatDate(value) {
   if (!value) return "";
   const date = new Date(`${value}T00:00:00`);
   if (Number.isNaN(date.getTime())) return value;
-
   return new Intl.DateTimeFormat("de-DE", {
     day: "2-digit",
     month: "long",
@@ -91,140 +86,84 @@ function candidateImagePaths(article) {
   return [...new Set(candidates.filter(Boolean))];
 }
 
-function articleCacheKey(article) {
-  return String(article?.id || article?.imageId || article?.title || "");
-}
-
-function testImagePath(path) {
-  return new Promise((resolve) => {
-    const tester = new Image();
-    tester.decoding = "async";
-    tester.onload = async () => {
-      try {
-        if (typeof tester.decode === "function") {
-          await tester.decode();
-        }
-      } catch {
-        // Das Bild ist bereits geladen; ein Decode-Fehler blockiert nicht.
-      }
-      resolve(path);
-    };
-    tester.onerror = () => resolve(null);
-    tester.src = path;
-  });
-}
-
-async function resolveArticleImage(article) {
-  const key = articleCacheKey(article);
-
-  if (imageCache.has(key)) {
-    return imageCache.get(key);
-  }
-
-  const promise = (async () => {
-    for (const path of candidateImagePaths(article)) {
-      const workingPath = await testImagePath(path);
-      if (workingPath) return workingPath;
-    }
-    return null;
-  })();
-
-  imageCache.set(key, promise);
-  return promise;
-}
-
-function preloadArticle(article) {
-  if (!article) return;
-  void resolveArticleImage(article);
-}
-
-function preloadNeighbours() {
-  const length = state.articles.length;
-  if (length < 2) return;
-
-  preloadArticle(state.articles[(state.currentIndex + 1) % length]);
-  preloadArticle(state.articles[(state.currentIndex + 2) % length]);
-  preloadArticle(state.articles[(state.currentIndex - 1 + length) % length]);
-}
-
-async function showArticleImage(article, token) {
+function loadFirstWorkingImage(article) {
+  const paths = candidateImagePaths(article);
   const alt = article.imageMetadata?.altText || article.title || "";
-  const resolvedPath = await resolveArticleImage(article);
 
-  if (token !== state.transitionToken) return;
-
+  image.hidden = true;
+  image.removeAttribute("src");
   image.alt = alt;
+  imageStatus.hidden = false;
 
-  if (!resolvedPath) {
-    image.hidden = true;
-    image.removeAttribute("src");
-    imageStatus.hidden = false;
-    imageStatus.textContent = article.imageId
-      ? `Bild nicht gefunden. Erwartet wurde zum Beispiel: assets/images/${article.imageId}.jpg`
-      : "Für diesen Beitrag ist noch kein Bildpfad hinterlegt.";
+  if (!paths.length) {
+    imageStatus.textContent =
+      "Für diesen Beitrag ist noch kein Bildpfad hinterlegt.";
     return;
   }
 
-  if (image.src !== new URL(resolvedPath, document.baseURI).href) {
-    image.src = resolvedPath;
-  }
+  let index = 0;
 
-  image.hidden = false;
-  imageStatus.hidden = true;
+  const tryNext = () => {
+    if (index >= paths.length) {
+      image.hidden = true;
+      imageStatus.hidden = false;
+      imageStatus.innerHTML =
+        `Bild nicht gefunden.<br><small>Erwartet wurde zum Beispiel: assets/images/${escapeHtml(article.imageId || "BILD-ID")}.jpg</small>`;
+      return;
+    }
+
+    const path = paths[index++];
+    const tester = new Image();
+
+    tester.onload = () => {
+      image.src = path;
+      image.alt = alt;
+      image.hidden = false;
+      imageStatus.hidden = true;
+    };
+
+    tester.onerror = tryNext;
+    tester.src = path;
+  };
+
+  tryNext();
 }
 
-function updateArticleText(article) {
-  const boundary =
-    boundaryNames[article.planetaryBoundary] ||
-    article.planetaryBoundary ||
-    "ZUSTAND";
-
-  boundaryBadge.textContent = boundary;
-  articleMeta.textContent = [boundary, formatDate(article.publicationDate)]
-    .filter(Boolean)
-    .join(" · ");
-  articleTitle.textContent = article.title || "Ohne Titel";
-  articleSummary.textContent =
-    article.summary || article.subtitle || "Keine Kurzbeschreibung vorhanden.";
-  articleCounter.textContent =
-    `${state.currentIndex + 1} / ${state.articles.length}`;
-}
-
-async function renderArticle({ animate = true } = {}) {
+function renderArticle({ animate = true } = {}) {
   const article = currentArticle();
   if (!article) return;
 
-  const token = ++state.transitionToken;
+  const update = () => {
+    const boundary =
+      boundaryNames[article.planetaryBoundary] ||
+      article.planetaryBoundary ||
+      "ZUSTAND";
 
-  // Das Bild wird vor dem sichtbaren Wechsel geladen und dekodiert.
-  const imagePromise = resolveArticleImage(article);
+    boundaryBadge.textContent = boundary;
+    articleMeta.textContent = [boundary, formatDate(article.publicationDate)]
+      .filter(Boolean)
+      .join(" · ");
+    articleTitle.textContent = article.title || "Ohne Titel";
+    articleSummary.textContent =
+      article.summary || article.subtitle || "Keine Kurzbeschreibung vorhanden.";
+    articleCounter.textContent =
+      `${state.currentIndex + 1} / ${state.articles.length}`;
 
-  if (animate) {
-    stage.classList.add("is-changing");
-    await new Promise((resolve) =>
-      window.setTimeout(resolve, TRANSITION_MS / 2)
-    );
+    loadFirstWorkingImage(article);
+
+    state.remainingMs = ROTATION_SECONDS * 1000;
+    state.lastTick = performance.now();
+    updateTimerDisplay();
+    stage.classList.remove("is-changing");
+  };
+
+  if (!animate) {
+    update();
+    return;
   }
 
-  if (token !== state.transitionToken) return;
-
-  updateArticleText(article);
-  await imagePromise;
-  await showArticleImage(article, token);
-
-  if (token !== state.transitionToken) return;
-
-  state.remainingMs = ROTATION_SECONDS * 1000;
-  state.lastTick = performance.now();
-  updateTimerDisplay();
-
-  requestAnimationFrame(() => {
-    if (token === state.transitionToken) {
-      stage.classList.remove("is-changing");
-    }
-  });
-
-  preloadNeighbours();
+  stage.classList.add("is-changing");
+  window.setTimeout(update, 230);
 }
 
 function updateTimerDisplay() {
@@ -244,14 +183,14 @@ function updateTimerDisplay() {
 function nextArticle() {
   if (!state.articles.length) return;
   state.currentIndex = (state.currentIndex + 1) % state.articles.length;
-  void renderArticle();
+  renderArticle();
 }
 
 function previousArticle() {
   if (!state.articles.length) return;
   state.currentIndex =
     (state.currentIndex - 1 + state.articles.length) % state.articles.length;
-  void renderArticle();
+  renderArticle();
 }
 
 function togglePause(forceState = null) {
@@ -279,19 +218,19 @@ function tick(now) {
 function splitText(text) {
   const parts = String(text || "")
     .split(/\n{2,}/)
-    .map((part) => part.trim())
+    .map(part => part.trim())
     .filter(Boolean);
 
-  return parts
-    .map((part, index) => {
-      const headingLike =
-        index > 0 && part.length < 95 && !/[.!?]$/.test(part);
+  return parts.map((part, index) => {
+    const headingLike =
+      index > 0 &&
+      part.length < 95 &&
+      !/[.!?]$/.test(part);
 
-      return headingLike
-        ? `<h3>${escapeHtml(part)}</h3>`
-        : `<p>${escapeHtml(part).replace(/\n/g, "<br>")}</p>`;
-    })
-    .join("");
+    return headingLike
+      ? `<h3>${escapeHtml(part)}</h3>`
+      : `<p>${escapeHtml(part).replace(/\n/g, "<br>")}</p>`;
+  }).join("");
 }
 
 function openArticle() {
@@ -303,49 +242,38 @@ function openArticle() {
     article.planetaryBoundary ||
     "ZUSTAND";
 
-  const sections = (article.article || [])
-    .map((section) => {
-      const heading = section.heading
-        ? `<h3>${escapeHtml(section.heading)}</h3>`
-        : "";
-      return `${heading}${splitText(section.text)}`;
-    })
-    .join("");
+  const sections = (article.article || []).map(section => {
+    const heading = section.heading
+      ? `<h3>${escapeHtml(section.heading)}</h3>`
+      : "";
+    return `${heading}${splitText(section.text)}`;
+  }).join("");
 
-  const sourceName =
-    article.sourceTitle ||
-    article.sourceId ||
-    (() => {
-      try {
-        return article.sourceUrl
-          ? new URL(article.sourceUrl).hostname.replace(/^www\./, "")
-          : "Keine Quellenangabe";
-      } catch {
-        return "Originalquelle";
-      }
-    })();
-
-  const sourceMarkup = article.sourceUrl
-    ? `<a href="${escapeHtml(article.sourceUrl)}" target="_blank" rel="noopener noreferrer">Originalquelle öffnen →</a>`
-    : "";
-
-  const resolvedImage = image.hidden ? "" : image.getAttribute("src");
-  const imageMarkup = resolvedImage
-    ? `<img class="dialog-image" src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(image.alt)}">`
+  const paths = candidateImagePaths(article);
+  const imageMarkup = paths.length
+    ? `<img class="dialog-image" src="${escapeHtml(paths[0])}"
+         alt="${escapeHtml(article.imageMetadata?.altText || article.title || "")}"
+         onerror="this.style.display='none'">`
     : "";
 
   dialogContent.innerHTML = `
-    <div class="dialog-meta">${escapeHtml(boundary)} · ${escapeHtml(formatDate(article.publicationDate))}</div>
+    <div class="dialog-meta">
+      ${escapeHtml(boundary)} · ${escapeHtml(formatDate(article.publicationDate))}
+    </div>
     <h2 class="dialog-title">${escapeHtml(article.title)}</h2>
-    ${article.subtitle ? `<div class="dialog-subtitle">${escapeHtml(article.subtitle)}</div>` : ""}
+    ${article.subtitle
+      ? `<p class="dialog-subtitle">${escapeHtml(article.subtitle)}</p>`
+      : ""}
     ${imageMarkup}
     <div class="article-text">
       ${sections || `<p>${escapeHtml(article.summary || "")}</p>`}
     </div>
     <div class="source-box">
       <strong>Quelle</strong><br>
-      ${escapeHtml(sourceName)}<br>
-      ${sourceMarkup}
+      ${escapeHtml(article.sourceTitle || article.sourceId || "Keine Quellenangabe")}<br>
+      ${article.sourceUrl
+        ? `<a href="${escapeHtml(article.sourceUrl)}" target="_blank" rel="noopener noreferrer">Originalquelle öffnen →</a>`
+        : ""}
     </div>
   `;
 
@@ -366,13 +294,8 @@ async function toggleFullscreen() {
 
 async function loadNews() {
   try {
-    const response = await fetch(`news.json?v=${Date.now()}`, {
-      cache: "no-store"
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
+    const response = await fetch("news.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const data = await response.json();
     state.articles = Array.isArray(data.articles) ? data.articles : [];
@@ -384,18 +307,11 @@ async function loadNews() {
         "Sobald news.json Beiträge enthält, erscheinen sie automatisch hier.";
       articleCounter.textContent = "0 / 0";
       imageStatus.textContent = "Keine Meldungen";
-
-      [pauseButton, nextButton, readMoreButton].forEach((button) => {
-        button.disabled = true;
-      });
+      [pauseButton, nextButton, readMoreButton].forEach(button => button.disabled = true);
       return;
     }
 
-    // Vor dem ersten Rendern werden das erste und das nächste Bild vorbereitet.
-    preloadArticle(state.articles[0]);
-    preloadArticle(state.articles[1]);
-
-    await renderArticle({ animate: false });
+    renderArticle({ animate: false });
     state.animationFrame = requestAnimationFrame(tick);
   } catch (error) {
     console.error(error);
@@ -405,10 +321,7 @@ async function loadNews() {
       "Bitte prüfen, ob news.json im selben Ordner wie index.html liegt.";
     articleCounter.textContent = "0 / 0";
     imageStatus.textContent = "Keine Daten";
-
-    [pauseButton, nextButton, readMoreButton].forEach((button) => {
-      button.disabled = true;
-    });
+    [pauseButton, nextButton, readMoreButton].forEach(button => button.disabled = true);
   }
 }
 
@@ -418,11 +331,11 @@ readMoreButton.addEventListener("click", openArticle);
 fullscreenButton.addEventListener("click", toggleFullscreen);
 dialogClose.addEventListener("click", () => dialog.close());
 
-dialog.addEventListener("click", (event) => {
+dialog.addEventListener("click", event => {
   if (event.target === dialog) dialog.close();
 });
 
-document.addEventListener("keydown", (event) => {
+document.addEventListener("keydown", event => {
   if (dialog.open) {
     if (event.key === "Escape") dialog.close();
     return;
@@ -438,7 +351,7 @@ document.addEventListener("keydown", (event) => {
     event.preventDefault();
     togglePause();
   } else if (event.key.toLowerCase() === "f") {
-    void toggleFullscreen();
+    toggleFullscreen();
   }
 });
 
@@ -446,4 +359,4 @@ document.addEventListener("visibilitychange", () => {
   state.lastTick = performance.now();
 });
 
-void loadNews();
+loadNews();

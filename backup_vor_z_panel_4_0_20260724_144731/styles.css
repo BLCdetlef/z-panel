@@ -476,32 +476,3 @@ dialog::backdrop {
     font-size: .8rem;
   }
 }
-
-/* Z-Panel 4.0: flüssigere, GPU-gestützte Artikelübergänge */
-.stage {
-  will-change: opacity, transform;
-  backface-visibility: hidden;
-  transform: translate3d(0, 0, 0);
-  transition:
-    opacity 360ms ease,
-    transform 360ms ease;
-}
-
-.stage.is-changing {
-  opacity: 0;
-  transform: translate3d(0, 6px, 0);
-}
-
-.article-image {
-  display: block;
-  will-change: opacity;
-  backface-visibility: hidden;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .stage,
-  .stage.is-changing {
-    transition: none;
-    transform: none;
-  }
-}
