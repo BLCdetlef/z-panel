@@ -1,5 +1,7 @@
 "use strict";
 
+const ROTATION_SECONDS = 30;
+
 const boundaryNames = {
   KL: "Klimawandel",
   BD: "Integrität der Biosphäre",
@@ -14,17 +16,29 @@ const boundaryNames = {
 
 const state = {
   articles: [],
-  boundary: "",
-  search: ""
+  currentIndex: 0,
+  paused: false,
+  remainingMs: ROTATION_SECONDS * 1000,
+  lastTick: performance.now(),
+  animationFrame: null
 };
 
-const grid = document.getElementById("news-grid");
-const statusMessage = document.getElementById("status-message");
-const filterBox = document.getElementById("boundary-filters");
-const searchInput = document.getElementById("search-input");
-const clearFilter = document.getElementById("clear-filter");
+const panel = document.getElementById("panel");
+const image = document.getElementById("article-image");
+const imagePlaceholder = document.getElementById("image-placeholder");
+const boundaryBadge = document.getElementById("boundary-badge");
+const articleMeta = document.getElementById("article-meta");
+const articleTitle = document.getElementById("article-title");
+const articleSummary = document.getElementById("article-summary");
+const articleCounter = document.getElementById("article-counter");
+const countdownLabel = document.getElementById("countdown-label");
+const progressBar = document.getElementById("progress-bar");
+const pauseButton = document.getElementById("pause-button");
+const nextButton = document.getElementById("next-button");
+const readMoreButton = document.getElementById("read-more-button");
 const dialog = document.getElementById("article-dialog");
-const dialogBody = document.getElementById("dialog-body");
+const dialogContent = document.getElementById("dialog-content");
+const dialogClose = document.getElementById("dialog-close");
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -38,120 +52,178 @@ function escapeHtml(value) {
 function formatDate(value) {
   if (!value) return "";
   const date = new Date(`${value}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return value;
   return new Intl.DateTimeFormat("de-DE", {
-    day: "2-digit", month: "long", year: "numeric"
+    day: "2-digit",
+    month: "long",
+    year: "numeric"
   }).format(date);
 }
 
-function renderFilters() {
-  const counts = {};
-  state.articles.forEach(article => {
-    counts[article.planetaryBoundary] = (counts[article.planetaryBoundary] || 0) + 1;
-  });
-
-  filterBox.innerHTML = Object.entries(boundaryNames).map(([code, label]) => `
-    <button class="boundary-button ${state.boundary === code ? "active" : ""}"
-      type="button" data-boundary="${code}">
-      <strong>${escapeHtml(label)}</strong>
-      <span>${counts[code] || 0} Beitrag/Beiträge · ${code}</span>
-    </button>
-  `).join("");
-
-  filterBox.querySelectorAll("[data-boundary]").forEach(button => {
-    button.addEventListener("click", () => {
-      state.boundary = button.dataset.boundary;
-      renderFilters();
-      renderArticles();
-      document.getElementById("meldungen").scrollIntoView({ behavior: "smooth" });
-    });
-  });
+function currentArticle() {
+  return state.articles[state.currentIndex] || null;
 }
 
-function matchingArticles() {
-  const query = state.search.toLocaleLowerCase("de");
-  return state.articles.filter(article => {
-    const boundaryOk = !state.boundary || article.planetaryBoundary === state.boundary;
-    const haystack = [
-      article.title, article.subtitle, article.summary,
-      ...(article.keywords || []), boundaryNames[article.planetaryBoundary]
-    ].join(" ").toLocaleLowerCase("de");
-    return boundaryOk && (!query || haystack.includes(query));
-  });
-}
+function setImage(article) {
+  const path = article.imageFile || article.imageUrl || "";
+  const alt = article.imageMetadata?.altText || article.title || "";
 
-function articleImage(article, className = "news-card-image") {
-  if (!article.imageFile) {
-    return `<div class="image-placeholder">Bild folgt<br>${escapeHtml(article.imageId || "")}</div>`;
-  }
-  const alt = article.imageMetadata?.altText || article.title;
-  return `<img class="${className}" src="${encodeURI(article.imageFile)}"
-    alt="${escapeHtml(alt)}" loading="lazy">`;
-}
-
-function renderArticles() {
-  const articles = matchingArticles();
-  statusMessage.hidden = articles.length > 0;
-  if (!articles.length) {
-    statusMessage.textContent = "Zu dieser Auswahl wurden keine Meldungen gefunden.";
-    grid.innerHTML = "";
+  if (!path) {
+    image.hidden = true;
+    image.removeAttribute("src");
+    imagePlaceholder.hidden = false;
+    imagePlaceholder.textContent = article.imageId
+      ? `Bild ${article.imageId} ist noch nicht eingebunden.`
+      : "Für diesen Beitrag ist noch kein Bild hinterlegt.";
     return;
   }
 
-  grid.innerHTML = articles.map(article => `
-    <article class="news-card">
-      ${articleImage(article)}
-      <div class="news-card-body">
-        <div class="meta">${escapeHtml(boundaryNames[article.planetaryBoundary] || article.planetaryBoundary)}
-          · ${escapeHtml(formatDate(article.publicationDate))}</div>
-        <h3>${escapeHtml(article.title)}</h3>
-        <p>${escapeHtml(article.summary)}</p>
-        <button class="card-button" type="button" data-id="${escapeHtml(article.id)}">
-          Artikel lesen
-        </button>
-      </div>
-    </article>
-  `).join("");
+  image.onload = () => {
+    imagePlaceholder.hidden = true;
+    image.hidden = false;
+  };
 
-  grid.querySelectorAll("[data-id]").forEach(button => {
-    button.addEventListener("click", () => openArticle(button.dataset.id));
-  });
+  image.onerror = () => {
+    image.hidden = true;
+    imagePlaceholder.hidden = false;
+    imagePlaceholder.textContent = "Das hinterlegte Bild konnte nicht geladen werden.";
+  };
+
+  image.alt = alt;
+  image.src = path;
+}
+
+function renderArticle({ animate = true } = {}) {
+  const article = currentArticle();
+  if (!article) return;
+
+  const update = () => {
+    const boundary = boundaryNames[article.planetaryBoundary] || article.planetaryBoundary || "ZUSTAND";
+    boundaryBadge.textContent = boundary;
+    articleMeta.textContent = [boundary, formatDate(article.publicationDate)]
+      .filter(Boolean)
+      .join(" · ");
+    articleTitle.textContent = article.title || "Ohne Titel";
+    articleSummary.textContent = article.summary || article.subtitle || "";
+    articleCounter.textContent = `${state.currentIndex + 1} / ${state.articles.length}`;
+    setImage(article);
+
+    state.remainingMs = ROTATION_SECONDS * 1000;
+    state.lastTick = performance.now();
+    updateTimerDisplay();
+
+    panel.classList.remove("is-changing");
+  };
+
+  if (!animate) {
+    update();
+    return;
+  }
+
+  panel.classList.add("is-changing");
+  window.setTimeout(update, 240);
+}
+
+function updateTimerDisplay() {
+  const total = ROTATION_SECONDS * 1000;
+  const remaining = Math.max(0, state.remainingMs);
+  const seconds = Math.ceil(remaining / 1000);
+  const min = String(Math.floor(seconds / 60)).padStart(2, "0");
+  const sec = String(seconds % 60).padStart(2, "0");
+
+  countdownLabel.textContent = state.paused
+    ? `Pausiert bei ${min}:${sec}`
+    : `Automatischer Wechsel in ${min}:${sec}`;
+
+  progressBar.style.transform = `scaleX(${remaining / total})`;
+}
+
+function nextArticle() {
+  if (!state.articles.length) return;
+  state.currentIndex = (state.currentIndex + 1) % state.articles.length;
+  renderArticle();
+}
+
+function previousArticle() {
+  if (!state.articles.length) return;
+  state.currentIndex =
+    (state.currentIndex - 1 + state.articles.length) % state.articles.length;
+  renderArticle();
+}
+
+function togglePause(forceState = null) {
+  state.paused = forceState === null ? !state.paused : forceState;
+  pauseButton.setAttribute("aria-pressed", String(state.paused));
+  pauseButton.querySelector(".control-icon").textContent = state.paused ? "▶" : "⏸";
+  pauseButton.querySelector(".control-label").textContent = state.paused ? "Weiter" : "Pause";
+  state.lastTick = performance.now();
+  updateTimerDisplay();
+}
+
+function tick(now) {
+  const elapsed = now - state.lastTick;
+  state.lastTick = now;
+
+  if (!state.paused && state.articles.length > 1 && !dialog.open) {
+    state.remainingMs -= elapsed;
+    if (state.remainingMs <= 0) {
+      nextArticle();
+    }
+  }
+
+  updateTimerDisplay();
+  state.animationFrame = requestAnimationFrame(tick);
 }
 
 function splitText(text) {
-  const parts = String(text || "").split(/\n{2,}/).map(part => part.trim()).filter(Boolean);
+  const parts = String(text || "")
+    .split(/\n{2,}/)
+    .map(part => part.trim())
+    .filter(Boolean);
+
   return parts.map((part, index) => {
-    const looksLikeHeading =
-      part.length < 90 &&
-      !/[.!?]$/.test(part) &&
-      index > 0;
-    return looksLikeHeading
+    const headingLike =
+      index > 0 &&
+      part.length < 95 &&
+      !/[.!?]$/.test(part);
+
+    return headingLike
       ? `<h3>${escapeHtml(part)}</h3>`
       : `<p>${escapeHtml(part).replace(/\n/g, "<br>")}</p>`;
   }).join("");
 }
 
-function openArticle(id) {
-  const article = state.articles.find(item => item.id === id);
+function openArticle() {
+  const article = currentArticle();
   if (!article) return;
 
-  const sections = (article.article || []).map(section => {
+  const boundary = boundaryNames[article.planetaryBoundary] || article.planetaryBoundary || "ZUSTAND";
+  const articleSections = (article.article || []).map(section => {
     const heading = section.heading ? `<h3>${escapeHtml(section.heading)}</h3>` : "";
     return `${heading}${splitText(section.text)}`;
   }).join("");
 
-  dialogBody.innerHTML = `
-    <div class="meta">${escapeHtml(boundaryNames[article.planetaryBoundary] || article.planetaryBoundary)}
-      · ${escapeHtml(formatDate(article.publicationDate))}</div>
-    <h2>${escapeHtml(article.title)}</h2>
-    ${article.subtitle ? `<p class="intro">${escapeHtml(article.subtitle)}</p>` : ""}
-    ${articleImage(article, "dialog-hero")}
-    <div class="article-text">${sections}</div>
+  const imagePath = article.imageFile || article.imageUrl || "";
+  const imageMarkup = imagePath
+    ? `<img class="dialog-image" src="${escapeHtml(imagePath)}"
+         alt="${escapeHtml(article.imageMetadata?.altText || article.title || "")}">`
+    : "";
+
+  dialogContent.innerHTML = `
+    <div class="dialog-meta">${escapeHtml(boundary)} · ${escapeHtml(formatDate(article.publicationDate))}</div>
+    <h2 class="dialog-title">${escapeHtml(article.title)}</h2>
+    ${article.subtitle ? `<p class="dialog-subtitle">${escapeHtml(article.subtitle)}</p>` : ""}
+    ${imageMarkup}
+    <div class="article-text">${articleSections || `<p>${escapeHtml(article.summary || "")}</p>`}</div>
     <div class="source-box">
       <strong>Quelle</strong><br>
-      ${escapeHtml(article.sourceTitle || article.sourceId || "")}<br>
-      ${article.sourceUrl ? `<a href="${escapeHtml(article.sourceUrl)}" target="_blank" rel="noopener noreferrer">Originalquelle öffnen →</a>` : ""}
+      ${escapeHtml(article.sourceTitle || article.sourceId || "Keine Quellenangabe")}<br>
+      ${article.sourceUrl
+        ? `<a href="${escapeHtml(article.sourceUrl)}" target="_blank" rel="noopener noreferrer">Originalquelle öffnen →</a>`
+        : ""}
     </div>
   `;
+
   dialog.showModal();
 }
 
@@ -162,45 +234,63 @@ async function loadNews() {
     const data = await response.json();
 
     state.articles = Array.isArray(data.articles) ? data.articles : [];
-    document.getElementById("article-count").textContent = data.articleCount ?? state.articles.length;
 
-    const generated = data.generatedAt ? new Date(data.generatedAt) : null;
-    document.getElementById("generated-at").textContent = generated
-      ? `Datenstand: ${new Intl.DateTimeFormat("de-DE", {
-          day: "2-digit", month: "2-digit", year: "numeric",
-          hour: "2-digit", minute: "2-digit"
-        }).format(generated)} Uhr`
-      : "Datenstand nicht angegeben";
+    if (!state.articles.length) {
+      articleMeta.textContent = "Keine veröffentlichten Meldungen";
+      articleTitle.textContent = "Noch keine Artikel vorhanden";
+      articleSummary.textContent = "Sobald news.json veröffentlichte Beiträge enthält, erscheinen sie automatisch hier.";
+      articleCounter.textContent = "0 / 0";
+      pauseButton.disabled = true;
+      nextButton.disabled = true;
+      readMoreButton.disabled = true;
+      return;
+    }
 
-    renderFilters();
-    renderArticles();
+    renderArticle({ animate: false });
+    state.animationFrame = requestAnimationFrame(tick);
   } catch (error) {
     console.error(error);
-    statusMessage.hidden = false;
-    statusMessage.innerHTML =
-      "<strong>Die Meldungen konnten nicht geladen werden.</strong><br>" +
-      "Bitte prüfen, ob die Datei <code>news.json</code> im selben Ordner wie die Startseite liegt.";
-    document.getElementById("article-count").textContent = "0";
-    document.getElementById("generated-at").textContent = "news.json nicht erreichbar";
+    articleMeta.textContent = "Fehler beim Laden";
+    articleTitle.textContent = "news.json konnte nicht gelesen werden";
+    articleSummary.textContent =
+      "Bitte prüfen, ob news.json im selben Ordner wie index.html liegt und über GitHub Pages erreichbar ist.";
+    imagePlaceholder.textContent = "Keine Daten";
+    articleCounter.textContent = "0 / 0";
+    pauseButton.disabled = true;
+    nextButton.disabled = true;
+    readMoreButton.disabled = true;
   }
 }
 
-searchInput.addEventListener("input", event => {
-  state.search = event.target.value.trim();
-  renderArticles();
-});
+pauseButton.addEventListener("click", () => togglePause());
+nextButton.addEventListener("click", nextArticle);
+readMoreButton.addEventListener("click", openArticle);
+dialogClose.addEventListener("click", () => dialog.close());
 
-clearFilter.addEventListener("click", () => {
-  state.boundary = "";
-  state.search = "";
-  searchInput.value = "";
-  renderFilters();
-  renderArticles();
-});
-
-document.querySelector(".dialog-close").addEventListener("click", () => dialog.close());
 dialog.addEventListener("click", event => {
   if (event.target === dialog) dialog.close();
+});
+
+document.addEventListener("keydown", event => {
+  if (dialog.open) {
+    if (event.key === "Escape") dialog.close();
+    return;
+  }
+
+  if (event.key === "ArrowRight") {
+    event.preventDefault();
+    nextArticle();
+  } else if (event.key === "ArrowLeft") {
+    event.preventDefault();
+    previousArticle();
+  } else if (event.code === "Space") {
+    event.preventDefault();
+    togglePause();
+  }
+});
+
+document.addEventListener("visibilitychange", () => {
+  state.lastTick = performance.now();
 });
 
 loadNews();

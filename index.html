@@ -3,117 +3,74 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ZUSTAND – wissenschaftliche Nachrichten zu den planetaren Grenzen.">
-  <title>ZUSTAND – Wissenschaftliche Nachrichten</title>
+  <meta name="description" content="ZUSTAND – automatisch wechselndes News-Panel zu den planetaren Grenzen.">
+  <title>ZUSTAND – News-Panel</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="#" aria-label="ZUSTAND Startseite">
+  <main class="panel-shell">
+    <header class="panel-header">
+      <a class="brand" href="https://blcdetlef.github.io/z-panel/" aria-label="ZUSTAND Startseite">
         <span class="brand-mark">Z</span>
         <span>
           <strong>ZUSTAND</strong>
-          <small>Wissenschaftliche Nachrichten</small>
+          <small>News-Panel</small>
         </span>
       </a>
-      <nav aria-label="Hauptnavigation">
-        <a href="#meldungen">Meldungen</a>
-        <a href="#grenzen">Planetare Grenzen</a>
-        <a href="#projekt">Projekt</a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">WISSENSCHAFT VERSTÄNDLICH MACHEN</p>
-          <h1>Was müssen wir wissen, um unsere Lebensgrundlagen zu bewahren?</h1>
-          <p class="intro">
-            ZUSTAND bündelt wissenschaftlich geprüfte Meldungen zu den planetaren Grenzen,
-            ihren Ursachen und möglichen Wegen in eine lebenswerte Zukunft.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#meldungen">Neueste Meldungen</a>
-            <a class="button secondary" href="#projekt">Über das Projekt</a>
-          </div>
-        </div>
-        <aside class="hero-card" aria-label="Aktueller Stand">
-          <span class="hero-card-label">AKTUELL IM PANEL</span>
-          <strong id="article-count">–</strong>
-          <span>veröffentlichte Beiträge</span>
-          <p id="generated-at">Daten werden geladen …</p>
-        </aside>
+      <div class="header-controls">
+        <button id="pause-button" class="control-button" type="button" aria-pressed="false">
+          <span class="control-icon" aria-hidden="true">⏸</span>
+          <span class="control-label">Pause</span>
+        </button>
       </div>
+    </header>
+
+    <section id="panel" class="news-panel" aria-live="polite">
+      <div id="image-wrap" class="panel-image-wrap">
+        <div id="boundary-badge" class="boundary-badge">–</div>
+        <div id="image-placeholder" class="image-placeholder">Bild wird geladen …</div>
+        <img id="article-image" class="panel-image" alt="" hidden>
+      </div>
+
+      <article class="panel-content">
+        <div id="article-meta" class="article-meta">Meldungen werden geladen …</div>
+        <h1 id="article-title">ZUSTAND</h1>
+        <p id="article-summary" class="article-summary">
+          Das News-Panel wird vorbereitet.
+        </p>
+
+        <div class="panel-actions">
+          <button id="read-more-button" class="action-button primary" type="button">
+            Mehr lesen
+          </button>
+          <button id="next-button" class="action-button secondary" type="button">
+            Nächster Artikel →
+          </button>
+        </div>
+      </article>
     </section>
 
-    <section id="grenzen" class="boundary-section">
-      <div class="wrap">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">THEMEN</p>
-            <h2>Planetare Grenzen</h2>
-          </div>
-          <button id="clear-filter" class="text-button" type="button">Alle Meldungen anzeigen</button>
-        </div>
-        <div id="boundary-filters" class="boundary-grid" aria-label="Nach planetarer Grenze filtern"></div>
+    <footer class="panel-footer">
+      <div class="counter-wrap">
+        <span id="article-counter">0 / 0</span>
+        <span id="countdown-label">Automatischer Wechsel in 00:30</span>
       </div>
-    </section>
-
-    <section id="meldungen" class="news-section">
-      <div class="wrap">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">REDAKTION</p>
-            <h2>Neueste Meldungen</h2>
-          </div>
-          <label class="search">
-            <span class="sr-only">Meldungen durchsuchen</span>
-            <input id="search-input" type="search" placeholder="Meldungen durchsuchen">
-          </label>
-        </div>
-
-        <div id="status-message" class="status-message" role="status">Meldungen werden geladen …</div>
-        <div id="news-grid" class="news-grid"></div>
+      <div class="progress-track" aria-hidden="true">
+        <div id="progress-bar" class="progress-bar"></div>
       </div>
-    </section>
-
-    <section id="projekt" class="project-section">
-      <div class="wrap project-grid">
-        <div>
-          <p class="eyebrow">DAS PROJEKT</p>
-          <h2>ZUSTAND – Die Vermessung unserer Zukunft</h2>
-        </div>
-        <div>
-          <p>
-            ZUSTAND verbindet wissenschaftliche Zustandsanalyse, Hochschullehre,
-            öffentliche Kommunikation und Wirkungsforschung. Ziel ist es, den Zustand
-            unserer natürlichen Lebensgrundlagen sichtbar, verständlich und diskutierbar zu machen.
-          </p>
-          <p>
-            Das Z-Panel ist die wachsende Nachrichten- und Wissensbasis des Projekts.
-            Jeder Beitrag wird mit Quelle, Bildmetadaten und fachlicher Zuordnung veröffentlicht.
-          </p>
-        </div>
+      <div class="keyboard-hint">
+        ← zurück · Leertaste Pause · → weiter
       </div>
-    </section>
+    </footer>
   </main>
 
   <dialog id="article-dialog">
-    <article class="dialog-content">
-      <button class="dialog-close" type="button" aria-label="Artikel schließen">×</button>
-      <div id="dialog-body"></div>
+    <article class="dialog-card">
+      <button id="dialog-close" class="dialog-close" type="button" aria-label="Artikel schließen">×</button>
+      <div id="dialog-content"></div>
     </article>
   </dialog>
-
-  <footer>
-    <div class="wrap footer-inner">
-      <div><strong>ZUSTAND</strong><br><span>Bildung für unsere Lebensgrundlagen</span></div>
-      <div>Wissenschaftlich · verständlich · quellennah</div>
-    </div>
-  </footer>
 
   <script src="app.js" defer></script>
 </body>
