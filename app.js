@@ -23,9 +23,9 @@ const state = {
   animationFrame: null
 };
 
-const panel = document.getElementById("panel");
+const stage = document.getElementById("stage");
 const image = document.getElementById("article-image");
-const imagePlaceholder = document.getElementById("image-placeholder");
+const imageStatus = document.getElementById("image-status");
 const boundaryBadge = document.getElementById("boundary-badge");
 const articleMeta = document.getElementById("article-meta");
 const articleTitle = document.getElementById("article-title");
@@ -34,8 +34,11 @@ const articleCounter = document.getElementById("article-counter");
 const countdownLabel = document.getElementById("countdown-label");
 const progressBar = document.getElementById("progress-bar");
 const pauseButton = document.getElementById("pause-button");
+const pauseIcon = document.getElementById("pause-icon");
+const pauseLabel = document.getElementById("pause-label");
 const nextButton = document.getElementById("next-button");
 const readMoreButton = document.getElementById("read-more-button");
+const fullscreenButton = document.getElementById("fullscreen-button");
 const dialog = document.getElementById("article-dialog");
 const dialogContent = document.getElementById("dialog-content");
 const dialogClose = document.getElementById("dialog-close");
@@ -64,33 +67,66 @@ function currentArticle() {
   return state.articles[state.currentIndex] || null;
 }
 
-function setImage(article) {
-  const path = article.imageFile || article.imageUrl || "";
+function candidateImagePaths(article) {
+  const candidates = [];
+
+  if (article.imageFile) candidates.push(article.imageFile);
+  if (article.imageUrl) candidates.push(article.imageUrl);
+
+  if (article.imageId) {
+    const id = article.imageId;
+    candidates.push(
+      `assets/images/${id}.webp`,
+      `assets/images/${id}.jpg`,
+      `assets/images/${id}.jpeg`,
+      `assets/images/${id}.png`
+    );
+  }
+
+  return [...new Set(candidates.filter(Boolean))];
+}
+
+function loadFirstWorkingImage(article) {
+  const paths = candidateImagePaths(article);
   const alt = article.imageMetadata?.altText || article.title || "";
 
-  if (!path) {
-    image.hidden = true;
-    image.removeAttribute("src");
-    imagePlaceholder.hidden = false;
-    imagePlaceholder.textContent = article.imageId
-      ? `Bild ${article.imageId} ist noch nicht eingebunden.`
-      : "Für diesen Beitrag ist noch kein Bild hinterlegt.";
+  image.hidden = true;
+  image.removeAttribute("src");
+  image.alt = alt;
+  imageStatus.hidden = false;
+
+  if (!paths.length) {
+    imageStatus.textContent =
+      "Für diesen Beitrag ist noch kein Bildpfad hinterlegt.";
     return;
   }
 
-  image.onload = () => {
-    imagePlaceholder.hidden = true;
-    image.hidden = false;
+  let index = 0;
+
+  const tryNext = () => {
+    if (index >= paths.length) {
+      image.hidden = true;
+      imageStatus.hidden = false;
+      imageStatus.innerHTML =
+        `Bild nicht gefunden.<br><small>Erwartet wurde zum Beispiel: assets/images/${escapeHtml(article.imageId || "BILD-ID")}.jpg</small>`;
+      return;
+    }
+
+    const path = paths[index++];
+    const tester = new Image();
+
+    tester.onload = () => {
+      image.src = path;
+      image.alt = alt;
+      image.hidden = false;
+      imageStatus.hidden = true;
+    };
+
+    tester.onerror = tryNext;
+    tester.src = path;
   };
 
-  image.onerror = () => {
-    image.hidden = true;
-    imagePlaceholder.hidden = false;
-    imagePlaceholder.textContent = "Das hinterlegte Bild konnte nicht geladen werden.";
-  };
-
-  image.alt = alt;
-  image.src = path;
+  tryNext();
 }
 
 function renderArticle({ animate = true } = {}) {
@@ -98,21 +134,27 @@ function renderArticle({ animate = true } = {}) {
   if (!article) return;
 
   const update = () => {
-    const boundary = boundaryNames[article.planetaryBoundary] || article.planetaryBoundary || "ZUSTAND";
+    const boundary =
+      boundaryNames[article.planetaryBoundary] ||
+      article.planetaryBoundary ||
+      "ZUSTAND";
+
     boundaryBadge.textContent = boundary;
     articleMeta.textContent = [boundary, formatDate(article.publicationDate)]
       .filter(Boolean)
       .join(" · ");
     articleTitle.textContent = article.title || "Ohne Titel";
-    articleSummary.textContent = article.summary || article.subtitle || "";
-    articleCounter.textContent = `${state.currentIndex + 1} / ${state.articles.length}`;
-    setImage(article);
+    articleSummary.textContent =
+      article.summary || article.subtitle || "Keine Kurzbeschreibung vorhanden.";
+    articleCounter.textContent =
+      `${state.currentIndex + 1} / ${state.articles.length}`;
+
+    loadFirstWorkingImage(article);
 
     state.remainingMs = ROTATION_SECONDS * 1000;
     state.lastTick = performance.now();
     updateTimerDisplay();
-
-    panel.classList.remove("is-changing");
+    stage.classList.remove("is-changing");
   };
 
   if (!animate) {
@@ -120,8 +162,8 @@ function renderArticle({ animate = true } = {}) {
     return;
   }
 
-  panel.classList.add("is-changing");
-  window.setTimeout(update, 240);
+  stage.classList.add("is-changing");
+  window.setTimeout(update, 230);
 }
 
 function updateTimerDisplay() {
@@ -154,8 +196,8 @@ function previousArticle() {
 function togglePause(forceState = null) {
   state.paused = forceState === null ? !state.paused : forceState;
   pauseButton.setAttribute("aria-pressed", String(state.paused));
-  pauseButton.querySelector(".control-icon").textContent = state.paused ? "▶" : "⏸";
-  pauseButton.querySelector(".control-label").textContent = state.paused ? "Weiter" : "Pause";
+  pauseIcon.textContent = state.paused ? "▶" : "⏸";
+  pauseLabel.textContent = state.paused ? "Weiter" : "Pause";
   state.lastTick = performance.now();
   updateTimerDisplay();
 }
@@ -166,9 +208,7 @@ function tick(now) {
 
   if (!state.paused && state.articles.length > 1 && !dialog.open) {
     state.remainingMs -= elapsed;
-    if (state.remainingMs <= 0) {
-      nextArticle();
-    }
+    if (state.remainingMs <= 0) nextArticle();
   }
 
   updateTimerDisplay();
@@ -197,24 +237,37 @@ function openArticle() {
   const article = currentArticle();
   if (!article) return;
 
-  const boundary = boundaryNames[article.planetaryBoundary] || article.planetaryBoundary || "ZUSTAND";
-  const articleSections = (article.article || []).map(section => {
-    const heading = section.heading ? `<h3>${escapeHtml(section.heading)}</h3>` : "";
+  const boundary =
+    boundaryNames[article.planetaryBoundary] ||
+    article.planetaryBoundary ||
+    "ZUSTAND";
+
+  const sections = (article.article || []).map(section => {
+    const heading = section.heading
+      ? `<h3>${escapeHtml(section.heading)}</h3>`
+      : "";
     return `${heading}${splitText(section.text)}`;
   }).join("");
 
-  const imagePath = article.imageFile || article.imageUrl || "";
-  const imageMarkup = imagePath
-    ? `<img class="dialog-image" src="${escapeHtml(imagePath)}"
-         alt="${escapeHtml(article.imageMetadata?.altText || article.title || "")}">`
+  const paths = candidateImagePaths(article);
+  const imageMarkup = paths.length
+    ? `<img class="dialog-image" src="${escapeHtml(paths[0])}"
+         alt="${escapeHtml(article.imageMetadata?.altText || article.title || "")}"
+         onerror="this.style.display='none'">`
     : "";
 
   dialogContent.innerHTML = `
-    <div class="dialog-meta">${escapeHtml(boundary)} · ${escapeHtml(formatDate(article.publicationDate))}</div>
+    <div class="dialog-meta">
+      ${escapeHtml(boundary)} · ${escapeHtml(formatDate(article.publicationDate))}
+    </div>
     <h2 class="dialog-title">${escapeHtml(article.title)}</h2>
-    ${article.subtitle ? `<p class="dialog-subtitle">${escapeHtml(article.subtitle)}</p>` : ""}
+    ${article.subtitle
+      ? `<p class="dialog-subtitle">${escapeHtml(article.subtitle)}</p>`
+      : ""}
     ${imageMarkup}
-    <div class="article-text">${articleSections || `<p>${escapeHtml(article.summary || "")}</p>`}</div>
+    <div class="article-text">
+      ${sections || `<p>${escapeHtml(article.summary || "")}</p>`}
+    </div>
     <div class="source-box">
       <strong>Quelle</strong><br>
       ${escapeHtml(article.sourceTitle || article.sourceId || "Keine Quellenangabe")}<br>
@@ -227,22 +280,34 @@ function openArticle() {
   dialog.showModal();
 }
 
+async function toggleFullscreen() {
+  try {
+    if (!document.fullscreenElement) {
+      await document.documentElement.requestFullscreen();
+    } else {
+      await document.exitFullscreen();
+    }
+  } catch (error) {
+    console.error("Vollbild konnte nicht aktiviert werden:", error);
+  }
+}
+
 async function loadNews() {
   try {
     const response = await fetch("news.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
 
+    const data = await response.json();
     state.articles = Array.isArray(data.articles) ? data.articles : [];
 
     if (!state.articles.length) {
       articleMeta.textContent = "Keine veröffentlichten Meldungen";
       articleTitle.textContent = "Noch keine Artikel vorhanden";
-      articleSummary.textContent = "Sobald news.json veröffentlichte Beiträge enthält, erscheinen sie automatisch hier.";
+      articleSummary.textContent =
+        "Sobald news.json Beiträge enthält, erscheinen sie automatisch hier.";
       articleCounter.textContent = "0 / 0";
-      pauseButton.disabled = true;
-      nextButton.disabled = true;
-      readMoreButton.disabled = true;
+      imageStatus.textContent = "Keine Meldungen";
+      [pauseButton, nextButton, readMoreButton].forEach(button => button.disabled = true);
       return;
     }
 
@@ -253,18 +318,17 @@ async function loadNews() {
     articleMeta.textContent = "Fehler beim Laden";
     articleTitle.textContent = "news.json konnte nicht gelesen werden";
     articleSummary.textContent =
-      "Bitte prüfen, ob news.json im selben Ordner wie index.html liegt und über GitHub Pages erreichbar ist.";
-    imagePlaceholder.textContent = "Keine Daten";
+      "Bitte prüfen, ob news.json im selben Ordner wie index.html liegt.";
     articleCounter.textContent = "0 / 0";
-    pauseButton.disabled = true;
-    nextButton.disabled = true;
-    readMoreButton.disabled = true;
+    imageStatus.textContent = "Keine Daten";
+    [pauseButton, nextButton, readMoreButton].forEach(button => button.disabled = true);
   }
 }
 
 pauseButton.addEventListener("click", () => togglePause());
 nextButton.addEventListener("click", nextArticle);
 readMoreButton.addEventListener("click", openArticle);
+fullscreenButton.addEventListener("click", toggleFullscreen);
 dialogClose.addEventListener("click", () => dialog.close());
 
 dialog.addEventListener("click", event => {
@@ -286,6 +350,8 @@ document.addEventListener("keydown", event => {
   } else if (event.code === "Space") {
     event.preventDefault();
     togglePause();
+  } else if (event.key.toLowerCase() === "f") {
+    toggleFullscreen();
   }
 });
 

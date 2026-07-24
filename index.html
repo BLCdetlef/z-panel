@@ -3,65 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ZUSTAND – automatisch wechselndes News-Panel zu den planetaren Grenzen.">
-  <title>ZUSTAND – News-Panel</title>
+  <meta name="theme-color" content="#0b110e">
+  <meta name="description" content="ZUSTAND – Digital-Signage-News-Panel zu den planetaren Grenzen.">
+  <title>ZUSTAND – Z-Panel 3.0</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="panel-shell">
-    <header class="panel-header">
+  <main class="screen">
+    <header class="topbar">
       <a class="brand" href="https://blcdetlef.github.io/z-panel/" aria-label="ZUSTAND Startseite">
         <span class="brand-mark">Z</span>
-        <span>
+        <span class="brand-copy">
           <strong>ZUSTAND</strong>
-          <small>News-Panel</small>
+          <small>Die Vermessung unserer Zukunft</small>
         </span>
       </a>
 
-      <div class="header-controls">
-        <button id="pause-button" class="control-button" type="button" aria-pressed="false">
-          <span class="control-icon" aria-hidden="true">⏸</span>
-          <span class="control-label">Pause</span>
+      <div class="top-actions">
+        <button id="fullscreen-button" class="icon-button" type="button" title="Vollbild">⛶</button>
+        <button id="pause-button" class="pause-button" type="button" aria-pressed="false">
+          <span id="pause-icon">⏸</span>
+          <span id="pause-label">Pause</span>
         </button>
       </div>
     </header>
 
-    <section id="panel" class="news-panel" aria-live="polite">
-      <div id="image-wrap" class="panel-image-wrap">
-        <div id="boundary-badge" class="boundary-badge">–</div>
-        <div id="image-placeholder" class="image-placeholder">Bild wird geladen …</div>
-        <img id="article-image" class="panel-image" alt="" hidden>
+    <section id="stage" class="stage" aria-live="polite">
+      <div class="visual">
+        <div id="boundary-badge" class="boundary-badge">ZUSTAND</div>
+        <div id="image-status" class="image-status">Bild wird geladen …</div>
+        <img id="article-image" class="article-image" alt="" hidden>
+        <div class="visual-shade" aria-hidden="true"></div>
       </div>
 
-      <article class="panel-content">
+      <article class="story">
         <div id="article-meta" class="article-meta">Meldungen werden geladen …</div>
         <h1 id="article-title">ZUSTAND</h1>
         <p id="article-summary" class="article-summary">
-          Das News-Panel wird vorbereitet.
+          Das digitale News-Panel wird vorbereitet.
         </p>
 
-        <div class="panel-actions">
-          <button id="read-more-button" class="action-button primary" type="button">
+        <div class="story-actions">
+          <button id="read-more-button" class="action primary" type="button">
             Mehr lesen
           </button>
-          <button id="next-button" class="action-button secondary" type="button">
+          <button id="next-button" class="action secondary" type="button">
             Nächster Artikel →
           </button>
         </div>
       </article>
     </section>
 
-    <footer class="panel-footer">
-      <div class="counter-wrap">
+    <footer class="bottombar">
+      <div class="footer-meta">
         <span id="article-counter">0 / 0</span>
         <span id="countdown-label">Automatischer Wechsel in 00:30</span>
       </div>
+
       <div class="progress-track" aria-hidden="true">
         <div id="progress-bar" class="progress-bar"></div>
       </div>
-      <div class="keyboard-hint">
-        ← zurück · Leertaste Pause · → weiter
-      </div>
+
+      <div class="keyboard-hint">← zurück · Leertaste Pause · → weiter</div>
     </footer>
   </main>
 
