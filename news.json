@@ -1,13 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T12:06:31.168483+00:00",
-  "articleCount": 3,
+  "generatedAt": "2026-07-24T14:25:42.795993+00:00",
+  "articleCount": 6,
   "articles": [
     {
       "id": "NS_0002",
       "status": "freigegeben",
-      "title": "Niedrige PCB-Belastungen können sich zu erheblichen Gesundheitsrisiken summieren",
-      "subtitle": "",
+      "title": "Schon niedrige PCB-Belastungen können sich zu erheblichen Gesundheitsrisiken summieren",
       "summary": "Eine Untersuchung von 14 PCB-Verbindungen in fünf Arten von Abfallumgebungen weist auf erhebliche kumulative Gesundheitsrisiken bereits bei niedriger Belastung hin. Die berechneten Gefahrenquotienten lagen mit 5,36 bis 6,70 deutlich über dem Referenzwert 1; die Krebsrisiken blieben innerhalb üblicher Akzeptanzbereiche, waren aber nicht vernachlässigbar. Die Autoren fordern stoffgruppenspezifische Bewertungen und gezielte Sanierung.",
       "planetaryBoundary": "NS",
       "keywords": [
@@ -23,12 +22,9 @@
         "Neuartige Substanzen und Gesundheit"
       ],
       "imageId": "NS_0002_01",
-      "sourceId": "",
-      "sourceTitle": "Cumulative human health risk from low-level PCB exposure in waste environments: a congener-specific assessment with implications for regulatory thresholds",
       "sourceUrl": "https://www.nature.com/articles/s41598-026-62675-0",
       "publicationDate": "2026-07-24",
       "author": "",
-      "editor": "",
       "created": "2026-07-24",
       "lastModified": "2026-07-24",
       "language": "de",
@@ -55,10 +51,100 @@
       }
     },
     {
+      "id": "QS_0001",
+      "status": "freigegeben",
+      "title": "28 Reformvorschläge sollen die demokratische Widerstandskraft stärken",
+      "summary": "Der Bericht der UCL Constitution Unit bündelt 28 prioritäre Reformen zur Stärkung demokratischer Widerstandskraft. Vorgeschlagen werden mehr parlamentarische Kontrolle, unabhängigere Ethikaufsicht, transparentere Lobby- und Parteienfinanzierungsregeln, Schutz vor digitalen Manipulationen sowie bessere politische Information. Bürgerkunde in Schulen und lebenslange Demokratiebildung werden als zentrale öffentliche Aufgaben benannt.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Demokratische Resilienz",
+        "Parlament",
+        "Ethikaufsicht",
+        "Lobbytransparenz",
+        "politische Bildung",
+        "Medienkompetenz",
+        "Querschnitt",
+        "Priorität 4",
+        "Demokratie und Bildung"
+      ],
+      "imageId": "QS_0001_01",
+      "sourceUrl": "https://www.ucl.ac.uk/social-historical-sciences/sites/social_historical_sciences/files/2026-07/cu_217.pdf",
+      "publicationDate": "2026-07-23",
+      "author": "",
+      "created": "2026-07-24",
+      "lastModified": "2026-07-24",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 3.1; Meldungsart: Querschnitt; Priorität: 4; inhaltliche Zuordnung: Demokratie und Bildung",
+      "imageFile": "assets/images/QS_0001_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0001_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-24T13:45:11.271445+00:00",
+        "sourceFile": "ChatGPT Image 24. Juli 2026, 15_44_40.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: 28 Reformvorschläge sollen die demokratische Widerstandskraft stärken.\nKernaussage: Der Bericht der UCL Constitution Unit bündelt 28 prioritäre Reformen zur Stärkung demokratischer Widerstandskraft. Vorgeschlagen werden mehr parlamentarische Kontrolle, unabhängigere Ethikaufsicht, transparentere Lobby- und Parteienfinanzierungsregeln, Schutz vor digitalen Manipulationen sowie bessere politische Information. Bürgerkunde in Schulen und lebenslange Demokratiebildung werden als zentrale öffentliche Aufgaben benannt..\nMögliche Bildassoziationen: ein heller Sitzungssaal, ein runder Beratungstisch, eine öffentliche Bibliothek oder eine Wahlurne; keine Bäume, Wälder oder andere Naturmetaphern als Hauptmotiv.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Sie soll sofort verständlich, fotorealistisch und weder plakativ noch werblich wirken.\nSchlagwörter: Demokratische Resilienz, Parlament, Ethikaufsicht, Lobbytransparenz, politische Bildung, Medienkompetenz, Querschnitt, Priorität 4, Demokratie und Bildung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Der Bericht der UCL Constitution Unit bündelt 28 prioritäre Reformen zur Stärkung demokratischer Widerstandskraft. Vorgeschlagen werden mehr parlamentarische Kontrolle, unabhängigere Ethikaufsicht, transparentere Lobby- und Parteienfinanzierungsregeln, Schutz vor digitalen Manipulationen sowie bessere politische Information. Bürgerkunde in Schulen und lebenslange Demokratiebildung werden als zentrale öffentliche Aufgaben benannt.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
+    },
+    {
+      "id": "BD_0003",
+      "status": "freigegeben",
+      "title": "Zooplankton auf dem nordwesteuropäischen Schelf könnte stark zurückgehen",
+      "summary": "Ein hochaufgelöstes, mit Langzeitbeobachtungen trainiertes Modell projiziert im Hochemissionsszenario für kleine Ruderfußkrebse und Calanus auf dem nordwesteuropäischen Schelf Rückgänge um 58–72 Prozent bis 2050 und 84–93 Prozent bis 2100. Haupttreiber sind Erwärmung sowie sinkende Salz- und Nährstoffgehalte; die Folgen für Fische, Seevögel und weitere Nahrungsketten könnten erheblich sein.",
+      "planetaryBoundary": "BD",
+      "keywords": [
+        "Zooplankton",
+        "Nordsee",
+        "Nahrungsketten",
+        "Klimawandel",
+        "Calanus",
+        "Biodiversität",
+        "Zustand",
+        "Priorität 5"
+      ],
+      "imageId": "BD_0003_01",
+      "sourceUrl": "https://www.nature.com/articles/s43247-026-03840-1",
+      "publicationDate": "2026-07-23",
+      "author": "D. Hau",
+      "created": "2026-07-24",
+      "lastModified": "2026-07-24",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.0; Meldungsart: Zustand; Priorität: 5; Originalquelle: Projected declines in zooplankton energy supporting Northwest European Shelf ecosystems",
+      "imageFile": "assets/images/BD_0003_01_zustand.png",
+      "imageMetadata": {
+        "id": "BD_0003_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-24T14:21:15.692656+00:00",
+        "sourceFile": "ChatGPT Image 24. Juli 2026, 16_20_51.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Zooplankton auf dem nordwesteuropäischen Schelf könnte stark zurückgehen.\nKernaussage: Ein hochaufgelöstes, mit Langzeitbeobachtungen trainiertes Modell projiziert im Hochemissionsszenario für kleine Ruderfußkrebse und Calanus auf dem nordwesteuropäischen Schelf Rückgänge um 58–72 Prozent bis 2050 und 84–93 Prozent bis 2100. Haupttreiber sind Erwärmung sowie sinkende Salz- und Nährstoffgehalte; die Folgen für Fische, Seevögel und weitere Nahrungsketten könnten erheblich sein..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Wissenschaft. Nutze eine glaubwürdige wissenschaftliche Bildsprache, etwa Atmosphäre, Messinstrumente, Proben, Modelle oder sichtbare Prozesse. Keine Science-Fiction-Ästhetik und keine Infografik.\nSchlagwörter: Zooplankton, Nordsee, Nahrungsketten, Klimawandel, Calanus, Biodiversität, Zustand, Priorität 5.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Ein hochaufgelöstes, mit Langzeitbeobachtungen trainiertes Modell projiziert im Hochemissionsszenario für kleine Ruderfußkrebse und Calanus auf dem nordwesteuropäischen Schelf Rückgänge um 58–72 Prozent bis 2050 und 84–93 Prozent bis 2100. Haupttreiber sind Erwärmung sowie sinkende Salz- und Nährstoffgehalte; die Folgen für Fische, Seevögel und weitere Nahrungsketten könnten erheblich sein.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
+    },
+    {
       "id": "BD_0002",
       "status": "freigegeben",
       "title": "Mehr als die Hälfte der wandernden Vogelarten nimmt weltweit ab",
-      "subtitle": "",
       "summary": "Eine globale Übersichtsarbeit zeigt, dass 51 Prozent aller wandernden Vogelarten rückläufige Bestände aufweisen – über sämtliche Weltregionen hinweg. Wegen großer Monitoringlücken, besonders im Globalen Süden, bleibt das tatsächliche Ausmaß teilweise unklar. Die Autoren empfehlen koordinierten Schutz entlang der gesamten Zugwege, mehr Langzeitbeobachtung, großräumige Habitatmaßnahmen und dauerhaft finanzierte internationale Zusammenarbeit.",
       "planetaryBoundary": "BD",
       "keywords": [
@@ -73,12 +159,9 @@
         "Integrität der Biosphäre"
       ],
       "imageId": "BD_0002_01",
-      "sourceId": "",
-      "sourceTitle": "",
       "sourceUrl": "https://www.nature.com/articles/s44358-026-00177-7",
       "publicationDate": "2026-07-23",
       "author": "",
-      "editor": "",
       "created": "2026-07-24",
       "lastModified": "2026-07-24",
       "language": "de",
@@ -108,7 +191,6 @@
       "id": "AE_0001",
       "status": "freigegeben",
       "title": "Anorganische Halogene beeinflussen die globale Luftqualität stärker als angenommen",
-      "subtitle": "",
       "summary": "Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten.",
       "planetaryBoundary": "AE",
       "keywords": [
@@ -124,12 +206,9 @@
         "Atmosphärische Aerosolbelastung"
       ],
       "imageId": "AE_0001_01",
-      "sourceId": "",
-      "sourceTitle": "",
       "sourceUrl": "https://www.nature.com/articles/s41467-026-75932-7",
       "publicationDate": "2026-07-23",
       "author": "",
-      "editor": "",
       "created": "2026-07-24",
       "lastModified": "2026-07-24",
       "language": "de",
@@ -151,6 +230,51 @@
         "sourceFile": "ChatGPT Image 24. Juli 2026, 11_21_13.png",
         "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Anorganische Halogene beeinflussen die globale Luftqualität stärker als angenommen.\nKernaussage: Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten..\nMögliche Bildassoziationen: Luft, feine Partikel, Dunst, Stadt und Atemwege.\nGewählter Bildstil: Wissenschaft. Nutze eine glaubwürdige wissenschaftliche Bildsprache, etwa Atmosphäre, Messinstrumente, Proben, Modelle oder Prozesse. Keine Science-Fiction-Ästhetik.\nSchlagwörter: Luftqualität, Halogene, Aerosole, Stickoxide, Atmosphärenchemie, Südasien, Messlücken, Zustand, Priorität 4, Atmosphärische Aerosolbelastung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine natürliche, glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, natürlich wirkende redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, natürliches Licht, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für einen breiten 16:9-Infoscreen; wichtige Motive nicht direkt am Rand platzieren.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
         "altText": "Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
+    },
+    {
+      "id": "BD_0004",
+      "status": "freigegeben",
+      "title": "Klimawandel erzeugt neuartige Ökosysteme in außergewöhnlichem Tempo",
+      "summary": "Eine neue Übersichtsarbeit bündelt Belege dafür, dass der Klimawandel Lebensbedingungen in Land- und Meeresökosystemen in geologisch außergewöhnlichem Tempo verändert. Artenkombinationen, Funktionen und Beziehungen verschieben sich, historische Referenzzustände verlieren an Aussagekraft. Für Naturschutz und Wiederherstellung bedeutet das: je nach Ort muss gegen Veränderungen gesteuert, Anpassung toleriert oder mit neuartigen Ökosystemen gearbeitet werden.",
+      "planetaryBoundary": "BD",
+      "keywords": [
+        "Ökosysteme",
+        "Klimawandel",
+        "ökologische Neuartigkeit",
+        "Naturschutz",
+        "Anpassung",
+        "Biodiversität",
+        "Zustand",
+        "Priorität 4"
+      ],
+      "imageId": "BD_0004_01",
+      "sourceUrl": "https://www.nature.com/articles/s41558-026-02697-8",
+      "publicationDate": "2026-07-22",
+      "author": "",
+      "created": "2026-07-24",
+      "lastModified": "2026-07-24",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.0; Meldungsart: Zustand; Priorität: 4; Originalquelle: Ecological novelty induced by climate change",
+      "imageFile": "assets/images/BD_0004_01_zustand.png",
+      "imageMetadata": {
+        "id": "BD_0004_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-24T14:25:03.086613+00:00",
+        "sourceFile": "ChatGPT Image 24. Juli 2026, 16_24_43.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Klimawandel erzeugt neuartige Ökosysteme in außergewöhnlichem Tempo.\nKernaussage: Eine neue Übersichtsarbeit bündelt Belege dafür, dass der Klimawandel Lebensbedingungen in Land- und Meeresökosystemen in geologisch außergewöhnlichem Tempo verändert. Artenkombinationen, Funktionen und Beziehungen verschieben sich, historische Referenzzustände verlieren an Aussagekraft. Für Naturschutz und Wiederherstellung bedeutet das: je nach Ort muss gegen Veränderungen gesteuert, Anpassung toleriert oder mit neuartigen Ökosystemen gearbeitet werden..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Ökosysteme, Klimawandel, ökologische Neuartigkeit, Naturschutz, Anpassung, Biodiversität, Zustand, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine neue Übersichtsarbeit bündelt Belege dafür, dass der Klimawandel Lebensbedingungen in Land- und Meeresökosystemen in geologisch außergewöhnlichem Tempo verändert. Artenkombinationen, Funktionen und Beziehungen verschieben sich, historische Referenzzustände verlieren an Aussagekraft. Für Naturschutz und Wiederherstellung bedeutet das: je nach Ort muss gegen Veränderungen gesteuert, Anpassung toleriert oder mit neuartigen Ökosystemen gearbeitet werden.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       }

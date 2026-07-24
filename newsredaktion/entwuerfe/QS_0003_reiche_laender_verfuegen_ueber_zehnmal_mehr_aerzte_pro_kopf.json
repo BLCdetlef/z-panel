@@ -1,0 +1,29 @@
+{
+  "id": "QS_0003",
+  "status": "entwurf",
+  "title": "Reiche Länder verfügen über zehnmal mehr Ärzte pro Kopf",
+  "summary": "Eine neue Auswertung von WHO-Daten zeigt eine massive Ungleichheit beim Zugang zu medizinischem Personal. Länder mit hohem Einkommen verfügen im Mittel über rund 3,78 Ärztinnen und Ärzte je 1.000 Menschen, Länder mit niedrigem Einkommen nur über 0,38 – ein Verhältnis von etwa zehn zu eins. Der weltweite Durchschnitt liegt bei rund 1,9; die Lücke begrenzt Versorgung, Prävention und Krisenfestigkeit.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Gesundheit",
+    "Ärztemangel",
+    "Ungleichheit",
+    "WHO",
+    "Gesundheitsversorgung",
+    "Gemeinwohl",
+    "Querschnitt",
+    "Priorität 4"
+  ],
+  "imageId": "QS_0003_01",
+  "sourceUrl": "https://ourworldindata.org/data-insights/rich-countries-have-ten-times-as-many-doctors-per-person-as-poor-ones",
+  "publicationDate": "2026-07-21",
+  "author": "",
+  "created": "2026-07-24",
+  "lastModified": "2026-07-24",
+  "language": "de",
+  "article": [],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.0; Meldungsart: Querschnitt; Priorität: 4; Originalquelle: Rich countries have ten times as many doctors per person as poor ones"
+}

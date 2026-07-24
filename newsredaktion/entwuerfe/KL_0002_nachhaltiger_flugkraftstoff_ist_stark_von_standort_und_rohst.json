@@ -1,0 +1,29 @@
+{
+  "id": "KL_0002",
+  "status": "entwurf",
+  "title": "Nachhaltiger Flugkraftstoff ist stark von Standort und Rohstoff abhängig",
+  "summary": "Eine prospektive Lebenszyklus- und Mehrkriterienanalyse vergleicht 540 Pfade für fünf Technologien, sechs abfallbasierte Rohstoffe und vier Länder bis 2075. Das Ergebnis: Nachhaltiger Flugkraftstoff ist nicht automatisch nachhaltig. Klimawirkung und weitere Umweltfolgen hängen stark von Strommix, Verfahren, Rohstoff, Standort und Abfallpraxis ab. Dekarbonisierte Netze verbessern die Bilanz, können aber andere Zielkonflikte verstärken.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Luftfahrt",
+    "SAF",
+    "Lebenszyklusanalyse",
+    "Abfallrohstoffe",
+    "Strommix",
+    "Zielkonflikte",
+    "Lösung",
+    "Priorität 4"
+  ],
+  "imageId": "KL_0002_01",
+  "sourceUrl": "https://www.nature.com/articles/s44333-026-00117-0",
+  "publicationDate": "2026-07-20",
+  "author": "",
+  "created": "2026-07-24",
+  "lastModified": "2026-07-24",
+  "language": "de",
+  "article": [],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.0; Meldungsart: Lösung; Priorität: 4; Originalquelle: Sustainability of aviation fuel technologies depends on geography, energy, and feedstock choice: 50-year development scenarios"
+}

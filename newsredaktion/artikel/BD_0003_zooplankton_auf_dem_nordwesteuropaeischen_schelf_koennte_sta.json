@@ -1,0 +1,34 @@
+{
+  "id": "BD_0003",
+  "status": "freigegeben",
+  "title": "Zooplankton auf dem nordwesteuropäischen Schelf könnte stark zurückgehen",
+  "summary": "Ein hochaufgelöstes, mit Langzeitbeobachtungen trainiertes Modell projiziert im Hochemissionsszenario für kleine Ruderfußkrebse und Calanus auf dem nordwesteuropäischen Schelf Rückgänge um 58–72 Prozent bis 2050 und 84–93 Prozent bis 2100. Haupttreiber sind Erwärmung sowie sinkende Salz- und Nährstoffgehalte; die Folgen für Fische, Seevögel und weitere Nahrungsketten könnten erheblich sein.",
+  "planetaryBoundary": "BD",
+  "keywords": [
+    "Zooplankton",
+    "Nordsee",
+    "Nahrungsketten",
+    "Klimawandel",
+    "Calanus",
+    "Biodiversität",
+    "Zustand",
+    "Priorität 5"
+  ],
+  "imageId": "BD_0003_01",
+  "sourceUrl": "https://www.nature.com/articles/s43247-026-03840-1",
+  "publicationDate": "2026-07-23",
+  "author": "D. Hau",
+  "created": "2026-07-24",
+  "lastModified": "2026-07-24",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.0; Meldungsart: Zustand; Priorität: 5; Originalquelle: Projected declines in zooplankton energy supporting Northwest European Shelf ecosystems"
+}
