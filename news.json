@@ -1,15 +1,116 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T00:25:45.063606+00:00",
-  "articleCount": 2,
+  "generatedAt": "2026-07-24T10:32:01.993596+00:00",
+  "articleCount": 4,
   "articles": [
+    {
+      "id": "BD_0002",
+      "status": "freigegeben",
+      "title": "Mehr als die Hälfte der wandernden Vogelarten nimmt weltweit ab",
+      "subtitle": "",
+      "summary": "Eine globale Übersichtsarbeit zeigt, dass 51 Prozent aller wandernden Vogelarten rückläufige Bestände aufweisen – über sämtliche Weltregionen hinweg. Wegen großer Monitoringlücken, besonders im Globalen Süden, bleibt das tatsächliche Ausmaß teilweise unklar. Die Autoren empfehlen koordinierten Schutz entlang der gesamten Zugwege, mehr Langzeitbeobachtung, großräumige Habitatmaßnahmen und dauerhaft finanzierte internationale Zusammenarbeit.",
+      "planetaryBoundary": "BD",
+      "keywords": [
+        "Biodiversität",
+        "Zugvögel",
+        "Artenrückgang",
+        "Monitoring",
+        "Schutzgebiete",
+        "internationale Zusammenarbeit",
+        "Zustand",
+        "Priorität 5",
+        "Integrität der Biosphäre"
+      ],
+      "imageId": "BD_0002_01",
+      "sourceId": "",
+      "sourceTitle": "",
+      "sourceUrl": "https://www.nature.com/articles/s44358-026-00177-7",
+      "publicationDate": "2026-07-23",
+      "author": "",
+      "editor": "",
+      "created": "2026-07-24",
+      "lastModified": "2026-07-24",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": "Eine globale Übersichtsarbeit zeigt, dass 51 Prozent aller wandernden Vogelarten rückläufige Bestände aufweisen – über sämtliche Weltregionen hinweg. Wegen großer Monitoringlücken, besonders im Globalen Süden, bleibt das tatsächliche Ausmaß teilweise unklar. Die Autoren empfehlen koordinierten Schutz entlang der gesamten Zugwege, mehr Langzeitbeobachtung, großräumige Habitatmaßnahmen und dauerhaft finanzierte internationale Zusammenarbeit."
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "",
+      "imageFile": "assets/images/BD_0002_01_zustand.png",
+      "imageMetadata": {
+        "id": "BD_0002_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-24T09:25:12.355658+00:00",
+        "sourceFile": "ChatGPT Image 24. Juli 2026, 11_24_42.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Mehr als die Hälfte der wandernden Vogelarten nimmt weltweit ab.\nKernaussage: Eine globale Übersichtsarbeit zeigt, dass 51 Prozent aller wandernden Vogelarten rückläufige Bestände aufweisen – über sämtliche Weltregionen hinweg. Wegen großer Monitoringlücken, besonders im Globalen Süden, bleibt das tatsächliche Ausmaß teilweise unklar. Die Autoren empfehlen koordinierten Schutz entlang der gesamten Zugwege, mehr Langzeitbeobachtung, großräumige Habitatmaßnahmen und dauerhaft finanzierte internationale Zusammenarbeit..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Die Metapher soll sofort verständlich, fotorealistisch und nicht plakativ oder werblich wirken.\nSchlagwörter: Biodiversität, Zugvögel, Artenrückgang, Monitoring, Schutzgebiete, internationale Zusammenarbeit, Zustand, Priorität 5, Integrität der Biosphäre.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine natürliche, glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, natürlich wirkende redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, natürliches Licht, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für einen breiten 16:9-Infoscreen; wichtige Motive nicht direkt am Rand platzieren.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine globale Übersichtsarbeit zeigt, dass 51 Prozent aller wandernden Vogelarten rückläufige Bestände aufweisen – über sämtliche Weltregionen hinweg. Wegen großer Monitoringlücken, besonders im Globalen Süden, bleibt das tatsächliche Ausmaß teilweise unklar. Die Autoren empfehlen koordinierten Schutz entlang der gesamten Zugwege, mehr Langzeitbeobachtung, großräumige Habitatmaßnahmen und dauerhaft finanzierte internationale Zusammenarbeit.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
+    },
+    {
+      "id": "AE_0001",
+      "status": "freigegeben",
+      "title": "Anorganische Halogene beeinflussen die globale Luftqualität stärker als angenommen",
+      "subtitle": "",
+      "summary": "Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten.",
+      "planetaryBoundary": "AE",
+      "keywords": [
+        "Luftqualität",
+        "Halogene",
+        "Aerosole",
+        "Stickoxide",
+        "Atmosphärenchemie",
+        "Südasien",
+        "Messlücken",
+        "Zustand",
+        "Priorität 4",
+        "Atmosphärische Aerosolbelastung"
+      ],
+      "imageId": "AE_0001_01",
+      "sourceId": "",
+      "sourceTitle": "",
+      "sourceUrl": "https://www.nature.com/articles/s41467-026-75932-7",
+      "publicationDate": "2026-07-23",
+      "author": "",
+      "editor": "",
+      "created": "2026-07-24",
+      "lastModified": "2026-07-24",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": "Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten."
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "",
+      "imageFile": "assets/images/AE_0001_01_zustand.png",
+      "imageMetadata": {
+        "id": "AE_0001_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-24T09:21:31.601831+00:00",
+        "sourceFile": "ChatGPT Image 24. Juli 2026, 11_21_13.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Anorganische Halogene beeinflussen die globale Luftqualität stärker als angenommen.\nKernaussage: Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten..\nMögliche Bildassoziationen: Luft, feine Partikel, Dunst, Stadt und Atemwege.\nGewählter Bildstil: Wissenschaft. Nutze eine glaubwürdige wissenschaftliche Bildsprache, etwa Atmosphäre, Messinstrumente, Proben, Modelle oder Prozesse. Keine Science-Fiction-Ästhetik.\nSchlagwörter: Luftqualität, Halogene, Aerosole, Stickoxide, Atmosphärenchemie, Südasien, Messlücken, Zustand, Priorität 4, Atmosphärische Aerosolbelastung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine natürliche, glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, natürlich wirkende redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, natürliches Licht, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für einen breiten 16:9-Infoscreen; wichtige Motive nicht direkt am Rand platzieren.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
+    },
     {
       "id": "KL_0001",
       "status": "freigegeben",
       "title": "WMO: Weitere globale Temperaturrekorde in den kommenden Jahren sehr wahrscheinlich",
       "subtitle": "Für mindestens ein Jahr zwischen 2026 und 2030 liegt die Wahrscheinlichkeit einer vorübergehenden Überschreitung von 1,5 °C bei 91 Prozent.",
       "summary": "Die Weltorganisation für Meteorologie erwartet, dass die globale Mitteltemperatur auch in den Jahren 2026 bis 2030 auf oder nahe Rekordniveau liegen wird. Laut der aktuellen Mehrjahresprognose besteht eine Wahrscheinlichkeit von 91 Prozent, dass mindestens eines dieser Jahre vorübergehend mehr als 1,5 °C über dem Mittel von 1850 bis 1900 liegt. Mit 86 Prozent Wahrscheinlichkeit wird mindestens ein Jahr wärmer als das bisherige Rekordjahr 2024. Eine einzelne Jahresüberschreitung ist nicht gleichbedeutend mit einem dauerhaften Verfehlen des Pariser 1,5-Grad-Ziels, zeigt aber, wie nahe die langfristige Erwärmung dieser Grenze bereits gekommen ist.",
-      "planetaryBoundary": "LN",
+      "planetaryBoundary": "KL",
       "keywords": [
         "Klima",
         "globale Erwärmung",
@@ -21,7 +122,7 @@
         "Klimawandel"
       ],
       "imageId": "KL_0001_01",
-      "sourceId": "WMO",
+      "sourceId": "WWF_ZSL_LPI_2024",
       "sourceTitle": "Global Annual to Decadal Climate Update 2026–2035",
       "sourceUrl": "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/global-annual-decadal-climate-update-2026-2035",
       "publicationDate": "2026-05-28",
@@ -40,7 +141,7 @@
       "links": [],
       "license": "",
       "notes": "Referenzartikel KL_0001. Vor Veröffentlichung bitte redaktionell prüfen. Die Bezeichnung des WMO-Berichts lautet 2026–2035; die konkrete Fünfjahresprognose im Artikel betrifft 2026–2030.",
-      "imageFile": "assets/images/KL_0001_01_wmo_fuenfjahresprognose.png",
+      "imageFile": "",
       "imageMetadata": {
         "id": "KL_0001_01",
         "file": "KL_0001_01_wmo_fuenfjahresprognose.png",
@@ -90,7 +191,7 @@
       "links": [],
       "license": "",
       "notes": "Testentwurf für News Studio 3.0a. Vor Freigabe bitte Inhalt, Bild und Formulierungen redaktionell prüfen.",
-      "imageFile": "assets/images/BD_0001_01_living_planet_index_1970_2020.png",
+      "imageFile": "",
       "imageMetadata": {
         "id": "BD_0001_01",
         "title": "Living Planet Index 1970 bis 2020",
