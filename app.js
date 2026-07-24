@@ -22,7 +22,8 @@ const state = {
   remainingMs: ROTATION_SECONDS * 1000,
   lastTick: performance.now(),
   animationFrame: null,
-  transitionToken: 0
+  transitionToken: 0,
+  transitioning: false
 };
 
 const imageCache = new Map();
@@ -192,39 +193,44 @@ function updateArticleText(article) {
 
 async function renderArticle({ animate = true } = {}) {
   const article = currentArticle();
-  if (!article) return;
+  if (!article || state.transitioning) return;
 
+  state.transitioning = true;
   const token = ++state.transitionToken;
 
-  // Das Bild wird vor dem sichtbaren Wechsel geladen und dekodiert.
-  const imagePromise = resolveArticleImage(article);
+  try {
+    // Das Bild wird vor dem sichtbaren Wechsel geladen und dekodiert.
+    const imagePromise = resolveArticleImage(article);
 
-  if (animate) {
-    stage.classList.add("is-changing");
-    await new Promise((resolve) =>
-      window.setTimeout(resolve, TRANSITION_MS / 2)
-    );
-  }
-
-  if (token !== state.transitionToken) return;
-
-  updateArticleText(article);
-  await imagePromise;
-  await showArticleImage(article, token);
-
-  if (token !== state.transitionToken) return;
-
-  state.remainingMs = ROTATION_SECONDS * 1000;
-  state.lastTick = performance.now();
-  updateTimerDisplay();
-
-  requestAnimationFrame(() => {
-    if (token === state.transitionToken) {
-      stage.classList.remove("is-changing");
+    if (animate) {
+      stage.classList.add("is-changing");
+      await new Promise((resolve) =>
+        window.setTimeout(resolve, TRANSITION_MS / 2)
+      );
     }
-  });
 
-  preloadNeighbours();
+    if (token !== state.transitionToken) return;
+
+    updateArticleText(article);
+    await imagePromise;
+    await showArticleImage(article, token);
+
+    if (token !== state.transitionToken) return;
+
+    state.remainingMs = ROTATION_SECONDS * 1000;
+    state.lastTick = performance.now();
+    updateTimerDisplay();
+
+    requestAnimationFrame(() => {
+      if (token === state.transitionToken) {
+        stage.classList.remove("is-changing");
+      }
+    });
+
+    preloadNeighbours();
+  } finally {
+    state.transitioning = false;
+  }
 }
 
 function updateTimerDisplay() {
@@ -242,13 +248,13 @@ function updateTimerDisplay() {
 }
 
 function nextArticle() {
-  if (!state.articles.length) return;
+  if (!state.articles.length || state.transitioning) return;
   state.currentIndex = (state.currentIndex + 1) % state.articles.length;
   void renderArticle();
 }
 
 function previousArticle() {
-  if (!state.articles.length) return;
+  if (!state.articles.length || state.transitioning) return;
   state.currentIndex =
     (state.currentIndex - 1 + state.articles.length) % state.articles.length;
   void renderArticle();
@@ -269,7 +275,13 @@ function tick(now) {
 
   if (!state.paused && state.articles.length > 1 && !dialog.open) {
     state.remainingMs -= elapsed;
-    if (state.remainingMs <= 0) nextArticle();
+
+    if (state.remainingMs <= 0 && !state.transitioning) {
+      // Sofort zurücksetzen: Sonst würde requestAnimationFrame während des
+      // asynchronen Bildwechsels in jedem Frame erneut nextArticle() starten.
+      state.remainingMs = ROTATION_SECONDS * 1000;
+      nextArticle();
+    }
   }
 
   updateTimerDisplay();
