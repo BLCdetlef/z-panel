@@ -1,6 +1,6 @@
 {
   "id": "NS_0002",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Niedrige PCB-Belastungen können sich zu erheblichen Gesundheitsrisiken summieren",
   "subtitle": "",
   "summary": "Eine Untersuchung von 14 PCB-Verbindungen in fünf Arten von Abfallumgebungen weist auf erhebliche kumulative Gesundheitsrisiken bereits bei niedriger Belastung hin. Die berechneten Gefahrenquotienten lagen mit 5,36 bis 6,70 deutlich über dem Referenzwert 1; die Krebsrisiken blieben innerhalb üblicher Akzeptanzbereiche, waren aber nicht vernachlässigbar. Die Autoren fordern stoffgruppenspezifische Bewertungen und gezielte Sanierung.",
@@ -27,7 +27,12 @@
   "created": "2026-07-24",
   "lastModified": "2026-07-24",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",

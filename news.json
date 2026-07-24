@@ -1,8 +1,59 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T10:32:01.993596+00:00",
-  "articleCount": 4,
+  "generatedAt": "2026-07-24T11:03:21.590216+00:00",
+  "articleCount": 3,
   "articles": [
+    {
+      "id": "NS_0002",
+      "status": "freigegeben",
+      "title": "Niedrige PCB-Belastungen können sich zu erheblichen Gesundheitsrisiken summieren",
+      "subtitle": "",
+      "summary": "Eine Untersuchung von 14 PCB-Verbindungen in fünf Arten von Abfallumgebungen weist auf erhebliche kumulative Gesundheitsrisiken bereits bei niedriger Belastung hin. Die berechneten Gefahrenquotienten lagen mit 5,36 bis 6,70 deutlich über dem Referenzwert 1; die Krebsrisiken blieben innerhalb üblicher Akzeptanzbereiche, waren aber nicht vernachlässigbar. Die Autoren fordern stoffgruppenspezifische Bewertungen und gezielte Sanierung.",
+      "planetaryBoundary": "NS",
+      "keywords": [
+        "PCB",
+        "Abfallstandorte",
+        "Gesundheitsrisiko",
+        "Schadstoffe",
+        "Regulierung",
+        "Sanierung",
+        "Nigeria",
+        "Zustand",
+        "Priorität 3",
+        "Neuartige Substanzen und Gesundheit"
+      ],
+      "imageId": "NS_0002_01",
+      "sourceId": "",
+      "sourceTitle": "Cumulative human health risk from low-level PCB exposure in waste environments: a congener-specific assessment with implications for regulatory thresholds",
+      "sourceUrl": "https://www.nature.com/articles/s41598-026-62675-0",
+      "publicationDate": "2026-07-24",
+      "author": "",
+      "editor": "",
+      "created": "2026-07-24",
+      "lastModified": "2026-07-24",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 3.1; Meldungsart: Zustand; Priorität: 3; inhaltliche Zuordnung: Neuartige Substanzen und Gesundheit",
+      "imageFile": "assets/images/NS_0002_01_zustand.png",
+      "imageMetadata": {
+        "id": "NS_0002_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-24T11:02:18.174615+00:00",
+        "sourceFile": "ChatGPT Image 24. Juli 2026, 13_01_55.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Niedrige PCB-Belastungen können sich zu erheblichen Gesundheitsrisiken summieren.\nKernaussage: Eine Untersuchung von 14 PCB-Verbindungen in fünf Arten von Abfallumgebungen weist auf erhebliche kumulative Gesundheitsrisiken bereits bei niedriger Belastung hin. Die berechneten Gefahrenquotienten lagen mit 5,36 bis 6,70 deutlich über dem Referenzwert 1; die Krebsrisiken blieben innerhalb üblicher Akzeptanzbereiche, waren aber nicht vernachlässigbar. Die Autoren fordern stoffgruppenspezifische Bewertungen und gezielte Sanierung..\nMögliche Bildassoziationen: Kunststoffe, Chemikalien, Labor, Alltagsprodukte oder Mikroplastik.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: PCB, Abfallstandorte, Gesundheitsrisiko, Schadstoffe, Regulierung, Sanierung, Nigeria, Zustand, Priorität 3, Neuartige Substanzen und Gesundheit.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine natürliche, glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, natürlich wirkende redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, natürliches Licht, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine Untersuchung von 14 PCB-Verbindungen in fünf Arten von Abfallumgebungen weist auf erhebliche kumulative Gesundheitsrisiken bereits bei niedriger Belastung hin. Die berechneten Gefahrenquotienten lagen mit 5,36 bis 6,70 deutlich über dem Referenzwert 1; die Krebsrisiken blieben innerhalb üblicher Akzeptanzbereiche, waren aber nicht vernachlässigbar. Die Autoren fordern stoffgruppenspezifische Bewertungen und gezielte Sanierung.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
+    },
     {
       "id": "BD_0002",
       "status": "freigegeben",
@@ -102,106 +153,6 @@
         "altText": "Eine globale Emissionsinventur und Chemie-Klima-Modellierung zeigt, dass an Land freigesetzte anorganische Halogene die Konzentrationen von Stickoxiden und sekundären Aerosolen stärker beeinflussen als bislang berücksichtigt. Die Belastungsschwerpunkte verlagerten sich seit den 1980er-Jahren von Europa und Nordamerika über Ostasien nach Südasien. Für aufstrebende Regionen fehlen zugleich wichtige Messdaten.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      }
-    },
-    {
-      "id": "KL_0001",
-      "status": "freigegeben",
-      "title": "WMO: Weitere globale Temperaturrekorde in den kommenden Jahren sehr wahrscheinlich",
-      "subtitle": "Für mindestens ein Jahr zwischen 2026 und 2030 liegt die Wahrscheinlichkeit einer vorübergehenden Überschreitung von 1,5 °C bei 91 Prozent.",
-      "summary": "Die Weltorganisation für Meteorologie erwartet, dass die globale Mitteltemperatur auch in den Jahren 2026 bis 2030 auf oder nahe Rekordniveau liegen wird. Laut der aktuellen Mehrjahresprognose besteht eine Wahrscheinlichkeit von 91 Prozent, dass mindestens eines dieser Jahre vorübergehend mehr als 1,5 °C über dem Mittel von 1850 bis 1900 liegt. Mit 86 Prozent Wahrscheinlichkeit wird mindestens ein Jahr wärmer als das bisherige Rekordjahr 2024. Eine einzelne Jahresüberschreitung ist nicht gleichbedeutend mit einem dauerhaften Verfehlen des Pariser 1,5-Grad-Ziels, zeigt aber, wie nahe die langfristige Erwärmung dieser Grenze bereits gekommen ist.",
-      "planetaryBoundary": "KL",
-      "keywords": [
-        "Klima",
-        "globale Erwärmung",
-        "WMO",
-        "Temperatur",
-        "1",
-        "5 °C",
-        "planetare Grenzen",
-        "Klimawandel"
-      ],
-      "imageId": "KL_0001_01",
-      "sourceId": "WWF_ZSL_LPI_2024",
-      "sourceTitle": "Global Annual to Decadal Climate Update 2026–2035",
-      "sourceUrl": "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/global-annual-decadal-climate-update-2026-2035",
-      "publicationDate": "2026-05-28",
-      "author": "ZUSTAND Redaktion",
-      "editor": "",
-      "created": "2026-07-23",
-      "lastModified": "2026-07-24",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": "Rekordniveau bleibt wahrscheinlich\n\nDie Weltorganisation für Meteorologie (WMO) rechnet für die kommenden Jahre mit anhaltend sehr hohen globalen Temperaturen. In ihrer aktuellen Global Annual to Decadal Climate Update werden für die Jahre 2026 bis 2030 globale Jahresmitteltemperaturen zwischen 1,3 °C und 1,9 °C über dem vorindustriellen Referenzzeitraum 1850 bis 1900 erwartet.\n\nDie Wahrscheinlichkeit, dass mindestens eines der fünf Jahre vorübergehend mehr als 1,5 °C über dem vorindustriellen Niveau liegt, beträgt laut WMO 91 Prozent. Mit einer Wahrscheinlichkeit von 86 Prozent wird mindestens ein Jahr wärmer als 2024, das bislang wärmste Jahr seit Beginn der Aufzeichnungen. Für den Mittelwert des gesamten Fünfjahreszeitraums 2026 bis 2030 gibt die WMO eine Wahrscheinlichkeit von 75 Prozent an, dass auch dieser über 1,5 °C liegt.\n\nDie Zahlen sind keine Prognose für ein bestimmtes Einzeljahr, sondern beruhen auf einem Ensemble verschiedener Klimavorhersagesysteme. Natürliche Schwankungen, etwa im tropischen Pazifik, können einzelne Jahre zusätzlich erwärmen oder abkühlen. Die WMO sieht für 2027 und 2028 eine Tendenz zu El-Niño-Bedingungen, die das Risiko eines neuen Temperaturrekords erhöhen kann.\n\nEine wichtige Unterscheidung\n\nEine vorübergehende Überschreitung von 1,5 °C in einem einzelnen Jahr bedeutet noch nicht automatisch, dass das Temperaturziel des Pariser Klimaabkommens dauerhaft überschritten ist. Dieses Ziel bezieht sich auf die langfristige Erwärmung über mehrere Jahrzehnte. Einzelne Überschreitungen werden jedoch wahrscheinlicher, je näher sich der langfristige Mittelwert der 1,5-Grad-Marke annähert.\n\nDie neue Prognose ist deshalb ein Warnsignal: Der verbleibende Abstand zu einer langfristigen Überschreitung wird kleiner. Jedes zusätzliche Zehntelgrad erhöht die Wahrscheinlichkeit und Stärke von Hitzewellen, Starkregen, Dürren, Gletscherschmelze, Meeresspiegelanstieg und weiteren Folgen.\n\nWarum ist das wichtig?\n\nDie planetare Grenze des Klimawandels ist bereits überschritten. Die WMO-Prognose zeigt, dass sich die Entwicklung nicht stabilisiert, sondern das Risiko weiterer Rekorde hoch bleibt. Für Deutschland bedeutet dies unter anderem steigende Anforderungen an Hitzeschutz, Wasserwirtschaft, Küstenschutz, Landwirtschaft und klimaangepasstes Bauen.\n\nFür Studierende und Bildungseinrichtungen ist die Meldung besonders relevant, weil sie verdeutlicht, wie wissenschaftliche Wahrscheinlichkeitsaussagen zu lesen sind: 91 Prozent sind keine Gewissheit für ein bestimmtes Jahr, aber eine sehr hohe Wahrscheinlichkeit für mindestens eine Überschreitung innerhalb des betrachteten Zeitraums. Zugleich macht der Bericht deutlich, dass kurzfristige Schwankungen den langfristigen Erwärmungstrend nicht aufheben."
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Referenzartikel KL_0001. Vor Veröffentlichung bitte redaktionell prüfen. Die Bezeichnung des WMO-Berichts lautet 2026–2035; die konkrete Fünfjahresprognose im Artikel betrifft 2026–2030.",
-      "imageFile": "",
-      "imageMetadata": {
-        "id": "KL_0001_01",
-        "file": "KL_0001_01_wmo_fuenfjahresprognose.png",
-        "title": "WMO-Fünfjahresprognose 2026–2030",
-        "alt": "Infografik mit den WMO-Wahrscheinlichkeiten: 91 Prozent für mindestens ein Jahr über 1,5 Grad, 86 Prozent für ein wärmeres Jahr als 2024 und 75 Prozent für ein Fünfjahresmittel über 1,5 Grad.",
-        "caption": "Zentrale Wahrscheinlichkeitsaussagen der WMO für den Zeitraum 2026–2030.",
-        "creator": "ZUSTAND Redaktion",
-        "source": "Eigene Darstellung nach WMO, Global Annual to Decadal Climate Update 2026–2035",
-        "sourceUrl": "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/global-annual-decadal-climate-update-2026-2035",
-        "license": "Eigene Grafik; Weiterverwendung mit Quellenangabe ZUSTAND / Daten: WMO.",
-        "created": "2026-07-23"
-      }
-    },
-    {
-      "id": "BD_0001",
-      "status": "freigegeben",
-      "title": "Living Planet Index: Überwachte Wirbeltierpopulationen im Mittel um 73 Prozent zurückgegangen",
-      "subtitle": "Der globale Index sank zwischen 1970 und 2020 von 1,00 auf 0,27 – er beschreibt relative Bestandsveränderungen, nicht den Verlust von 73 Prozent aller Tiere.",
-      "summary": "Der Living Planet Index 2024 zeigt für die untersuchten Populationen von Säugetieren, Vögeln, Fischen, Reptilien und Amphibien zwischen 1970 und 2020 einen durchschnittlichen Rückgang der relativen Populationsgröße um 73 Prozent. Die Kennzahl bedeutet ausdrücklich nicht, dass weltweit 73 Prozent aller Wildtiere verschwunden sind. Sie fasst vielmehr die relativen Veränderungen Tausender beobachteter Populationen zu einem Index zusammen.",
-      "planetaryBoundary": "BD",
-      "keywords": [
-        "Biodiversität",
-        "Living Planet Index",
-        "Wirbeltierpopulationen",
-        "Artenvielfalt",
-        "WWF",
-        "ZSL",
-        "planetare Grenzen"
-      ],
-      "imageId": "BD_0001_01",
-      "sourceId": "WWF_ZSL_LPI_2024",
-      "sourceTitle": "Living Planet Report 2024 und technischer Anhang zum Living Planet Index",
-      "sourceUrl": "https://livingplanetindex.org/documents/LPR2024_Technical_Supplement.pdf",
-      "publicationDate": "2024-10-10",
-      "author": "ZUSTAND Redaktion",
-      "editor": "",
-      "created": "2026-07-24",
-      "lastModified": "2026-07-24",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": "Ein deutlicher Rückgang im globalen Index\n\nDer Living Planet Index 2024 beschreibt die Entwicklung beobachteter Populationen von Wirbeltieren. Für den Zeitraum von 1970 bis 2020 weist der globale Index einen durchschnittlichen Rückgang der relativen Populationsgröße um 73 Prozent aus. Der Indexwert sank damit von 1,00 im Ausgangsjahr 1970 auf 0,27 im Jahr 2020.\n\nWas die Zahl bedeutet – und was nicht\n\nDie häufig zitierte Zahl von 73 Prozent bedeutet nicht, dass 73 Prozent aller Wildtiere oder Arten verschwunden sind. Der Index berechnet für jede untersuchte Population die relative Veränderung und fasst diese Entwicklungen anschließend statistisch zusammen. Er beschreibt daher die durchschnittliche Veränderung der beobachteten Populationsgrößen.\n\nWo die stärksten Rückgänge liegen\n\nBesonders stark fiel der Rückgang bei den untersuchten Süßwasserpopulationen aus. Auch regional unterscheiden sich die Entwicklungen erheblich. Für Lateinamerika und die Karibik weist der Bericht einen besonders starken durchschnittlichen Rückgang aus. Solche regionalen Zahlen dürfen ebenfalls nicht als Anteil ausgestorbener Tiere oder Arten verstanden werden.\n\nWarum ist das wichtig?\n\nBiodiversität umfasst nicht nur die Zahl der Arten, sondern auch genetische Vielfalt, die Größe und Stabilität von Populationen sowie die Funktionsfähigkeit von Ökosystemen. Schrumpfende Populationen können Ökosysteme weniger widerstandsfähig machen und Leistungen beeinträchtigen, von denen Menschen unmittelbar abhängen – etwa Bestäubung, Bodenfruchtbarkeit, Wasserregulierung und Ernährungssicherheit.\n\nDer Living Planet Index ist nur einer von mehreren Indikatoren für den Zustand der biologischen Vielfalt. Für eine Gesamtbewertung sollten zusätzlich Daten zu Artengefährdung, Lebensräumen, genetischer Vielfalt und Ökosystemfunktionen betrachtet werden.\n\nBezug zu den planetaren Grenzen\n\nIm Konzept der planetaren Grenzen wird der Verlust der Integrität der Biosphäre als bereits deutlich überschritten bewertet. Der Living Planet Index bildet diese Grenze nicht vollständig ab, liefert aber ein anschauliches Signal dafür, dass viele beobachtete Populationen erheblich kleiner geworden sind."
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Testentwurf für News Studio 3.0a. Vor Freigabe bitte Inhalt, Bild und Formulierungen redaktionell prüfen.",
-      "imageFile": "",
-      "imageMetadata": {
-        "id": "BD_0001_01",
-        "title": "Living Planet Index 1970 bis 2020",
-        "description": "Vereinfachte ZUSTAND-Infografik: Der globale Living Planet Index fällt von 1,00 im Jahr 1970 auf 0,27 im Jahr 2020.",
-        "creator": "ZUSTAND Redaktion",
-        "created": "2026-07-24",
-        "source": "Living Planet Index 2024 Technical Supplement",
-        "sourceUrl": "https://livingplanetindex.org/documents/LPR2024_Technical_Supplement.pdf",
-        "license": "Eigene Infografik auf Grundlage der genannten Quelle",
-        "altText": "Liniendiagramm: Der Living Planet Index sinkt von 1,00 im Jahr 1970 auf 0,27 im Jahr 2020. Dies bedeutet nicht, dass 73 Prozent aller Wildtiere verschwunden sind."
       }
     }
   ]
