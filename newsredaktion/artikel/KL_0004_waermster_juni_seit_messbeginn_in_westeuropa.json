@@ -1,0 +1,38 @@
+{
+  "id": "KL_0004",
+  "status": "freigegeben",
+  "title": "Wärmster Juni seit Messbeginn in Westeuropa",
+  "summary": "Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Klimawandel",
+    "Hitzewelle",
+    "Meeresoberflächentemperatur",
+    "Dürre",
+    "ERA5",
+    "Copernicus Climate Change Service",
+    "ECMWF",
+    "Europäische Union",
+    "Deutschland",
+    "Zustand",
+    "Priorität 5"
+  ],
+  "imageId": "KL_0004_01",
+  "sourceUrl": "https://climate.copernicus.eu/copernicus-record-heatwave-brings-hottest-june-western-europe-during-second-warmest-june-globally",
+  "publicationDate": "2026-07-09",
+  "author": "",
+  "interviewPotential": "mittel",
+  "created": "2026-07-25",
+  "lastModified": "2026-07-25",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Copernicus: Record heatwave brings hottest June for western Europe during second-warmest June globally"
+}
