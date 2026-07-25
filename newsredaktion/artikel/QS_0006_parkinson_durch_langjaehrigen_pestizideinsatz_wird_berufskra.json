@@ -1,6 +1,6 @@
 {
   "id": "QS_0006",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Parkinson durch langjährigen Pestizideinsatz wird Berufskrankheit",
   "summary": "Ab 1. August 2026 wird das „Parkinson-Syndrom durch langjährig, häufig und selbst angewendete Pestizide“ als Berufskrankheit Nr. 1322 geführt. Betroffen sein können neben Beschäftigten in Landwirtschaft, Gartenbau und Forst auch weitere Berufsgruppen. Die Anerkennung gilt nicht für jede Parkinson-Erkrankung: Entscheidend sind ein primäres Parkinson-Syndrom und eine ausreichend belegte berufliche Exposition.",
   "planetaryBoundary": "QS",
@@ -25,7 +25,12 @@
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",

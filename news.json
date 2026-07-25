@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T19:21:12.885851+00:00",
-  "articleCount": 9,
+  "generatedAt": "2026-07-25T20:37:32.574292+00:00",
+  "articleCount": 11,
   "articles": [
     {
       "id": "KL_0009",
@@ -59,6 +59,160 @@
       "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:"
     },
     {
+      "id": "QS_0005",
+      "status": "freigegeben",
+      "title": "Klimakatastrophen treffen psychisch vorbelastete Menschen besonders stark",
+      "summary": "Eine australische Langzeitstudie zeigt, dass Extremwetter und Klimakatastrophen psychische Ungleichheiten verschärfen. Bei Menschen mit bereits bestehender psychischer Erkrankung stiegen Belastung und Risiko mittelstarker bis schwerer Störungen im Katastrophenjahr deutlich stärker als bei anderen. Wohnunsicherheit und geringe soziale Unterstützung verstärkten die Folgen. Klimaanpassung braucht deshalb auch stabile Wohnverhältnisse und psychosoziale Vorsorge.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Psychische Gesundheit",
+        "Extremwetter",
+        "Klimagerechtigkeit",
+        "Wohnunsicherheit",
+        "Soziale Unterstützung",
+        "Langzeitstudie",
+        "University of Melbourne",
+        "Australien",
+        "Nature Mental Health",
+        "Querschnitt"
+      ],
+      "imageId": "QS_0005_01",
+      "sourceUrl": "https://www.nature.com/articles/s44220-026-00687-5",
+      "publicationDate": "2026-07-24",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-25",
+      "lastModified": "2026-07-25",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Unequal mental health impacts of extreme weather and climate events",
+      "imageFile": "assets/images/QS_0005_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0005_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-25T19:38:19.524542+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 21_38_01.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Klimakatastrophen treffen psychisch vorbelastete Menschen besonders stark.\nKernaussage: Eine australische Langzeitstudie zeigt, dass Extremwetter und Klimakatastrophen psychische Ungleichheiten verschärfen. Bei Menschen mit bereits bestehender psychischer Erkrankung stiegen Belastung und Risiko mittelstarker bis schwerer Störungen im Katastrophenjahr deutlich stärker als bei anderen. Wohnunsicherheit und geringe soziale Unterstützung verstärkten die Folgen. Klimaanpassung braucht deshalb auch stabile Wohnverhältnisse und psychosoziale Vorsorge..\nMögliche Bildassoziationen: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Sie soll sofort verständlich, fotorealistisch und weder plakativ noch werblich wirken.\nSchlagwörter: Psychische Gesundheit, Extremwetter, Klimagerechtigkeit, Wohnunsicherheit, Soziale Unterstützung, Langzeitstudie, University of Melbourne, Australien, Nature Mental Health, Querschnitt.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine australische Langzeitstudie zeigt, dass Extremwetter und Klimakatastrophen psychische Ungleichheiten verschärfen. Bei Menschen mit bereits bestehender psychischer Erkrankung stiegen Belastung und Risiko mittelstarker bis schwerer Störungen im Katastrophenjahr deutlich stärker als bei anderen. Wohnunsicherheit und geringe soziale Unterstützung verstärkten die Folgen. Klimaanpassung braucht deshalb auch stabile Wohnverhältnisse und psychosoziale Vorsorge.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      },
+      "sourceType": "Begutachteter Forschungsartikel in Nature Mental Health auf Grundlage australischer bevölk",
+      "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit."
+    },
+    {
+      "id": "NS_0002",
+      "status": "freigegeben",
+      "title": "Recyclingfähigkeit muss sich an realen Sortier- und Verwertungswegen messen",
+      "summary": "Verpackungen gelten nicht schon dann als recyclingfähig, wenn das Material theoretisch verwertbar ist. Ein neuer UBA-Bericht dokumentiert für 2023 und 2024, was nach Gelber Tonne, Altglas- und Altpapiersammlung tatsächlich sortiert und recycelt wird. Die Erhebung bildet die wissenschaftliche Grundlage für Mindeststandards und finanzielle Anreize zugunsten gut verwertbarer Verpackungen. Sie macht zugleich sichtbar, wo Design und Anlagenpraxis nicht zusammenpassen.",
+      "planetaryBoundary": "NS",
+      "keywords": [
+        "Verpackungen",
+        "Recyclingfähigkeit",
+        "Sortieranlagen",
+        "Kreislaufwirtschaft",
+        "Verpackungsgesetz",
+        "Ressourcen",
+        "Neuartige Substanzen",
+        "Umweltbundesamt",
+        "Deutschland",
+        "Produktdesign",
+        "Lösung"
+      ],
+      "imageId": "NS_0002_01",
+      "sourceUrl": "https://www.umweltbundesamt.de/publikationen/praxis-der-sortierung-verwertung-von-verpackungen-2",
+      "publicationDate": "2026-07-24",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-25",
+      "lastModified": "2026-07-25",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Praxis der Sortierung und Verwertung von Verpackungen im Sinne des § 21 VerpackG 2023/2024",
+      "imageFile": "assets/images/NS_0002_01_zustand.png",
+      "imageMetadata": {
+        "id": "NS_0002_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-25T19:34:22.077945+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 21_33_59.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Recyclingfähigkeit muss sich an realen Sortier- und Verwertungswegen messen.\nKernaussage: Verpackungen gelten nicht schon dann als recyclingfähig, wenn das Material theoretisch verwertbar ist. Ein neuer UBA-Bericht dokumentiert für 2023 und 2024, was nach Gelber Tonne, Altglas- und Altpapiersammlung tatsächlich sortiert und recycelt wird. Die Erhebung bildet die wissenschaftliche Grundlage für Mindeststandards und finanzielle Anreize zugunsten gut verwertbarer Verpackungen. Sie macht zugleich sichtbar, wo Design und Anlagenpraxis nicht zusammenpassen..\nMögliche Bildassoziationen: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Verpackungen, Recyclingfähigkeit, Sortieranlagen, Kreislaufwirtschaft, Verpackungsgesetz, Ressourcen, Neuartige Substanzen, Umweltbundesamt, Deutschland, Produktdesign, Lösung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Verpackungen gelten nicht schon dann als recyclingfähig, wenn das Material theoretisch verwertbar ist. Ein neuer UBA-Bericht dokumentiert für 2023 und 2024, was nach Gelber Tonne, Altglas- und Altpapiersammlung tatsächlich sortiert und recycelt wird. Die Erhebung bildet die wissenschaftliche Grundlage für Mindeststandards und finanzielle Anreize zugunsten gut verwertbarer Verpackungen. Sie macht zugleich sichtbar, wo Design und Anlagenpraxis nicht zusammenpassen.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      },
+      "sourceType": "Empirischer Forschungsbericht des Umweltbundesamtes auf Grundlage umfangreicher Erhebungen",
+      "screenConnection": "Produktdesign, Sammlung und Sortiertechnik entscheiden gemeinsam, ob aus Verpackungsabfall tatsächlich neuer Rohstoff wird."
+    },
+    {
+      "id": "BD_0009",
+      "status": "freigegeben",
+      "title": "Pilze aus Kaffeeplantagen breiten sich in angrenzende Tropenwälder aus",
+      "summary": "Kaffeeplantagen können Pilze vermehren, die anschließend in benachbarte Tropenwälder gelangen. In Costa Rica nahmen Blattflecken und typische Kaffee-Pilze mit wachsender Entfernung vom Feldrand ab. Besonders betroffen waren wilde Pflanzen aus derselben Familie wie Kaffee. Die Studie beschreibt damit einen bislang unterschätzten Randeffekt landwirtschaftlicher Flächen: Nicht nur Dünger oder Pestizide, sondern auch verstärkte Mikroorganismen können die Zusammensetzung fragmentierter Wälder verändern.",
+      "planetaryBoundary": "BD",
+      "keywords": [
+        "Kaffee",
+        "Tropenwald",
+        "Pilze",
+        "Krankheitserreger",
+        "Randeffekt",
+        "Landwirtschaft",
+        "Fragmentierung",
+        "Biodiversität",
+        "Costa Rica",
+        "Nature Communications",
+        "North Dakota State University",
+        "USA",
+        "Zustand"
+      ],
+      "imageId": "BD_0009_01",
+      "sourceUrl": "https://www.nature.com/articles/s41467-026-75178-3",
+      "publicationDate": "2026-07-24",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-25",
+      "lastModified": "2026-07-25",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Field-to-forest fungal spillover is a biotic edge effect of coffee in Costa Rica",
+      "imageFile": "assets/images/BD_0009_01_zustand.png",
+      "imageMetadata": {
+        "id": "BD_0009_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-25T19:28:25.183424+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 21_27_51.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Pilze aus Kaffeeplantagen breiten sich in angrenzende Tropenwälder aus.\nKernaussage: Kaffeeplantagen können Pilze vermehren, die anschließend in benachbarte Tropenwälder gelangen. In Costa Rica nahmen Blattflecken und typische Kaffee-Pilze mit wachsender Entfernung vom Feldrand ab. Besonders betroffen waren wilde Pflanzen aus derselben Familie wie Kaffee. Die Studie beschreibt damit einen bislang unterschätzten Randeffekt landwirtschaftlicher Flächen: Nicht nur Dünger oder Pestizide, sondern auch verstärkte Mikroorganismen können die Zusammensetzung fragmentierter Wälder verändern..\nMögliche Bildassoziationen: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Kaffee, Tropenwald, Pilze, Krankheitserreger, Randeffekt, Landwirtschaft, Fragmentierung, Biodiversität, Costa Rica, Nature Communications, North Dakota State University, USA, Zustand.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Kaffeeplantagen können Pilze vermehren, die anschließend in benachbarte Tropenwälder gelangen. In Costa Rica nahmen Blattflecken und typische Kaffee-Pilze mit wachsender Entfernung vom Feldrand ab. Besonders betroffen waren wilde Pflanzen aus derselben Familie wie Kaffee. Die Studie beschreibt damit einen bislang unterschätzten Randeffekt landwirtschaftlicher Flächen: Nicht nur Dünger oder Pestizide, sondern auch verstärkte Mikroorganismen können die Zusammensetzung fragmentierter Wälder verändern.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      },
+      "sourceType": "Begutachteter, frei zugänglicher Forschungsartikel in Nature Communications. Feldaufnahmen",
+      "screenConnection": "Landwirtschaft verändert Wald nicht nur durch Fläche und Stoffe – auch verstärkte Mikroorganismen können Grenzen überschreiten."
+    },
+    {
       "id": "BD_0008",
       "status": "freigegeben",
       "title": "Heilige Waldreste bewahren überraschend viel heimische Stadtnatur",
@@ -111,28 +265,27 @@
       "screenConnection": "Biodiversität hängt nicht nur von Fläche ab: Geschichte, kultureller Schutz und geringe Eingriffe können Stadtnatur bewahren."
     },
     {
-      "id": "KL_0008",
+      "id": "QS_0006",
       "status": "freigegeben",
-      "title": "Europäische Städte brauchen unterschiedliche Klimastrategien",
-      "summary": "Eine Studie mit Beteiligung des Potsdam-Instituts ordnet 1.263 europäische Städte vier Typen zu und verbindet dies mit einer systematischen Auswertung von 1.613 Studien. Daraus entstehen konkrete Prioritäten: wachsende südeuropäische Städte benötigen Hitzeschutz und Wassermanagement, etablierte Städte Sanierung, Begrünung und Verkehrswende, Metropolen Elektrifizierung und Frühwarnsysteme, schrumpfende Städte naturbasierte Lösungen.",
-      "planetaryBoundary": "KL",
+      "title": "Parkinson durch langjährigen Pestizideinsatz wird Berufskrankheit",
+      "summary": "Ab 1. August 2026 wird das „Parkinson-Syndrom durch langjährig, häufig und selbst angewendete Pestizide“ als Berufskrankheit Nr. 1322 geführt. Betroffen sein können neben Beschäftigten in Landwirtschaft, Gartenbau und Forst auch weitere Berufsgruppen. Die Anerkennung gilt nicht für jede Parkinson-Erkrankung: Entscheidend sind ein primäres Parkinson-Syndrom und eine ausreichend belegte berufliche Exposition.",
+      "planetaryBoundary": "QS",
       "keywords": [
-        "Stadtentwicklung",
-        "Klimaanpassung",
-        "Klimaschutz",
-        "Hitzeschutz",
-        "Verkehrswende",
-        "naturbasierte Lösungen",
-        "PIK Potsdam",
-        "MCC Berlin",
-        "Deutschland",
-        "Europa",
-        "Lösung",
-        "Priorität 4"
+        "Parkinson-Syndrom",
+        "Pestizide",
+        "Berufskrankheit",
+        "Arbeitsschutz",
+        "Gesundheit",
+        "Landwirtschaft",
+        "Gartenbau",
+        "Forstwirtschaft",
+        "gesetzliche Unfallversicherung",
+        "chemische Belastungen",
+        "Querschnitt: Gesundheit und Arbeitsschutz"
       ],
-      "imageId": "KL_0008_01",
-      "sourceUrl": "https://www.pik-potsdam.de/de/aktuelles/nachrichten/verkehrswende-fuer-berlin-hitzeschutz-fuer-tirana-neue-studie-zeigt-passende-klimamassnahmen-fuer-europas-staedte",
-      "publicationDate": "2026-07-15",
+      "imageId": "QS_0006_01",
+      "sourceUrl": "https://www.bmas.de/DE/Soziales/Gesetzliche-Unfallversicherung/Aktuelles-aus-dem-Berufskrankheitenrecht/ab-august-2026-neue-berufskrankheit-parkinson-durch-pestizide.html",
+      "publicationDate": "2026-07-21",
       "author": "",
       "interviewPotential": "hoch",
       "created": "2026-07-25",
@@ -147,18 +300,20 @@
       "facts": [],
       "links": [],
       "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Priorität: 4; Originalquelle: Verkehrswende für Berlin, Hitzeschutz für Tirana: Neue Studie zeigt passende Klimamaßnahmen für Europas Städte",
-      "imageFile": "assets/images/KL_0008_01_zustand.png",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Gesundheit und Arbeitsschutz; Originalquelle: Bundesministerium für Arbeit und Soziales: Ab 1. August 2026 neue Berufskrankheit „Parkinson durch Pestizide“",
+      "imageFile": "assets/images/QS_0006_01_zustand.png",
       "imageMetadata": {
-        "id": "KL_0008_01",
+        "id": "QS_0006_01",
         "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T01:46:34.812515+00:00",
-        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_46_24.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Europäische Städte brauchen unterschiedliche Klimastrategien.\nKernaussage: Eine Studie mit Beteiligung des Potsdam-Instituts ordnet 1.263 europäische Städte vier Typen zu und verbindet dies mit einer systematischen Auswertung von 1.613 Studien. Daraus entstehen konkrete Prioritäten: wachsende südeuropäische Städte benötigen Hitzeschutz und Wassermanagement, etablierte Städte Sanierung, Begrünung und Verkehrswende, Metropolen Elektrifizierung und Frühwarnsysteme, schrumpfende Städte naturbasierte Lösungen..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Stadtentwicklung, Klimaanpassung, Klimaschutz, Hitzeschutz, Verkehrswende, naturbasierte Lösungen, PIK Potsdam, MCC Berlin, Deutschland, Europa, Lösung, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Eine Studie mit Beteiligung des Potsdam-Instituts ordnet 1.263 europäische Städte vier Typen zu und verbindet dies mit einer systematischen Auswertung von 1.613 Studien. Daraus entstehen konkrete Prioritäten: wachsende südeuropäische Städte benötigen Hitzeschutz und Wassermanagement, etablierte Städte Sanierung, Begrünung und Verkehrswende, Metropolen Elektrifizierung und Frühwarnsysteme, schrumpfende Städte naturbasierte Lösungen.",
+        "created": "2026-07-25T20:36:59.787688+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 22_36_41.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Parkinson durch langjährigen Pestizideinsatz wird Berufskrankheit.\nKernaussage: Ab 1. August 2026 wird das „Parkinson-Syndrom durch langjährig, häufig und selbst angewendete Pestizide“ als Berufskrankheit Nr. 1322 geführt. Betroffen sein können neben Beschäftigten in Landwirtschaft, Gartenbau und Forst auch weitere Berufsgruppen. Die Anerkennung gilt nicht für jede Parkinson-Erkrankung: Entscheidend sind ein primäres Parkinson-Syndrom und eine ausreichend belegte berufliche Exposition..\nMögliche Bildassoziationen: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Parkinson-Syndrom, Pestizide, Berufskrankheit, Arbeitsschutz, Gesundheit, Landwirtschaft, Gartenbau, Forstwirtschaft, gesetzliche Unfallversicherung, chemische Belastungen, Querschnitt: Gesundheit und Arbeitsschutz.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Ab 1. August 2026 wird das „Parkinson-Syndrom durch langjährig, häufig und selbst angewendete Pestizide“ als Berufskrankheit Nr. 1322 geführt. Betroffen sein können neben Beschäftigten in Landwirtschaft, Gartenbau und Forst auch weitere Berufsgruppen. Die Anerkennung gilt nicht für jede Parkinson-Erkrankung: Entscheidend sind ein primäres Parkinson-Syndrom und eine ausreichend belegte berufliche Exposition.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      }
+      },
+      "sourceType": "Offizielle Rechts- und Behördenmeldung des Bundesministeriums für Arbeit und Soziales; bes",
+      "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention."
     },
     {
       "id": "QS_0004",
@@ -308,59 +463,9 @@
       }
     },
     {
-      "id": "BD_0006",
-      "status": "freigegeben",
-      "title": "Neue Analyse klärt die Pflichten zur Wiederherstellung der Natur",
-      "summary": "Eine vom Bundesamt für Naturschutz geförderte rechtswissenschaftliche Analyse des UFZ erläutert erstmals systematisch die zentralen Vorschriften der EU-Wiederherstellungsverordnung. Sie präzisiert Pflichten, Fristen, Nichtverschlechterungsregeln und messbare Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Das Werk soll Behörden, Naturschutzverbänden und Landnutzenden bei der Erstellung und Umsetzung nationaler Wiederherstellungspläne helfen.",
-      "planetaryBoundary": "BD",
-      "keywords": [
-        "Wiederherstellung der Natur",
-        "Nature Restoration Law",
-        "Umweltrecht",
-        "Governance",
-        "Biodiversität",
-        "Nationaler Wiederherstellungsplan",
-        "Bundesamt für Naturschutz",
-        "UFZ",
-        "Deutschland",
-        "Europäische Union",
-        "Querschnitt",
-        "Priorität 4"
-      ],
-      "imageId": "BD_0006_01",
-      "sourceUrl": "https://www.bfn.de/publikationen/bfn-schriften/bfn-schriften-779-die-wiederherstellungsverordnung-der-eu-w-vo",
-      "publicationDate": "2026-07-08",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-25",
-      "lastModified": "2026-07-25",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Priorität: 4; Originalquelle: BfN-Schriften 779 – Die Wiederherstellungsverordnung der EU (W-VO)",
-      "imageFile": "assets/images/BD_0006_01_zustand.png",
-      "imageMetadata": {
-        "id": "BD_0006_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T01:35:53.791328+00:00",
-        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_35_43.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Neue Analyse klärt die Pflichten zur Wiederherstellung der Natur.\nKernaussage: Eine vom Bundesamt für Naturschutz geförderte rechtswissenschaftliche Analyse des UFZ erläutert erstmals systematisch die zentralen Vorschriften der EU-Wiederherstellungsverordnung. Sie präzisiert Pflichten, Fristen, Nichtverschlechterungsregeln und messbare Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Das Werk soll Behörden, Naturschutzverbänden und Landnutzenden bei der Erstellung und Umsetzung nationaler Wiederherstellungspläne helfen..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Sie soll sofort verständlich, fotorealistisch und weder plakativ noch werblich wirken.\nSchlagwörter: Wiederherstellung der Natur, Nature Restoration Law, Umweltrecht, Governance, Biodiversität, Nationaler Wiederherstellungsplan, Bundesamt für Naturschutz, UFZ, Deutschland, Europäische Union, Querschnitt, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Eine vom Bundesamt für Naturschutz geförderte rechtswissenschaftliche Analyse des UFZ erläutert erstmals systematisch die zentralen Vorschriften der EU-Wiederherstellungsverordnung. Sie präzisiert Pflichten, Fristen, Nichtverschlechterungsregeln und messbare Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Das Werk soll Behörden, Naturschutzverbänden und Landnutzenden bei der Erstellung und Umsetzung nationaler Wiederherstellungspläne helfen.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      }
-    },
-    {
       "id": "KL_0006",
       "status": "freigegeben",
-      "title": "Emissionen im deutschen Emissionshandel sinken – Strukturwandel bleibt aus",
+      "title": "Deutsche Emissionen sinken wegen schwacher Wirtschaftsentwicklung – Strukturwandel bleibt aus",
       "summary": "Die 1.794 deutschen Industrie- und Energieanlagen im EU-Emissionshandel verursachten 2025 rund 264 Millionen Tonnen CO₂-Äquivalente, 3,2 Prozent weniger als im Vorjahr. Auch der Luftverkehr sank um 2,2 Prozent. Der Rückgang ist jedoch nur teilweise ein Fortschritt: Bei Industrieanlagen beruht er laut Umweltbundesamt wesentlich auf der schwachen Wirtschaftsentwicklung, während sich die Minderung der Energieanlagen deutlich verlangsamte.",
       "planetaryBoundary": "KL",
       "keywords": [
@@ -398,9 +503,9 @@
       "imageMetadata": {
         "id": "KL_0006_01",
         "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T01:44:28.776485+00:00",
-        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_44_17.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Emissionen im deutschen Emissionshandel sinken – Strukturwandel bleibt aus.\nKernaussage: Die 1.794 deutschen Industrie- und Energieanlagen im EU-Emissionshandel verursachten 2025 rund 264 Millionen Tonnen CO₂-Äquivalente, 3,2 Prozent weniger als im Vorjahr. Auch der Luftverkehr sank um 2,2 Prozent. Der Rückgang ist jedoch nur teilweise ein Fortschritt: Bei Industrieanlagen beruht er laut Umweltbundesamt wesentlich auf der schwachen Wirtschaftsentwicklung, während sich die Minderung der Energieanlagen deutlich verlangsamte..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Wissenschaft. Nutze eine glaubwürdige wissenschaftliche Bildsprache, etwa Atmosphäre, Messinstrumente, Proben, Modelle oder sichtbare Prozesse. Keine Science-Fiction-Ästhetik und keine Infografik.\nSchlagwörter: Emissionshandel, Treibhausgasemissionen, Industrie, Energiewirtschaft, Luftverkehr, EU-ETS, DEHSt, Umweltbundesamt, Deutschland, Zustand, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "created": "2026-07-25T20:31:00.176638+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 22_30_35.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Deutsche Emissionen sinken wegen schwacher Wirtschaftsentwicklung – Strukturwandel bleibt aus.\nKernaussage: Die 1.794 deutschen Industrie- und Energieanlagen im EU-Emissionshandel verursachten 2025 rund 264 Millionen Tonnen CO₂-Äquivalente, 3,2 Prozent weniger als im Vorjahr. Auch der Luftverkehr sank um 2,2 Prozent. Der Rückgang ist jedoch nur teilweise ein Fortschritt: Bei Industrieanlagen beruht er laut Umweltbundesamt wesentlich auf der schwachen Wirtschaftsentwicklung, während sich die Minderung der Energieanlagen deutlich verlangsamte..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Wissenschaft. Nutze eine glaubwürdige wissenschaftliche Bildsprache, etwa Atmosphäre, Messinstrumente, Proben, Modelle oder sichtbare Prozesse. Keine Science-Fiction-Ästhetik und keine Infografik.\nSchlagwörter: Emissionshandel, Treibhausgasemissionen, Industrie, Energiewirtschaft, Luftverkehr, EU-ETS, DEHSt, Umweltbundesamt, Deutschland, Zustand, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
         "altText": "Die 1.794 deutschen Industrie- und Energieanlagen im EU-Emissionshandel verursachten 2025 rund 264 Millionen Tonnen CO₂-Äquivalente, 3,2 Prozent weniger als im Vorjahr. Auch der Luftverkehr sank um 2,2 Prozent. Der Rückgang ist jedoch nur teilweise ein Fortschritt: Bei Industrieanlagen beruht er laut Umweltbundesamt wesentlich auf der schwachen Wirtschaftsentwicklung, während sich die Minderung der Energieanlagen deutlich verlangsamte.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
@@ -490,5 +595,5 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-25T21:21:17+02:00"
+  "editorialGeneratedAt": "2026-07-25T22:37:35+02:00"
 }

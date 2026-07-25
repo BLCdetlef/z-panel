@@ -1,6 +1,6 @@
 {
   "id": "BD_0009",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Pilze aus Kaffeeplantagen breiten sich in angrenzende Tropenwälder aus",
   "summary": "Kaffeeplantagen können Pilze vermehren, die anschließend in benachbarte Tropenwälder gelangen. In Costa Rica nahmen Blattflecken und typische Kaffee-Pilze mit wachsender Entfernung vom Feldrand ab. Besonders betroffen waren wilde Pflanzen aus derselben Familie wie Kaffee. Die Studie beschreibt damit einen bislang unterschätzten Randeffekt landwirtschaftlicher Flächen: Nicht nur Dünger oder Pestizide, sondern auch verstärkte Mikroorganismen können die Zusammensetzung fragmentierter Wälder verändern.",
   "planetaryBoundary": "BD",
@@ -27,7 +27,12 @@
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",

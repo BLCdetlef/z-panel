@@ -1,6 +1,6 @@
 {
   "id": "NS_0002",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Recyclingfähigkeit muss sich an realen Sortier- und Verwertungswegen messen",
   "summary": "Verpackungen gelten nicht schon dann als recyclingfähig, wenn das Material theoretisch verwertbar ist. Ein neuer UBA-Bericht dokumentiert für 2023 und 2024, was nach Gelber Tonne, Altglas- und Altpapiersammlung tatsächlich sortiert und recycelt wird. Die Erhebung bildet die wissenschaftliche Grundlage für Mindeststandards und finanzielle Anreize zugunsten gut verwertbarer Verpackungen. Sie macht zugleich sichtbar, wo Design und Anlagenpraxis nicht zusammenpassen.",
   "planetaryBoundary": "NS",
@@ -25,7 +25,12 @@
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",
