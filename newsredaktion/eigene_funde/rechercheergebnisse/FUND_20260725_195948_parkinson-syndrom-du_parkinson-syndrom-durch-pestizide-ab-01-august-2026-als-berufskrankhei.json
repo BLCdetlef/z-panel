@@ -1,0 +1,42 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "generatedAt": "2026-07-25T19:00:00+02:00",
+  "articles": [
+    {
+      "title": "Parkinson durch langjährigen Pestizideinsatz wird Berufskrankheit",
+      "summary": "Ab 1. August 2026 wird das „Parkinson-Syndrom durch langjährig, häufig und selbst angewendete Pestizide“ als Berufskrankheit Nr. 1322 geführt. Betroffen sein können neben Beschäftigten in Landwirtschaft, Gartenbau und Forst auch weitere Berufsgruppen. Die Anerkennung gilt nicht für jede Parkinson-Erkrankung: Entscheidend sind ein primäres Parkinson-Syndrom und eine ausreichend belegte berufliche Exposition.",
+      "planetaryBoundary": "Neuartige Substanzen",
+      "keywords": [
+        "Parkinson-Syndrom",
+        "Pestizide",
+        "Berufskrankheit",
+        "Arbeitsschutz",
+        "Gesundheit",
+        "Landwirtschaft",
+        "Gartenbau",
+        "Forstwirtschaft",
+        "gesetzliche Unfallversicherung",
+        "chemische Belastungen"
+      ],
+      "sourceTitle": "Bundesministerium für Arbeit und Soziales: Ab 1. August 2026 neue Berufskrankheit „Parkinson durch Pestizide“",
+      "sourceUrl": "https://www.bmas.de/DE/Soziales/Gesetzliche-Unfallversicherung/Aktuelles-aus-dem-Berufskrankheitenrecht/ab-august-2026-neue-berufskrankheit-parkinson-durch-pestizide.html",
+      "publicationDate": "2026-07-21",
+      "category": "Querschnitt: Gesundheit und Arbeitsschutz",
+      "interviewPotential": "hoch",
+      "editorial": {
+        "sourceType": "Offizielle Rechts- und Behördenmeldung des Bundesministeriums für Arbeit und Soziales; bestätigt durch Bundesratsbeschluss, Verkündung im Bundesgesetzblatt und wissenschaftliche Empfehlung des Ärztlichen Sachverständigenbeirats Berufskrankheiten. Das Fundstück des Bayerischen Bauernverbands ist eine zutreffende, interessengebundene Sekundärquelle.",
+        "coreChange": "Zum 1. August 2026 wird das „Parkinson-Syndrom durch langjährig, häufig und selbst angewendete Pestizide“ als neue Berufskrankheit Nr. 1322 in die Berufskrankheiten-Verordnung aufgenommen. Dadurch werden die Anerkennungsvoraussetzungen verbindlich in der Berufskrankheitenliste festgeschrieben.",
+        "questionBehindNews": "Wie lange dürfen berufliche Gesundheitsfolgen chemischer Stoffe wissenschaftlich bekannt sein, bevor Betroffene verbindliche Anerkennung, Prävention und soziale Absicherung erhalten?",
+        "causalChain": "Langjährige, häufige und eigenhändige Anwendung von Herbiziden, Fungiziden oder Insektiziden → wiederholte berufliche Exposition → erhöhtes Risiko eines primären Parkinson-Syndroms bei entsprechend exponierten Personengruppen → Anerkennungsverfahren der gesetzlichen Unfallversicherung → mögliche Heilbehandlung, Rehabilitation und Geldleistungen.",
+        "affectedSystems": "Vor allem menschliche Gesundheit und Arbeitswelt; mittelbar Agrar-, Gartenbau-, Forst- und Landschaftspflegesysteme sowie der berufliche Umgang mit chemischen Pflanzenschutz- und Schädlingsbekämpfungsmitteln.",
+        "planetaryBoundaries": "Direkter Bezug zur planetaren Grenze „Neuartige Substanzen“, weil Pestizide biologisch wirksame Chemikalien sind, deren Freisetzung Menschen und Ökosysteme belasten kann. Die konkrete Rechtsänderung betrifft jedoch den beruflichen Gesundheitsschutz und bewertet nicht die gesamte Umweltwirkung von Pestiziden.",
+        "societalRelevance": "Die Regelung schafft mehr Rechtssicherheit für Erkrankte in Landwirtschaft, Gartenbau, Forstwirtschaft und Landschaftspflege sowie für weitere exponierte Berufsgruppen, etwa bei kommunalen Bauhöfen, Bahn-, Sportanlagen- oder Schädlingsbekämpfungsarbeiten. Sie macht zugleich sichtbar, dass Umweltchemikalien nicht nur Ökosysteme, sondern auch soziale Sicherungssysteme, Familien und Arbeitsbiografien betreffen.",
+        "uncertainties": "Die Aufnahme bedeutet nicht, dass Pestizide jede Parkinson-Erkrankung verursachen oder dass jeder berufliche Kontakt für eine Anerkennung genügt. Erforderlich sind ein primäres Parkinson-Syndrom und eine im Einzelfall ausreichend belegte langjährige, häufige und selbst ausgeübte Anwendung. Expositionsrekonstruktionen können wegen lange zurückliegender Tätigkeiten schwierig sein. Die wissenschaftliche Empfehlung arbeitet mit definierten Anwendungstagen und Funktionsgruppen; individuelle Verfahren bleiben prüfungsabhängig.",
+        "interviewPotential": "Hoch. Die Meldung verbindet medizinische Evidenz, Chemikalienpolitik, Landwirtschaft, Arbeitsschutz und soziale Gerechtigkeit. Mögliche Fragen: Welche wissenschaftlichen Befunde waren ausschlaggebend? Wie wird frühere Pestizidanwendung nach Jahrzehnten rekonstruiert? Welche Berufsgruppen werden bislang übersehen? Welche Präventionsmaßnahmen folgen aus der Anerkennung? Warum dauerte der Weg von der Evidenz zur Listen-Berufskrankheit so lange? Welche Konsequenzen ergeben sich für den heutigen Pestizideinsatz?",
+        "sources": "Bundesministerium für Arbeit und Soziales, „Ab 1. August 2026 neue Berufskrankheit Parkinson durch Pestizide“: https://www.bmas.de/DE/Soziales/Gesetzliche-Unfallversicherung/Aktuelles-aus-dem-Berufskrankheitenrecht/ab-august-2026-neue-berufskrankheit-parkinson-durch-pestizide.html | BMAS, Siebte Verordnung zur Änderung der Berufskrankheiten-Verordnung: https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/siebte-verordnung-zur-aenderung-der-berufskrankheiten-verordnung.html | Bundesrat, Vorgang 312/26 und Zustimmung vom 10.07.2026: https://www.bundesrat.de/SharedDocs/beratungsvorgaenge/2026/0301-0400/0312-26.html | BMAS/Ärztlicher Sachverständigenbeirat Berufskrankheiten, aktualisierte wissenschaftliche Empfehlung vom 16.09.2025: https://www.bmas.de/DE/Soziales/Gesetzliche-Unfallversicherung/Aktuelles-aus-dem-Berufskrankheitenrecht/aktualisierte-empfehlung-berufskrankheit-parkinson-syndrom-durch-pestizide.html | SVLFG, Hinweise zur Anerkennung und zu laufenden Verfahren: https://www.svlfg.de/pm-parkinson-bkv | Sekundärquelle/Fundstück: Bayerischer Bauernverband, 13.07.2026: https://www.bayerischerbauernverband.de/themen/land-verband/parkinson-als-berufskrankheit",
+        "imageIdea": "Ruhige, fotorealistische Nahaufnahme einer landwirtschaftlichen Arbeitsumgebung: behandschuhte Hände legen eine ältere Pflanzenschutzspritze oder Schutzmaske neben eine medizinische Untersuchungskarte ohne lesbare Schrift. Alternativ ein sachliches Motiv aus Geräteschuppen, Schutzkleidung und einer leicht zitternden Hand im Alltag. Nicht zeigen: leidende oder identifizierbare Erkrankte, dramatische Klinikszene, Totenköpfe, Giftwolken, übergroße Chemikalienbehälter, Marken, Logos oder plakative Pestizidpanik.",
+        "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention."
+      }
+    }
+  ]
+}
