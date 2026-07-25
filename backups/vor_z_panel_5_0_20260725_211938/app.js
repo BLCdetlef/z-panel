@@ -1,8 +1,6 @@
 "use strict";
 
-const DEFAULT_ARTICLE_SECONDS = 30;
-const DEFAULT_EDITORIAL_SECONDS = 18;
-const DEFAULT_EDITORIAL_EVERY = 8;
+const ROTATION_SECONDS = 30;
 const TRANSITION_MS = 360;
 
 const boundaryNames = {
@@ -19,21 +17,17 @@ const boundaryNames = {
 
 const state = {
   articles: [],
-  editorialScreens: [],
-  items: [],
   currentIndex: 0,
   paused: false,
-  remainingMs: DEFAULT_ARTICLE_SECONDS * 1000,
+  remainingMs: ROTATION_SECONDS * 1000,
   lastTick: performance.now(),
   animationFrame: null,
   transitionToken: 0,
-  transitioning: false,
-  articleSeconds: DEFAULT_ARTICLE_SECONDS,
-  editorialSeconds: DEFAULT_EDITORIAL_SECONDS,
-  editorialEvery: DEFAULT_EDITORIAL_EVERY
+  transitioning: false
 };
 
 const imageCache = new Map();
+
 const stage = document.getElementById("stage");
 const image = document.getElementById("article-image");
 const imageStatus = document.getElementById("image-status");
@@ -41,8 +35,6 @@ const boundaryBadge = document.getElementById("boundary-badge");
 const articleMeta = document.getElementById("article-meta");
 const articleTitle = document.getElementById("article-title");
 const articleSummary = document.getElementById("article-summary");
-const articleSource = document.getElementById("article-source");
-const articleConnection = document.getElementById("article-connection");
 const articleCounter = document.getElementById("article-counter");
 const countdownLabel = document.getElementById("countdown-label");
 const progressBar = document.getElementById("progress-bar");
@@ -69,6 +61,7 @@ function formatDate(value) {
   if (!value) return "";
   const date = new Date(`${value}T00:00:00`);
   if (Number.isNaN(date.getTime())) return value;
+
   return new Intl.DateTimeFormat("de-DE", {
     day: "2-digit",
     month: "long",
@@ -76,24 +69,16 @@ function formatDate(value) {
   }).format(date);
 }
 
-function isEditorial(item) {
-  return item?.type === "editorial";
-}
-
-function currentItem() {
-  return state.items[state.currentIndex] || null;
-}
-
-function itemDurationSeconds(item = currentItem()) {
-  const explicit = Number(item?.durationSeconds);
-  if (Number.isFinite(explicit) && explicit >= 5) return explicit;
-  return isEditorial(item) ? state.editorialSeconds : state.articleSeconds;
+function currentArticle() {
+  return state.articles[state.currentIndex] || null;
 }
 
 function candidateImagePaths(article) {
   const candidates = [];
+
   if (article.imageFile) candidates.push(article.imageFile);
   if (article.imageUrl) candidates.push(article.imageUrl);
+
   if (article.imageId) {
     const id = article.imageId;
     candidates.push(
@@ -103,6 +88,7 @@ function candidateImagePaths(article) {
       `assets/images/${id}.png`
     );
   }
+
   return [...new Set(candidates.filter(Boolean))];
 }
 
@@ -116,9 +102,11 @@ function testImagePath(path) {
     tester.decoding = "async";
     tester.onload = async () => {
       try {
-        if (typeof tester.decode === "function") await tester.decode();
+        if (typeof tester.decode === "function") {
+          await tester.decode();
+        }
       } catch {
-        // Das Bild ist geladen; ein Decode-Fehler blockiert nicht.
+        // Das Bild ist bereits geladen; ein Decode-Fehler blockiert nicht.
       }
       resolve(path);
     };
@@ -128,9 +116,12 @@ function testImagePath(path) {
 }
 
 async function resolveArticleImage(article) {
-  if (isEditorial(article)) return null;
   const key = articleCacheKey(article);
-  if (imageCache.has(key)) return imageCache.get(key);
+
+  if (imageCache.has(key)) {
+    return imageCache.get(key);
+  }
+
   const promise = (async () => {
     for (const path of candidateImagePaths(article)) {
       const workingPath = await testImagePath(path);
@@ -138,28 +129,33 @@ async function resolveArticleImage(article) {
     }
     return null;
   })();
+
   imageCache.set(key, promise);
   return promise;
 }
 
-function preloadItem(item) {
-  if (!item || isEditorial(item)) return;
-  void resolveArticleImage(item);
+function preloadArticle(article) {
+  if (!article) return;
+  void resolveArticleImage(article);
 }
 
 function preloadNeighbours() {
-  const length = state.items.length;
+  const length = state.articles.length;
   if (length < 2) return;
-  preloadItem(state.items[(state.currentIndex + 1) % length]);
-  preloadItem(state.items[(state.currentIndex + 2) % length]);
-  preloadItem(state.items[(state.currentIndex - 1 + length) % length]);
+
+  preloadArticle(state.articles[(state.currentIndex + 1) % length]);
+  preloadArticle(state.articles[(state.currentIndex + 2) % length]);
+  preloadArticle(state.articles[(state.currentIndex - 1 + length) % length]);
 }
 
 async function showArticleImage(article, token) {
   const alt = article.imageMetadata?.altText || article.title || "";
   const resolvedPath = await resolveArticleImage(article);
+
   if (token !== state.transitionToken) return;
+
   image.alt = alt;
+
   if (!resolvedPath) {
     image.hidden = true;
     image.removeAttribute("src");
@@ -169,64 +165,21 @@ async function showArticleImage(article, token) {
       : "Für diesen Beitrag ist noch kein Bildpfad hinterlegt.";
     return;
   }
+
   if (image.src !== new URL(resolvedPath, document.baseURI).href) {
     image.src = resolvedPath;
   }
+
   image.hidden = false;
   imageStatus.hidden = true;
 }
 
-const sourceHostNames = {
-  "pik-potsdam.de": "Potsdam-Institut für Klimafolgenforschung (PIK)",
-  "umweltbundesamt.de": "Umweltbundesamt (UBA)",
-  "climate.copernicus.eu": "Copernicus Climate Change Service",
-  "marine.copernicus.eu": "Copernicus Marine Service",
-  "awi.de": "Alfred-Wegener-Institut (AWI)",
-  "geomar.de": "GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel",
-  "bfn.de": "Bundesamt für Naturschutz (BfN)",
-  "thuenen.de": "Thünen-Institut",
-  "eea.europa.eu": "Europäische Umweltagentur (EEA)",
-  "wmo.int": "Weltorganisation für Meteorologie (WMO)",
-  "unep.org": "Umweltprogramm der Vereinten Nationen (UNEP)"
-};
-
-function sourceName(article) {
-  if (article.sourceTitle) return article.sourceTitle;
-  if (article.sourceId) return article.sourceId;
-  try {
-    if (!article.sourceUrl) return "";
-    const host = new URL(article.sourceUrl).hostname.replace(/^www\./, "");
-    const matchedDomain = Object.keys(sourceHostNames).find(
-      (domain) => host === domain || host.endsWith(`.${domain}`)
-    );
-    return matchedDomain ? sourceHostNames[matchedDomain] : host;
-  } catch {
-    return "";
-  }
-}
-
-function sourceLine(article) {
-  const name = sourceName(article);
-  const sourceType = String(article.sourceType || "").trim();
-  if (!name && !sourceType) return "";
-  return [sourceType, name].filter(Boolean).join(" · ");
-}
-
-function updateCounter(item) {
-  if (isEditorial(item)) {
-    articleCounter.textContent = item.label || "Redaktion";
-    return;
-  }
-  const number = Number(item._articleNumber) || 1;
-  articleCounter.textContent = `${number} / ${state.articles.length}`;
-}
-
 function updateArticleText(article) {
-  stage.classList.remove("is-editorial");
   const boundary =
     boundaryNames[article.planetaryBoundary] ||
     article.planetaryBoundary ||
     "ZUSTAND";
+
   boundaryBadge.textContent = boundary;
   articleMeta.textContent = [boundary, formatDate(article.publicationDate)]
     .filter(Boolean)
@@ -234,56 +187,20 @@ function updateArticleText(article) {
   articleTitle.textContent = article.title || "Ohne Titel";
   articleSummary.textContent =
     article.summary || article.subtitle || "Keine Kurzbeschreibung vorhanden.";
-
-  const source = sourceLine(article);
-  articleSource.textContent = source ? `Quelle: ${source}` : "";
-  articleSource.hidden = !source;
-
-  const connection = String(
-    article.screenConnection || article.editorial?.screenConnection || ""
-  ).trim();
-  articleConnection.textContent = connection
-    ? `Was zusammenhängt: ${connection}`
-    : "";
-  articleConnection.hidden = !connection;
-
-  readMoreButton.hidden = false;
-  readMoreButton.disabled = false;
-  nextButton.textContent = "Nächster Artikel →";
-  updateCounter(article);
+  articleCounter.textContent =
+    `${state.currentIndex + 1} / ${state.articles.length}`;
 }
 
-function updateEditorialText(screen) {
-  stage.classList.add("is-editorial");
-  boundaryBadge.textContent = screen.label || "Redaktion";
-  articleMeta.textContent = screen.kicker || "ZUSTAND · Redaktion";
-  articleTitle.textContent = screen.title || "Wofür ZUSTAND steht";
-  articleSummary.textContent = screen.text || screen.summary || "";
-  articleSource.textContent = "";
-  articleSource.hidden = true;
-  articleConnection.textContent = "";
-  articleConnection.hidden = true;
-  readMoreButton.hidden = true;
-  readMoreButton.disabled = true;
-  nextButton.textContent = "Nächste Meldung →";
-  updateCounter(screen);
+async function renderArticle({ animate = true } = {}) {
+  const article = currentArticle();
+  if (!article || state.transitioning) return;
 
-  image.hidden = true;
-  image.removeAttribute("src");
-  imageStatus.hidden = false;
-  imageStatus.textContent = screen.visualLabel || "ZUSTAND";
-}
-
-async function renderItem({ animate = true } = {}) {
-  const item = currentItem();
-  if (!item || state.transitioning) return;
   state.transitioning = true;
   const token = ++state.transitionToken;
 
   try {
-    const imagePromise = isEditorial(item)
-      ? Promise.resolve(null)
-      : resolveArticleImage(item);
+    // Das Bild wird vor dem sichtbaren Wechsel geladen und dekodiert.
+    const imagePromise = resolveArticleImage(article);
 
     if (animate) {
       stage.classList.add("is-changing");
@@ -291,23 +208,25 @@ async function renderItem({ animate = true } = {}) {
         window.setTimeout(resolve, TRANSITION_MS / 2)
       );
     }
+
     if (token !== state.transitionToken) return;
 
-    if (isEditorial(item)) {
-      updateEditorialText(item);
-    } else {
-      updateArticleText(item);
-      await imagePromise;
-      await showArticleImage(item, token);
-    }
+    updateArticleText(article);
+    await imagePromise;
+    await showArticleImage(article, token);
+
     if (token !== state.transitionToken) return;
 
-    state.remainingMs = itemDurationSeconds(item) * 1000;
+    state.remainingMs = ROTATION_SECONDS * 1000;
     state.lastTick = performance.now();
     updateTimerDisplay();
+
     requestAnimationFrame(() => {
-      if (token === state.transitionToken) stage.classList.remove("is-changing");
+      if (token === state.transitionToken) {
+        stage.classList.remove("is-changing");
+      }
     });
+
     preloadNeighbours();
   } finally {
     state.transitioning = false;
@@ -315,28 +234,30 @@ async function renderItem({ animate = true } = {}) {
 }
 
 function updateTimerDisplay() {
-  const total = Math.max(1, itemDurationSeconds() * 1000);
+  const total = ROTATION_SECONDS * 1000;
   const remaining = Math.max(0, state.remainingMs);
   const seconds = Math.ceil(remaining / 1000);
   const min = String(Math.floor(seconds / 60)).padStart(2, "0");
   const sec = String(seconds % 60).padStart(2, "0");
+
   countdownLabel.textContent = state.paused
     ? `Pausiert bei ${min}:${sec}`
     : `Automatischer Wechsel in ${min}:${sec}`;
-  progressBar.style.transform = `scaleX(${Math.min(1, remaining / total)})`;
+
+  progressBar.style.transform = `scaleX(${remaining / total})`;
 }
 
-function nextItem() {
-  if (!state.items.length || state.transitioning) return;
-  state.currentIndex = (state.currentIndex + 1) % state.items.length;
-  void renderItem();
+function nextArticle() {
+  if (!state.articles.length || state.transitioning) return;
+  state.currentIndex = (state.currentIndex + 1) % state.articles.length;
+  void renderArticle();
 }
 
-function previousItem() {
-  if (!state.items.length || state.transitioning) return;
+function previousArticle() {
+  if (!state.articles.length || state.transitioning) return;
   state.currentIndex =
-    (state.currentIndex - 1 + state.items.length) % state.items.length;
-  void renderItem();
+    (state.currentIndex - 1 + state.articles.length) % state.articles.length;
+  void renderArticle();
 }
 
 function togglePause(forceState = null) {
@@ -351,13 +272,18 @@ function togglePause(forceState = null) {
 function tick(now) {
   const elapsed = now - state.lastTick;
   state.lastTick = now;
-  if (!state.paused && state.items.length > 1 && !dialog.open) {
+
+  if (!state.paused && state.articles.length > 1 && !dialog.open) {
     state.remainingMs -= elapsed;
+
     if (state.remainingMs <= 0 && !state.transitioning) {
-      state.remainingMs = itemDurationSeconds() * 1000;
-      nextItem();
+      // Sofort zurücksetzen: Sonst würde requestAnimationFrame während des
+      // asynchronen Bildwechsels in jedem Frame erneut nextArticle() starten.
+      state.remainingMs = ROTATION_SECONDS * 1000;
+      nextArticle();
     }
   }
+
   updateTimerDisplay();
   state.animationFrame = requestAnimationFrame(tick);
 }
@@ -367,9 +293,12 @@ function splitText(text) {
     .split(/\n{2,}/)
     .map((part) => part.trim())
     .filter(Boolean);
+
   return parts
     .map((part, index) => {
-      const headingLike = index > 0 && part.length < 95 && !/[.!?]$/.test(part);
+      const headingLike =
+        index > 0 && part.length < 95 && !/[.!?]$/.test(part);
+
       return headingLike
         ? `<h3>${escapeHtml(part)}</h3>`
         : `<p>${escapeHtml(part).replace(/\n/g, "<br>")}</p>`;
@@ -378,12 +307,14 @@ function splitText(text) {
 }
 
 function openArticle() {
-  const article = currentItem();
-  if (!article || isEditorial(article)) return;
+  const article = currentArticle();
+  if (!article) return;
+
   const boundary =
     boundaryNames[article.planetaryBoundary] ||
     article.planetaryBoundary ||
     "ZUSTAND";
+
   const sections = (article.article || [])
     .map((section) => {
       const heading = section.heading
@@ -392,14 +323,29 @@ function openArticle() {
       return `${heading}${splitText(section.text)}`;
     })
     .join("");
-  const name = sourceName(article) || "Keine Quellenangabe";
+
+  const sourceName =
+    article.sourceTitle ||
+    article.sourceId ||
+    (() => {
+      try {
+        return article.sourceUrl
+          ? new URL(article.sourceUrl).hostname.replace(/^www\./, "")
+          : "Keine Quellenangabe";
+      } catch {
+        return "Originalquelle";
+      }
+    })();
+
   const sourceMarkup = article.sourceUrl
     ? `<a href="${escapeHtml(article.sourceUrl)}" target="_blank" rel="noopener noreferrer">Originalquelle öffnen →</a>`
     : "";
+
   const resolvedImage = image.hidden ? "" : image.getAttribute("src");
   const imageMarkup = resolvedImage
     ? `<img class="dialog-image" src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(image.alt)}">`
     : "";
+
   dialogContent.innerHTML = `
     <div class="dialog-meta">${escapeHtml(boundary)} · ${escapeHtml(formatDate(article.publicationDate))}</div>
     <h2 class="dialog-title">${escapeHtml(article.title)}</h2>
@@ -410,10 +356,11 @@ function openArticle() {
     </div>
     <div class="source-box">
       <strong>Quelle</strong><br>
-      ${escapeHtml(name)}<br>
+      ${escapeHtml(sourceName)}<br>
       ${sourceMarkup}
     </div>
   `;
+
   dialog.showModal();
 }
 
@@ -429,127 +376,56 @@ async function toggleFullscreen() {
   }
 }
 
-function normalizePositiveInteger(value, fallback, minimum = 1) {
-  const number = Number(value);
-  return Number.isFinite(number) && number >= minimum
-    ? Math.round(number)
-    : fallback;
-}
-
-function buildRotation(articles, editorialScreens, editorialEvery) {
-  const news = articles.map((article, index) => ({
-    ...article,
-    type: article.type === "editorial" ? "article" : (article.type || "article"),
-    _articleNumber: index + 1
-  }));
-  const screens = editorialScreens
-    .filter((screen) => screen && screen.enabled !== false)
-    .map((screen) => ({ ...screen, type: "editorial" }));
-
-  if (!news.length) return screens;
-  if (!screens.length) return news;
-
-  const interval = Math.max(1, editorialEvery);
-  const newsNeeded = interval * screens.length;
-  const rounds = Math.max(1, Math.ceil(newsNeeded / news.length));
-  const items = [];
-  let screenIndex = 0;
-  let newsSinceEditorial = 0;
-
-  for (let round = 0; round < rounds; round += 1) {
-    for (const article of news) {
-      items.push({ ...article });
-      newsSinceEditorial += 1;
-      if (newsSinceEditorial >= interval && screenIndex < screens.length) {
-        items.push(screens[screenIndex]);
-        screenIndex += 1;
-        newsSinceEditorial = 0;
-      }
-    }
-  }
-
-  while (screenIndex < screens.length) {
-    for (const article of news) {
-      items.push({ ...article });
-      newsSinceEditorial += 1;
-      if (newsSinceEditorial >= interval) break;
-    }
-    items.push(screens[screenIndex]);
-    screenIndex += 1;
-    newsSinceEditorial = 0;
-  }
-
-  return items;
-}
-
-function showLoadError(title, summary) {
-  articleMeta.textContent = "Fehler beim Laden";
-  articleTitle.textContent = title;
-  articleSummary.textContent = summary;
-  articleCounter.textContent = "0 / 0";
-  imageStatus.textContent = "Keine Daten";
-  articleSource.hidden = true;
-  articleConnection.hidden = true;
-  [pauseButton, nextButton, readMoreButton].forEach((button) => {
-    button.disabled = true;
-  });
-}
-
 async function loadNews() {
   try {
-    const response = await fetch(`news.json?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
-    const rotation = data.rotation || {};
-    state.articleSeconds = normalizePositiveInteger(
-      rotation.articleSeconds,
-      DEFAULT_ARTICLE_SECONDS,
-      5
-    );
-    state.editorialSeconds = normalizePositiveInteger(
-      rotation.editorialSeconds,
-      DEFAULT_EDITORIAL_SECONDS,
-      5
-    );
-    state.editorialEvery = normalizePositiveInteger(
-      rotation.editorialEvery,
-      DEFAULT_EDITORIAL_EVERY,
-      1
-    );
-    state.articles = Array.isArray(data.articles) ? data.articles : [];
-    state.editorialScreens = Array.isArray(data.editorialScreens)
-      ? data.editorialScreens
-      : [];
-    state.items = buildRotation(
-      state.articles,
-      state.editorialScreens,
-      state.editorialEvery
-    );
+    const response = await fetch(`news.json?v=${Date.now()}`, {
+      cache: "no-store"
+    });
 
-    if (!state.items.length) {
-      showLoadError(
-        "Noch keine Inhalte vorhanden",
-        "Sobald news.json Beiträge oder redaktionelle Screens enthält, erscheinen sie automatisch hier."
-      );
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+    state.articles = Array.isArray(data.articles) ? data.articles : [];
+
+    if (!state.articles.length) {
+      articleMeta.textContent = "Keine veröffentlichten Meldungen";
+      articleTitle.textContent = "Noch keine Artikel vorhanden";
+      articleSummary.textContent =
+        "Sobald news.json Beiträge enthält, erscheinen sie automatisch hier.";
+      articleCounter.textContent = "0 / 0";
+      imageStatus.textContent = "Keine Meldungen";
+
+      [pauseButton, nextButton, readMoreButton].forEach((button) => {
+        button.disabled = true;
+      });
       return;
     }
 
-    preloadItem(state.items[0]);
-    preloadItem(state.items[1]);
-    state.remainingMs = itemDurationSeconds(state.items[0]) * 1000;
-    await renderItem({ animate: false });
+    // Vor dem ersten Rendern werden das erste und das nächste Bild vorbereitet.
+    preloadArticle(state.articles[0]);
+    preloadArticle(state.articles[1]);
+
+    await renderArticle({ animate: false });
     state.animationFrame = requestAnimationFrame(tick);
   } catch (error) {
     console.error(error);
-    showLoadError(
-      "news.json konnte nicht gelesen werden",
-      "Bitte prüfen, ob news.json im selben Ordner wie index.html liegt."
-    );
+    articleMeta.textContent = "Fehler beim Laden";
+    articleTitle.textContent = "news.json konnte nicht gelesen werden";
+    articleSummary.textContent =
+      "Bitte prüfen, ob news.json im selben Ordner wie index.html liegt.";
+    articleCounter.textContent = "0 / 0";
+    imageStatus.textContent = "Keine Daten";
+
+    [pauseButton, nextButton, readMoreButton].forEach((button) => {
+      button.disabled = true;
+    });
   }
 }
 
 pauseButton.addEventListener("click", () => togglePause());
-nextButton.addEventListener("click", nextItem);
+nextButton.addEventListener("click", nextArticle);
 readMoreButton.addEventListener("click", openArticle);
 fullscreenButton.addEventListener("click", toggleFullscreen);
 dialogClose.addEventListener("click", () => dialog.close());
@@ -563,12 +439,13 @@ document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") dialog.close();
     return;
   }
+
   if (event.key === "ArrowRight") {
     event.preventDefault();
-    nextItem();
+    nextArticle();
   } else if (event.key === "ArrowLeft") {
     event.preventDefault();
-    previousItem();
+    previousArticle();
   } else if (event.code === "Space") {
     event.preventDefault();
     togglePause();
