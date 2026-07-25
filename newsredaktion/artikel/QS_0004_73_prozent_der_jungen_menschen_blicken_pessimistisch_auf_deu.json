@@ -1,6 +1,6 @@
 {
   "id": "QS_0004",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "73 Prozent der jungen Menschen blicken pessimistisch auf Deutschlands Zukunft",
   "summary": "Die repräsentative UBA-Studie „Zukunft? Jugend fragen!“ mit 1.311 Menschen zwischen 14 und 22 Jahren zeigt wachsende Zukunftssorgen. 73 Prozent beurteilen Deutschlands gesellschaftliche Zukunft pessimistisch; 2021 waren es 54 Prozent. Umwelt- und Klimaschutz bleibt für 73 Prozent wichtig, doch nur noch 30 Prozent nennen ihn sehr wichtig. Zugleich halten 88 Prozent das Leben in einer Demokratie für sehr wichtig und 70 Prozent wünschen mehr politisches Gehör.",
   "planetaryBoundary": "QS",
@@ -25,7 +25,12 @@
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",

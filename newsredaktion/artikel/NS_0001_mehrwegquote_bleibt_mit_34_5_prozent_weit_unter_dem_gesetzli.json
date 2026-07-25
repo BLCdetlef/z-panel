@@ -1,6 +1,6 @@
 {
   "id": "NS_0001",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Mehrwegquote bleibt mit 34,5 Prozent weit unter dem gesetzlichen Ziel",
   "summary": "Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent.",
   "planetaryBoundary": "NS",
@@ -25,7 +25,12 @@
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",

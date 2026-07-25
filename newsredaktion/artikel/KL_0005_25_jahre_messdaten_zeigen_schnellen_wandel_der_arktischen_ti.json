@@ -1,6 +1,6 @@
 {
   "id": "KL_0005",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "25 Jahre Messdaten zeigen schnellen Wandel der arktischen Tiefsee",
   "summary": "Die Auswertung von 25 Jahren am AWI-Langzeitobservatorium HAUSGARTEN dokumentiert tiefgreifende Veränderungen in der Framstraße. Die Meereisdicke nahm in den vergangenen Jahrzehnten um bis zu 40 Prozent ab; im östlichen Gebiet wurden Jahresmitteltemperaturen bis 1,5 °C über dem langjährigen Durchschnitt gemessen. Kälteliebendes Zooplankton geht zurück, wärmetolerante Arten wandern ein und weniger energiereiches Material erreicht den Tiefseeboden.",
   "planetaryBoundary": "KL",
@@ -22,11 +22,16 @@
   "sourceUrl": "https://www.awi.de/ueber-uns/service/presse/presse-detailansicht/polarstern-bricht-zum-arktischen-langzeit-observatorium-hausgarten-auf.html",
   "publicationDate": "2026-07-02",
   "author": "",
-  "interviewPotential": "hoch",
+  "interviewPotential": "mittel",
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",

@@ -1,6 +1,6 @@
 {
   "id": "KL_0008",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Europäische Städte brauchen unterschiedliche Klimastrategien",
   "summary": "Eine Studie mit Beteiligung des Potsdam-Instituts ordnet 1.263 europäische Städte vier Typen zu und verbindet dies mit einer systematischen Auswertung von 1.613 Studien. Daraus entstehen konkrete Prioritäten: wachsende südeuropäische Städte benötigen Hitzeschutz und Wassermanagement, etablierte Städte Sanierung, Begrünung und Verkehrswende, Metropolen Elektrifizierung und Frühwarnsysteme, schrumpfende Städte naturbasierte Lösungen.",
   "planetaryBoundary": "KL",
@@ -26,7 +26,12 @@
   "created": "2026-07-25",
   "lastModified": "2026-07-25",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",
