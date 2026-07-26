@@ -24,7 +24,7 @@
   "author": "",
   "interviewPotential": "mittel",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-26",
   "language": "de",
   "article": [
     {
@@ -35,5 +35,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Polarstern bricht zum arktischen Langzeit-Observatorium HAUSGARTEN auf"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Polarstern bricht zum arktischen Langzeit-Observatorium HAUSGARTEN auf",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "OA_0001",
+  "sequenceRole": "context-news"
 }

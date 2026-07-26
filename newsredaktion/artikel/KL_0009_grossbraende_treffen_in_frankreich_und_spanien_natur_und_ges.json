@@ -26,7 +26,7 @@
   "author": "",
   "interviewPotential": "hoch",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-26",
   "language": "de",
   "article": [
     {
@@ -37,5 +37,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Waldbrände in Frankreich und Spanien außer Kontrolle"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Waldbrände in Frankreich und Spanien außer Kontrolle",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "KL_0012",
+  "sequenceRole": "context-news"
 }
