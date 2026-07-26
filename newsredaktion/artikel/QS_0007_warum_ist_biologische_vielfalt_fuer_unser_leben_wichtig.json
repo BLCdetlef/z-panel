@@ -1,0 +1,45 @@
+{
+  "id": "QS_0007",
+  "status": "freigegeben",
+  "title": "Warum ist biologische Vielfalt für unser Leben wichtig?",
+  "summary": "Biodiversität umfasst die Vielfalt der Arten, ihrer genetischen Eigenschaften und ihrer Lebensräume. Sie trägt dazu bei, dass Ökosysteme Böden bilden, Wasser reinigen, Pflanzen bestäuben, Kohlenstoff speichern und Schädlinge begrenzen. Vielfalt verteilt diese Aufgaben auf viele Lebewesen: Fällt eine Art aus, können andere manche Funktionen teilweise übernehmen. Artenverlust schwächt deshalb die Stabilität und Anpassungsfähigkeit unserer natürlichen Lebensgrundlagen.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Biodiversität",
+    "Artenvielfalt",
+    "genetische Vielfalt",
+    "Ökosysteme",
+    "Bestäubung",
+    "Bodenfruchtbarkeit",
+    "Wasserreinigung",
+    "Widerstandsfähigkeit",
+    "Lebensgrundlagen",
+    "Querschnitt"
+  ],
+  "imageId": "QS_0007_01",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.3553458",
+  "publicationDate": "2019-05-06",
+  "author": "",
+  "interviewPotential": "",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: IPBES Global Assessment Report on Biodiversity and Ecosystem Services – Summary for Policymakers",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

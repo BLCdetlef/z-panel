@@ -23,9 +23,9 @@
   "sourceUrl": "https://www.nature.com/articles/s41467-026-75178-3",
   "publicationDate": "2026-07-24",
   "author": "",
-  "interviewPotential": "hoch",
+  "interviewPotential": "mittel",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-26",
   "language": "de",
   "article": [
     {
@@ -36,5 +36,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Field-to-forest fungal spillover is a biotic edge effect of coffee in Costa Rica"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Field-to-forest fungal spillover is a biotic edge effect of coffee in Costa Rica",
+  "contentType": "news",
+  "visualMode": "process-sketch",
+  "imageStyle": "monochrome-editorial-sketch",
+  "explainerId": "QS_0007",
+  "sequenceRole": "context-news"
 }

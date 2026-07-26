@@ -37,7 +37,5 @@
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 4; Originalquelle: Bundesweite Erhebung von Daten zum Verbrauch von Getränken in Mehrweggetränkeverpackungen",
   "contentType": "news",
   "visualMode": "editorial-photo",
-  "imageStyle": "nature",
-  "explainerId": "NS_0003",
-  "sequenceRole": "context-news"
+  "imageStyle": "nature"
 }

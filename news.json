@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T18:16:18.942451+00:00",
-  "articleCount": 24,
+  "generatedAt": "2026-07-26T20:02:26.471818+00:00",
+  "articleCount": 21,
   "articles": [
     {
       "id": "KL_0005",
@@ -44,7 +44,7 @@
       "contentType": "news",
       "visualMode": "editorial-photo",
       "imageStyle": "nature",
-      "explainerId": "OA_0001",
+      "explainerId": "KL_0016",
       "sequenceRole": "context-news",
       "imageFile": "assets/images/KL_0005_01_zustand.png",
       "imageMetadata": {
@@ -59,25 +59,25 @@
       }
     },
     {
-      "id": "OA_0001",
+      "id": "KL_0016",
       "status": "freigegeben",
-      "title": "Warum macht zusätzliches CO₂ das Meer saurer?",
-      "summary": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
-      "planetaryBoundary": "OA",
+      "title": "Warum steigt der Meeresspiegel auch ohne neues Wasser?",
+      "summary": "Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme.",
+      "planetaryBoundary": "KL",
       "keywords": [
         "Natur verstehen",
         "Grundlagen",
-        "Ozeanversauerung",
-        "Kohlendioxid",
-        "pH-Wert",
-        "Carbonat",
-        "Korallen",
-        "Muscheln",
-        "Meereschemie",
+        "Meeresspiegel",
+        "thermische Ausdehnung",
+        "Ozeanwärme",
+        "Gletscher",
+        "Eisschilde",
+        "Küsten",
+        "Klimawandel",
         "Querschnitt"
       ],
-      "imageId": "OA_0001_01",
-      "sourceUrl": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
+      "imageId": "KL_0016_01",
+      "sourceUrl": "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/climate-change-global-sea-level",
       "publicationDate": "2026-07-26",
       "author": "",
       "interviewPotential": "gering",
@@ -93,20 +93,20 @@
       "facts": [],
       "links": [],
       "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Ocean Acidification Program: What is Ocean Acidification?",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Climate.gov: Climate Change – Global Sea Level",
       "contentType": "explainer",
       "visualMode": "process-sketch",
       "category": "Natur verstehen",
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
-      "imageFile": "assets/images/OA_0001_01_zustand.png",
+      "imageFile": "assets/images/KL_0016_01_zustand.png",
       "imageMetadata": {
-        "id": "OA_0001_01",
+        "id": "KL_0016_01",
         "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T09:53:30.467725+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_53_11.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum macht zusätzliches CO₂ das Meer saurer?.\nKernaussage: Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden..\nInhaltlicher Ausgangspunkt: Meer, Muschel, Koralle, Plankton oder empfindliches Meeresleben.\nSchlagwörter: Natur verstehen, Grundlagen, Ozeanversauerung, Kohlendioxid, pH-Wert, Carbonat, Korallen, Muscheln, Meereschemie, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
-        "altText": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
+        "created": "2026-07-26T09:23:00.113265+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_22_28.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum steigt der Meeresspiegel auch ohne neues Wasser?.\nKernaussage: Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Meeresspiegel, thermische Ausdehnung, Ozeanwärme, Gletscher, Eisschilde, Küsten, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
         "contentType": "explainer",
@@ -122,136 +122,10 @@
           "textDensity": "low"
         }
       },
-      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Carbonatchemie und offizieller wiss",
-      "screenConnection": "Dasselbe CO₂ erwärmt die Atmosphäre und verändert zugleich die Chemie der Meere.",
+      "sourceType": "Redaktioneller Grundlagenbeitrag zur thermischen Ausdehnung und zum Meeresspiegel auf Basi",
+      "screenConnection": "Der Ozean steigt durch zusätzliches Schmelzwasser – und weil warmes Wasser mehr Raum braucht.",
       "relatedNewsIds": [
         "KL_0005"
-      ],
-      "relatedNewsCount": 1,
-      "sequenceRole": "explainer-after-news"
-    },
-    {
-      "id": "NS_0001",
-      "status": "freigegeben",
-      "title": "Mehrwegquote bleibt mit 34,5 Prozent weit unter dem gesetzlichen Ziel",
-      "summary": "Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent.",
-      "planetaryBoundary": "NS",
-      "keywords": [
-        "Mehrweg",
-        "Einweg",
-        "Getränkeverpackungen",
-        "Kunststoff",
-        "Kreislaufwirtschaft",
-        "Verpackungsgesetz",
-        "GVM",
-        "Umweltbundesamt",
-        "Deutschland",
-        "Zustand",
-        "Priorität 4"
-      ],
-      "imageId": "NS_0001_01",
-      "sourceUrl": "https://www.umweltbundesamt.de/publikationen/bundesweite-erhebung-von-daten-verbrauch-von-4",
-      "publicationDate": "2026-07-08",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-25",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 4; Originalquelle: Bundesweite Erhebung von Daten zum Verbrauch von Getränken in Mehrweggetränkeverpackungen",
-      "contentType": "news",
-      "visualMode": "editorial-photo",
-      "imageStyle": "nature",
-      "explainerId": "NS_0003",
-      "sequenceRole": "context-news",
-      "imageFile": "assets/images/NS_0001_01_zustand.png",
-      "imageMetadata": {
-        "id": "NS_0001_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T01:48:25.467657+00:00",
-        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_48_02.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Mehrwegquote bleibt mit 34,5 Prozent weit unter dem gesetzlichen Ziel.\nKernaussage: Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent..\nMögliche Bildassoziationen: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Mehrweg, Einweg, Getränkeverpackungen, Kunststoff, Kreislaufwirtschaft, Verpackungsgesetz, GVM, Umweltbundesamt, Deutschland, Zustand, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      }
-    },
-    {
-      "id": "NS_0003",
-      "status": "freigegeben",
-      "title": "Warum ist Abfall nach dem Wegwerfen nicht weg?",
-      "summary": "Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt.",
-      "planetaryBoundary": "NS",
-      "keywords": [
-        "Natur verstehen",
-        "Grundlagen",
-        "Massenerhaltung",
-        "Abfall",
-        "Stoffströme",
-        "Ressourcen",
-        "Emissionen",
-        "Kreislaufwirtschaft",
-        "Neuartige Substanzen",
-        "Querschnitt"
-      ],
-      "imageId": "NS_0003_01",
-      "sourceUrl": "https://www.epa.gov/smm",
-      "publicationDate": "2026-07-26",
-      "author": "",
-      "interviewPotential": "gering",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: Sustainable Materials Management",
-      "contentType": "explainer",
-      "visualMode": "process-sketch",
-      "category": "Natur verstehen",
-      "displayLabel": "NATUR VERSTEHEN",
-      "imageStyle": "monochrome-editorial-sketch",
-      "imageFile": "assets/images/NS_0003_01_zustand.png",
-      "imageMetadata": {
-        "id": "NS_0003_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T09:41:45.073753+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_41_30.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum ist Abfall nach dem Wegwerfen nicht weg?.\nKernaussage: Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt..\nInhaltlicher Ausgangspunkt: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nSchlagwörter: Natur verstehen, Grundlagen, Massenerhaltung, Abfall, Stoffströme, Ressourcen, Emissionen, Kreislaufwirtschaft, Neuartige Substanzen, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
-        "altText": "Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
-        "contentType": "explainer",
-        "visualMode": "process-sketch",
-        "imageStyle": "monochrome-editorial-sketch",
-        "imageFamily": "explainer-sketch",
-        "didacticElements": {
-          "allowArrows": true,
-          "allowSymbols": true,
-          "allowShortLabels": true,
-          "allowFormulaSigns": true,
-          "colorMode": "grayscale-high-contrast",
-          "textDensity": "low"
-        }
-      },
-      "sourceType": "Redaktioneller Grundlagenbeitrag zum Prinzip der Massenerhaltung und zu Stoffströmen; ergä",
-      "screenConnection": "Wegwerfen entfernt Stoffe aus unserem Blick – nicht aus der Welt.",
-      "relatedNewsIds": [
-        "NS_0001"
       ],
       "relatedNewsCount": 1,
       "sequenceRole": "explainer-after-news"
@@ -444,6 +318,62 @@
       "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:"
     },
     {
+      "id": "KL_0004",
+      "status": "freigegeben",
+      "title": "Wärmster Juni seit Messbeginn in Westeuropa",
+      "summary": "Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Klimawandel",
+        "Hitzewelle",
+        "Meeresoberflächentemperatur",
+        "Dürre",
+        "ERA5",
+        "Copernicus Climate Change Service",
+        "ECMWF",
+        "Europäische Union",
+        "Deutschland",
+        "Zustand",
+        "Priorität 5"
+      ],
+      "imageId": "KL_0004_01",
+      "sourceUrl": "https://climate.copernicus.eu/copernicus-record-heatwave-brings-hottest-june-western-europe-during-second-warmest-june-globally",
+      "publicationDate": "2026-07-09",
+      "author": "",
+      "interviewPotential": "mittel",
+      "created": "2026-07-25",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Copernicus: Record heatwave brings hottest June for western Europe during second-warmest June globally",
+      "contentType": "news",
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature",
+      "explainerId": "KL_0012",
+      "sequenceRole": "context-news",
+      "imageFile": "assets/images/KL_0004_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0004_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-25T01:38:27.956334+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_38_10.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Wärmster Juni seit Messbeginn in Westeuropa.\nKernaussage: Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Klimawandel, Hitzewelle, Meeresoberflächentemperatur, Dürre, ERA5, Copernicus Climate Change Service, ECMWF, Europäische Union, Deutschland, Zustand, Priorität 5.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      },
+      "sourceType": "Monatlicher Klimadienst-Bericht auf Basis des ERA5-Reanalysedatensatzes; offizielle Copern",
+      "screenConnection": "Warme Meere, trockene Böden, Hitze und Waldbrände hängen direkt zusammen."
+    },
+    {
       "id": "KL_0006",
       "status": "freigegeben",
       "title": "Deutsche Emissionen sinken wegen schwacher Wirtschaftsentwicklung – Strukturwandel bleibt aus",
@@ -565,9 +495,10 @@
       "screenConnection": "Mehr Treibhausgase verändern den Weg der Wärme – und damit das gesamte Klimasystem.",
       "relatedNewsIds": [
         "KL_0009",
+        "KL_0004",
         "KL_0006"
       ],
-      "relatedNewsCount": 2,
+      "relatedNewsCount": 3,
       "sequenceRole": "explainer-after-news"
     },
     {
@@ -702,9 +633,9 @@
       "sourceUrl": "https://www.nature.com/articles/s41467-026-75178-3",
       "publicationDate": "2026-07-24",
       "author": "",
-      "interviewPotential": "hoch",
+      "interviewPotential": "mittel",
       "created": "2026-07-25",
-      "lastModified": "2026-07-25",
+      "lastModified": "2026-07-26",
       "language": "de",
       "article": [
         {
@@ -716,6 +647,11 @@
       "links": [],
       "license": "",
       "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Field-to-forest fungal spillover is a biotic edge effect of coffee in Costa Rica",
+      "contentType": "news",
+      "visualMode": "editorial-photo",
+      "imageStyle": "monochrome-editorial-sketch",
+      "explainerId": "QS_0007",
+      "sequenceRole": "context-news",
       "imageFile": "assets/images/BD_0009_01_zustand.png",
       "imageMetadata": {
         "id": "BD_0009_01",
@@ -728,10 +664,146 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Begutachteter, frei zugänglicher Forschungsartikel in Nature Communications. Feldaufnahmen",
-      "screenConnection": "Landwirtschaft verändert Wald nicht nur durch Fläche und Stoffe – auch verstärkte Mikroorganismen können Grenzen überschreiten.",
+      "screenConnection": "Landwirtschaft verändert Wald nicht nur durch Fläche und Stoffe – auch verstärkte Mikroorganismen können Grenzen überschreiten."
+    },
+    {
+      "id": "BD_0010",
+      "status": "freigegeben",
+      "title": "Neue Analyse klärt Pflichten zur Wiederherstellung der Natur",
+      "summary": "Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen.",
+      "planetaryBoundary": "BD",
+      "keywords": [
+        "EU-Wiederherstellungsverordnung",
+        "Renaturierung",
+        "Biodiversität",
+        "Fristen",
+        "Indikatoren",
+        "Bundesamt für Naturschutz",
+        "UFZ",
+        "Deutschland",
+        "Europäische Union",
+        "Lösung"
+      ],
+      "imageId": "BD_0010_01",
+      "sourceUrl": "https://www.bfn.de/aktuelles/juristische-analyse-der-eu-wiederherstellungsverordnung-erschienen",
+      "publicationDate": "2026-07-08",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Juristische Analyse der EU-Wiederherstellungsverordnung erschienen",
       "contentType": "news",
       "visualMode": "editorial-photo",
-      "imageStyle": "nature"
+      "imageStyle": "nature",
+      "explainerId": "QS_0007",
+      "sequenceRole": "context-news",
+      "imageFile": "assets/images/BD_0010_01_zustand.png",
+      "imageMetadata": {
+        "id": "BD_0010_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T05:58:14.882974+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 07_57_52.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Neue Analyse klärt Pflichten zur Wiederherstellung der Natur.\nKernaussage: Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: EU-Wiederherstellungsverordnung, Renaturierung, Biodiversität, Fristen, Indikatoren, Bundesamt für Naturschutz, UFZ, Deutschland, Europäische Union, Lösung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      },
+      "sourceType": "Neue BfN-Schrift mit rechtswissenschaftlicher Analyse; im Auftrag des BfN durch das UFZ er",
+      "screenConnection": "Naturerholung braucht nicht nur Ziele, sondern Fristen, Indikatoren und überprüfbare Umsetzung."
+    },
+    {
+      "id": "QS_0007",
+      "status": "freigegeben",
+      "title": "Warum ist biologische Vielfalt für unser Leben wichtig?",
+      "summary": "Biodiversität umfasst die Vielfalt der Arten, ihrer genetischen Eigenschaften und ihrer Lebensräume. Sie trägt dazu bei, dass Ökosysteme Böden bilden, Wasser reinigen, Pflanzen bestäuben, Kohlenstoff speichern und Schädlinge begrenzen. Vielfalt verteilt diese Aufgaben auf viele Lebewesen: Fällt eine Art aus, können andere manche Funktionen teilweise übernehmen. Artenverlust schwächt deshalb die Stabilität und Anpassungsfähigkeit unserer natürlichen Lebensgrundlagen.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Biodiversität",
+        "Artenvielfalt",
+        "genetische Vielfalt",
+        "Ökosysteme",
+        "Bestäubung",
+        "Bodenfruchtbarkeit",
+        "Wasserreinigung",
+        "Widerstandsfähigkeit",
+        "Lebensgrundlagen",
+        "Querschnitt"
+      ],
+      "imageId": "QS_0007_01",
+      "sourceUrl": "https://doi.org/10.5281/zenodo.3553458",
+      "publicationDate": "2019-05-06",
+      "author": "",
+      "interviewPotential": "",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: IPBES Global Assessment Report on Biodiversity and Ecosystem Services – Summary for Policymakers",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "sequenceRole": "explainer-after-news",
+      "imageFile": "assets/images/QS_0007_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0007_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T19:59:03.794417+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 21_58_38.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum ist biologische Vielfalt für unser Leben wichtig?.\nKernaussage: Biodiversität umfasst die Vielfalt der Arten, ihrer genetischen Eigenschaften und ihrer Lebensräume. Sie trägt dazu bei, dass Ökosysteme Böden bilden, Wasser reinigen, Pflanzen bestäuben, Kohlenstoff speichern und Schädlinge begrenzen. Vielfalt verteilt diese Aufgaben auf viele Lebewesen: Fällt eine Art aus, können andere manche Funktionen teilweise übernehmen. Artenverlust schwächt deshalb die Stabilität und Anpassungsfähigkeit unserer natürlichen Lebensgrundlagen..\nInhaltlicher Ausgangspunkt: eine klare, leicht verständliche und glaubwürdige Assoziation zum Artikel.\nSchlagwörter: Natur verstehen, Grundlagen, Biodiversität, Artenvielfalt, genetische Vielfalt, Ökosysteme, Bestäubung, Bodenfruchtbarkeit, Wasserreinigung, Widerstandsfähigkeit, Lebensgrundlagen, Querschnitt.\n\nZiel des Bildes: Es soll Wissen anbahnen, vor allem aber Interesse und Neugier auf Forschung zu unseren natürlichen Lebensgrundlagen wecken. Das Bild ist ein Titelbild und keine vollständige Lehrtafel. Es öffnet die Frage; der Beitrag erklärt die Einzelheiten.\n\nBildtyp: hochwertige wissenschaftsjournalistische Prozessskizze für die Rubrik „Natur verstehen“, in Schwarz-Weiß oder kontrastreichen Graustufen. Zeige genau eine zentrale Ursache-Wirkungs-Beziehung aus dem Artikel.\n\nVerbindliche Reduktion:\n- genau ein dominantes Hauptmotiv\n- genau eine Kernaussage\n- höchstens drei klar unterscheidbare Prozessstufen\n- höchstens vier Pfeile oder Richtungslinien\n- höchstens drei sehr kurze Beschriftungen, Kürzel oder Formelzeichen\n- höchstens ein zurückhaltender Nebenaspekt\n- das Bild muss auch ohne Lesen der Beschriftungen verständlich sein\n\nFalls der Artikel mehrere Aspekte enthält, wähle ausschließlich den für Titel und Kernaussage wichtigsten Zusammenhang. Zeige keine vollständige Prozesskette, keine Materialsammlung, keine vielen Beispiele und keine parallelen Erklärstränge.\n\nGestaltung:\n- feine Linien, klare Umrisse und dezente Schraffuren\n- ruhiger heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- erwachsen, hochwertig und wissenschaftsnah\n- einfache Pfeile, Symbole, Abkürzungen oder Formelzeichen sind erlaubt, aber nur wenn sie die eine Hauptidee unmittelbar klären\n- Beschriftungen auf Deutsch oder als allgemein verständliche Fachkürzel, sehr kurz und kontrastreich\n\nUnbedingt vermeiden:\n- vollständige Flussdiagramme oder Ablaufpläne\n- mehr als drei Stationen\n- viele Kreise, Kästen, Materialbehälter oder Symbolgruppen\n- lange Sätze, Erklärtexte, Legenden und Zusammenfassungsleisten\n- mehrere Landschaftsräume oder mehrere gleichwertige Hauptmotive\n- bunte Infografik, Comic, Kinderbuchstil oder CAD-Zeichnung\n- Logos, Wasserzeichen, dekorative Rahmen oder Collagen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9\n- für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms\n- aus drei bis fünf Metern Entfernung sofort erfassbar\n- wichtige Motive mindestens zehn Prozent vom Bildrand entfernt\n- eindeutige Blickführung und viel ruhige Fläche\n\nLeitgedanke: Ein Blick – ein Zusammenhang. Vermittle lieber einen klaren Gedanken als viele Details. Das Bild soll ein unmittelbares „Ach so“ auslösen und zugleich zum Weiterlesen anregen.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Biodiversität umfasst die Vielfalt der Arten, ihrer genetischen Eigenschaften und ihrer Lebensräume. Sie trägt dazu bei, dass Ökosysteme Böden bilden, Wasser reinigen, Pflanzen bestäuben, Kohlenstoff speichern und Schädlinge begrenzen. Vielfalt verteilt diese Aufgaben auf viele Lebewesen: Fällt eine Art aus, können andere manche Funktionen teilweise übernehmen. Artenverlust schwächt deshalb die Stabilität und Anpassungsfähigkeit unserer natürlichen Lebensgrundlagen.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        },
+        "editorialPurpose": "Grundverständnis und Neugier auf Forschung zu den natürlichen Lebensgrundlagen",
+        "complexityLimits": {
+          "mainIdeas": 1,
+          "maxProcessStages": 3,
+          "maxArrows": 4,
+          "maxShortLabels": 3,
+          "maxSecondaryAspects": 1,
+          "mustWorkWithoutReading": true
+        }
+      },
+      "sourceType": "Wissenschaftlicher globaler Zustandsbericht des Weltbiodiversitätsrats IPBES; Grundlagenqu",
+      "sourceTitle": "IPBES Global Assessment Report on Biodiversity and Ecosystem Services – Summary for Policymakers",
+      "relatedNewsIds": [
+        "BD_0009",
+        "BD_0010"
+      ],
+      "relatedNewsCount": 2
     },
     {
       "id": "BD_0008",
@@ -1003,83 +1075,30 @@
       "imageStyle": "nature"
     },
     {
-      "id": "KL_0004",
+      "id": "NS_0001",
       "status": "freigegeben",
-      "title": "Wärmster Juni seit Messbeginn in Westeuropa",
-      "summary": "Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken.",
-      "planetaryBoundary": "KL",
+      "title": "Mehrwegquote bleibt mit 34,5 Prozent weit unter dem gesetzlichen Ziel",
+      "summary": "Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent.",
+      "planetaryBoundary": "NS",
       "keywords": [
-        "Klimawandel",
-        "Hitzewelle",
-        "Meeresoberflächentemperatur",
-        "Dürre",
-        "ERA5",
-        "Copernicus Climate Change Service",
-        "ECMWF",
-        "Europäische Union",
+        "Mehrweg",
+        "Einweg",
+        "Getränkeverpackungen",
+        "Kunststoff",
+        "Kreislaufwirtschaft",
+        "Verpackungsgesetz",
+        "GVM",
+        "Umweltbundesamt",
         "Deutschland",
         "Zustand",
-        "Priorität 5"
+        "Priorität 4"
       ],
-      "imageId": "KL_0004_01",
-      "sourceUrl": "https://climate.copernicus.eu/copernicus-record-heatwave-brings-hottest-june-western-europe-during-second-warmest-june-globally",
-      "publicationDate": "2026-07-09",
-      "author": "",
-      "interviewPotential": "mittel",
-      "created": "2026-07-25",
-      "lastModified": "2026-07-25",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Copernicus: Record heatwave brings hottest June for western Europe during second-warmest June globally",
-      "imageFile": "assets/images/KL_0004_01_zustand.png",
-      "imageMetadata": {
-        "id": "KL_0004_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T01:38:27.956334+00:00",
-        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_38_10.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Wärmster Juni seit Messbeginn in Westeuropa.\nKernaussage: Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Klimawandel, Hitzewelle, Meeresoberflächentemperatur, Dürre, ERA5, Copernicus Climate Change Service, ECMWF, Europäische Union, Deutschland, Zustand, Priorität 5.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Monatlicher Klimadienst-Bericht auf Basis des ERA5-Reanalysedatensatzes; offizielle Copern",
-      "screenConnection": "Warme Meere, trockene Böden, Hitze und Waldbrände hängen direkt zusammen.",
-      "contentType": "news",
-      "visualMode": "editorial-photo",
-      "imageStyle": "nature"
-    },
-    {
-      "id": "BD_0010",
-      "status": "freigegeben",
-      "title": "Neue Analyse klärt Pflichten zur Wiederherstellung der Natur",
-      "summary": "Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen.",
-      "planetaryBoundary": "BD",
-      "keywords": [
-        "EU-Wiederherstellungsverordnung",
-        "Renaturierung",
-        "Biodiversität",
-        "Fristen",
-        "Indikatoren",
-        "Bundesamt für Naturschutz",
-        "UFZ",
-        "Deutschland",
-        "Europäische Union",
-        "Lösung"
-      ],
-      "imageId": "BD_0010_01",
-      "sourceUrl": "https://www.bfn.de/aktuelles/juristische-analyse-der-eu-wiederherstellungsverordnung-erschienen",
+      "imageId": "NS_0001_01",
+      "sourceUrl": "https://www.umweltbundesamt.de/publikationen/bundesweite-erhebung-von-daten-verbrauch-von-4",
       "publicationDate": "2026-07-08",
       "author": "",
       "interviewPotential": "hoch",
-      "created": "2026-07-26",
+      "created": "2026-07-25",
       "lastModified": "2026-07-26",
       "language": "de",
       "article": [
@@ -1091,44 +1110,42 @@
       "facts": [],
       "links": [],
       "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Juristische Analyse der EU-Wiederherstellungsverordnung erschienen",
-      "imageFile": "assets/images/BD_0010_01_zustand.png",
-      "imageMetadata": {
-        "id": "BD_0010_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T05:58:14.882974+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 07_57_52.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Neue Analyse klärt Pflichten zur Wiederherstellung der Natur.\nKernaussage: Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: EU-Wiederherstellungsverordnung, Renaturierung, Biodiversität, Fristen, Indikatoren, Bundesamt für Naturschutz, UFZ, Deutschland, Europäische Union, Lösung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Neue BfN-Schrift mit rechtswissenschaftlicher Analyse; im Auftrag des BfN durch das UFZ er",
-      "screenConnection": "Naturerholung braucht nicht nur Ziele, sondern Fristen, Indikatoren und überprüfbare Umsetzung.",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 4; Originalquelle: Bundesweite Erhebung von Daten zum Verbrauch von Getränken in Mehrweggetränkeverpackungen",
       "contentType": "news",
       "visualMode": "editorial-photo",
-      "imageStyle": "nature"
+      "imageStyle": "nature",
+      "imageFile": "assets/images/NS_0001_01_zustand.png",
+      "imageMetadata": {
+        "id": "NS_0001_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-25T01:48:25.467657+00:00",
+        "sourceFile": "ChatGPT Image 25. Juli 2026, 03_48_02.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Mehrwegquote bleibt mit 34,5 Prozent weit unter dem gesetzlichen Ziel.\nKernaussage: Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent..\nMögliche Bildassoziationen: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Mehrweg, Einweg, Getränkeverpackungen, Kunststoff, Kreislaufwirtschaft, Verpackungsgesetz, GVM, Umweltbundesamt, Deutschland, Zustand, Priorität 4.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
+      }
     },
     {
-      "id": "NS_0004",
+      "id": "OA_0001",
       "status": "freigegeben",
-      "title": "Warum kann Recycling nie völlig verlustfrei sein?",
-      "summary": "Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor.",
-      "planetaryBoundary": "NS",
+      "title": "Warum macht zusätzliches CO₂ das Meer saurer?",
+      "summary": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
+      "planetaryBoundary": "OA",
       "keywords": [
         "Natur verstehen",
         "Grundlagen",
-        "Recycling",
-        "Kreislaufwirtschaft",
-        "Materialverluste",
-        "Entropie",
-        "Reparatur",
-        "Wiederverwendung",
-        "Produktdesign",
+        "Ozeanversauerung",
+        "Kohlendioxid",
+        "pH-Wert",
+        "Carbonat",
+        "Korallen",
+        "Muscheln",
+        "Meereschemie",
         "Querschnitt"
       ],
-      "imageId": "NS_0004_01",
-      "sourceUrl": "https://www.epa.gov/circulareconomy/national-recycling-strategy",
+      "imageId": "OA_0001_01",
+      "sourceUrl": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
       "publicationDate": "2026-07-26",
       "author": "",
       "interviewPotential": "gering",
@@ -1144,20 +1161,20 @@
       "facts": [],
       "links": [],
       "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: National Recycling Strategy",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Ocean Acidification Program: What is Ocean Acidification?",
       "contentType": "explainer",
       "visualMode": "process-sketch",
       "category": "Natur verstehen",
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
-      "imageFile": "assets/images/NS_0004_01_zustand.png",
+      "imageFile": "assets/images/OA_0001_01_zustand.png",
       "imageMetadata": {
-        "id": "NS_0004_01",
+        "id": "OA_0001_01",
         "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T09:44:55.563108+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_44_36.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum kann Recycling nie völlig verlustfrei sein?.\nKernaussage: Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor..\nInhaltlicher Ausgangspunkt: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nSchlagwörter: Natur verstehen, Grundlagen, Recycling, Kreislaufwirtschaft, Materialverluste, Entropie, Reparatur, Wiederverwendung, Produktdesign, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
-        "altText": "Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor.",
+        "created": "2026-07-26T09:53:30.467725+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_53_11.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum macht zusätzliches CO₂ das Meer saurer?.\nKernaussage: Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden..\nInhaltlicher Ausgangspunkt: Meer, Muschel, Koralle, Plankton oder empfindliches Meeresleben.\nSchlagwörter: Natur verstehen, Grundlagen, Ozeanversauerung, Kohlendioxid, pH-Wert, Carbonat, Korallen, Muscheln, Meereschemie, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
         "contentType": "explainer",
@@ -1173,148 +1190,8 @@
           "textDensity": "low"
         }
       },
-      "sourceType": "Redaktioneller Grundlagenbeitrag zu realen Materialkreisläufen auf Basis thermodynamischer",
-      "screenConnection": "Recycling schließt Kreisläufe nur teilweise – Vermeidung, Reparatur und lange Nutzung wirken früher.",
-      "relatedNewsIds": [],
-      "relatedNewsCount": 0,
-      "sequenceRole": "explainer-after-news"
-    },
-    {
-      "id": "KL_0016",
-      "status": "freigegeben",
-      "title": "Warum steigt der Meeresspiegel auch ohne neues Wasser?",
-      "summary": "Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme.",
-      "planetaryBoundary": "KL",
-      "keywords": [
-        "Natur verstehen",
-        "Grundlagen",
-        "Meeresspiegel",
-        "thermische Ausdehnung",
-        "Ozeanwärme",
-        "Gletscher",
-        "Eisschilde",
-        "Küsten",
-        "Klimawandel",
-        "Querschnitt"
-      ],
-      "imageId": "KL_0016_01",
-      "sourceUrl": "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/climate-change-global-sea-level",
-      "publicationDate": "2026-07-26",
-      "author": "",
-      "interviewPotential": "gering",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Climate.gov: Climate Change – Global Sea Level",
-      "contentType": "explainer",
-      "visualMode": "process-sketch",
-      "category": "Natur verstehen",
-      "displayLabel": "NATUR VERSTEHEN",
-      "imageStyle": "monochrome-editorial-sketch",
-      "imageFile": "assets/images/KL_0016_01_zustand.png",
-      "imageMetadata": {
-        "id": "KL_0016_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T09:23:00.113265+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_22_28.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum steigt der Meeresspiegel auch ohne neues Wasser?.\nKernaussage: Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Meeresspiegel, thermische Ausdehnung, Ozeanwärme, Gletscher, Eisschilde, Küsten, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
-        "altText": "Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
-        "contentType": "explainer",
-        "visualMode": "process-sketch",
-        "imageStyle": "monochrome-editorial-sketch",
-        "imageFamily": "explainer-sketch",
-        "didacticElements": {
-          "allowArrows": true,
-          "allowSymbols": true,
-          "allowShortLabels": true,
-          "allowFormulaSigns": true,
-          "colorMode": "grayscale-high-contrast",
-          "textDensity": "low"
-        }
-      },
-      "sourceType": "Redaktioneller Grundlagenbeitrag zur thermischen Ausdehnung und zum Meeresspiegel auf Basi",
-      "screenConnection": "Der Ozean steigt durch zusätzliches Schmelzwasser – und weil warmes Wasser mehr Raum braucht.",
-      "relatedNewsIds": [],
-      "relatedNewsCount": 0,
-      "sequenceRole": "explainer-after-news"
-    },
-    {
-      "id": "KL_0015",
-      "status": "freigegeben",
-      "title": "Warum strahlt die Erde ständig Wärme ab?",
-      "summary": "Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss.",
-      "planetaryBoundary": "KL",
-      "keywords": [
-        "Natur verstehen",
-        "Grundlagen",
-        "Wärmestrahlung",
-        "Infrarot",
-        "Energiebilanz",
-        "Stefan-Boltzmann",
-        "Erdsystem",
-        "Atmosphäre",
-        "Klima",
-        "Querschnitt"
-      ],
-      "imageId": "KL_0015_01",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
-      "publicationDate": "2026-07-26",
-      "author": "",
-      "interviewPotential": "gering",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: Climate and Earth’s Energy Budget",
-      "contentType": "explainer",
-      "visualMode": "process-sketch",
-      "category": "Natur verstehen",
-      "displayLabel": "NATUR VERSTEHEN",
-      "imageStyle": "monochrome-editorial-sketch",
-      "imageFile": "assets/images/KL_0015_01_zustand.png",
-      "imageMetadata": {
-        "id": "KL_0015_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T09:20:08.431131+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_19_35.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum strahlt die Erde ständig Wärme ab?.\nKernaussage: Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Wärmestrahlung, Infrarot, Energiebilanz, Stefan-Boltzmann, Erdsystem, Atmosphäre, Klima, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
-        "altText": "Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
-        "contentType": "explainer",
-        "visualMode": "process-sketch",
-        "imageStyle": "monochrome-editorial-sketch",
-        "imageFamily": "explainer-sketch",
-        "didacticElements": {
-          "allowArrows": true,
-          "allowSymbols": true,
-          "allowShortLabels": true,
-          "allowFormulaSigns": true,
-          "colorMode": "grayscale-high-contrast",
-          "textDensity": "low"
-        }
-      },
-      "sourceType": "Redaktioneller Grundlagenbeitrag zur Strahlungs- und Energiebilanz der Erde auf Basis etab",
-      "screenConnection": "Das Klima folgt einer Energiebilanz: Was nicht entweicht, erwärmt das System.",
+      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Carbonatchemie und offizieller wiss",
+      "screenConnection": "Dasselbe CO₂ erwärmt die Atmosphäre und verändert zugleich die Chemie der Meere.",
       "relatedNewsIds": [],
       "relatedNewsCount": 0,
       "sequenceRole": "explainer-after-news"
@@ -1388,67 +1265,6 @@
       "relatedNewsIds": [],
       "relatedNewsCount": 0,
       "sequenceRole": "explainer-after-news"
-    },
-    {
-      "id": "FW_0001",
-      "status": "freigegeben",
-      "title": "Warum trocknen Böden und Pflanzen bei Hitze schneller aus?",
-      "summary": "Wärme liefert Energie für Verdunstung. Wasser verlässt offene Flächen, Böden und Gewässer als Wasserdampf; Pflanzen geben zusätzlich Wasser über ihre Blätter ab. Zusammen heißt das Evapotranspiration. Solange genug Wasser vorhanden ist, kühlt dieser Vorgang die Umgebung. Fehlt Regen oder Bodenspeicher, sinkt die Feuchte schneller, Pflanzen geraten unter Stress und ein größerer Teil der Sonnenenergie erwärmt Luft und Boden direkt.",
-      "planetaryBoundary": "FW",
-      "keywords": [
-        "Natur verstehen",
-        "Grundlagen",
-        "Verdunstung",
-        "Evapotranspiration",
-        "Bodenfeuchte",
-        "Pflanzen",
-        "Dürre",
-        "Verdunstungskühlung",
-        "Süßwasser",
-        "Querschnitt"
-      ],
-      "imageId": "FW_0001_01",
-      "sourceUrl": "https://www.nasa.gov/missions/landsat/evapotranspiration-watching-over-water-use/",
-      "publicationDate": "2026-07-26",
-      "author": "",
-      "interviewPotential": "gering",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA: Evapotranspiration – Watching Over Water Use",
-      "contentType": "explainer",
-      "visualMode": "process-sketch",
-      "category": "Natur verstehen",
-      "displayLabel": "NATUR VERSTEHEN",
-      "imageFile": "assets/images/FW_0001_01_zustand.png",
-      "imageMetadata": {
-        "id": "FW_0001_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T06:23:41.106514+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 08_23_25.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum trocknen Böden und Pflanzen bei Hitze schneller aus?.\nKernaussage: Wärme liefert Energie für Verdunstung. Wasser verlässt offene Flächen, Böden und Gewässer als Wasserdampf; Pflanzen geben zusätzlich Wasser über ihre Blätter ab. Zusammen heißt das Evapotranspiration. Solange genug Wasser vorhanden ist, kühlt dieser Vorgang die Umgebung. Fehlt Regen oder Bodenspeicher, sinkt die Feuchte schneller, Pflanzen geraten unter Stress und ein größerer Teil der Sonnenenergie erwärmt Luft und Boden direkt..\nInhaltlicher Ausgangspunkt: Wasser, Fluss, trockener Boden, Regen, Trinkwasser oder Vegetation.\nSchlagwörter: Natur verstehen, Grundlagen, Verdunstung, Evapotranspiration, Bodenfeuchte, Pflanzen, Dürre, Verdunstungskühlung, Süßwasser, Querschnitt.\n\nBildtyp: fotorealistisch-schematische Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht nur das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang selbst. Die Darstellung darf leicht modellhaft und didaktisch reduziert wirken, muss aber aus realistischen Materialien, Pflanzen, Wasser, Boden, Luft, Licht oder Landschaft bestehen.\n\nStelle den Prozess in einem einzigen zusammenhängenden Bildraum dar. Nutze ein dominantes Hauptmotiv und höchstens wenige dezente, halbtransparente Prozessspuren, etwa Verdunstung, Wärmeschimmer, Luftbewegung, Lichtreflexion oder Stoffaustausch. Prozessspuren ohne Pfeilspitzen, ohne Beschriftung und ohne technische Diagrammästhetik. Eine angeschnittene Boden-, Wasser- oder Atmosphärenschicht ist zulässig, wenn sie zum Verständnis des konkreten Prozesses notwendig ist.\n\nDie Grundlagenbilder sollen sich deutlich von normalen Nachrichtenfotos unterscheiden: ruhiger neutraler Hintergrund, leicht freigestelltes Motiv, klare räumliche Ordnung, reduzierte Farb- und Objektvielfalt. Dennoch fotorealistisch, glaubwürdig und nicht wie eine Kinderbuchillustration, 3D-Werbegrafik oder Science-Fiction-Szene.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Collage und keine geteilte Vorher-nachher-Ansicht.\n- Keine Schrift, Buchstaben, Zahlen, Pfeile, Diagramme, Infografiken, Logos, Wasserzeichen oder Rahmen.\n- Keine Katastrophenästhetik und keine übertriebene Dramatik.\n\nVerbindliche ZUSTAND-Bildsprache: hochwertige deutschsprachige Wissenschaftsmagazin-Fotografie, realistische Lichtstimmung, klare Komposition, realistische Materialien, dezente Tiefenschärfe und eine unmittelbare Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Wärme liefert Energie für Verdunstung. Wasser verlässt offene Flächen, Böden und Gewässer als Wasserdampf; Pflanzen geben zusätzlich Wasser über ihre Blätter ab. Zusammen heißt das Evapotranspiration. Solange genug Wasser vorhanden ist, kühlt dieser Vorgang die Umgebung. Fehlt Regen oder Bodenspeicher, sinkt die Feuchte schneller, Pflanzen geraten unter Stress und ein größerer Teil der Sonnenenergie erwärmt Luft und Boden direkt.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Fotorealistisch-schematische Prozessdarstellung für die Rubrik „Natur verstehen“; kein dokumentarisches Ereignis.",
-        "contentType": "explainer",
-        "visualMode": "process-schematic",
-        "imageFamily": "explainer-process"
-      },
-      "sourceType": "Redaktioneller Grundlagenbeitrag zum Wasser- und Energiehaushalt von Böden und Pflanzen au",
-      "screenConnection": "Wasser kühlt Landschaften – fehlt es, verstärken sich Trockenheit und Hitze.",
-      "imageStyle": "monochrome-editorial-sketch",
-      "relatedNewsIds": [],
-      "relatedNewsCount": 0,
-      "sequenceRole": "explainer-after-news"
     }
   ],
   "contentSchema": 5,
@@ -1484,78 +1300,49 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-26T20:16:20+02:00",
+  "editorialGeneratedAt": "2026-07-26T22:02:28+02:00",
   "contentTypeCounts": {
     "news": 15,
-    "explainer": 9,
+    "explainer": 6,
     "solution": 0,
     "editorial": 0
   },
   "visualModeCounts": {
     "editorial-photo": 15,
-    "process-sketch": 9,
+    "process-sketch": 6,
     "symbolic": 0,
     "scientific": 0
   },
   "playbackOrder": [
     "KL_0005",
-    "OA_0001",
-    "NS_0001",
-    "NS_0003",
+    "KL_0016",
     "KL_0010",
     "KL_0013",
     "KL_0009",
+    "KL_0004",
     "KL_0006",
     "KL_0012",
     "QS_0005",
     "NS_0002",
     "BD_0009",
+    "BD_0010",
+    "QS_0007",
     "BD_0008",
     "KL_0011",
     "QS_0006",
     "LN_0001",
     "QS_0004",
-    "KL_0004",
-    "BD_0010",
-    "NS_0004",
-    "KL_0016",
-    "KL_0015",
-    "KL_0014",
-    "FW_0001"
+    "NS_0001",
+    "OA_0001",
+    "KL_0014"
   ],
   "playbackGroups": [
     {
       "explainerId": "OA_0001",
       "explainerTitle": "Warum macht zusätzliches CO₂ das Meer saurer?",
-      "newsIds": [
-        "KL_0005"
-      ],
-      "newsCount": 1,
-      "status": "thin",
-      "recommendedNewsCount": {
-        "min": 2,
-        "max": 5
-      }
-    },
-    {
-      "explainerId": "NS_0004",
-      "explainerTitle": "Warum kann Recycling nie völlig verlustfrei sein?",
       "newsIds": [],
       "newsCount": 0,
       "status": "unlinked",
-      "recommendedNewsCount": {
-        "min": 2,
-        "max": 5
-      }
-    },
-    {
-      "explainerId": "NS_0003",
-      "explainerTitle": "Warum ist Abfall nach dem Wegwerfen nicht weg?",
-      "newsIds": [
-        "NS_0001"
-      ],
-      "newsCount": 1,
-      "status": "thin",
       "recommendedNewsCount": {
         "min": 2,
         "max": 5
@@ -1564,20 +1351,11 @@
     {
       "explainerId": "KL_0016",
       "explainerTitle": "Warum steigt der Meeresspiegel auch ohne neues Wasser?",
-      "newsIds": [],
-      "newsCount": 0,
-      "status": "unlinked",
-      "recommendedNewsCount": {
-        "min": 2,
-        "max": 5
-      }
-    },
-    {
-      "explainerId": "KL_0015",
-      "explainerTitle": "Warum strahlt die Erde ständig Wärme ab?",
-      "newsIds": [],
-      "newsCount": 0,
-      "status": "unlinked",
+      "newsIds": [
+        "KL_0005"
+      ],
+      "newsCount": 1,
+      "status": "thin",
       "recommendedNewsCount": {
         "min": 2,
         "max": 5
@@ -1612,9 +1390,10 @@
       "explainerTitle": "Warum machen Treibhausgase die Erde wärmer?",
       "newsIds": [
         "KL_0009",
+        "KL_0004",
         "KL_0006"
       ],
-      "newsCount": 2,
+      "newsCount": 3,
       "status": "recommended",
       "recommendedNewsCount": {
         "min": 2,
@@ -1622,11 +1401,14 @@
       }
     },
     {
-      "explainerId": "FW_0001",
-      "explainerTitle": "Warum trocknen Böden und Pflanzen bei Hitze schneller aus?",
-      "newsIds": [],
-      "newsCount": 0,
-      "status": "unlinked",
+      "explainerId": "QS_0007",
+      "explainerTitle": "Warum ist biologische Vielfalt für unser Leben wichtig?",
+      "newsIds": [
+        "BD_0009",
+        "BD_0010"
+      ],
+      "newsCount": 2,
+      "status": "recommended",
       "recommendedNewsCount": {
         "min": 2,
         "max": 5

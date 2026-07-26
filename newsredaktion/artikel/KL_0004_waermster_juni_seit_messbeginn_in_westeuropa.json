@@ -23,7 +23,7 @@
   "author": "",
   "interviewPotential": "mittel",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-26",
   "language": "de",
   "article": [
     {
@@ -34,5 +34,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Copernicus: Record heatwave brings hottest June for western Europe during second-warmest June globally"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Priorität: 5; Originalquelle: Copernicus: Record heatwave brings hottest June for western Europe during second-warmest June globally",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "KL_0012",
+  "sequenceRole": "context-news"
 }

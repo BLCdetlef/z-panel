@@ -33,5 +33,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Juristische Analyse der EU-Wiederherstellungsverordnung erschienen"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Juristische Analyse der EU-Wiederherstellungsverordnung erschienen",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "QS_0007",
+  "sequenceRole": "context-news"
 }

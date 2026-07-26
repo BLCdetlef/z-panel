@@ -501,7 +501,20 @@
       "sourceUrl": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "updatedAt": "2026-07-26T07:52:02+02:00",
       "importSource": "natur_verstehen_10_beitraege.json"
+    },
+    "QS_0007": {
+      "sourceType": "Wissenschaftlicher globaler Zustandsbericht des Weltbiodiversitätsrats IPBES; Grundlagenquelle, keine aktuelle Einzelmeldung.",
+      "coreChange": "Der Beitrag erklärt, dass Biodiversität nicht nur Artenreichtum bedeutet, sondern die Funktionsfähigkeit und Widerstandskraft von Ökosystemen trägt.",
+      "questionBehindNews": "Warum betrifft der Verlust von Arten, Lebensräumen und genetischer Vielfalt unmittelbar unsere Ernährung, Gesundheit, Wasserversorgung und Sicherheit?",
+      "causalChain": "Vielfalt von Arten, Genen und Lebensräumen → viele miteinander verbundene ökologische Funktionen → stabilere und anpassungsfähigere Ökosysteme → verlässlichere Lebensgrundlagen für Menschen.",
+      "interviewPotential": "Nein",
+      "sources": "IPBES Global Assessment Report on Biodiversity and Ecosystem Services – Summary for Policymakers\nhttps://doi.org/10.5281/zenodo.3553458",
+      "articleId": "QS_0007",
+      "title": "Warum ist biologische Vielfalt für unser Leben wichtig?",
+      "sourceUrl": "https://doi.org/10.5281/zenodo.3553458",
+      "updatedAt": "2026-07-26T21:10:05+02:00",
+      "importSource": "zustand_import_biodiversitaet_grundlage.json"
     }
   },
-  "updatedAt": "2026-07-26T20:16:20+02:00"
+  "updatedAt": "2026-07-26T22:02:28+02:00"
 }
