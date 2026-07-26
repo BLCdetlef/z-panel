@@ -1,0 +1,32 @@
+{
+  "id": "KL_0013",
+  "status": "entwurf",
+  "title": "Warum bringt wärmere Luft oft heftigeren Regen?",
+  "summary": "Wärmere Luft kann bei gleicher relativer Feuchte mehr Wasserdampf enthalten. Nahe der Erdoberfläche sind es grob sieben Prozent mehr je Grad Erwärmung. Steigt feuchte Luft auf und kühlt ab, kann entsprechend mehr Wasser kondensieren und in kurzer Zeit fallen. Das bedeutet nicht überall mehr Regen: Gleichzeitig nimmt die Verdunstung zu, sodass Starkregen und Trockenheit nebeneinander häufiger werden können.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Clausius-Clapeyron",
+    "Wasserdampf",
+    "Starkregen",
+    "Verdunstung",
+    "Dürre",
+    "Atmosphäre",
+    "Klimawandel",
+    "Querschnitt"
+  ],
+  "imageId": "KL_0013_01",
+  "sourceUrl": "https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/ch8s8-6-3-1.html",
+  "publicationDate": "2026-07-26",
+  "author": "",
+  "interviewPotential": "gering",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: IPCC: Water Vapour and Lapse Rate"
+}

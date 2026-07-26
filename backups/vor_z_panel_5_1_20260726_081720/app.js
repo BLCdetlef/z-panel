@@ -222,18 +222,11 @@ function updateCounter(item) {
 }
 
 function updateArticleText(article) {
-  /* Z-PANEL 5.1: Beitragstypen und Grundlagenrubrik */
-  stage.classList.remove("is-editorial", "is-explainer", "is-solution");
-  const contentType = String(article.contentType || "news").trim();
-  stage.classList.toggle("is-explainer", contentType === "explainer");
-  stage.classList.toggle("is-solution", contentType === "solution");
-  const boundary = contentType === "explainer"
-    ? (article.displayLabel || "NATUR VERSTEHEN")
-    : (
-        boundaryNames[article.planetaryBoundary] ||
-        article.planetaryBoundary ||
-        "ZUSTAND"
-      );
+  stage.classList.remove("is-editorial");
+  const boundary =
+    boundaryNames[article.planetaryBoundary] ||
+    article.planetaryBoundary ||
+    "ZUSTAND";
   boundaryBadge.textContent = boundary;
   articleMeta.textContent = [boundary, formatDate(article.publicationDate)]
     .filter(Boolean)

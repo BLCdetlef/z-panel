@@ -1,0 +1,32 @@
+{
+  "id": "KL_0014",
+  "status": "entwurf",
+  "title": "Warum beschleunigt schmelzendes Eis die Erwärmung?",
+  "summary": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Eis-Albedo-Effekt",
+    "Schnee",
+    "Meereis",
+    "Arktis",
+    "Rückkopplung",
+    "Sonnenenergie",
+    "Klimawandel",
+    "Querschnitt"
+  ],
+  "imageId": "KL_0014_01",
+  "sourceUrl": "https://www.earthdata.nasa.gov/topics/cryosphere/albedo",
+  "publicationDate": "2026-07-26",
+  "author": "",
+  "interviewPotential": "gering",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Earthdata: Albedo"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "OA_0001",
+  "status": "entwurf",
+  "title": "Warum macht zusätzliches CO₂ das Meer saurer?",
+  "summary": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
+  "planetaryBoundary": "OA",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Ozeanversauerung",
+    "Kohlendioxid",
+    "pH-Wert",
+    "Carbonat",
+    "Korallen",
+    "Muscheln",
+    "Meereschemie",
+    "Querschnitt"
+  ],
+  "imageId": "OA_0001_01",
+  "sourceUrl": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
+  "publicationDate": "2026-07-26",
+  "author": "",
+  "interviewPotential": "gering",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Ocean Acidification Program: What is Ocean Acidification?"
+}

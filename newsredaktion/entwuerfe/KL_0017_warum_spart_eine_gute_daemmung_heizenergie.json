@@ -1,0 +1,32 @@
+{
+  "id": "KL_0017",
+  "status": "entwurf",
+  "title": "Warum spart eine gute Dämmung Heizenergie?",
+  "summary": "Wärme fließt von höheren zu niedrigeren Temperaturen. Im Winter wandert sie deshalb durch Wände, Dach, Fenster, Böden und undichte Fugen nach außen; im Sommer gelangt Wärme nach innen. Dämmstoffe bremsen vor allem Wärmeleitung und Luftbewegung. Eine durchgehende, sorgfältig ausgeführte Gebäudehülle senkt so den Heiz- und Kühlbedarf. Wärmebrücken, Feuchte und Leckagen können die Wirkung jedoch deutlich mindern.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Wärmeleitung",
+    "Dämmung",
+    "Gebäudehülle",
+    "Wärmebrücke",
+    "Luftdichtheit",
+    "Heizenergie",
+    "Bauwesen",
+    "Querschnitt"
+  ],
+  "imageId": "KL_0017_01",
+  "sourceUrl": "https://bsesc.energy.gov/energy-basics/heat-flow",
+  "publicationDate": "2026-07-26",
+  "author": "",
+  "interviewPotential": "gering",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: U.S. Department of Energy: Heat Flow"
+}

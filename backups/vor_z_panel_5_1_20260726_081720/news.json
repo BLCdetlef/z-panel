@@ -1,65 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T06:24:02.587201+00:00",
-  "articleCount": 16,
+  "generatedAt": "2026-07-25T20:37:32.574292+00:00",
+  "articleCount": 11,
   "articles": [
-    {
-      "id": "FW_0001",
-      "status": "freigegeben",
-      "title": "Warum trocknen Böden und Pflanzen bei Hitze schneller aus?",
-      "summary": "Wärme liefert Energie für Verdunstung. Wasser verlässt offene Flächen, Böden und Gewässer als Wasserdampf; Pflanzen geben zusätzlich Wasser über ihre Blätter ab. Zusammen heißt das Evapotranspiration. Solange genug Wasser vorhanden ist, kühlt dieser Vorgang die Umgebung. Fehlt Regen oder Bodenspeicher, sinkt die Feuchte schneller, Pflanzen geraten unter Stress und ein größerer Teil der Sonnenenergie erwärmt Luft und Boden direkt.",
-      "planetaryBoundary": "FW",
-      "keywords": [
-        "Natur verstehen",
-        "Grundlagen",
-        "Verdunstung",
-        "Evapotranspiration",
-        "Bodenfeuchte",
-        "Pflanzen",
-        "Dürre",
-        "Verdunstungskühlung",
-        "Süßwasser",
-        "Querschnitt"
-      ],
-      "imageId": "FW_0001_01",
-      "sourceUrl": "https://www.nasa.gov/missions/landsat/evapotranspiration-watching-over-water-use/",
-      "publicationDate": "2026-07-26",
-      "author": "",
-      "interviewPotential": "gering",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA: Evapotranspiration – Watching Over Water Use",
-      "contentType": "explainer",
-      "visualMode": "process-schematic",
-      "category": "Natur verstehen",
-      "displayLabel": "NATUR VERSTEHEN",
-      "imageFile": "assets/images/FW_0001_01_zustand.png",
-      "imageMetadata": {
-        "id": "FW_0001_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T06:23:41.106514+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 08_23_25.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum trocknen Böden und Pflanzen bei Hitze schneller aus?.\nKernaussage: Wärme liefert Energie für Verdunstung. Wasser verlässt offene Flächen, Böden und Gewässer als Wasserdampf; Pflanzen geben zusätzlich Wasser über ihre Blätter ab. Zusammen heißt das Evapotranspiration. Solange genug Wasser vorhanden ist, kühlt dieser Vorgang die Umgebung. Fehlt Regen oder Bodenspeicher, sinkt die Feuchte schneller, Pflanzen geraten unter Stress und ein größerer Teil der Sonnenenergie erwärmt Luft und Boden direkt..\nInhaltlicher Ausgangspunkt: Wasser, Fluss, trockener Boden, Regen, Trinkwasser oder Vegetation.\nSchlagwörter: Natur verstehen, Grundlagen, Verdunstung, Evapotranspiration, Bodenfeuchte, Pflanzen, Dürre, Verdunstungskühlung, Süßwasser, Querschnitt.\n\nBildtyp: fotorealistisch-schematische Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht nur das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang selbst. Die Darstellung darf leicht modellhaft und didaktisch reduziert wirken, muss aber aus realistischen Materialien, Pflanzen, Wasser, Boden, Luft, Licht oder Landschaft bestehen.\n\nStelle den Prozess in einem einzigen zusammenhängenden Bildraum dar. Nutze ein dominantes Hauptmotiv und höchstens wenige dezente, halbtransparente Prozessspuren, etwa Verdunstung, Wärmeschimmer, Luftbewegung, Lichtreflexion oder Stoffaustausch. Prozessspuren ohne Pfeilspitzen, ohne Beschriftung und ohne technische Diagrammästhetik. Eine angeschnittene Boden-, Wasser- oder Atmosphärenschicht ist zulässig, wenn sie zum Verständnis des konkreten Prozesses notwendig ist.\n\nDie Grundlagenbilder sollen sich deutlich von normalen Nachrichtenfotos unterscheiden: ruhiger neutraler Hintergrund, leicht freigestelltes Motiv, klare räumliche Ordnung, reduzierte Farb- und Objektvielfalt. Dennoch fotorealistisch, glaubwürdig und nicht wie eine Kinderbuchillustration, 3D-Werbegrafik oder Science-Fiction-Szene.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Collage und keine geteilte Vorher-nachher-Ansicht.\n- Keine Schrift, Buchstaben, Zahlen, Pfeile, Diagramme, Infografiken, Logos, Wasserzeichen oder Rahmen.\n- Keine Katastrophenästhetik und keine übertriebene Dramatik.\n\nVerbindliche ZUSTAND-Bildsprache: hochwertige deutschsprachige Wissenschaftsmagazin-Fotografie, realistische Lichtstimmung, klare Komposition, realistische Materialien, dezente Tiefenschärfe und eine unmittelbare Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Wärme liefert Energie für Verdunstung. Wasser verlässt offene Flächen, Böden und Gewässer als Wasserdampf; Pflanzen geben zusätzlich Wasser über ihre Blätter ab. Zusammen heißt das Evapotranspiration. Solange genug Wasser vorhanden ist, kühlt dieser Vorgang die Umgebung. Fehlt Regen oder Bodenspeicher, sinkt die Feuchte schneller, Pflanzen geraten unter Stress und ein größerer Teil der Sonnenenergie erwärmt Luft und Boden direkt.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Fotorealistisch-schematische Prozessdarstellung für die Rubrik „Natur verstehen“; kein dokumentarisches Ereignis.",
-        "contentType": "explainer",
-        "visualMode": "process-schematic",
-        "imageFamily": "explainer-process"
-      },
-      "sourceType": "Redaktioneller Grundlagenbeitrag zum Wasser- und Energiehaushalt von Böden und Pflanzen au",
-      "screenConnection": "Wasser kühlt Landschaften – fehlt es, verstärken sich Trockenheit und Hitze."
-    },
     {
       "id": "KL_0009",
       "status": "freigegeben",
@@ -113,9 +56,7 @@
       },
       "sourceType": "Aktuelle Einsatz- und Behördenmeldungen aus Frankreich und Spanien, ergänzt um europäische",
       "screenConnection": "Hitze, Trockenheit, Landschaftsstruktur und Zündquellen entscheiden gemeinsam, ob aus einem Feuer eine ökologische und gesellschaftliche Großschadenslage wird.",
-      "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:"
     },
     {
       "id": "QS_0005",
@@ -165,9 +106,7 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Begutachteter Forschungsartikel in Nature Mental Health auf Grundlage australischer bevölk",
-      "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit."
     },
     {
       "id": "NS_0002",
@@ -218,9 +157,7 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Empirischer Forschungsbericht des Umweltbundesamtes auf Grundlage umfangreicher Erhebungen",
-      "screenConnection": "Produktdesign, Sammlung und Sortiertechnik entscheiden gemeinsam, ob aus Verpackungsabfall tatsächlich neuer Rohstoff wird.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      "screenConnection": "Produktdesign, Sammlung und Sortiertechnik entscheiden gemeinsam, ob aus Verpackungsabfall tatsächlich neuer Rohstoff wird."
     },
     {
       "id": "BD_0009",
@@ -273,9 +210,7 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Begutachteter, frei zugänglicher Forschungsartikel in Nature Communications. Feldaufnahmen",
-      "screenConnection": "Landwirtschaft verändert Wald nicht nur durch Fläche und Stoffe – auch verstärkte Mikroorganismen können Grenzen überschreiten.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      "screenConnection": "Landwirtschaft verändert Wald nicht nur durch Fläche und Stoffe – auch verstärkte Mikroorganismen können Grenzen überschreiten."
     },
     {
       "id": "BD_0008",
@@ -327,61 +262,7 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Begutachteter, frei zugänglicher Feldforschungsartikel in Nature Cities. Grundlage ist ein",
-      "screenConnection": "Biodiversität hängt nicht nur von Fläche ab: Geschichte, kultureller Schutz und geringe Eingriffe können Stadtnatur bewahren.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
-    },
-    {
-      "id": "KL_0011",
-      "status": "freigegeben",
-      "title": "Deutschland erreicht Rekordbestand von 49,5 Millionen Pkw",
-      "summary": "Zum Jahresanfang 2026 waren in Deutschland 49,5 Millionen Pkw zugelassen – so viele wie nie zuvor. Die Dichte stieg auf 593 Autos je 1.000 Einwohner*innen und wächst seit 2008 kontinuierlich. Zugleich nahm die Fahrleistung nach dem Einbruch 2020 wieder zu. Die Zahlen stellen die Systemfrage nach Fahrzeugmasse, Rohstoffen, Parkflächen und Energiebedarf – nicht nur nach der Antriebsart.",
-      "planetaryBoundary": "KL",
-      "keywords": [
-        "Pkw-Bestand",
-        "Mobilität",
-        "Fahrzeugmasse",
-        "Parkflächen",
-        "Rohstoffverbrauch",
-        "Flächenverbrauch",
-        "Destatis",
-        "Kraftfahrt-Bundesamt",
-        "Deutschland",
-        "Zustand"
-      ],
-      "imageId": "KL_0011_01",
-      "sourceUrl": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_N050_46_85.html",
-      "publicationDate": "2026-07-22",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Pkw-Dichte 2026 erneut gestiegen",
-      "imageFile": "assets/images/KL_0011_01_zustand.png",
-      "imageMetadata": {
-        "id": "KL_0011_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T05:20:59.719163+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 07_20_43.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Deutschland erreicht Rekordbestand von 49,5 Millionen Pkw.\nKernaussage: Zum Jahresanfang 2026 waren in Deutschland 49,5 Millionen Pkw zugelassen – so viele wie nie zuvor. Die Dichte stieg auf 593 Autos je 1.000 Einwohner*innen und wächst seit 2008 kontinuierlich. Zugleich nahm die Fahrleistung nach dem Einbruch 2020 wieder zu. Die Zahlen stellen die Systemfrage nach Fahrzeugmasse, Rohstoffen, Parkflächen und Energiebedarf – nicht nur nach der Antriebsart..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Pkw-Bestand, Mobilität, Fahrzeugmasse, Parkflächen, Rohstoffverbrauch, Flächenverbrauch, Destatis, Kraftfahrt-Bundesamt, Deutschland, Zustand.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Zum Jahresanfang 2026 waren in Deutschland 49,5 Millionen Pkw zugelassen – so viele wie nie zuvor. Die Dichte stieg auf 593 Autos je 1.000 Einwohner*innen und wächst seit 2008 kontinuierlich. Zugleich nahm die Fahrleistung nach dem Einbruch 2020 wieder zu. Die Zahlen stellen die Systemfrage nach Fahrzeugmasse, Rohstoffen, Parkflächen und Energiebedarf – nicht nur nach der Antriebsart.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Amtliche Statistik auf Basis von KBA-Bestandszahlen und Regionalatlas-Berechnungen.",
-      "screenConnection": "Mehr Autos bedeuten nicht nur mehr Verkehr, sondern auch mehr Material, Fläche und Infrastruktur.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      "screenConnection": "Biodiversität hängt nicht nur von Fläche ab: Geschichte, kultureller Schutz und geringe Eingriffe können Stadtnatur bewahren."
     },
     {
       "id": "QS_0006",
@@ -432,61 +313,7 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Offizielle Rechts- und Behördenmeldung des Bundesministeriums für Arbeit und Soziales; bes",
-      "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
-    },
-    {
-      "id": "LN_0001",
-      "status": "freigegeben",
-      "title": "Wohnfläche pro Kopf steigt in Deutschland auf 49,5 Quadratmeter",
-      "summary": "Ende 2025 gab es in Deutschland 44,0 Millionen Wohnungen mit insgesamt 4,1 Milliarden Quadratmetern Wohnfläche. Seit 2015 wuchs die Wohnfläche um 8,9 Prozent und damit stärker als der Wohnungsbestand; pro Person stehen rechnerisch 49,5 Quadratmeter zur Verfügung, 3,3 Quadratmeter mehr als zehn Jahre zuvor. Die Daten lenken den Blick auf Verteilung, Leerstand, Bestandserhalt und global tragfähige Wohnflächen.",
-      "planetaryBoundary": "LN",
-      "keywords": [
-        "Wohnfläche pro Kopf",
-        "Wohnungsbestand",
-        "Suffizienz",
-        "Bestandserhalt",
-        "Flächenverbrauch",
-        "Baustoffe",
-        "Destatis",
-        "Bauwesen",
-        "Deutschland",
-        "Querschnitt"
-      ],
-      "imageId": "LN_0001_01",
-      "sourceUrl": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_250_31231.html",
-      "publicationDate": "2026-07-16",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: 44,0 Millionen Wohnungen in Deutschland zum Jahresende 2025",
-      "imageFile": "assets/images/LN_0001_01_zustand.png",
-      "imageMetadata": {
-        "id": "LN_0001_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T05:23:27.262847+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 07_23_09.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Wohnfläche pro Kopf steigt in Deutschland auf 49,5 Quadratmeter.\nKernaussage: Ende 2025 gab es in Deutschland 44,0 Millionen Wohnungen mit insgesamt 4,1 Milliarden Quadratmetern Wohnfläche. Seit 2015 wuchs die Wohnfläche um 8,9 Prozent und damit stärker als der Wohnungsbestand; pro Person stehen rechnerisch 49,5 Quadratmeter zur Verfügung, 3,3 Quadratmeter mehr als zehn Jahre zuvor. Die Daten lenken den Blick auf Verteilung, Leerstand, Bestandserhalt und global tragfähige Wohnflächen..\nMögliche Bildassoziationen: Landschaft, Wald, Landwirtschaft, Versiegelung und Nutzungskonflikte.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Sie soll sofort verständlich, fotorealistisch und weder plakativ noch werblich wirken.\nSchlagwörter: Wohnfläche pro Kopf, Wohnungsbestand, Suffizienz, Bestandserhalt, Flächenverbrauch, Baustoffe, Destatis, Bauwesen, Deutschland, Querschnitt.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Ende 2025 gab es in Deutschland 44,0 Millionen Wohnungen mit insgesamt 4,1 Milliarden Quadratmetern Wohnfläche. Seit 2015 wuchs die Wohnfläche um 8,9 Prozent und damit stärker als der Wohnungsbestand; pro Person stehen rechnerisch 49,5 Quadratmeter zur Verfügung, 3,3 Quadratmeter mehr als zehn Jahre zuvor. Die Daten lenken den Blick auf Verteilung, Leerstand, Bestandserhalt und global tragfähige Wohnflächen.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Amtliche Fortschreibung des Gebäude- und Wohnungsbestands auf Basis der Gebäude- und Wohnu",
-      "screenConnection": "Wohnraummangel hängt nicht nur von der Zahl der Wohnungen, sondern auch von Fläche, Verteilung und Nutzung zusammen.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention."
     },
     {
       "id": "QS_0004",
@@ -535,11 +362,7 @@
         "altText": "Die repräsentative UBA-Studie „Zukunft? Jugend fragen!“ mit 1.311 Menschen zwischen 14 und 22 Jahren zeigt wachsende Zukunftssorgen. 73 Prozent beurteilen Deutschlands gesellschaftliche Zukunft pessimistisch; 2021 waren es 54 Prozent. Umwelt- und Klimaschutz bleibt für 73 Prozent wichtig, doch nur noch 30 Prozent nennen ihn sehr wichtig. Zugleich halten 88 Prozent das Leben in einer Demokratie für sehr wichtig und 70 Prozent wünschen mehr politisches Gehör.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Repräsentative Befragung im Auftrag des UBA, durchgeführt vom IÖW und Verian als Teil eine",
-      "screenConnection": "Der Zustand der Lebensgrundlagen beeinflusst Vertrauen, Demokratie und Zukunftsvorstellungen.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      }
     },
     {
       "id": "KL_0004",
@@ -588,11 +411,7 @@
         "altText": "Der Copernicus Climate Change Service meldet für Juni 2026 den wärmsten Juni seit Beginn der ERA5-Reihe in Westeuropa und global den zweitwärmsten Juni. Die mittlere Temperatur Westeuropas lag 3,06 °C über dem Referenzwert 1991–2020. Zugleich erreichte die Meeresoberflächentemperatur der außertropischen Ozeane einen neuen Juni-Höchstwert; Hitze, trockene Böden und geringe Abflüsse verstärkten Dürre- und Waldbrandrisiken.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Monatlicher Klimadienst-Bericht auf Basis des ERA5-Reanalysedatensatzes; offizielle Copern",
-      "screenConnection": "Warme Meere, trockene Böden, Hitze und Waldbrände hängen direkt zusammen.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      }
     },
     {
       "id": "NS_0001",
@@ -641,61 +460,7 @@
         "altText": "Eine neue Erhebung im Auftrag des Umweltbundesamtes zeigt: 2024 wurden nur 34,5 Prozent der Getränke in Deutschland in Mehrwegverpackungen verkauft. Gegenüber dem Vorjahr stieg die Quote lediglich um 0,2 Prozentpunkte und verfehlte das gesetzliche Ziel von 70 Prozent um 35,5 Punkte. Einweg-Kunststoffflaschen blieben mit 38,6 Prozent die häufigste Verpackungsart, vor Mehrweg-Glasflaschen mit 25,2 Prozent.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "contentType": "news",
-      "visualMode": "editorial-photo"
-    },
-    {
-      "id": "BD_0010",
-      "status": "freigegeben",
-      "title": "Neue Analyse klärt Pflichten zur Wiederherstellung der Natur",
-      "summary": "Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen.",
-      "planetaryBoundary": "BD",
-      "keywords": [
-        "EU-Wiederherstellungsverordnung",
-        "Renaturierung",
-        "Biodiversität",
-        "Fristen",
-        "Indikatoren",
-        "Bundesamt für Naturschutz",
-        "UFZ",
-        "Deutschland",
-        "Europäische Union",
-        "Lösung"
-      ],
-      "imageId": "BD_0010_01",
-      "sourceUrl": "https://www.bfn.de/aktuelles/juristische-analyse-der-eu-wiederherstellungsverordnung-erschienen",
-      "publicationDate": "2026-07-08",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Juristische Analyse der EU-Wiederherstellungsverordnung erschienen",
-      "imageFile": "assets/images/BD_0010_01_zustand.png",
-      "imageMetadata": {
-        "id": "BD_0010_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T05:58:14.882974+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 07_57_52.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Neue Analyse klärt Pflichten zur Wiederherstellung der Natur.\nKernaussage: Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen..\nMögliche Bildassoziationen: lebendige Artenvielfalt, Wildpflanzen, Insekten, Vögel, Wald oder Gewässer.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: EU-Wiederherstellungsverordnung, Renaturierung, Biodiversität, Fristen, Indikatoren, Bundesamt für Naturschutz, UFZ, Deutschland, Europäische Union, Lösung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Eine neue rechtswissenschaftliche Analyse erläutert erstmals zentrale Verpflichtungen der EU-Wiederherstellungsverordnung im Stil eines Kurzkommentars. Anders als frühere Regelungen enthält sie konkrete Fristen und Indikatoren für Land-, Küsten-, Meeres-, Wald-, Stadt- und Agrarökosysteme. Die BfN-Schrift soll Behörden, Naturschutzverbänden und Landnutzenden helfen, nationale Wiederherstellungspläne rechtssicher umzusetzen.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Neue BfN-Schrift mit rechtswissenschaftlicher Analyse; im Auftrag des BfN durch das UFZ er",
-      "screenConnection": "Naturerholung braucht nicht nur Ziele, sondern Fristen, Indikatoren und überprüfbare Umsetzung.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      }
     },
     {
       "id": "KL_0006",
@@ -744,61 +509,7 @@
         "altText": "Die 1.794 deutschen Industrie- und Energieanlagen im EU-Emissionshandel verursachten 2025 rund 264 Millionen Tonnen CO₂-Äquivalente, 3,2 Prozent weniger als im Vorjahr. Auch der Luftverkehr sank um 2,2 Prozent. Der Rückgang ist jedoch nur teilweise ein Fortschritt: Bei Industrieanlagen beruht er laut Umweltbundesamt wesentlich auf der schwachen Wirtschaftsentwicklung, während sich die Minderung der Energieanlagen deutlich verlangsamte.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "contentType": "news",
-      "visualMode": "editorial-photo"
-    },
-    {
-      "id": "KL_0010",
-      "status": "freigegeben",
-      "title": "Starkes El Niño erhöht weltweite Extremwetterrisiken",
-      "summary": "Die WMO meldet ein rasch stärker werdendes El-Niño-Ereignis. Für Juli bis September 2026 erwarten die beteiligten Modelle in zentralen und östlichen Teilen des tropischen Pazifiks saisonale Meeresoberflächen-Anomalien von mehr als 2 °C. Damit steigen in vielen Weltregionen die Wahrscheinlichkeiten für Hitzewellen, Dürren, Starkregen und marine Hitzewellen; Frühwarnung wird besonders wichtig.",
-      "planetaryBoundary": "KL",
-      "keywords": [
-        "El Niño",
-        "Extremwetter",
-        "Dürre",
-        "Starkregen",
-        "marine Hitzewellen",
-        "Frühwarnung",
-        "WMO",
-        "Vereinte Nationen",
-        "Schweiz",
-        "Zustand"
-      ],
-      "imageId": "KL_0010_01",
-      "sourceUrl": "https://wmo.int/media/news/el-nino-forecast-intensify-increasing-likelihood-of-extreme-weather",
-      "publicationDate": "2026-07-03",
-      "author": "",
-      "interviewPotential": "mittel",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-26",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: El Niño is forecast to intensify, increasing likelihood of extreme weather",
-      "imageFile": "assets/images/KL_0010_01_zustand.png",
-      "imageMetadata": {
-        "id": "KL_0010_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T05:19:12.433825+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 07_18_49.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Starkes El Niño erhöht weltweite Extremwetterrisiken.\nKernaussage: Die WMO meldet ein rasch stärker werdendes El-Niño-Ereignis. Für Juli bis September 2026 erwarten die beteiligten Modelle in zentralen und östlichen Teilen des tropischen Pazifiks saisonale Meeresoberflächen-Anomalien von mehr als 2 °C. Damit steigen in vielen Weltregionen die Wahrscheinlichkeiten für Hitzewellen, Dürren, Starkregen und marine Hitzewellen; Frühwarnung wird besonders wichtig..\nMögliche Bildassoziationen: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: El Niño, Extremwetter, Dürre, Starkregen, marine Hitzewellen, Frühwarnung, WMO, Vereinte Nationen, Schweiz, Zustand.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Die WMO meldet ein rasch stärker werdendes El-Niño-Ereignis. Für Juli bis September 2026 erwarten die beteiligten Modelle in zentralen und östlichen Teilen des tropischen Pazifiks saisonale Meeresoberflächen-Anomalien von mehr als 2 °C. Damit steigen in vielen Weltregionen die Wahrscheinlichkeiten für Hitzewellen, Dürren, Starkregen und marine Hitzewellen; Frühwarnung wird besonders wichtig.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Offizielle saisonale Klimavorhersage der WMO auf Basis eines Multi-Modell-Ensembles intern",
-      "screenConnection": "Eine Temperaturänderung im Pazifik kann Wetterrisiken auf mehreren Kontinenten verschieben.",
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      }
     },
     {
       "id": "KL_0005",
@@ -848,12 +559,10 @@
         "altText": "Die Auswertung von 25 Jahren am AWI-Langzeitobservatorium HAUSGARTEN dokumentiert tiefgreifende Veränderungen in der Framstraße. Die Meereisdicke nahm in den vergangenen Jahrzehnten um bis zu 40 Prozent ab; im östlichen Gebiet wurden Jahresmitteltemperaturen bis 1,5 °C über dem langjährigen Durchschnitt gemessen. Kälteliebendes Zooplankton geht zurück, wärmetolerante Arten wandern ein und weniger energiereiches Material erreicht den Tiefseeboden.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "contentType": "news",
-      "visualMode": "editorial-photo"
+      }
     }
   ],
-  "contentSchema": 3,
+  "contentSchema": 2,
   "rotation": {
     "articleSeconds": 30,
     "editorialSeconds": 18,
@@ -886,11 +595,5 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-26T08:24:04+02:00",
-  "contentTypeCounts": {
-    "news": 15,
-    "explainer": 1,
-    "solution": 0,
-    "editorial": 0
-  }
+  "editorialGeneratedAt": "2026-07-25T22:37:35+02:00"
 }

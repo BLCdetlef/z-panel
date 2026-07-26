@@ -1,0 +1,37 @@
+{
+  "id": "KL_0010",
+  "status": "freigegeben",
+  "title": "Starkes El Niño erhöht weltweite Extremwetterrisiken",
+  "summary": "Die WMO meldet ein rasch stärker werdendes El-Niño-Ereignis. Für Juli bis September 2026 erwarten die beteiligten Modelle in zentralen und östlichen Teilen des tropischen Pazifiks saisonale Meeresoberflächen-Anomalien von mehr als 2 °C. Damit steigen in vielen Weltregionen die Wahrscheinlichkeiten für Hitzewellen, Dürren, Starkregen und marine Hitzewellen; Frühwarnung wird besonders wichtig.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "El Niño",
+    "Extremwetter",
+    "Dürre",
+    "Starkregen",
+    "marine Hitzewellen",
+    "Frühwarnung",
+    "WMO",
+    "Vereinte Nationen",
+    "Schweiz",
+    "Zustand"
+  ],
+  "imageId": "KL_0010_01",
+  "sourceUrl": "https://wmo.int/media/news/el-nino-forecast-intensify-increasing-likelihood-of-extreme-weather",
+  "publicationDate": "2026-07-03",
+  "author": "",
+  "interviewPotential": "mittel",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: El Niño is forecast to intensify, increasing likelihood of extreme weather"
+}

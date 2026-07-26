@@ -1,0 +1,37 @@
+{
+  "id": "LN_0001",
+  "status": "freigegeben",
+  "title": "Wohnfläche pro Kopf steigt in Deutschland auf 49,5 Quadratmeter",
+  "summary": "Ende 2025 gab es in Deutschland 44,0 Millionen Wohnungen mit insgesamt 4,1 Milliarden Quadratmetern Wohnfläche. Seit 2015 wuchs die Wohnfläche um 8,9 Prozent und damit stärker als der Wohnungsbestand; pro Person stehen rechnerisch 49,5 Quadratmeter zur Verfügung, 3,3 Quadratmeter mehr als zehn Jahre zuvor. Die Daten lenken den Blick auf Verteilung, Leerstand, Bestandserhalt und global tragfähige Wohnflächen.",
+  "planetaryBoundary": "LN",
+  "keywords": [
+    "Wohnfläche pro Kopf",
+    "Wohnungsbestand",
+    "Suffizienz",
+    "Bestandserhalt",
+    "Flächenverbrauch",
+    "Baustoffe",
+    "Destatis",
+    "Bauwesen",
+    "Deutschland",
+    "Querschnitt"
+  ],
+  "imageId": "LN_0001_01",
+  "sourceUrl": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_250_31231.html",
+  "publicationDate": "2026-07-16",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: 44,0 Millionen Wohnungen in Deutschland zum Jahresende 2025"
+}

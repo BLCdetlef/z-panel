@@ -1,0 +1,37 @@
+{
+  "id": "KL_0011",
+  "status": "freigegeben",
+  "title": "Deutschland erreicht Rekordbestand von 49,5 Millionen Pkw",
+  "summary": "Zum Jahresanfang 2026 waren in Deutschland 49,5 Millionen Pkw zugelassen – so viele wie nie zuvor. Die Dichte stieg auf 593 Autos je 1.000 Einwohner*innen und wächst seit 2008 kontinuierlich. Zugleich nahm die Fahrleistung nach dem Einbruch 2020 wieder zu. Die Zahlen stellen die Systemfrage nach Fahrzeugmasse, Rohstoffen, Parkflächen und Energiebedarf – nicht nur nach der Antriebsart.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Pkw-Bestand",
+    "Mobilität",
+    "Fahrzeugmasse",
+    "Parkflächen",
+    "Rohstoffverbrauch",
+    "Flächenverbrauch",
+    "Destatis",
+    "Kraftfahrt-Bundesamt",
+    "Deutschland",
+    "Zustand"
+  ],
+  "imageId": "KL_0011_01",
+  "sourceUrl": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_N050_46_85.html",
+  "publicationDate": "2026-07-22",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-26",
+  "lastModified": "2026-07-26",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Pkw-Dichte 2026 erneut gestiegen"
+}
