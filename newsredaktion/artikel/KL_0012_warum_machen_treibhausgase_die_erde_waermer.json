@@ -1,6 +1,6 @@
 {
   "id": "KL_0012",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Warum machen Treibhausgase die Erde wärmer?",
   "summary": "Sonnenlicht gelangt durch die Atmosphäre und erwärmt Land und Wasser. Die Erde gibt Energie als unsichtbare Wärmestrahlung wieder ab. Treibhausgase nehmen einen Teil davon auf und senden ihn in alle Richtungen zurück. Der natürliche Effekt macht Leben möglich. Durch zusätzliches Kohlendioxid, Methan und Lachgas bleibt jedoch mehr Wärme im Klimasystem – die Erde erwärmt sich.",
   "planetaryBoundary": "KL",
@@ -24,9 +24,19 @@
   "created": "2026-07-26",
   "lastModified": "2026-07-26",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: What is the greenhouse effect?"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: What is the greenhouse effect?",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch"
 }

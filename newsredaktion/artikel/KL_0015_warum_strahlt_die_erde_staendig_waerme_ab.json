@@ -1,6 +1,6 @@
 {
   "id": "KL_0015",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Warum strahlt die Erde ständig Wärme ab?",
   "summary": "Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss.",
   "planetaryBoundary": "KL",
@@ -24,9 +24,19 @@
   "created": "2026-07-26",
   "lastModified": "2026-07-26",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: Climate and Earth’s Energy Budget"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: Climate and Earth’s Energy Budget",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch"
 }

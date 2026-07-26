@@ -1,8 +1,544 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T06:24:02.587201+00:00",
-  "articleCount": 16,
+  "generatedAt": "2026-07-26T09:54:12.825104+00:00",
+  "articleCount": 24,
   "articles": [
+    {
+      "id": "OA_0001",
+      "status": "freigegeben",
+      "title": "Warum macht zusätzliches CO₂ das Meer saurer?",
+      "summary": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
+      "planetaryBoundary": "OA",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Ozeanversauerung",
+        "Kohlendioxid",
+        "pH-Wert",
+        "Carbonat",
+        "Korallen",
+        "Muscheln",
+        "Meereschemie",
+        "Querschnitt"
+      ],
+      "imageId": "OA_0001_01",
+      "sourceUrl": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Ocean Acidification Program: What is Ocean Acidification?",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/OA_0001_01_zustand.png",
+      "imageMetadata": {
+        "id": "OA_0001_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:53:30.467725+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_53_11.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum macht zusätzliches CO₂ das Meer saurer?.\nKernaussage: Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden..\nInhaltlicher Ausgangspunkt: Meer, Muschel, Koralle, Plankton oder empfindliches Meeresleben.\nSchlagwörter: Natur verstehen, Grundlagen, Ozeanversauerung, Kohlendioxid, pH-Wert, Carbonat, Korallen, Muscheln, Meereschemie, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Ein Teil des Kohlendioxids aus der Luft löst sich im Meerwasser. Dort entstehen bei chemischen Reaktionen mehr Wasserstoffionen; der pH-Wert sinkt. Das Meer wird damit saurer, obwohl es weiterhin basisch bleibt. Zugleich stehen weniger Carbonat-Ionen für Kalkschalen und Skelette zur Verfügung. Muscheln, Korallen und einige Planktonarten müssen dadurch mehr Energie für Aufbau und Erhalt ihrer Kalkstrukturen aufwenden.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Carbonatchemie und offizieller wiss",
+      "screenConnection": "Dasselbe CO₂ erwärmt die Atmosphäre und verändert zugleich die Chemie der Meere."
+    },
+    {
+      "id": "NS_0004",
+      "status": "freigegeben",
+      "title": "Warum kann Recycling nie völlig verlustfrei sein?",
+      "summary": "Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor.",
+      "planetaryBoundary": "NS",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Recycling",
+        "Kreislaufwirtschaft",
+        "Materialverluste",
+        "Entropie",
+        "Reparatur",
+        "Wiederverwendung",
+        "Produktdesign",
+        "Querschnitt"
+      ],
+      "imageId": "NS_0004_01",
+      "sourceUrl": "https://www.epa.gov/circulareconomy/national-recycling-strategy",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: National Recycling Strategy",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/NS_0004_01_zustand.png",
+      "imageMetadata": {
+        "id": "NS_0004_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:44:55.563108+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_44_36.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum kann Recycling nie völlig verlustfrei sein?.\nKernaussage: Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor..\nInhaltlicher Ausgangspunkt: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nSchlagwörter: Natur verstehen, Grundlagen, Recycling, Kreislaufwirtschaft, Materialverluste, Entropie, Reparatur, Wiederverwendung, Produktdesign, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag zu realen Materialkreisläufen auf Basis thermodynamischer",
+      "screenConnection": "Recycling schließt Kreisläufe nur teilweise – Vermeidung, Reparatur und lange Nutzung wirken früher."
+    },
+    {
+      "id": "NS_0003",
+      "status": "freigegeben",
+      "title": "Warum ist Abfall nach dem Wegwerfen nicht weg?",
+      "summary": "Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt.",
+      "planetaryBoundary": "NS",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Massenerhaltung",
+        "Abfall",
+        "Stoffströme",
+        "Ressourcen",
+        "Emissionen",
+        "Kreislaufwirtschaft",
+        "Neuartige Substanzen",
+        "Querschnitt"
+      ],
+      "imageId": "NS_0003_01",
+      "sourceUrl": "https://www.epa.gov/smm",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: Sustainable Materials Management",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/NS_0003_01_zustand.png",
+      "imageMetadata": {
+        "id": "NS_0003_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:41:45.073753+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_41_30.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum ist Abfall nach dem Wegwerfen nicht weg?.\nKernaussage: Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt..\nInhaltlicher Ausgangspunkt: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nSchlagwörter: Natur verstehen, Grundlagen, Massenerhaltung, Abfall, Stoffströme, Ressourcen, Emissionen, Kreislaufwirtschaft, Neuartige Substanzen, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag zum Prinzip der Massenerhaltung und zu Stoffströmen; ergä",
+      "screenConnection": "Wegwerfen entfernt Stoffe aus unserem Blick – nicht aus der Welt."
+    },
+    {
+      "id": "KL_0016",
+      "status": "freigegeben",
+      "title": "Warum steigt der Meeresspiegel auch ohne neues Wasser?",
+      "summary": "Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Meeresspiegel",
+        "thermische Ausdehnung",
+        "Ozeanwärme",
+        "Gletscher",
+        "Eisschilde",
+        "Küsten",
+        "Klimawandel",
+        "Querschnitt"
+      ],
+      "imageId": "KL_0016_01",
+      "sourceUrl": "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/understanding-climate/climate-change-global-sea-level",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NOAA Climate.gov: Climate Change – Global Sea Level",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/KL_0016_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0016_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:23:00.113265+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_22_28.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum steigt der Meeresspiegel auch ohne neues Wasser?.\nKernaussage: Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Meeresspiegel, thermische Ausdehnung, Ozeanwärme, Gletscher, Eisschilde, Küsten, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Wasser dehnt sich beim Erwärmen aus. Nimmt der Ozean Wärme auf, braucht dieselbe Wassermasse etwas mehr Raum und der Meeresspiegel steigt – auch ohne zusätzliches Schmelzwasser. Dieser Effekt heißt thermische Ausdehnung. Hinzu kommt Wasser von schmelzenden Gletschern und Eisschilden an Land. Schwimmendes Meereis erhöht den Meeresspiegel beim Schmelzen dagegen kaum direkt, verändert aber Klima und Ökosysteme.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag zur thermischen Ausdehnung und zum Meeresspiegel auf Basi",
+      "screenConnection": "Der Ozean steigt durch zusätzliches Schmelzwasser – und weil warmes Wasser mehr Raum braucht."
+    },
+    {
+      "id": "KL_0015",
+      "status": "freigegeben",
+      "title": "Warum strahlt die Erde ständig Wärme ab?",
+      "summary": "Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Wärmestrahlung",
+        "Infrarot",
+        "Energiebilanz",
+        "Stefan-Boltzmann",
+        "Erdsystem",
+        "Atmosphäre",
+        "Klima",
+        "Querschnitt"
+      ],
+      "imageId": "KL_0015_01",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: Climate and Earth’s Energy Budget",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/KL_0015_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0015_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:20:08.431131+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_19_35.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum strahlt die Erde ständig Wärme ab?.\nKernaussage: Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Wärmestrahlung, Infrarot, Energiebilanz, Stefan-Boltzmann, Erdsystem, Atmosphäre, Klima, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt sendet Strahlung aus – auch die Erde. Sie nimmt kurzwelliges Sonnenlicht auf und gibt Energie vor allem als unsichtbare Infrarotstrahlung wieder ab. Je wärmer eine Oberfläche ist, desto stärker strahlt sie. Das Klima hängt deshalb von der Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärme ab. Treibhausgase verändern diesen Energiefluss.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag zur Strahlungs- und Energiebilanz der Erde auf Basis etab",
+      "screenConnection": "Das Klima folgt einer Energiebilanz: Was nicht entweicht, erwärmt das System."
+    },
+    {
+      "id": "KL_0014",
+      "status": "freigegeben",
+      "title": "Warum beschleunigt schmelzendes Eis die Erwärmung?",
+      "summary": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Eis-Albedo-Effekt",
+        "Schnee",
+        "Meereis",
+        "Arktis",
+        "Rückkopplung",
+        "Sonnenenergie",
+        "Klimawandel",
+        "Querschnitt"
+      ],
+      "imageId": "KL_0014_01",
+      "sourceUrl": "https://www.earthdata.nasa.gov/topics/cryosphere/albedo",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Earthdata: Albedo",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/KL_0014_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0014_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:16:20.102987+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_15_58.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum beschleunigt schmelzendes Eis die Erwärmung?.\nKernaussage: Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Eis-Albedo-Effekt, Schnee, Meereis, Arktis, Rückkopplung, Sonnenenergie, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Strahlungsphysik und offizieller NA",
+      "screenConnection": "Weniger Eis bedeutet eine dunklere Erde – und eine dunklere Oberfläche nimmt mehr Wärme auf."
+    },
+    {
+      "id": "KL_0013",
+      "status": "freigegeben",
+      "title": "Warum bringt wärmere Luft oft heftigeren Regen?",
+      "summary": "Wärmere Luft kann bei gleicher relativer Feuchte mehr Wasserdampf enthalten. Nahe der Erdoberfläche sind es grob sieben Prozent mehr je Grad Erwärmung. Steigt feuchte Luft auf und kühlt ab, kann entsprechend mehr Wasser kondensieren und in kurzer Zeit fallen. Das bedeutet nicht überall mehr Regen: Gleichzeitig nimmt die Verdunstung zu, sodass Starkregen und Trockenheit nebeneinander häufiger werden können.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Clausius-Clapeyron",
+        "Wasserdampf",
+        "Starkregen",
+        "Verdunstung",
+        "Dürre",
+        "Atmosphäre",
+        "Klimawandel",
+        "Querschnitt"
+      ],
+      "imageId": "KL_0013_01",
+      "sourceUrl": "https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/ch8s8-6-3-1.html",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: IPCC: Water Vapour and Lapse Rate",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/KL_0013_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0013_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:10:32.568398+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_10_14.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum bringt wärmere Luft oft heftigeren Regen?.\nKernaussage: Wärmere Luft kann bei gleicher relativer Feuchte mehr Wasserdampf enthalten. Nahe der Erdoberfläche sind es grob sieben Prozent mehr je Grad Erwärmung. Steigt feuchte Luft auf und kühlt ab, kann entsprechend mehr Wasser kondensieren und in kurzer Zeit fallen. Das bedeutet nicht überall mehr Regen: Gleichzeitig nimmt die Verdunstung zu, sodass Starkregen und Trockenheit nebeneinander häufiger werden können..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Clausius-Clapeyron, Wasserdampf, Starkregen, Verdunstung, Dürre, Atmosphäre, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Wärmere Luft kann bei gleicher relativer Feuchte mehr Wasserdampf enthalten. Nahe der Erdoberfläche sind es grob sieben Prozent mehr je Grad Erwärmung. Steigt feuchte Luft auf und kühlt ab, kann entsprechend mehr Wasser kondensieren und in kurzer Zeit fallen. Das bedeutet nicht überall mehr Regen: Gleichzeitig nimmt die Verdunstung zu, sodass Starkregen und Trockenheit nebeneinander häufiger werden können.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag zur Clausius-Clapeyron-Beziehung auf Basis der physikalis",
+      "screenConnection": "Mehr Wärme beschleunigt Verdunstung und kann zugleich stärkeren Starkregen ermöglichen."
+    },
+    {
+      "id": "KL_0012",
+      "status": "freigegeben",
+      "title": "Warum machen Treibhausgase die Erde wärmer?",
+      "summary": "Sonnenlicht gelangt durch die Atmosphäre und erwärmt Land und Wasser. Die Erde gibt Energie als unsichtbare Wärmestrahlung wieder ab. Treibhausgase nehmen einen Teil davon auf und senden ihn in alle Richtungen zurück. Der natürliche Effekt macht Leben möglich. Durch zusätzliches Kohlendioxid, Methan und Lachgas bleibt jedoch mehr Wärme im Klimasystem – die Erde erwärmt sich.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Treibhauseffekt",
+        "Kohlendioxid",
+        "Methan",
+        "Lachgas",
+        "Atmosphäre",
+        "Wärmestrahlung",
+        "Klimawandel",
+        "Querschnitt"
+      ],
+      "imageId": "KL_0012_01",
+      "sourceUrl": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-26",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Science: What is the greenhouse effect?",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "imageFile": "assets/images/KL_0012_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0012_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:01:52.719077+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_01_25.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum machen Treibhausgase die Erde wärmer?.\nKernaussage: Sonnenlicht gelangt durch die Atmosphäre und erwärmt Land und Wasser. Die Erde gibt Energie als unsichtbare Wärmestrahlung wieder ab. Treibhausgase nehmen einen Teil davon auf und senden ihn in alle Richtungen zurück. Der natürliche Effekt macht Leben möglich. Durch zusätzliches Kohlendioxid, Methan und Lachgas bleibt jedoch mehr Wärme im Klimasystem – die Erde erwärmt sich..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Treibhauseffekt, Kohlendioxid, Methan, Lachgas, Atmosphäre, Wärmestrahlung, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Sonnenlicht gelangt durch die Atmosphäre und erwärmt Land und Wasser. Die Erde gibt Energie als unsichtbare Wärmestrahlung wieder ab. Treibhausgase nehmen einen Teil davon auf und senden ihn in alle Richtungen zurück. Der natürliche Effekt macht Leben möglich. Durch zusätzliches Kohlendioxid, Methan und Lachgas bleibt jedoch mehr Wärme im Klimasystem – die Erde erwärmt sich.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Strahlungsphysik und einer offiziel",
+      "screenConnection": "Mehr Treibhausgase verändern den Weg der Wärme – und damit das gesamte Klimasystem."
+    },
     {
       "id": "FW_0001",
       "status": "freigegeben",
@@ -40,7 +576,7 @@
       "license": "",
       "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA: Evapotranspiration – Watching Over Water Use",
       "contentType": "explainer",
-      "visualMode": "process-schematic",
+      "visualMode": "process-sketch",
       "category": "Natur verstehen",
       "displayLabel": "NATUR VERSTEHEN",
       "imageFile": "assets/images/FW_0001_01_zustand.png",
@@ -58,7 +594,8 @@
         "imageFamily": "explainer-process"
       },
       "sourceType": "Redaktioneller Grundlagenbeitrag zum Wasser- und Energiehaushalt von Böden und Pflanzen au",
-      "screenConnection": "Wasser kühlt Landschaften – fehlt es, verstärken sich Trockenheit und Hitze."
+      "screenConnection": "Wasser kühlt Landschaften – fehlt es, verstärken sich Trockenheit und Hitze.",
+      "imageStyle": "monochrome-editorial-sketch"
     },
     {
       "id": "KL_0009",
@@ -115,7 +652,8 @@
       "screenConnection": "Hitze, Trockenheit, Landschaftsstruktur und Zündquellen entscheiden gemeinsam, ob aus einem Feuer eine ökologische und gesellschaftliche Großschadenslage wird.",
       "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "QS_0005",
@@ -167,7 +705,8 @@
       "sourceType": "Begutachteter Forschungsartikel in Nature Mental Health auf Grundlage australischer bevölk",
       "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "NS_0002",
@@ -220,7 +759,8 @@
       "sourceType": "Empirischer Forschungsbericht des Umweltbundesamtes auf Grundlage umfangreicher Erhebungen",
       "screenConnection": "Produktdesign, Sammlung und Sortiertechnik entscheiden gemeinsam, ob aus Verpackungsabfall tatsächlich neuer Rohstoff wird.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "BD_0009",
@@ -275,7 +815,8 @@
       "sourceType": "Begutachteter, frei zugänglicher Forschungsartikel in Nature Communications. Feldaufnahmen",
       "screenConnection": "Landwirtschaft verändert Wald nicht nur durch Fläche und Stoffe – auch verstärkte Mikroorganismen können Grenzen überschreiten.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "BD_0008",
@@ -329,7 +870,8 @@
       "sourceType": "Begutachteter, frei zugänglicher Feldforschungsartikel in Nature Cities. Grundlage ist ein",
       "screenConnection": "Biodiversität hängt nicht nur von Fläche ab: Geschichte, kultureller Schutz und geringe Eingriffe können Stadtnatur bewahren.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "KL_0011",
@@ -381,7 +923,8 @@
       "sourceType": "Amtliche Statistik auf Basis von KBA-Bestandszahlen und Regionalatlas-Berechnungen.",
       "screenConnection": "Mehr Autos bedeuten nicht nur mehr Verkehr, sondern auch mehr Material, Fläche und Infrastruktur.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "QS_0006",
@@ -434,7 +977,8 @@
       "sourceType": "Offizielle Rechts- und Behördenmeldung des Bundesministeriums für Arbeit und Soziales; bes",
       "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "LN_0001",
@@ -486,7 +1030,8 @@
       "sourceType": "Amtliche Fortschreibung des Gebäude- und Wohnungsbestands auf Basis der Gebäude- und Wohnu",
       "screenConnection": "Wohnraummangel hängt nicht nur von der Zahl der Wohnungen, sondern auch von Fläche, Verteilung und Nutzung zusammen.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "QS_0004",
@@ -539,7 +1084,8 @@
       "sourceType": "Repräsentative Befragung im Auftrag des UBA, durchgeführt vom IÖW und Verian als Teil eine",
       "screenConnection": "Der Zustand der Lebensgrundlagen beeinflusst Vertrauen, Demokratie und Zukunftsvorstellungen.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "KL_0004",
@@ -592,7 +1138,8 @@
       "sourceType": "Monatlicher Klimadienst-Bericht auf Basis des ERA5-Reanalysedatensatzes; offizielle Copern",
       "screenConnection": "Warme Meere, trockene Böden, Hitze und Waldbrände hängen direkt zusammen.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "NS_0001",
@@ -643,7 +1190,8 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "BD_0010",
@@ -695,7 +1243,8 @@
       "sourceType": "Neue BfN-Schrift mit rechtswissenschaftlicher Analyse; im Auftrag des BfN durch das UFZ er",
       "screenConnection": "Naturerholung braucht nicht nur Ziele, sondern Fristen, Indikatoren und überprüfbare Umsetzung.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "KL_0006",
@@ -746,7 +1295,8 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "KL_0010",
@@ -798,7 +1348,8 @@
       "sourceType": "Offizielle saisonale Klimavorhersage der WMO auf Basis eines Multi-Modell-Ensembles intern",
       "screenConnection": "Eine Temperaturänderung im Pazifik kann Wetterrisiken auf mehreren Kontinenten verschieben.",
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     },
     {
       "id": "KL_0005",
@@ -850,10 +1401,11 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "contentType": "news",
-      "visualMode": "editorial-photo"
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature"
     }
   ],
-  "contentSchema": 3,
+  "contentSchema": 4,
   "rotation": {
     "articleSeconds": 30,
     "editorialSeconds": 18,
@@ -886,11 +1438,17 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-26T08:24:04+02:00",
+  "editorialGeneratedAt": "2026-07-26T11:54:15+02:00",
   "contentTypeCounts": {
     "news": 15,
-    "explainer": 1,
+    "explainer": 9,
     "solution": 0,
     "editorial": 0
+  },
+  "visualModeCounts": {
+    "editorial-photo": 15,
+    "process-sketch": 9,
+    "symbolic": 0,
+    "scientific": 0
   }
 }

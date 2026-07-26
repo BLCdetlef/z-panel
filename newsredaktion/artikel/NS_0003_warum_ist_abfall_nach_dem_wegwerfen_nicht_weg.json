@@ -1,6 +1,6 @@
 {
   "id": "NS_0003",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Warum ist Abfall nach dem Wegwerfen nicht weg?",
   "summary": "Materie verschwindet im Alltag nicht. Was wir fördern, herstellen, verbauen, verbrennen oder wegwerfen, bleibt als Stoff erhalten oder wird in andere Stoffe umgewandelt. Aus Kraftstoff werden unter anderem Kohlendioxid und Wasserdampf, aus Produkten werden Abfälle, Abrieb oder gelöste Chemikalien. Eine Mülltonne beendet deshalb nicht die Wirkung eines Materials – sie verlagert es in Sammlung, Behandlung, Deponie, Verbrennung oder Umwelt.",
   "planetaryBoundary": "NS",
@@ -24,9 +24,19 @@
   "created": "2026-07-26",
   "lastModified": "2026-07-26",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: Sustainable Materials Management"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: Sustainable Materials Management",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch"
 }

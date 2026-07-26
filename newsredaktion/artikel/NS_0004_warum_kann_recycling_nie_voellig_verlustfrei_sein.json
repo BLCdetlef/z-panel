@@ -1,6 +1,6 @@
 {
   "id": "NS_0004",
-  "status": "entwurf",
+  "status": "freigegeben",
   "title": "Warum kann Recycling nie völlig verlustfrei sein?",
   "summary": "Recycling gewinnt wertvolle Stoffe zurück, doch jeder Kreislauf braucht Sammlung, Sortierung, Reinigung und neue Verarbeitung. Dabei gehen Material und Energie verloren; Mischungen, Beschichtungen, Verschmutzung und Alterung mindern oft die Qualität. Manche Stoffe lassen sich gut mehrfach nutzen, andere nur eingeschränkt. Deshalb reicht Recycling allein nicht: Weniger Material, lange Nutzung, Reparatur, Wiederverwendung und trennbares Design stehen davor.",
   "planetaryBoundary": "NS",
@@ -24,9 +24,19 @@
   "created": "2026-07-26",
   "lastModified": "2026-07-26",
   "language": "de",
-  "article": [],
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: National Recycling Strategy"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: US EPA: National Recycling Strategy",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch"
 }
