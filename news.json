@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T09:54:12.825104+00:00",
+  "generatedAt": "2026-07-26T18:02:30.992453+00:00",
   "articleCount": 24,
   "articles": [
     {
@@ -1438,7 +1438,7 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-26T11:54:15+02:00",
+  "editorialGeneratedAt": "2026-07-26T20:02:34+02:00",
   "contentTypeCounts": {
     "news": 15,
     "explainer": 9,

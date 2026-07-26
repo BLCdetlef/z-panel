@@ -1,0 +1,70 @@
+{
+  "version": "5.11-example",
+  "contentSchema": 5,
+  "articleCount": 4,
+  "playbackPolicy": {
+    "mode": "news-then-explainer",
+    "recommendedNewsPerExplainer": {
+      "min": 2,
+      "max": 5
+    }
+  },
+  "articles": [
+    {
+      "id": "KL_0042",
+      "contentType": "news",
+      "title": "Starkregenrisiken steigen",
+      "explainerId": "GR_0002",
+      "sequenceRole": "context-news"
+    },
+    {
+      "id": "KL_0043",
+      "contentType": "news",
+      "title": "Warme Luft enthält mehr Wasserdampf",
+      "explainerId": "GR_0002",
+      "sequenceRole": "context-news"
+    },
+    {
+      "id": "KL_0048",
+      "contentType": "news",
+      "title": "Trockenheit und Starkregen treten nebeneinander auf",
+      "explainerId": "GR_0002",
+      "sequenceRole": "context-news"
+    },
+    {
+      "id": "GR_0002",
+      "contentType": "explainer",
+      "category": "Natur verstehen",
+      "title": "Warum bringt wärmere Luft oft heftigeren Regen?",
+      "relatedNewsIds": [
+        "KL_0042",
+        "KL_0043",
+        "KL_0048"
+      ],
+      "relatedNewsCount": 3,
+      "sequenceRole": "explainer-after-news"
+    }
+  ],
+  "playbackOrder": [
+    "KL_0042",
+    "KL_0043",
+    "KL_0048",
+    "GR_0002"
+  ],
+  "playbackGroups": [
+    {
+      "explainerId": "GR_0002",
+      "newsIds": [
+        "KL_0042",
+        "KL_0043",
+        "KL_0048"
+      ],
+      "newsCount": 3,
+      "status": "recommended",
+      "recommendedNewsCount": {
+        "min": 2,
+        "max": 5
+      }
+    }
+  ]
+}
