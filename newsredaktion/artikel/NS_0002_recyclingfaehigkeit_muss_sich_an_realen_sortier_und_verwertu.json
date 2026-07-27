@@ -23,7 +23,7 @@
   "author": "",
   "interviewPotential": "hoch",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -34,5 +34,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Praxis der Sortierung und Verwertung von Verpackungen im Sinne des § 21 VerpackG 2023/2024"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Praxis der Sortierung und Verwertung von Verpackungen im Sinne des § 21 VerpackG 2023/2024",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "NS_0003",
+  "sequenceRole": "context-news"
 }

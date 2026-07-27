@@ -22,7 +22,7 @@
   "author": "",
   "interviewPotential": "hoch",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -33,5 +33,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Unequal mental health impacts of extreme weather and climate events"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Unequal mental health impacts of extreme weather and climate events",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "QS_0010",
+  "sequenceRole": "context-news"
 }

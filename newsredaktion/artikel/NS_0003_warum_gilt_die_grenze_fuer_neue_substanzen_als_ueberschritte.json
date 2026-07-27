@@ -1,0 +1,48 @@
+{
+  "id": "NS_0003",
+  "status": "freigegeben",
+  "title": "Warum gilt die Grenze für neue Substanzen als überschritten, obwohl es keinen einzelnen Grenzwert gibt?",
+  "summary": "Bei CO₂ lässt sich die Belastung mit wenigen globalen Messgrößen verfolgen. Neue Substanzen umfassen dagegen Hunderttausende Chemikalien, Kunststoffe und andere menschengemachte Materialien mit sehr unterschiedlichen Wirkungen, Abbauzeiten und Mischungen. Deshalb gibt es keinen einzigen weltweiten Messwert. Die Grenze gilt dennoch als überschritten: Produktion und Freisetzung wachsen schneller, als Stoffe geprüft, überwacht und sicher beherrscht werden können.",
+  "planetaryBoundary": "NS",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Neue Substanzen",
+    "Neuartige Substanzen",
+    "planetare Grenze",
+    "Chemikalien",
+    "Kunststoffe",
+    "PFAS",
+    "Persistenz",
+    "Mischungseffekte",
+    "Sicherheitsprüfung",
+    "Monitoring",
+    "Kontrollvariable",
+    "Vorsorgeprinzip",
+    "Erdsystem"
+  ],
+  "imageId": "NS_0003_01",
+  "sourceUrl": "https://doi.org/10.1021/acs.est.1c04158",
+  "publicationDate": "2022-01-18",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: Outside the Safe Operating Space of the Planetary Boundary for Novel Entities",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

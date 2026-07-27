@@ -36,5 +36,7 @@
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Pkw-Dichte 2026 erneut gestiegen",
   "contentType": "news",
   "visualMode": "editorial-photo",
-  "imageStyle": "nature"
+  "imageStyle": "nature",
+  "explainerId": "KL_0018",
+  "sequenceRole": "context-news"
 }

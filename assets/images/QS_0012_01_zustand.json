@@ -1,0 +1,31 @@
+{
+  "id": "QS_0012_01",
+  "type": "ai-generated-or-editorial-image",
+  "created": "2026-07-27T13:51:53.435814+00:00",
+  "sourceFile": "ChatGPT Image 27. Juli 2026, 15_51_38.png",
+  "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Wie behält man in der Informationsflut Orientierung?.\nKernaussage: Information erreicht uns über Presse, Rundfunk, Fernsehen, soziale Netzwerke, Webseiten und zunehmend durch KI. Nicht jede Quelle arbeitet gleich, doch weder ein bekanntes Medium noch ein überzeugender Text garantiert Wahrheit. Orientierung entsteht durch einen kurzen Dreischritt: innehalten, Ursprung und Belege prüfen, mit unabhängigen Quellen vergleichen. KI kann beim Suchen und Ordnen helfen, ihre Antworten sind aber Hinweise – keine Belege..\nInhaltlicher Ausgangspunkt: ein heller Sitzungssaal, ein runder Beratungstisch, eine öffentliche Bibliothek oder eine Wahlurne; keine Bäume, Wälder oder andere Naturmetaphern als Hauptmotiv.\nSchlagwörter: Grundlagen, Informationsflut, Information, Medienkompetenz, Presse, Rundfunk, Fernsehen, Internet, soziale Medien, KI-generierte Inhalte, Nachrichten, Quellenprüfung, Desinformation, Fehlinformation, Algorithmen, Aufmerksamkeit, Emotionen, Demokratie, Wissenschaftskommunikation, Querschnitt.\n\nZiel des Bildes: Es soll Wissen anbahnen, vor allem aber Interesse und Neugier auf Forschung zu unseren natürlichen Lebensgrundlagen wecken. Das Bild ist ein Titelbild und keine vollständige Lehrtafel. Es öffnet die Frage; der Beitrag erklärt die Einzelheiten.\n\nBildtyp: hochwertige wissenschaftsjournalistische Prozessskizze für die Rubrik „Natur verstehen“, in Schwarz-Weiß oder kontrastreichen Graustufen. Zeige genau eine zentrale Ursache-Wirkungs-Beziehung aus dem Artikel.\n\nVerbindliche Reduktion:\n- genau ein dominantes Hauptmotiv\n- genau eine Kernaussage\n- höchstens drei klar unterscheidbare Prozessstufen\n- höchstens vier Pfeile oder Richtungslinien\n- höchstens drei sehr kurze Beschriftungen, Kürzel oder Formelzeichen\n- höchstens ein zurückhaltender Nebenaspekt\n- das Bild muss auch ohne Lesen der Beschriftungen verständlich sein\n\nFalls der Artikel mehrere Aspekte enthält, wähle ausschließlich den für Titel und Kernaussage wichtigsten Zusammenhang. Zeige keine vollständige Prozesskette, keine Materialsammlung, keine vielen Beispiele und keine parallelen Erklärstränge.\n\nGestaltung:\n- feine Linien, klare Umrisse und dezente Schraffuren\n- ruhiger heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- erwachsen, hochwertig und wissenschaftsnah\n- einfache Pfeile, Symbole, Abkürzungen oder Formelzeichen sind erlaubt, aber nur wenn sie die eine Hauptidee unmittelbar klären\n- Beschriftungen auf Deutsch oder als allgemein verständliche Fachkürzel, sehr kurz und kontrastreich\n\nUnbedingt vermeiden:\n- vollständige Flussdiagramme oder Ablaufpläne\n- mehr als drei Stationen\n- viele Kreise, Kästen, Materialbehälter oder Symbolgruppen\n- lange Sätze, Erklärtexte, Legenden und Zusammenfassungsleisten\n- mehrere Landschaftsräume oder mehrere gleichwertige Hauptmotive\n- bunte Infografik, Comic, Kinderbuchstil oder CAD-Zeichnung\n- Logos, Wasserzeichen, dekorative Rahmen oder Collagen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9\n- für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms\n- aus drei bis fünf Metern Entfernung sofort erfassbar\n- wichtige Motive mindestens zehn Prozent vom Bildrand entfernt\n- eindeutige Blickführung und viel ruhige Fläche\n\nLeitgedanke: Ein Blick – ein Zusammenhang. Vermittle lieber einen klaren Gedanken als viele Details. Das Bild soll ein unmittelbares „Ach so“ auslösen und zugleich zum Weiterlesen anregen.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+  "altText": "Information erreicht uns über Presse, Rundfunk, Fernsehen, soziale Netzwerke, Webseiten und zunehmend durch KI. Nicht jede Quelle arbeitet gleich, doch weder ein bekanntes Medium noch ein überzeugender Text garantiert Wahrheit. Orientierung entsteht durch einen kurzen Dreischritt: innehalten, Ursprung und Belege prüfen, mit unabhängigen Quellen vergleichen. KI kann beim Suchen und Ordnen helfen, ihre Antworten sind aber Hinweise – keine Belege.",
+  "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+  "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "imageStyle": "monochrome-editorial-sketch",
+  "imageFamily": "explainer-sketch",
+  "didacticElements": {
+    "allowArrows": true,
+    "allowSymbols": true,
+    "allowShortLabels": true,
+    "allowFormulaSigns": true,
+    "colorMode": "grayscale-high-contrast",
+    "textDensity": "low"
+  },
+  "editorialPurpose": "Grundverständnis und Neugier auf Forschung zu den natürlichen Lebensgrundlagen",
+  "complexityLimits": {
+    "mainIdeas": 1,
+    "maxProcessStages": 3,
+    "maxArrows": 4,
+    "maxShortLabels": 3,
+    "maxSecondaryAspects": 1,
+    "mustWorkWithoutReading": true
+  }
+}

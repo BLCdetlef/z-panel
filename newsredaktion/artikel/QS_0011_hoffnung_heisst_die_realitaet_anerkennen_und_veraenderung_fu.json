@@ -40,5 +40,7 @@
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Redaktion; Originalquelle: Radikal hoffnungsvoll: Denn unser Hirn gibt niemals auf",
   "contentType": "editorial",
   "visualMode": "symbolic",
-  "imageStyle": "nature"
+  "imageStyle": "nature",
+  "explainerId": "QS_0010",
+  "sequenceRole": "context-news"
 }

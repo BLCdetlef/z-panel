@@ -446,23 +446,23 @@
       "importSource": "natur_verstehen_10_beitraege.json"
     },
     "NS_0003": {
-      "sourceType": "Redaktioneller Grundlagenbeitrag zum Prinzip der Massenerhaltung und zu Stoffströmen; ergänzt durch die lebenszyklusbezogene Materialperspektive der US-Umweltbehörde EPA.",
-      "coreChange": "Produktion und Entsorgung lassen Stoffe nicht verschwinden, sondern verändern ihre Form und ihren Aufenthaltsort.",
-      "questionBehindNews": "Wohin gelangen Materialien, Schadstoffe und Emissionen, nachdem wir ein Produkt nicht mehr sehen oder nutzen?",
-      "causalChain": "Rohstoffe werden entnommen → zu Produkten verarbeitet → während Nutzung entstehen Abrieb, Emissionen und Verluste → am Lebensende folgen Wiederverwendung, Recycling, Verbrennung, Deponie oder Freisetzung → Stoffe wirken andernorts weiter.",
-      "affectedSystems": "Rohstofflager, Atmosphäre, Böden, Flüsse, Meere, Organismen, Deponien und technische Infrastrukturen.",
-      "planetaryBoundaries": "Neuartige Substanzen; biogeochemische Kreisläufe; Klimawandel; Landnutzung und Biosphäre je nach Stoff.",
-      "societalRelevance": "Das Prinzip macht sichtbar, warum Konsum, Bauprodukte, Kunststoffe, Treibstoffe und Chemikalien über ihren gesamten Lebensweg betrachtet werden müssen.",
-      "uncertainties": "Bei Kernreaktionen gilt die genauere Erhaltung von Masse und Energie. Für gewöhnliche Produktions-, Verbrennungs- und Abfallprozesse ist die vereinfachte Stoffbilanz jedoch sehr gut geeignet.",
-      "interviewPotential": "Gering. Für Bau- und Kreislaufwirtschaft könnte ein Gespräch mit Stoffstromforscher*innen zeigen, wo große Materialmengen tatsächlich verbleiben.",
-      "sources": "US EPA, „Sustainable Materials Management“: https://www.epa.gov/smm\nUS EPA, „Reduce, Reuse, Recycle“: https://www.epa.gov/recycle",
-      "imageIdea": "Ein Alltagsprodukt wird als klarer Stoffweg gezeigt: Rohstoff → Produkt → Nutzung → Abfall, Emission oder Recycling. Symbol: 🗑️ ≠ weg. Keine magisch verschwindende Mülltonne und kein chaotischer Müllberg als Schockbild.",
-      "screenConnection": "Wegwerfen entfernt Stoffe aus unserem Blick – nicht aus der Welt.",
+      "sourceType": "Zeitunabhängiger Grundlagenbeitrag auf Basis einer peer-reviewten wissenschaftlichen Analyse in Environmental Science & Technology. Ergänzend berücksichtigt sind die Gesamtbewertung der planetaren Grenzen von 2023 sowie die methodische Weiterentwicklung und Debatte von 2026.",
+      "coreChange": "Der Beitrag unterscheidet zwischen einer exakten Quantifizierung durch einen einzigen globalen Grenzwert und einer wissenschaftlichen Gesamtbewertung. Dass kein einzelner Messwert alle neuen Substanzen abbilden kann, bedeutet nicht, dass keine belastbare Warnung möglich ist.",
+      "questionBehindNews": "Wie kann eine planetare Grenze als überschritten gelten, wenn sich Hunderttausende unterschiedliche Stoffe und Materialien nicht in einer einzigen globalen Zahl zusammenfassen lassen?",
+      "causalChain": "Immer mehr Chemikalien und Materialien werden hergestellt → Produktion, Nutzung und Freisetzung steigen → Prüfung, Überwachung und Regulierung halten nicht Schritt → langlebige, mobile oder biologisch wirksame Stoffe verteilen sich und bilden Mischungen → Belastungen von Organismen und Erdsystemprozessen nehmen zu → das Risiko schwer umkehrbarer Schäden wächst.",
+      "affectedSystems": "Atmosphäre, Böden, Flüsse, Grundwasser, Meere, Nahrungsketten, Biodiversität, Stoffkreisläufe sowie die Gesundheit von Menschen und Tieren.",
+      "planetaryBoundaries": "Primär neue beziehungsweise neuartige Substanzen; enge Wechselwirkungen mit Biosphärenintegrität, Süßwasser, biogeochemischen Kreisläufen, Klimawandel und stratosphärischem Ozon.",
+      "societalRelevance": "Die Bewertung begründet ein vorsorgendes Handeln: Risiken sollten möglichst vor breiter Herstellung und Freisetzung geprüft werden. Wichtig sind weniger problematische Stoffe, sichere und nachhaltige Gestaltung, bessere globale Messnetze, Regulierung ganzer Stoffgruppen und geringere Emissionen.",
+      "uncertainties": "Die Überschreitung lässt sich bislang nicht als einheitlicher Abstand zu einem globalen Schwellenwert angeben. Die Bewertung von 2022 stützt sich auf mehrere Kontrollgrößen und eine Gesamtgewichtung der Belege. Neuere Arbeiten von 2026 kritisieren eine rein vorsorgende Nullgrenze für nicht vollständig geprüfte Stoffe und schlagen stattdessen mehrschichtige, risikobasierte Indikatoren für Druck, Umweltzustand, Exposition und Wirkung vor. Der Status ist daher eine belastbare Warnung, aber keine präzise globale Prozentangabe.",
+      "interviewPotential": "Hoch. Geeignet sind Forschende zu Umweltchemie, Ökotoxikologie, globaler Chemikalienregulierung und planetaren Grenzen. Mögliche Fragen: Welche Messgrößen sind bereits verfügbar? Wie werden unbekannte Risiken behandelt? Welche Stoffgruppen sind besonders problematisch? Wie könnte eine praktisch nutzbare und zugleich vorsorgende Grenze aussehen?",
+      "sources": "Grundlagenanalyse: Persson et al. (2022), Environmental Science & Technology, https://doi.org/10.1021/acs.est.1c04158; Gesamtbewertung: Richardson et al. (2023), Science Advances, https://doi.org/10.1126/sciadv.adh2458; methodische Weiterentwicklung: Jahnke et al. (2026), Environmental Science & Technology, https://doi.org/10.1021/acs.est.6c03044; konzeptioneller Rahmen: Diamond et al. (2026), Nature Sustainability, https://doi.org/10.1038/s41893-026-01906-8",
+      "imageIdea": "Reduzierte Schwarz-Weiß-Prozessskizze: Aus einem breiten Strom vieler unterschiedlicher Stoff- und Materialformen gelangen immer mehr Elemente in Richtung Umwelt. Daneben steht ein deutlich schmalerer Prüf- und Überwachungskanal, der nur einen kleinen Teil erfasst. Höchstens drei Begriffe: Produktion, Prüfung, Umwelt. Keine Totenköpfe, keine grellen Gefahrensymbole, keine Produktcollage und keine vollständige Chemie-Infografik.",
+      "screenConnection": "Nicht nur die Giftigkeit eines Stoffes entscheidet: Menge, Vielfalt, Persistenz, Mischung und fehlende Prüfung wirken zusammen.",
       "articleId": "NS_0003",
-      "title": "Warum ist Abfall nach dem Wegwerfen nicht weg?",
-      "sourceUrl": "https://www.epa.gov/smm",
-      "updatedAt": "2026-07-26T07:52:02+02:00",
-      "importSource": "natur_verstehen_10_beitraege.json"
+      "title": "Warum gilt die Grenze für neue Substanzen als überschritten, obwohl es keinen einzelnen Grenzwert gibt?",
+      "sourceUrl": "https://doi.org/10.1021/acs.est.1c04158",
+      "updatedAt": "2026-07-27T15:28:57+02:00",
+      "importSource": "zustand_grundlage_neue_substanzen.json"
     },
     "NS_0004": {
       "sourceType": "Redaktioneller Grundlagenbeitrag zu realen Materialkreisläufen auf Basis thermodynamischer Grundprinzipien und offizieller EPA-Dokumente zu Verlusten und Grenzen des Recyclings.",
@@ -628,7 +628,26 @@
       "sourceUrl": "https://re-publica.com/de/news/rp26-sprecherin-maren-urner-radikal-hoffnungsvoll",
       "updatedAt": "2026-07-27T12:27:30+02:00",
       "importSource": "FUND_20260727_122652_maren-urner-hoffnung_maren-urner-hoffnung.json"
+    },
+    "QS_0012": {
+      "sourceType": "Zeitunabhängiger Grundlagenbeitrag auf Basis offizieller Empfehlungen von UNESCO, WHO und OECD sowie peer-reviewter Forschung zum Erkennen und Teilen irreführender Informationen. Der Beitrag bewertet nicht pauschal einzelne Mediengattungen, sondern erklärt einen individuellen Prüfprozess.",
+      "coreChange": "Die Menge verfügbarer Informationen ist stärker gewachsen als unsere Zeit und Aufmerksamkeit. Gleichzeitig können journalistische Beiträge, private Posts, Werbung, automatisierte Empfehlungen und KI-generierte Texte ähnlich professionell erscheinen. Herkunft und Darstellung allein reichen deshalb nicht aus; entscheidend sind nachvollziehbare Belege und unabhängige Prüfung.",
+      "questionBehindNews": "Wie können Menschen informiert bleiben, ohne jeder Meldung zu glauben, sämtliche Informationen selbst prüfen zu müssen oder sich vollständig aus dem Nachrichtengeschehen zurückzuziehen?",
+      "causalChain": "Viele Kanäle und schnelle Veröffentlichung → begrenzte Aufmerksamkeit → Bewertung nach Überschrift, Bekanntheit, Wiederholung oder Gefühl → mögliche Fehlurteile und vorschnelles Teilen → kurzes Innehalten → Ursprung, Datum und Belege prüfen → wichtige Aussagen mit unabhängigen Quellen vergleichen → besser begründete Orientierung.",
+      "affectedSystems": "Individuelle Entscheidungen, psychische Belastung, Gesundheit, Bildung, Wissenschaftsverständnis, gesellschaftliches Vertrauen, demokratische Debatten und der gemeinsame Umgang mit Krisen.",
+      "planetaryBoundaries": "Querschnittsthema. Die Qualität unserer Informationsumgebung beeinflusst, ob Zustandsmeldungen zu Klima, Biodiversität, Wasser, Stoffkreisläufen und neuen Substanzen verstanden, eingeordnet und gesellschaftlich bearbeitet werden.",
+      "societalRelevance": "Ein sinnvoller Umgang mit Informationsfülle verlangt weder blindes Vertrauen noch pauschales Misstrauen. Für Alltagsmeldungen genügt oft eine grobe Plausibilitätsprüfung. Je größer die Folgen einer Entscheidung, desto wichtiger sind Originalquelle, methodische Belege, mehrere voneinander unabhängige Bestätigungen und eine erkennbare Trennung von Nachricht, Analyse und Meinung.",
+      "uncertainties": "Die Verlässlichkeit lässt sich nicht allein aus der Medienart ableiten: Redaktionelle Medien können Fehler machen, Internetquellen können wertvolle Primärdaten liefern und KI kann richtige oder falsche Aussagen sehr überzeugend formulieren. Auch Faktenchecks sind nicht unfehlbar. Prüfen erhöht die Wahrscheinlichkeit einer guten Einschätzung, erzeugt aber keine absolute Gewissheit.",
+      "interviewPotential": "Hoch. Geeignet sind Forschende aus Medienpsychologie, Kommunikationswissenschaft, Journalismusforschung, Informationswissenschaft und KI-Kompetenz. Mögliche Fragen: Welche Hinweise nutzen Menschen bei schnellen Urteilen? Wie wirkt Wiederholung? Welche Prüfgewohnheiten helfen wirklich? Wie sollten KI-generierte Inhalte gekennzeichnet und in Schulen, Hochschulen und Redaktionen behandelt werden?",
+      "sources": "UNESCO (2024), User empowerment through Media and Information Literacy Responses to the Evolution of Generative Artificial Intelligence, https://unesdoc.unesco.org/ark:/48223/pf0000388547; WHO, Infodemic, https://www.who.int/health-topics/infodemic; OECD (2024), Facts not Fakes: Tackling Disinformation, Strengthening Information Integrity, https://doi.org/10.1787/d909ff7a-en; Kozyreva et al. (2024), Toolbox of individual-level interventions against online misinformation, Nature Human Behaviour, https://doi.org/10.1038/s41562-024-01881-0; Pennycook und Rand (2022), Accuracy prompts are a replicable and generalizable approach for reducing the spread of misinformation, Nature Communications, https://doi.org/10.1038/s41467-022-30073-5",
+      "imageIdea": "Reduzierte Schwarz-Weiß-Prozessskizze: Ein breiter Strom aus Zeitungszeilen, Radiowellen, Bildschirmflächen und abstrakten KI-Zeichen läuft auf einen einzigen ruhigen Prüfpunkt zu. Danach bleiben wenige klare Informationslinien übrig. Höchstens drei Begriffe: Quelle, Beleg, Vergleich. Keine Mediencollage, keine lange Checkliste und keine Warnsymbol-Sammlung.",
+      "screenConnection": "Nicht jede Meldung braucht eine Tiefenprüfung. Aber je wichtiger sie für Entscheidungen ist, desto langsamer und quellenbewusster sollte man mit ihr umgehen.",
+      "articleId": "QS_0012",
+      "title": "Wie behält man in der Informationsflut Orientierung?",
+      "sourceUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000388547",
+      "updatedAt": "2026-07-27T15:46:29+02:00",
+      "importSource": "zustand_grundlage_informationsflut.json"
     }
   },
-  "updatedAt": "2026-07-27T12:46:21+02:00"
+  "updatedAt": "2026-07-27T16:00:41+02:00"
 }

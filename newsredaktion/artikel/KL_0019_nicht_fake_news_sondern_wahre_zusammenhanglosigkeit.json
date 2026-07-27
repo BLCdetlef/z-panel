@@ -39,5 +39,7 @@
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Human-induced climate change intensifies spatially compounding fire weather extremes across European countries",
   "contentType": "news",
   "visualMode": "symbolic",
-  "imageStyle": "symbolic"
+  "imageStyle": "symbolic",
+  "explainerId": "QS_0012",
+  "sequenceRole": "context-news"
 }

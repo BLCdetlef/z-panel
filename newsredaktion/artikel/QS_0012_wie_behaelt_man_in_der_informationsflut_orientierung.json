@@ -1,0 +1,53 @@
+{
+  "id": "QS_0012",
+  "status": "freigegeben",
+  "title": "Wie behält man in der Informationsflut Orientierung?",
+  "summary": "Information erreicht uns über Presse, Rundfunk, Fernsehen, soziale Netzwerke, Webseiten und zunehmend durch KI. Nicht jede Quelle arbeitet gleich, doch weder ein bekanntes Medium noch ein überzeugender Text garantiert Wahrheit. Orientierung entsteht durch einen kurzen Dreischritt: innehalten, Ursprung und Belege prüfen, mit unabhängigen Quellen vergleichen. KI kann beim Suchen und Ordnen helfen, ihre Antworten sind aber Hinweise – keine Belege.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Grundlagen",
+    "Informationsflut",
+    "Information",
+    "Medienkompetenz",
+    "Presse",
+    "Rundfunk",
+    "Fernsehen",
+    "Internet",
+    "soziale Medien",
+    "KI-generierte Inhalte",
+    "Nachrichten",
+    "Quellenprüfung",
+    "Desinformation",
+    "Fehlinformation",
+    "Algorithmen",
+    "Aufmerksamkeit",
+    "Emotionen",
+    "Demokratie",
+    "Wissenschaftskommunikation",
+    "Querschnitt"
+  ],
+  "imageId": "QS_0012_01",
+  "sourceUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000388547",
+  "publicationDate": "2024-02-06",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: User empowerment through Media and Information Literacy Responses to the Evolution of Generative Artificial Intelligence",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

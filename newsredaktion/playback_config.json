@@ -1,0 +1,52 @@
+{
+  "blockOrder": [
+    "explainer:KL_0014",
+    "explainer:QS_0010",
+    "explainer:KL_0013",
+    "explainer:QS_0007",
+    "explainer:KL_0018",
+    "explainer:KL_0012",
+    "explainer:OA_0001",
+    "explainer:KL_0016",
+    "explainer:NS_0003",
+    "explainer:QS_0012"
+  ],
+  "groupNewsOrder": {
+    "KL_0012": [
+      "KL_0009",
+      "KL_0010",
+      "KL_0004"
+    ],
+    "KL_0013": [],
+    "KL_0014": [],
+    "KL_0016": [
+      "KL_0005"
+    ],
+    "KL_0018": [
+      "KL_0006",
+      "KL_0017",
+      "LN_0001",
+      "KL_0011"
+    ],
+    "NS_0003": [
+      "NS_0002",
+      "NS_0001"
+    ],
+    "OA_0001": [],
+    "QS_0007": [
+      "BD_0010",
+      "QS_0009"
+    ],
+    "QS_0010": [
+      "QS_0004",
+      "QS_0008",
+      "QS_0006",
+      "QS_0011",
+      "QS_0005"
+    ],
+    "QS_0012": [
+      "KL_0019"
+    ]
+  },
+  "version": 1
+}
