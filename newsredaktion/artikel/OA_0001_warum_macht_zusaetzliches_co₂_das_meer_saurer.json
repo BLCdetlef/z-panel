@@ -22,7 +22,7 @@
   "author": "",
   "interviewPotential": "gering",
   "created": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -38,5 +38,6 @@
   "visualMode": "process-sketch",
   "category": "Natur verstehen",
   "displayLabel": "NATUR VERSTEHEN",
-  "imageStyle": "monochrome-editorial-sketch"
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
 }
