@@ -1,0 +1,93 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "news-plus-explainers",
+  "articles": [
+    {
+      "title": "Konsumstärkstes Zehntel verursacht Umweltschäden bis 5,7 Billionen US-Dollar",
+      "summary": "Eine neue Studie in Communications Sustainability beziffert die jährlichen Umweltfolgen des konsumstärksten globalen Zehntels auf 1,7 bis 5,7 Billionen US-Dollar, gerechnet in Preisen von 2017. Bewertet wurden Klimawandel, Biodiversitätsverlust, Stickstoff- und Phosphorbelastung sowie Süßwasserverbrauch. Allein Biodiversität und CO₂ verursachen 83 bis 93 Prozent der geschätzten Schäden. Die Autor*innen sehen darin ein Argument für gezielte, sozial gerechte Regeln nach dem Verursacherprinzip.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Konsum",
+        "CO₂-Fußabdruck",
+        "Klimagerechtigkeit",
+        "Biodiversitätsverlust",
+        "Planetare Grenzen",
+        "Verursacherprinzip",
+        "Umweltschäden",
+        "Suffizienz",
+        "Ungleichheit",
+        "Zukunftsfähigkeit",
+        "Querschnitt"
+      ],
+      "sourceTitle": "Environmental damages of the top ten percent consumers exceed global climate and biodiversity funding gaps",
+      "sourceUrl": "https://doi.org/10.1038/s44458-026-00079-x",
+      "publicationDate": "2026-06-18",
+      "category": "Querschnitt",
+      "interviewPotential": "hoch",
+      "contentType": "news",
+      "visualMode": "symbolic",
+      "imageStyle": "symbolic",
+      "explainerRef": "GRUNDLAGE_CO2_ZUKUNFTSFAEHIGKEIT_1",
+      "editorial": {
+        "sourceType": "Peer-reviewte, frei zugängliche Primärstudie in Communications Sustainability. Das verlinkte Earth-Commission-Fundstück von 2023 ist eine institutionelle Einordnung des IPCC-Berichts und keine Primärquelle; es dient hier nur als thematischer Ausgangspunkt.",
+        "coreChange": "Die Studie übersetzt erstmals die konsumbezogenen Belastungen des global konsumstärksten Zehntels über mehrere planetare Grenzen in jährliche monetäre Schadensspannen und vergleicht sie mit Klima- und Biodiversitäts-Finanzierungslücken.",
+        "questionBehindNews": "Wer beansprucht wie viel vom begrenzten ökologischen Spielraum – und wer trägt die Kosten der dadurch verursachten Schäden?",
+        "causalChain": "Hohe Konsumausgaben → hohe Energie-, Material- und Flächennachfrage entlang globaler Lieferketten → CO₂-Emissionen, Artenverlust, Nährstoffbelastung und Wasserverbrauch → Überschreitung planetarer Grenzen → Schäden für Ökosysteme und Gesellschaft → wachsende Finanzierungs- und Verteilungskonflikte.",
+        "affectedSystems": "Atmosphäre und Klimasystem, biologische Vielfalt und Ökosysteme, Süßwassersysteme sowie Stickstoff- und Phosphorkreisläufe.",
+        "planetaryBoundaries": "Klimawandel, Integrität der Biosphäre, biogeochemische Kreisläufe und Süßwasserveränderung.",
+        "societalRelevance": "Die Ergebnisse sprechen gegen pauschale Belastungen aller Menschen und für gezielte Regeln bei besonders hohem Konsum. Sie verbinden Klimaschutz, Biodiversität, soziale Gerechtigkeit und das Verursacherprinzip.",
+        "uncertainties": "Die monetären Werte hängen von Bewertungsmethoden ab, besonders bei Biodiversität. Untersucht wurden direkte Konsumfolgen und nur vier der neun planetaren Grenzen; investitionsbedingte Emissionen und weitere Schäden fehlen. Das konsumstärkste Zehntel überschneidet sich stark, aber nicht vollständig, mit dem einkommensstärksten Zehntel.",
+        "interviewPotential": "Hoch. Geeignet sind die Studienautor*innen Inge Schrijver, Rutger Hoekstra und Paul Behrens. Mögliche Fragen: Wie werden Naturverluste monetär bewertet? Welche Schäden fehlen? Welche Regeln würden hohen Konsum wirksam und sozial gerecht adressieren?",
+        "sources": "Primärstudie: Schrijver, I.; Hoekstra, R.; Behrens, P. (2026), Communications Sustainability, https://doi.org/10.1038/s44458-026-00079-x; offizielle Einordnung: Universität Leiden, https://www.universiteitleiden.nl/en/news/2026/06/top-10-per-cent-of-consumers-cause-trillions-in-environmental-damage; thematisches Fundstück, Sekundärquelle: Earth Commission (24.03.2023), https://earthcommission.org/ipcc-ar6-report-underscores-importance-of-justice-in-climate-action/",
+        "imageIdea": "Fotorealistisch-symbolisches Titelbild: ein einzelner sichtbar überladener Einkaufswagen als dominantes Motiv, dessen Schatten dezent die Form einer belasteten Erde annimmt. Ruhig, erwachsen, keine Geldstapel, keine Luxuskarikatur, keine moralisch markierte Person, keine Schrift und keine Collage.",
+        "screenConnection": "Hoher Konsum beansprucht über Lieferketten gleichzeitig Klima-, Natur- und Ressourcenspielräume."
+      }
+    },
+    {
+      "title": "Warum ist der persönliche CO₂-Fußabdruck ein wichtiger, aber unvollständiger Zukunftsindikator?",
+      "summary": "Der persönliche CO₂-Fußabdruck bündelt die direkten und indirekten Emissionen, die Wohnen, Mobilität, Ernährung und gekaufte Güter auslösen. Weil sich CO₂ in der Atmosphäre anreichert und das verbleibende Klimabudget begrenzt ist, zeigt der Wert, wie stark ein Lebensstil den weltweit verfügbaren Spielraum beansprucht. Er ist deshalb ein wichtiger Zukunftsindikator – aber kein vollständiger: Infrastruktur, Einkommen, öffentliche Dienste, Investitionen und politische Regeln bestimmen mit, welche Wahlmöglichkeiten Menschen haben.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "persönlicher CO₂-Fußabdruck",
+        "Klimabudget",
+        "Konsum",
+        "Lebensstil",
+        "Suffizienz",
+        "Klimagerechtigkeit",
+        "Infrastruktur",
+        "Wohnen",
+        "Mobilität",
+        "Ernährung",
+        "Zukunftsfähigkeit",
+        "Querschnitt"
+      ],
+      "sourceTitle": "IPCC AR6 WGIII – Chapter 5: Demand, services and social aspects of mitigation",
+      "sourceUrl": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/",
+      "publicationDate": "2022-04-04",
+      "category": "Natur verstehen",
+      "interviewPotential": "hoch",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "imageStyle": "monochrome-editorial-sketch",
+      "importKey": "GRUNDLAGE_CO2_ZUKUNFTSFAEHIGKEIT_1",
+      "displayLabel": "NATUR VERSTEHEN",
+      "sequenceRole": "explainer-after-news",
+      "editorial": {
+        "sourceType": "Zeitunabhängiger Grundlagenbeitrag auf Basis des wissenschaftlichen IPCC-Sachstandsberichts, insbesondere Kapitel 5 zu Nachfrage, Dienstleistungen, Lebensstilen und strukturellen Bedingungen. Ergänzt durch peer-reviewte Primärstudien zur globalen Konsum- und Emissionsungleichheit.",
+        "coreChange": "Der Beitrag ordnet den persönlichen CO₂-Fußabdruck als Messgröße ein: Er macht sichtbar, wie stark ein Lebensstil das begrenzte Klimabudget beansprucht, ohne individuelle Verantwortung von Infrastruktur, Politik und wirtschaftlichen Strukturen zu trennen.",
+        "questionBehindNews": "Wäre ein Lebensstil weltweit verallgemeinerbar, ohne das verbleibende Klimabudget und die Lebensgrundlagen anderer Menschen zu übernutzen?",
+        "causalChain": "Bedarf an Wohnen, Mobilität, Ernährung und Gütern → Energie- und Materialeinsatz in Nutzung und Lieferketten → direkte und indirekte Treibhausgasemissionen → persönlicher konsumbezogener CO₂-Fußabdruck → Beanspruchung des globalen Klimabudgets → Erwärmung und Klimarisiken. Infrastruktur, Preise, Einkommen und Regeln bestimmen die realen Optionen.",
+        "affectedSystems": "Atmosphäre und Klimasystem; mittelbar Ozeane, Kryosphäre, Ökosysteme, Ernährung, Gesundheit und menschliche Sicherheit.",
+        "planetaryBoundaries": "Primär Klimawandel; indirekt Ozeanversauerung und Integrität der Biosphäre sowie weitere konsumabhängige Grenzen.",
+        "societalRelevance": "Der Fußabdruck erlaubt Vergleiche von Lebensstilen und macht große Hebel bei Wohnen, Mobilität und Ernährung sichtbar. Als alleinige Moralnote wäre er jedoch irreführend: Zukunftsfähigkeit verlangt auch klimaverträgliche Infrastrukturen, öffentliche Dienste und faire Regeln.",
+        "uncertainties": "Ergebnisse hängen von Bilanzgrenzen, Datensätzen und der Zurechnung importierter Güter, öffentlicher Leistungen und Investitionen ab. CO₂ erfasst nicht alle Treibhausgase und keine vollständige Zukunftsfähigkeit; soziale Bedürfnisse, regionale Bedingungen und andere planetare Grenzen müssen zusätzlich betrachtet werden.",
+        "interviewPotential": "Hoch. Besonders geeignet sind Fachleute für Nachfrage, Infrastruktur und Klimagerechtigkeit, etwa Autor*innen des IPCC-Kapitels 5. Mögliche Fragen: Was misst ein Fußabdruck wirklich? Wo beginnt strukturelle Verantwortung? Welche Lebensqualität ist mit deutlich weniger Emissionen erreichbar?",
+        "sources": "Grundlagenquelle: IPCC (2022), AR6 WGIII Chapter 5, https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/; Synthese: IPCC (2023), AR6 Synthesis Report, https://www.ipcc.ch/report/ar6/syr/; Primärstudie zur Emissionsungleichheit: Chancel, L. (2022), https://doi.org/10.1038/s41893-022-00955-z; Primärstudie zu Konsum und planetaren Grenzen: Tian et al. (2024), https://doi.org/10.1038/s41586-024-08154-w; thematisches Fundstück, Sekundärquelle: Earth Commission (2023), https://earthcommission.org/ipcc-ar6-report-underscores-importance-of-justice-in-climate-action/",
+        "imageIdea": "Reduzierte Schwarz-Weiß-Prozessskizze: ein einziges menschliches Fußabdruck-Motiv, in das drei kleine Alltagssymbole für Wohnen, Mobilität und Ernährung integriert sind. Der Fußabdruck reicht in einen sichtbar begrenzten CO₂-Budget-Ring. Höchstens drei Begriffe: Bedarf, CO₂, Spielraum. Keine Schuldzuweisung, keine Personengruppe, keine vollständige Bilanztafel.",
+        "screenConnection": "Zukunftsfähig ist ein Lebensstil dann eher, wenn gute Versorgung mit wenig CO₂- und Ressourcenverbrauch für alle möglich wäre."
+      }
+    }
+  ]
+}

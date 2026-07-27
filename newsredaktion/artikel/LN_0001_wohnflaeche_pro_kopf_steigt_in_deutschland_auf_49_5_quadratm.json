@@ -22,7 +22,7 @@
   "author": "",
   "interviewPotential": "hoch",
   "created": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -33,5 +33,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: 44,0 Millionen Wohnungen in Deutschland zum Jahresende 2025"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: 44,0 Millionen Wohnungen in Deutschland zum Jahresende 2025",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "KL_0018",
+  "sequenceRole": "context-news"
 }

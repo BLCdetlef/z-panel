@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-"""ZUSTAND News Studio 5.16.1 – startkorrigierte mehrzeilige Beitragsfelder.
+"""ZUSTAND News Studio 5.16.3 – sichtbare Kurzfassung zuverlässig ersetzen.
 
 Wichtig:
 Diese Version baut bewusst direkt auf News Studio 5.14 auf und umgeht die
@@ -20,7 +20,7 @@ Korrektur gegenüber 5.16:
 
 Neu:
 - Titel: zweizeiliges, automatisch umbrechendes Textfeld
-- Kurzfassung: sechszeiliges, automatisch umbrechendes Textfeld
+- Kurzfassung: zehnzeiliges, automatisch umbrechendes Textfeld
 - zuverlässige Übernahme aus der aktuell geladenen Artikeldatei
 - Synchronisierung mit den bisherigen Eingabefeldern und StringVars
 - bestehende Import-, Speicher- und Exportlogik bleibt erhalten
@@ -45,7 +45,7 @@ if not BASE_SCRIPT.exists():
 def _write_start_error(exc: BaseException) -> Path:
     log_path = SCRIPT_DIR / "news_studio_5_16_startfehler.txt"
     details = (
-        "ZUSTAND News Studio 5.16.1 konnte nicht gestartet werden.\n\n"
+        "ZUSTAND News Studio 5.16.3 konnte nicht gestartet werden.\n\n"
         f"Fehlertyp: {type(exc).__name__}\n"
         f"Fehler: {exc}\n\n"
         "Technische Details:\n"
@@ -74,7 +74,7 @@ except BaseException as exc:
     log_path = _write_start_error(exc)
     try:
         messagebox.showerror(
-            "News Studio 5.16.1 – Startfehler",
+            "News Studio 5.16.3 – Startfehler",
             "Die Versionskette konnte nicht geladen werden.\n\n"
             f"{type(exc).__name__}: {exc}\n\n"
             f"Fehlerbericht:\n{log_path}",
@@ -103,9 +103,9 @@ class NewsStudio516(base516.NewsStudio514):
         self._large_fields_installing = False
 
         super().__init__()
-        self.title("ZUSTAND News Studio 5.16.1")
+        self.title("ZUSTAND News Studio 5.16.3")
         self._replace_widget_text(
-            "ZUSTAND News Studio 5.14", "ZUSTAND News Studio 5.16.1"
+            "ZUSTAND News Studio 5.14", "ZUSTAND News Studio 5.16.3"
         )
 
         # Erst nach dem vollständigen Aufbau der geerbten Maske ersetzen.
@@ -121,10 +121,45 @@ class NewsStudio516(base516.NewsStudio514):
         for child in widget.winfo_children():
             yield from self._walk_widgets(child)
 
+    def _article_search_root(self):
+        """Begrenzt die Feldsuche auf die sichtbare Beitragsmaske."""
+        finder = getattr(self, "_article_form_parent", None)
+        if callable(finder):
+            try:
+                root = finder()
+                if root is not None:
+                    return root
+            except Exception:
+                pass
+        return self
+
+    def _is_visible_widget(self, widget) -> bool:
+        try:
+            return bool(widget.winfo_viewable()) and bool(widget.winfo_manager())
+        except Exception:
+            return False
+
+    def _input_widgets(self, root):
+        accepted = {
+            "TEntry",
+            "Entry",
+            "TCombobox",
+            "Combobox",
+        }
+        result = []
+        for widget in self._walk_widgets(root):
+            try:
+                if widget.winfo_class() in accepted and self._is_visible_widget(widget):
+                    result.append(widget)
+            except Exception:
+                continue
+        return result
+
     def _find_widget_for_variable(self, variable):
         variable_name = str(variable)
+        root = self._article_search_root()
 
-        for widget in self._walk_widgets(self):
+        for widget in self._walk_widgets(root):
             try:
                 widget_class = widget.winfo_class()
             except Exception:
@@ -138,6 +173,9 @@ class NewsStudio516(base516.NewsStudio514):
             }:
                 continue
 
+            if not self._is_visible_widget(widget):
+                continue
+
             try:
                 if str(widget.cget("textvariable")) == variable_name:
                     return widget
@@ -147,35 +185,58 @@ class NewsStudio516(base516.NewsStudio514):
         return None
 
     def _find_input_next_to_label(self, label_text: str):
-        wanted = _normalized_label(label_text)
+        """Findet das tatsächlich sichtbare Eingabefeld rechts neben dem Label.
 
-        for label in self._walk_widgets(self):
+        Frühere Versionen fanden bei „Kurzfassung“ ein anderes, unsichtbares
+        Widget mit derselben StringVar. Deshalb wird jetzt zuerst räumlich in
+        der sichtbaren Beitragsmaske gesucht.
+        """
+        wanted = _normalized_label(label_text)
+        root = self._article_search_root()
+
+        try:
+            self.update_idletasks()
+        except Exception:
+            pass
+
+        labels = []
+        for label in self._walk_widgets(root):
             try:
                 if label.winfo_class() not in {"TLabel", "Label"}:
                     continue
                 if _normalized_label(label.cget("text")) != wanted:
                     continue
+                if not self._is_visible_widget(label):
+                    continue
+                labels.append(label)
             except Exception:
                 continue
 
+        inputs = self._input_widgets(root)
+
+        for label in labels:
             parent = label.master
             try:
                 manager = label.winfo_manager()
             except Exception:
                 manager = ""
 
+            # 1. Bevorzugt: gleiches Grid und gleiche Zeile.
             if manager == "grid":
                 try:
                     label_info = label.grid_info()
                     label_row = int(label_info.get("row", 0))
                     label_column = int(label_info.get("column", 0))
                 except Exception:
-                    continue
+                    label_row = -1
+                    label_column = -1
 
                 candidates = []
                 for child in parent.winfo_children():
                     try:
                         if child.winfo_manager() != "grid":
+                            continue
+                        if not self._is_visible_widget(child):
                             continue
                         info = child.grid_info()
                         if int(info.get("row", -1)) != label_row:
@@ -183,12 +244,7 @@ class NewsStudio516(base516.NewsStudio514):
                         column = int(info.get("column", -1))
                         if column <= label_column:
                             continue
-                        if child.winfo_class() not in {
-                            "TEntry",
-                            "Entry",
-                            "TCombobox",
-                            "Combobox",
-                        }:
+                        if child not in inputs:
                             continue
                         candidates.append((column, child))
                     except Exception:
@@ -198,24 +254,43 @@ class NewsStudio516(base516.NewsStudio514):
                     candidates.sort(key=lambda item: item[0])
                     return candidates[0][1]
 
-            elif manager == "pack":
+            # 2. Robust: nächstes sichtbares Eingabefeld rechts auf gleicher Höhe,
+            # auch wenn Label und Entry in verschachtelten Frames liegen.
+            try:
+                label_x = label.winfo_rootx()
+                label_y = label.winfo_rooty()
+                label_w = label.winfo_width()
+                label_h = label.winfo_height()
+                label_center_y = label_y + label_h / 2
+                label_right = label_x + label_w
+            except Exception:
+                continue
+
+            spatial = []
+            for candidate in inputs:
                 try:
-                    children = list(parent.pack_slaves())
-                    index = children.index(label)
+                    x = candidate.winfo_rootx()
+                    y = candidate.winfo_rooty()
+                    w = candidate.winfo_width()
+                    h = candidate.winfo_height()
+                    center_y = y + h / 2
+
+                    # Nur Felder rechts vom Label und ungefähr in derselben Zeile.
+                    horizontal_gap = x - label_right
+                    vertical_gap = abs(center_y - label_center_y)
+                    if horizontal_gap < -8:
+                        continue
+                    if vertical_gap > max(30, label_h * 1.8):
+                        continue
+
+                    score = vertical_gap * 10 + max(horizontal_gap, 0)
+                    spatial.append((score, candidate))
                 except Exception:
                     continue
 
-                for child in children[index + 1:]:
-                    try:
-                        if child.winfo_class() in {
-                            "TEntry",
-                            "Entry",
-                            "TCombobox",
-                            "Combobox",
-                        }:
-                            return child
-                    except Exception:
-                        continue
+            if spatial:
+                spatial.sort(key=lambda item: item[0])
+                return spatial[0][1]
 
         return None
 
@@ -283,7 +358,7 @@ class NewsStudio516(base516.NewsStudio514):
             summary_ok = self._install_large_field(
                 field_key="summary",
                 label_text="Kurzfassung",
-                height=6,
+                height=10,
             )
         finally:
             self._large_fields_installing = False
@@ -292,7 +367,7 @@ class NewsStudio516(base516.NewsStudio514):
 
         if title_ok and summary_ok:
             self.status_var.set(
-                "Titel zweizeilig und Kurzfassung sechszeilig eingerichtet."
+                "Titel zweizeilig und Kurzfassung zehnzeilig eingerichtet."
             )
         elif title_ok:
             self.status_var.set(
@@ -307,6 +382,45 @@ class NewsStudio516(base516.NewsStudio514):
                 "Titel und Kurzfassung konnten nicht eindeutig gefunden werden."
             )
 
+        if not summary_ok:
+            self._write_field_diagnostics()
+
+    def _write_field_diagnostics(self) -> None:
+        """Schreibt bei lokaler Sonderstruktur eine auswertbare Widgetliste."""
+        path = SCRIPT_DIR / "news_studio_5_16_feldsuche.txt"
+        root = self._article_search_root()
+        lines = [
+            "ZUSTAND News Studio 5.16.3 – Diagnose der Beitragsfelder",
+            "",
+        ]
+        for widget in self._walk_widgets(root):
+            try:
+                widget_class = widget.winfo_class()
+                text = ""
+                if widget_class in {"TLabel", "Label", "TButton", "Button"}:
+                    text = str(widget.cget("text") or "")
+                variable = ""
+                if widget_class in {
+                    "TEntry",
+                    "Entry",
+                    "TCombobox",
+                    "Combobox",
+                }:
+                    variable = str(widget.cget("textvariable") or "")
+                lines.append(
+                    f"{widget_class:12} visible={self._is_visible_widget(widget)!s:5} "
+                    f"manager={widget.winfo_manager():5} text={text!r} "
+                    f"textvariable={variable!r}"
+                )
+            except Exception:
+                continue
+
+        try:
+            path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        except OSError:
+            pass
+
+
     def _install_large_field(
         self,
         field_key: str,
@@ -315,12 +429,12 @@ class NewsStudio516(base516.NewsStudio514):
     ) -> bool:
         variable = getattr(self, "article_vars", {}).get(field_key)
 
-        original = None
-        if variable is not None:
-            original = self._find_widget_for_variable(variable)
+        # Zuerst das tatsächlich sichtbare Feld neben der Beschriftung suchen.
+        # Erst wenn das nicht gelingt, über die interne StringVar suchen.
+        original = self._find_input_next_to_label(label_text)
 
-        if original is None:
-            original = self._find_input_next_to_label(label_text)
+        if original is None and variable is not None:
+            original = self._find_widget_for_variable(variable)
 
         if original is None:
             return False
@@ -347,6 +461,12 @@ class NewsStudio516(base516.NewsStudio514):
         if not self._place_replacement(original, text_widget):
             text_widget.destroy()
             return False
+
+        try:
+            original.master.update_idletasks()
+            self.update_idletasks()
+        except Exception:
+            pass
 
         state = {
             "field": field_key,
@@ -614,7 +734,7 @@ def main() -> None:
         log_path = _write_start_error(exc)
         try:
             messagebox.showerror(
-                "News Studio 5.16.1 – Startfehler",
+                "News Studio 5.16.3 – Startfehler",
                 "Das Studio wurde beim Start wegen eines Fehlers beendet.\n\n"
                 f"{type(exc).__name__}: {exc}\n\n"
                 f"Fehlerbericht:\n{log_path}",

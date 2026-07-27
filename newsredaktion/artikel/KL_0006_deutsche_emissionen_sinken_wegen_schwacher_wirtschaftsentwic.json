@@ -21,9 +21,9 @@
   "sourceUrl": "https://www.umweltbundesamt.de/presse/pressemitteilungen/europaeischer-emissionshandel-deutsche-emissionen",
   "publicationDate": "2026-07-07",
   "author": "",
-  "interviewPotential": "mittel",
+  "interviewPotential": "hoch",
   "created": "2026-07-25",
-  "lastModified": "2026-07-26",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -38,6 +38,6 @@
   "contentType": "news",
   "visualMode": "editorial-photo",
   "imageStyle": "nature",
-  "explainerId": "KL_0012",
+  "explainerId": "KL_0018",
   "sequenceRole": "context-news"
 }

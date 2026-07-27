@@ -33,10 +33,9 @@
   "links": [],
   "license": "",
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Bildung; Originalquelle: Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen (ZEFQ)",
-  "contentType": "explainer",
+  "contentType": "news",
   "visualMode": "process-sketch",
-  "category": "Natur verstehen",
-  "displayLabel": "NATUR VERSTEHEN",
   "imageStyle": "monochrome-editorial-sketch",
-  "sequenceRole": "explainer-after-news"
+  "explainerId": "QS_0010",
+  "sequenceRole": "context-news"
 }

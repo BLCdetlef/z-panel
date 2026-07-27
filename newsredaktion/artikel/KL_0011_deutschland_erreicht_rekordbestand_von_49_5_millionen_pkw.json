@@ -20,9 +20,9 @@
   "sourceUrl": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_N050_46_85.html",
   "publicationDate": "2026-07-22",
   "author": "",
-  "interviewPotential": "hoch",
+  "interviewPotential": "gering",
   "created": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -33,5 +33,8 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Pkw-Dichte 2026 erneut gestiegen"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: Pkw-Dichte 2026 erneut gestiegen",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature"
 }

@@ -1,0 +1,64 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "generatedAt": "2026-07-27T11:57:24+02:00",
+  "articles": [
+    {
+      "title": "Nicht Fake News, sondern wahre Zusammenhanglosigkeit",
+      "summary": "Bei Waldbränden berichten deutsche Medien meist korrekt über Feuer, Evakuierungen und mögliche Zündursachen. Häufig fehlt jedoch die Verbindung zu Forschung über Hitze, Trockenheit, Brennstoffaufbau, Landschaftsnutzung und ökologische Folgen. So entsteht keine Falschmeldung, sondern eine „wahre Zusammenhanglosigkeit“: Das Ereignis stimmt, doch der langfristige Wandel von Feuerregimen, Böden, Wasserhaushalt und Artenvielfalt bleibt unsichtbar.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Waldbrände",
+        "Südeuropa",
+        "Medienberichterstattung",
+        "Fake News",
+        "Zusammenhanglosigkeit",
+        "Klimawandel",
+        "Feuerwetter",
+        "Biodiversität",
+        "Böden",
+        "Wasserhaushalt",
+        "Wissenschaftskommunikation",
+        "Medienkompetenz",
+        "Querschnitt"
+      ],
+      "sourceTitle": "Human-induced climate change intensifies spatially compounding fire weather extremes across European countries",
+      "sourceUrl": "https://doi.org/10.1038/s44304-026-00201-y",
+      "publicationDate": "2026-04-02",
+      "category": "Querschnitt",
+      "interviewPotential": "hoch",
+      "contentType": "news",
+      "visualMode": "symbolic",
+      "imageStyle": "symbolic",
+      "contacts": [
+        {
+          "name": "Emilie Gauthier",
+          "role": "Erstautorin der Studie; Doktorandin im Department Compound Environmental Risks",
+          "institution": "Helmholtz-Zentrum für Umweltforschung – UFZ",
+          "country": "Deutschland",
+          "email": "emilie.gauthier@ufz.de",
+          "phone": "+49 341 6025 4885",
+          "profileUrl": "https://www.ufz.de/index.php?en=51839",
+          "contactSourceUrl": "https://www.ufz.de/index.php?en=51839",
+          "contactType": "Autor*in",
+          "preferred": true,
+          "notes": "Geeignet für ein verständliches Gespräch über gleichzeitiges extremes Feuerwetter in mehreren europäischen Ländern, die Rolle von Temperatur und Luftfeuchtigkeit sowie die Grenzen der Zuordnung einzelner Brände zum Klimawandel. Für die journalistische Ebene wäre ergänzend ein Gespräch mit einer Fachperson für Wissenschafts- oder Risikokommunikation sinnvoll."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Redaktioneller Querschnittsbeitrag auf Basis einer peer-reviewten UFZ-Primärstudie, aktueller WMO- und EFFIS-Daten, einer Einordnung der Europäischen Umweltagentur sowie einer qualitativen Sichtung aktueller Beiträge von ARD/Tagesschau und ZDF. Die Kritik an der deutschen Berichterstattung ist keine repräsentative Medienanalyse.",
+        "coreChange": "Die aktuelle Waldbrandlage erscheint in vielen Nachrichten vor allem als Folge einzelner Feuer, Zündquellen und Evakuierungen. Forschung zeigt zugleich einen längerfristigen Wandel: Steigende Temperaturen und sinkende relative Luftfeuchtigkeit vergrößern die Fläche, auf der mehrere europäische Länder gleichzeitig extremes Feuerwetter erleben. Ökologische Folgen für Böden, Wasser, Artenvielfalt und Kohlenstoffspeicherung reichen weit über das sichtbare Ereignis hinaus.",
+        "questionBehindNews": "Wann wird eine faktisch richtige Nachricht dennoch irreführend, weil sie Ereignis, Ursachen, langfristige Tendenzen und ökologische Folgen nicht miteinander verbindet?",
+        "causalChain": "Menschengemachte Erwärmung → höhere Temperaturen und häufig geringere relative Luftfeuchtigkeit → stärkere Austrocknung von Vegetation und Böden → größere räumliche Ausdehnung extremen Feuerwetters → Zündquelle trifft auf verfügbaren Brennstoff und ungünstige Landschaftsbedingungen → schnelle, schwer kontrollierbare Brände → Schäden an Lebensräumen, Böden, Wasserhaushalt, Luftqualität und Kohlenstoffspeichern → ereignisorientierte Berichterstattung trennt einzelne Glieder der Kette → die Öffentlichkeit nimmt systematische Veränderungen eher als isolierte Katastrophen wahr.",
+        "affectedSystems": "Atmosphäre, Wälder und Buschlandschaften, Böden, Flüsse und Grundwasser, Biodiversität, Kohlenstoffkreislauf, menschliche Gesundheit, Siedlungen, Katastrophenschutz und öffentliche Meinungsbildung.",
+        "planetaryBoundaries": "Vor allem Klimawandel und Integrität der Biosphäre; zusätzlich Landnutzungswandel, Süßwasserveränderung und über Rauch und Partikel die atmosphärische Aerosolbelastung.",
+        "societalRelevance": "Ob Waldbrände als zufällige Einzelereignisse oder als Teil veränderter Risiko- und Ökosystembedingungen verstanden werden, beeinflusst Vorsorge, Landschaftspflege, Klimaschutz, Katastrophenschutz und die Bereitschaft, europäische Lösch- und Anpassungskapazitäten gemeinsam zu planen.",
+        "uncertainties": "Ein einzelner Brand lässt sich nicht allein auf den Klimawandel zurückführen. Zündursachen, Brennstoffmenge, Vegetation, Landnutzung, Wind, Feuerbekämpfung und Vorgeschichte unterscheiden sich regional. Feuer gehört in einigen mediterranen Ökosystemen zu natürlichen Prozessen; entscheidend sind Häufigkeit, Intensität und Erholungszeit. Die Bewertung deutscher Medien beruht auf ausgewählten aktuellen Beispielen und ersetzt keine systematische Inhaltsanalyse.",
+        "interviewPotential": "Hoch. Mögliche Fragen: Was unterscheidet Zündursache und Brandverstärker? Welche messbaren Trends gibt es beim europäischen Feuerwetter? Wann kippt ein feuerangepasstes Ökosystem in einen dauerhaften anderen Zustand? Welche Zusammenhänge sollten Nachrichtenredaktionen in einer zweiminütigen Meldung mindestens erklären? Wie lässt sich einordnen, ohne einzelne Ereignisse vorschnell dem Klimawandel zuzuschreiben?",
+        "sources": "Helmholtz-Zentrum für Umweltforschung – UFZ / npj Natural Hazards: https://doi.org/10.1038/s44304-026-00201-y ; World Meteorological Organization: https://wmo.int/media/news/western-europe-has-hottest-june-record ; European Forest Fire Information System, JRC: https://effis.jrc.ec.europa.eu/apps/effis.statistics/estimates ; European Environment Agency: https://discomap.eea.europa.eu/ClimatePreparedness2025/?page=Wildfires-and-their-impacts ; ARD/Tagesschau, Beispiel einer vertieften Einordnung: https://www.tagesschau.de/ausland/europa/spanien-waldbrandsaison-100.html ; ZDFheute, aktuelle Ereignis- und Ursachenberichterstattung: https://www.zdfheute.de/panorama/spanien-waldbrand-notstand-avila-madrid-100.html",
+        "imageIdea": "Fotorealistisch-symbolische Darstellung eines geteilten Nachrichtenbildes: vorn ein sachlicher Bildschirm mit einem isolierten Feuerausschnitt, dahinter als zusammenhängende Landschaft trockener Boden, Vegetation, Rauch, Wasserlauf und geschädigter Waldrand. Dezente verbindende Linien oder Übergänge machen sichtbar, dass hinter dem Ereignis eine Wirkungskette liegt. Keine Medienlogos, keine lesbaren Schlagzeilen, keine dramatische Flammenwand, keine verletzten Menschen und keine plakative Fake-News-Typografie.",
+        "screenConnection": "Was hängt zusammen? Hitze, Luftfeuchtigkeit, Brennstoff, Landschaft, Zündquelle, Ökosystemfolgen – und die Art, wie wir darüber berichten."
+      }
+    }
+  ]
+}

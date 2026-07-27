@@ -1,0 +1,52 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "explainers-only",
+  "articles": [
+    {
+      "title": "Warum hängt unsere Gesundheit von intakten natürlichen Lebensgrundlagen ab?",
+      "summary": "Gesundheit entsteht nicht nur in Arztpraxis und Krankenhaus. Saubere Luft, trinkbares Wasser, sichere Nahrung, ein stabiles Klima und vielfältige Ökosysteme schützen vor Krankheiten und ermöglichen Bewegung, Erholung und Entwicklung. Werden diese Lebensgrundlagen geschädigt, steigen unter anderem Risiken durch Hitze, Luftschadstoffe, Infektionen, Mangelernährung und psychische Belastungen. Planetary Health betrachtet deshalb menschliche Gesundheit, Tiere und Ökosysteme gemeinsam.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Planetary Health",
+        "menschliche Gesundheit",
+        "Prävention",
+        "Klimagesundheit",
+        "Luftqualität",
+        "Trinkwasser",
+        "Ernährung",
+        "Biodiversität",
+        "Umweltmedizin",
+        "Gesundheitsversorgung",
+        "Lebensgrundlagen",
+        "One Health",
+        "Querschnitt"
+      ],
+      "sourceTitle": "Compendium of WHO and other UN guidance in health and environment, 2024 update",
+      "sourceUrl": "https://www.who.int/publications/i/item/9789240095380",
+      "publicationDate": "2024-07-03",
+      "category": "Natur verstehen",
+      "interviewPotential": "hoch",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "imageStyle": "monochrome-editorial-sketch",
+      "displayLabel": "NATUR VERSTEHEN",
+      "sequenceRole": "explainer-after-news",
+      "editorial": {
+        "sourceType": "Zeitunabhängiger Grundlagenbeitrag auf Basis einer aktuellen WHO-Sammlung verbindlicher und fachlich geprüfter Empfehlungen zu Gesundheit und Umwelt. Ergänzend dient der IPCC-Sachstandsbericht als wissenschaftliche Synthese zu Klima, Gesundheit, Verwundbarkeit und Prävention.",
+        "coreChange": "Der Beitrag verschiebt den Blick von Gesundheit als nachträglicher Behandlung von Krankheiten hin zu den natürlichen und gesellschaftlichen Bedingungen, die Gesundheit überhaupt erst ermöglichen oder gefährden.",
+        "questionBehindNews": "Welche Teile unserer Gesundheitsversorgung liegen außerhalb von Arztpraxis und Krankenhaus – in Luft, Wasser, Nahrung, Klima, Ökosystemen, Stadtplanung und sozialer Sicherheit?",
+        "causalChain": "Intakte natürliche Systeme → saubere Luft, sicheres Wasser, Nahrung, Temperaturregulation und geringere Erreger- und Schadstoffexposition → geringere Krankheitsrisiken und bessere körperliche sowie psychische Gesundheit. Umweltveränderungen und soziale Verwundbarkeit können diese Schutzfunktionen schwächen und Belastungen verstärken.",
+        "affectedSystems": "Atmosphäre und Klimasystem, Süßwasser, Böden, Ernährungssysteme, Biodiversität und Ökosysteme, Siedlungsräume sowie menschliche Gesundheits- und Versorgungssysteme.",
+        "planetaryBoundaries": "Querschnitt über Klimawandel, Integrität der Biosphäre, Süßwasserveränderung, neuartige Substanzen, Landnutzungsänderung und biogeochemische Kreisläufe.",
+        "societalRelevance": "Der Zusammenhang verbindet Umweltpolitik mit Prävention, sozialer Gerechtigkeit und Gesundheitsversorgung. Er macht verständlich, warum saubere Luft, sichere Ernährung, klimaangepasste Städte und der Schutz von Ökosystemen zugleich Gesundheitspolitik sind.",
+        "uncertainties": "Der Beitrag erklärt einen breiten Zusammenhang und beziffert keine einzelne Krankheitslast. Wirkungen unterscheiden sich nach Region, Exposition, Alter, Vorerkrankungen, Einkommen, Arbeitsbedingungen und Zugang zu Schutz und medizinischer Versorgung. Nicht jede ökologische Veränderung führt unmittelbar oder bei allen Menschen zur gleichen Folge.",
+        "interviewPotential": "Hoch. Geeignet sind Forschende aus Planetary Health, Umweltmedizin, Public Health, Allgemeinmedizin und Gesundheitsgeografie. Mögliche Fragen: Welche Umweltbedingungen schützen Gesundheit am stärksten? Welche Risiken werden in der Medizin bislang unterschätzt? Wie lässt sich Prävention außerhalb des Gesundheitssystems verankern?",
+        "sources": "Hauptquelle: World Health Organization (2024), Compendium of WHO and other UN guidance in health and environment, https://www.who.int/publications/i/item/9789240095380; wissenschaftliche Synthese: IPCC (2022), AR6 Working Group II, Chapter 7 Health, Wellbeing and the Changing Structure of Communities, https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-7/; strategische Grundlage: WHO (2019), Global strategy on health, environment and climate change, https://www.who.int/publications/i/item/9789240000377",
+        "imageIdea": "Reduzierte wissenschaftsjournalistische Schwarz-Weiß-Skizze: ein menschlicher Oberkörper als einziges Hauptmotiv. Drei klare Zuflüsse – Luft, Wasser und Nahrung – führen sichtbar in den Körper und bilden gemeinsam eine schützende, stabile Form. Höchstens drei Begriffe, keine Krankenhausszene, keine Organ-Sammlung, keine vollständige One-Health-Grafik und keine Ansammlung von Krankheitssymbolen.",
+        "screenConnection": "Gesundheit beginnt bei Luft, Wasser, Nahrung, Klima und Ökosystemen – lange bevor medizinische Behandlung nötig wird."
+      }
+    }
+  ]
+}

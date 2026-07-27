@@ -1,0 +1,48 @@
+{
+  "id": "QS_0010",
+  "status": "freigegeben",
+  "title": "Warum hängt unsere Gesundheit von intakten natürlichen Lebensgrundlagen ab?",
+  "summary": "Gesundheit entsteht nicht nur in Arztpraxis und Krankenhaus. Saubere Luft, trinkbares Wasser, sichere Nahrung, ein stabiles Klima und vielfältige Ökosysteme schützen vor Krankheiten und ermöglichen Bewegung, Erholung und Entwicklung. Werden diese Lebensgrundlagen geschädigt, steigen unter anderem Risiken durch Hitze, Luftschadstoffe, Infektionen, Mangelernährung und psychische Belastungen. Planetary Health betrachtet deshalb menschliche Gesundheit, Tiere und Ökosysteme gemeinsam.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "Planetary Health",
+    "menschliche Gesundheit",
+    "Prävention",
+    "Klimagesundheit",
+    "Luftqualität",
+    "Trinkwasser",
+    "Ernährung",
+    "Biodiversität",
+    "Umweltmedizin",
+    "Gesundheitsversorgung",
+    "Lebensgrundlagen",
+    "One Health",
+    "Querschnitt"
+  ],
+  "imageId": "QS_0010_01",
+  "sourceUrl": "https://www.who.int/publications/i/item/9789240095380",
+  "publicationDate": "2024-07-03",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: Compendium of WHO and other UN guidance in health and environment, 2024 update",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

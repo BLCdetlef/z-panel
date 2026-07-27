@@ -1,0 +1,43 @@
+{
+  "id": "KL_0019",
+  "status": "freigegeben",
+  "title": "Nicht Fake News, sondern wahre Zusammenhanglosigkeit",
+  "summary": "Bei Waldbränden berichten deutsche Medien meist korrekt über Feuer, Evakuierungen und mögliche Zündursachen. Häufig fehlt jedoch die Verbindung zu Forschung über Hitze, Trockenheit, Brennstoffaufbau, Landschaftsnutzung und ökologische Folgen. So entsteht keine Falschmeldung, sondern eine „wahre Zusammenhanglosigkeit“: Das Ereignis stimmt, doch der langfristige Wandel von Feuerregimen, Böden, Wasserhaushalt und Artenvielfalt bleibt unsichtbar.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Waldbrände",
+    "Südeuropa",
+    "Medienberichterstattung",
+    "Fake News",
+    "Zusammenhanglosigkeit",
+    "Klimawandel",
+    "Feuerwetter",
+    "Biodiversität",
+    "Böden",
+    "Wasserhaushalt",
+    "Wissenschaftskommunikation",
+    "Medienkompetenz",
+    "Querschnitt"
+  ],
+  "imageId": "KL_0019_01",
+  "sourceUrl": "https://doi.org/10.1038/s44304-026-00201-y",
+  "publicationDate": "2026-04-02",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Human-induced climate change intensifies spatially compounding fire weather extremes across European countries",
+  "contentType": "news",
+  "visualMode": "symbolic",
+  "imageStyle": "symbolic"
+}

@@ -1,0 +1,53 @@
+ZUSTAND News Studio 5.19 konnte nicht gestartet werden.
+
+Fehlertyp: TclError
+Fehler: bad event type or keysym "ISO_Left_Tab"
+
+Technische Details:
+Traceback (most recent call last):
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_19.py", line 313, in main
+    app = NewsStudio519()
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_19.py", line 300, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_14.py", line 165, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_13.py", line 85, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_12.py", line 221, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_11.py", line 307, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_10.py", line 53, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_9.py", line 205, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_8.py", line 231, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_7.py", line 99, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_6.py", line 184, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_5_2.py", line 410, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_3.py", line 82, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_2_1.py", line 345, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_1.py", line 727, in __init__
+    self._build()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_1.py", line 777, in _build
+    self._build_articles()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_1.py", line 960, in _build_articles
+    FieldRow(form, "Titel", self.article_vars["title"])
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_19.py", line 217, in __init__
+    self.entry = BoundText(
+                 ^^^^^^^^^^
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_19.py", line 126, in __init__
+    self.bind("<ISO_Left_Tab>", self._focus_previous, add="+")
+  File "C:\Users\haud\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1450, in bind
+    return self._bind(('bind', self._w), sequence, func, add)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haud\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1404, in _bind
+    self.tk.call(what + (sequence, cmd))
+_tkinter.TclError: bad event type or keysym "ISO_Left_Tab"

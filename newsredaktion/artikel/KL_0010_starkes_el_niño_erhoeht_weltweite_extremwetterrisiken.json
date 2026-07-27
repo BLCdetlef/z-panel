@@ -20,9 +20,9 @@
   "sourceUrl": "https://wmo.int/media/news/el-nino-forecast-intensify-increasing-likelihood-of-extreme-weather",
   "publicationDate": "2026-07-03",
   "author": "",
-  "interviewPotential": "mittel",
+  "interviewPotential": "hoch",
   "created": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -35,8 +35,8 @@
   "license": "",
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Zustand; Originalquelle: El Niño is forecast to intensify, increasing likelihood of extreme weather",
   "contentType": "news",
-  "visualMode": "editorial-photo",
-  "imageStyle": "nature",
-  "explainerId": "KL_0013",
+  "visualMode": "process-sketch",
+  "imageStyle": "monochrome-editorial-sketch",
+  "explainerId": "KL_0012",
   "sequenceRole": "context-news"
 }

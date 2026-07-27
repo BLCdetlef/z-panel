@@ -1,0 +1,43 @@
+{
+  "id": "KL_0017",
+  "status": "freigegeben",
+  "title": "Konsumstärkstes Zehntel verursacht Umweltschäden bis 5,7 Billionen US-Dollar",
+  "summary": "Eine neue Studie in Communications Sustainability beziffert die jährlichen Umweltfolgen des konsumstärksten globalen Zehntels auf 1,7 bis 5,7 Billionen US-Dollar, gerechnet in Preisen von 2017. Bewertet wurden Klimawandel, Biodiversitätsverlust, Stickstoff- und Phosphorbelastung sowie Süßwasserverbrauch. Allein Biodiversität und CO₂ verursachen 83 bis 93 Prozent der geschätzten Schäden. Die Autor*innen sehen darin ein Argument für gezielte, sozial gerechte Regeln nach dem Verursacherprinzip.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Konsum",
+    "CO₂-Fußabdruck",
+    "Klimagerechtigkeit",
+    "Biodiversitätsverlust",
+    "Planetare Grenzen",
+    "Verursacherprinzip",
+    "Umweltschäden",
+    "Suffizienz",
+    "Ungleichheit",
+    "Zukunftsfähigkeit",
+    "Querschnitt"
+  ],
+  "imageId": "KL_0017_01",
+  "sourceUrl": "https://doi.org/10.1038/s44458-026-00079-x",
+  "publicationDate": "2026-06-18",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Environmental damages of the top ten percent consumers exceed global climate and biodiversity funding gaps",
+  "contentType": "news",
+  "visualMode": "symbolic",
+  "imageStyle": "symbolic",
+  "explainerId": "KL_0018",
+  "sequenceRole": "context-news"
+}

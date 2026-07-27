@@ -1,0 +1,89 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "editorial",
+  "articles": [
+    {
+      "title": "Hoffnung heißt: die Realität anerkennen und Veränderung für möglich halten",
+      "summary": "Hoffnung bedeutet nicht, Krisen kleinzureden oder auf eine technische Rettung zu warten. Sie beginnt damit, den Zustand von Klima, Ökosystemen, Demokratie und Gesellschaft ehrlich anzuerkennen – und dennoch Veränderung für möglich zu halten. Maren Urner verbindet diese Haltung mit Selbstwirksamkeit, Vorstellungskraft und gemeinsamem Handeln: Wer ein klares Wofür entwickeln kann, bleibt eher handlungsfähig, statt angesichts bedrohlicher Nachrichten in Angst, Zynismus oder Passivität zu geraten.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Redaktion",
+        "Hoffnung",
+        "Maren Urner",
+        "Selbstwirksamkeit",
+        "Transformation",
+        "Vorstellungskraft",
+        "Konstruktiver Journalismus",
+        "Klimakommunikation",
+        "Emotionen",
+        "Handlungsfähigkeit",
+        "Planetare Grenzen",
+        "Demokratie",
+        "Zukunftsfähigkeit",
+        "Querschnitt"
+      ],
+      "sourceTitle": "Radikal hoffnungsvoll: Denn unser Hirn gibt niemals auf",
+      "sourceUrl": "https://re-publica.com/de/news/rp26-sprecherin-maren-urner-radikal-hoffnungsvoll",
+      "publicationDate": "2026-05-20",
+      "category": "Redaktion",
+      "interviewPotential": "sehr hoch",
+      "contentType": "editorial",
+      "visualMode": "symbolic",
+      "imageStyle": "monochrome-editorial-sketch",
+      "contacts": [
+        {
+          "name": "Prof. Dr. Maren Urner",
+          "role": "Professorin für Nachhaltige Transformation und Leiterin des Masterstudiengangs Nachhaltige Transformationsgestaltung",
+          "institution": "FH Münster – Münster Centrum für Interdisziplinarität",
+          "email": "maren.urner@fh-muenster.de",
+          "contactUrl": "https://www.fh-muenster.de/de/ueber-uns/organisation/fachbereiche-einrichtungen/mci/ntg-lehrende",
+          "contactType": "verifizierte berufliche Hochschuladresse",
+          "reason": "Direkte Gesprächspartnerin zu Hoffnung, Emotionen, Medienwirkung, Selbstwirksamkeit und nachhaltiger Transformation."
+        },
+        {
+          "name": "PODIUM Redner GbR",
+          "role": "Vortrags- und Medienkontakt für Maren Urner",
+          "institution": "PODIUM Redner",
+          "email": "n.lalic@podium-redner.de",
+          "phone": "+49 69 3487788-80",
+          "contactUrl": "https://maren-urner.com/home/impressum",
+          "contactType": "offizieller Kontakt auf Maren Urners Website",
+          "reason": "Alternative für formelle Medien-, Veranstaltungs- oder Interviewanfragen."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Redaktioneller Einordnungsbeitrag. Die Kernaussage ist eine Verdichtung mehrerer öffentlich dokumentierter Aussagen Maren Urners zu Hoffnung, Selbstwirksamkeit, dynamischem Denken und Transformation. Der Satz ist kein verifiziertes wörtliches Zitat und darf nicht in Anführungszeichen als Originalaussage ausgegeben werden.",
+        "coreChange": "Hoffnung wird von einer passiven Erwartung in eine aktive, realistische Haltung umgedeutet: Wirklichkeit vollständig wahrnehmen, ein erstrebenswertes Wofür entwickeln und die eigene sowie gemeinsame Handlungsfähigkeit nutzen.",
+        "questionBehindNews": "Wie können Menschen den ernsten Zustand unserer Lebensgrundlagen anerkennen, ohne in Verdrängung, Zynismus oder erlernter Hilflosigkeit zu geraten?",
+        "causalChain": "Bedrohliche und komplexe Realität → Angst, Überforderung oder Verdrängung → Gefahr von Passivität und Zynismus. Ehrliche Anerkennung plus vorstellbares Wofür → Hoffnung und Selbstwirksamkeit → Kooperation und konkretes Handeln → größere Chance auf gesellschaftliche Transformation.",
+        "affectedSystems": "Menschliche Wahrnehmung, psychische Gesundheit, Medienöffentlichkeit, demokratische Handlungsfähigkeit, Bildung und gesellschaftliche Kooperation; mittelbar alle natürlichen Lebensgrundlagen, deren Schutz gemeinsames Handeln voraussetzt.",
+        "planetaryBoundaries": "Querschnitt über alle planetaren Grenzen, weil der Beitrag nicht einen einzelnen Naturprozess, sondern die psychologischen und kommunikativen Voraussetzungen für gesellschaftliches Handeln behandelt.",
+        "societalRelevance": "Die Haltung ist für ZUSTAND zentral: Der Infoscreen soll Krisen weder beschönigen noch überwältigend darstellen. Er soll den Zustand ehrlich zeigen, Zusammenhänge verständlich machen und Menschen als handlungsfähige Mitgestaltende ansprechen.",
+        "uncertainties": "Die Formulierung ist eine redaktionelle Synthese, keine überprüfte wörtliche Aussage Maren Urners. Hoffnung allein bewirkt keine Transformation; politische Macht, Institutionen, Ressourcen, soziale Ungleichheit und konkrete Handlungsmöglichkeiten bleiben entscheidend.",
+        "interviewPotential": "Sehr hoch. Das Thema passt unmittelbar zu ZUSTAND, konstruktivem Journalismus und öffentlicher Wissenschaftskommunikation. Mögliche Fragen: Wie unterscheidet sich Hoffnung von Optimismus? Wie viel Krise müssen Medien zeigen? Wann macht Angst handlungsfähig und wann lähmt sie? Wie entsteht ein gemeinsames Wofür? Welche Rolle können Hochschulen und lokale Medien spielen?",
+        "sources": "re:publica 2026, „Radikal hoffnungsvoll: Denn unser Hirn gibt niemals auf“, https://re-publica.com/de/news/rp26-sprecherin-maren-urner-radikal-hoffnungsvoll; FH Münster (29.07.2025), „Vom Wogegen zum Wofür – Wie geht Transformation?“, https://www.fh-muenster.de/de/ueber-uns/newsroom/news/aus-der-fhocus-wie-geht-transformation; FH Münster (16.09.2024), Berufung zur Professorin für Nachhaltige Transformation, https://www.fh-muenster.de/de/ueber-uns/newsroom/news/ibl/fh-muenster-beruft-neurowissenschaftlerin-prof.dr.maren-urner; offizielle Website, https://maren-urner.com/",
+        "imageIdea": "Empfohlen ist keine detailgetreue Porträtskizze als alleinige Aussage, sondern eine reduzierte Schwarz-Weiß-Wissenschaftsskizze: ein ruhiges menschliches Profil blickt auf eine klar erkennbare, ungeschönte Landschaft aus dunklen und hellen Flächen; im Vordergrund beginnt eine einzelne offene Linie als möglicher neuer Weg. Höchstens die Begriffe „Realität“, „Hoffnung“ und „Handeln“. Kein triumphierendes Motiv, keine aufgehende-Sonne-Kitschmetapher, keine Katastrophencollage. Ein Porträt Maren Urners ist besonders für einen angekündigten oder veröffentlichten Interviewbeitrag geeignet; dafür möglichst ein freigegebenes Pressefoto oder ihre Zustimmung verwenden.",
+        "screenConnection": "Die Lage ehrlich sehen – und gerade deshalb gemeinsam Veränderung möglich machen.",
+        "quoteStatus": "Redaktionelle Essenz, nicht als wörtliches Zitat von Maren Urner kennzeichnen.",
+        "proposedEssence": "Hoffnung heißt, die Realität vollständig anzuerkennen und dennoch an die Möglichkeit von Veränderung zu glauben.",
+        "interviewPlan": {
+          "workingTitle": "Wie bleiben wir angesichts der planetaren Krisen handlungsfähig?",
+          "format": "Gespräch für ZUSTAND und den Offenen Kanal Lübeck",
+          "suggestedDuration": "20–30 Minuten",
+          "opening": "ZUSTAND zeigt den Zustand unserer natürlichen Lebensgrundlagen ohne Beschönigung. Wie kann daraus Orientierung statt Ohnmacht entstehen?",
+          "questions": [
+            "Was unterscheidet Hoffnung von Optimismus und positivem Denken?",
+            "Müssen wir die Realität zunächst vollständig anerkennen, bevor Veränderung möglich wird?",
+            "Wann motivieren Krisenmeldungen – und wann erzeugen sie erlernte Hilflosigkeit?",
+            "Was bedeutet der Wechsel vom Wogegen zum Wofür ganz praktisch?",
+            "Wie können Wissenschaft und Medien planetare Krisen ehrlich zeigen, ohne Menschen zu überfordern?",
+            "Welche Rolle spielen Gefühle bei politischen und gesellschaftlichen Entscheidungen?",
+            "Wie lässt sich Selbstwirksamkeit fördern, ohne strukturelle Verantwortung auf Einzelne abzuwälzen?",
+            "Was sollten Hochschulen jungen Menschen über Transformation vermitteln?",
+            "Welche Geschichte über unsere Zukunft erzählen wir bislang zu selten?"
+          ]
+        }
+      }
+    }
+  ]
+}

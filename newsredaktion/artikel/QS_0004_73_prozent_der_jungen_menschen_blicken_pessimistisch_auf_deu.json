@@ -23,7 +23,7 @@
   "author": "",
   "interviewPotential": "hoch",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -34,5 +34,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Priorität: 5; Originalquelle: Junge Menschen schauen zunehmend pessimistisch in die Zukunft"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Priorität: 5; Originalquelle: Junge Menschen schauen zunehmend pessimistisch in die Zukunft",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "QS_0010",
+  "sequenceRole": "context-news"
 }

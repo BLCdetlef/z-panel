@@ -1,0 +1,47 @@
+{
+  "id": "KL_0018",
+  "status": "freigegeben",
+  "title": "Warum ist der persönliche CO₂-Fußabdruck ein wichtiger, aber unvollständiger Zukunftsindikator?",
+  "summary": "Der persönliche CO₂-Fußabdruck bündelt die direkten und indirekten Emissionen, die Wohnen, Mobilität, Ernährung und gekaufte Güter auslösen. Weil sich CO₂ in der Atmosphäre anreichert und das verbleibende Klimabudget begrenzt ist, zeigt der Wert, wie stark ein Lebensstil den weltweit verfügbaren Spielraum beansprucht. Er ist deshalb ein wichtiger Zukunftsindikator – aber kein vollständiger: Infrastruktur, Einkommen, öffentliche Dienste, Investitionen und politische Regeln bestimmen mit, welche Wahlmöglichkeiten Menschen haben.",
+  "planetaryBoundary": "KL",
+  "keywords": [
+    "Natur verstehen",
+    "Grundlagen",
+    "persönlicher CO₂-Fußabdruck",
+    "Klimabudget",
+    "Konsum",
+    "Lebensstil",
+    "Suffizienz",
+    "Klimagerechtigkeit",
+    "Infrastruktur",
+    "Wohnen",
+    "Mobilität",
+    "Ernährung",
+    "Zukunftsfähigkeit",
+    "Querschnitt"
+  ],
+  "imageId": "KL_0018_01",
+  "sourceUrl": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/",
+  "publicationDate": "2022-04-04",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: IPCC AR6 WGIII – Chapter 5: Demand, services and social aspects of mitigation",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

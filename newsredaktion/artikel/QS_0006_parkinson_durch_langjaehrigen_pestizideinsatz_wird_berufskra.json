@@ -23,7 +23,7 @@
   "author": "",
   "interviewPotential": "hoch",
   "created": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "lastModified": "2026-07-27",
   "language": "de",
   "article": [
     {
@@ -34,5 +34,10 @@
   "facts": [],
   "links": [],
   "license": "",
-  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Gesundheit und Arbeitsschutz; Originalquelle: Bundesministerium für Arbeit und Soziales: Ab 1. August 2026 neue Berufskrankheit „Parkinson durch Pestizide“"
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Gesundheit und Arbeitsschutz; Originalquelle: Bundesministerium für Arbeit und Soziales: Ab 1. August 2026 neue Berufskrankheit „Parkinson durch Pestizide“",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "QS_0010",
+  "sequenceRole": "context-news"
 }
