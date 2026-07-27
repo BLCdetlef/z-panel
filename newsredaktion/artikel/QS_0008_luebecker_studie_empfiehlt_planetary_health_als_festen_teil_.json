@@ -1,0 +1,42 @@
+{
+  "id": "QS_0008",
+  "status": "freigegeben",
+  "title": "Lübecker Studie empfiehlt Planetary Health als festen Teil des Medizinstudiums",
+  "summary": "Eine qualitative Studie der Universität zu Lübeck untersuchte eine Planetary-Health-Lehrintervention im allgemeinmedizinischen Blockpraktikum. 14 Studierende bewerteten das Thema als relevant, nutzten freiwillige Zusatzangebote wegen Zeitmangels aber kaum; zurückhaltende Reaktionen in Lehrpraxen wirkten zusätzlich demotivierend. Die Autor*innen empfehlen deshalb, Planetary Health verbindlich und longitudinal ins Medizinstudium zu integrieren – bevorzugt fallbasiert in kleinen Gruppen.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Planetary Health",
+    "Medizinstudium",
+    "Allgemeinmedizin",
+    "Primärversorgung",
+    "Curriculumsentwicklung",
+    "Klimagesundheit",
+    "Gesundheitsbildung",
+    "Universität zu Lübeck",
+    "Bildung"
+  ],
+  "imageId": "QS_0008_01",
+  "sourceUrl": "https://doi.org/10.1016/j.zefq.2023.03.005",
+  "publicationDate": "2023-05-17",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Bildung; Originalquelle: Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen (ZEFQ)",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T20:02:26.471818+00:00",
-  "articleCount": 21,
+  "generatedAt": "2026-07-27T05:27:29.828238+00:00",
+  "articleCount": 23,
   "articles": [
     {
       "id": "KL_0005",
@@ -1265,6 +1265,147 @@
       "relatedNewsIds": [],
       "relatedNewsCount": 0,
       "sequenceRole": "explainer-after-news"
+    },
+    {
+      "id": "QS_0009",
+      "status": "freigegeben",
+      "title": "Warum können ökologische Veränderungen das Risiko von Zoonosen erhöhen?",
+      "summary": "Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam.",
+      "planetaryBoundary": "BD",
+      "keywords": [
+        "Zoonosen",
+        "One Health",
+        "Klimawandel",
+        "Biodiversitätsverlust",
+        "Landnutzungsänderung",
+        "Infektionskrankheiten",
+        "Wirte",
+        "Vektoren",
+        "Ökosysteme",
+        "globale Veränderungen",
+        "Natur verstehen"
+      ],
+      "imageId": "QS_0009_01",
+      "sourceUrl": "https://doi.org/10.1038/s41586-024-07380-6",
+      "publicationDate": "2024-05-08",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-27",
+      "lastModified": "2026-07-27",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: A meta-analysis on global change drivers and the risk of infectious disease",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "sequenceRole": "explainer-after-news",
+      "imageFile": "assets/images/QS_0009_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0009_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-27T05:18:39.462298+00:00",
+        "sourceFile": "ChatGPT Image 27. Juli 2026, 07_18_25.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum können ökologische Veränderungen das Risiko von Zoonosen erhöhen?.\nKernaussage: Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam..\nInhaltlicher Ausgangspunkt: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nSchlagwörter: Zoonosen, One Health, Klimawandel, Biodiversitätsverlust, Landnutzungsänderung, Infektionskrankheiten, Wirte, Vektoren, Ökosysteme, globale Veränderungen, Natur verstehen.\n\nZiel des Bildes: Es soll Wissen anbahnen, vor allem aber Interesse und Neugier auf Forschung zu unseren natürlichen Lebensgrundlagen wecken. Das Bild ist ein Titelbild und keine vollständige Lehrtafel. Es öffnet die Frage; der Beitrag erklärt die Einzelheiten.\n\nBildtyp: hochwertige wissenschaftsjournalistische Prozessskizze für die Rubrik „Natur verstehen“, in Schwarz-Weiß oder kontrastreichen Graustufen. Zeige genau eine zentrale Ursache-Wirkungs-Beziehung aus dem Artikel.\n\nVerbindliche Reduktion:\n- genau ein dominantes Hauptmotiv\n- genau eine Kernaussage\n- höchstens drei klar unterscheidbare Prozessstufen\n- höchstens vier Pfeile oder Richtungslinien\n- höchstens drei sehr kurze Beschriftungen, Kürzel oder Formelzeichen\n- höchstens ein zurückhaltender Nebenaspekt\n- das Bild muss auch ohne Lesen der Beschriftungen verständlich sein\n\nFalls der Artikel mehrere Aspekte enthält, wähle ausschließlich den für Titel und Kernaussage wichtigsten Zusammenhang. Zeige keine vollständige Prozesskette, keine Materialsammlung, keine vielen Beispiele und keine parallelen Erklärstränge.\n\nGestaltung:\n- feine Linien, klare Umrisse und dezente Schraffuren\n- ruhiger heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- erwachsen, hochwertig und wissenschaftsnah\n- einfache Pfeile, Symbole, Abkürzungen oder Formelzeichen sind erlaubt, aber nur wenn sie die eine Hauptidee unmittelbar klären\n- Beschriftungen auf Deutsch oder als allgemein verständliche Fachkürzel, sehr kurz und kontrastreich\n\nUnbedingt vermeiden:\n- vollständige Flussdiagramme oder Ablaufpläne\n- mehr als drei Stationen\n- viele Kreise, Kästen, Materialbehälter oder Symbolgruppen\n- lange Sätze, Erklärtexte, Legenden und Zusammenfassungsleisten\n- mehrere Landschaftsräume oder mehrere gleichwertige Hauptmotive\n- bunte Infografik, Comic, Kinderbuchstil oder CAD-Zeichnung\n- Logos, Wasserzeichen, dekorative Rahmen oder Collagen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9\n- für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms\n- aus drei bis fünf Metern Entfernung sofort erfassbar\n- wichtige Motive mindestens zehn Prozent vom Bildrand entfernt\n- eindeutige Blickführung und viel ruhige Fläche\n\nLeitgedanke: Ein Blick – ein Zusammenhang. Vermittle lieber einen klaren Gedanken als viele Details. Das Bild soll ein unmittelbares „Ach so“ auslösen und zugleich zum Weiterlesen anregen.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        },
+        "editorialPurpose": "Grundverständnis und Neugier auf Forschung zu den natürlichen Lebensgrundlagen",
+        "complexityLimits": {
+          "mainIdeas": 1,
+          "maxProcessStages": 3,
+          "maxArrows": 4,
+          "maxShortLabels": 3,
+          "maxSecondaryAspects": 1,
+          "mustWorkWithoutReading": true
+        }
+      },
+      "sourceType": "Eigenständiger Grundlagenbeitrag auf Basis einer begutachteten globalen Metaanalyse in Nat",
+      "screenConnection": "Klimawandel, Artenvielfalt, Landnutzung, Tierkontakte und menschliche Gesundheit hängen zusammen.",
+      "relatedNewsIds": [],
+      "relatedNewsCount": 0
+    },
+    {
+      "id": "QS_0008",
+      "status": "freigegeben",
+      "title": "Lübecker Studie empfiehlt Planetary Health als festen Teil des Medizinstudiums",
+      "summary": "Eine qualitative Studie der Universität zu Lübeck untersuchte eine Planetary-Health-Lehrintervention im allgemeinmedizinischen Blockpraktikum. 14 Studierende bewerteten das Thema als relevant, nutzten freiwillige Zusatzangebote wegen Zeitmangels aber kaum; zurückhaltende Reaktionen in Lehrpraxen wirkten zusätzlich demotivierend. Die Autor*innen empfehlen deshalb, Planetary Health verbindlich und longitudinal ins Medizinstudium zu integrieren – bevorzugt fallbasiert in kleinen Gruppen.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Planetary Health",
+        "Medizinstudium",
+        "Allgemeinmedizin",
+        "Primärversorgung",
+        "Curriculumsentwicklung",
+        "Klimagesundheit",
+        "Gesundheitsbildung",
+        "Universität zu Lübeck",
+        "Bildung"
+      ],
+      "imageId": "QS_0008_01",
+      "sourceUrl": "https://doi.org/10.1016/j.zefq.2023.03.005",
+      "publicationDate": "2023-05-17",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-27",
+      "lastModified": "2026-07-27",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Bildung; Originalquelle: Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen (ZEFQ)",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "sequenceRole": "explainer-after-news",
+      "imageFile": "assets/images/QS_0008_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0008_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-27T04:56:51.328275+00:00",
+        "sourceFile": "ChatGPT Image 27. Juli 2026, 06_56_22.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Lübecker Studie empfiehlt Planetary Health als festen Teil des Medizinstudiums.\nKernaussage: Eine qualitative Studie der Universität zu Lübeck untersuchte eine Planetary-Health-Lehrintervention im allgemeinmedizinischen Blockpraktikum. 14 Studierende bewerteten das Thema als relevant, nutzten freiwillige Zusatzangebote wegen Zeitmangels aber kaum; zurückhaltende Reaktionen in Lehrpraxen wirkten zusätzlich demotivierend. Die Autor*innen empfehlen deshalb, Planetary Health verbindlich und longitudinal ins Medizinstudium zu integrieren – bevorzugt fallbasiert in kleinen Gruppen..\nMögliche Bildassoziationen: ein glaubwürdiger Hörsaal, ein Klassenzimmer, eine Werkstatt oder eine Bibliothek; keine Naturmetapher als Hauptmotiv.\nGewählter Bildstil: Wissenschaft. Nutze eine glaubwürdige wissenschaftliche Bildsprache, etwa Atmosphäre, Messinstrumente, Proben, Modelle oder sichtbare Prozesse. Keine Science-Fiction-Ästhetik und keine Infografik.\nSchlagwörter: Planetary Health, Medizinstudium, Allgemeinmedizin, Primärversorgung, Curriculumsentwicklung, Klimagesundheit, Gesundheitsbildung, Universität zu Lübeck, Bildung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Eine qualitative Studie der Universität zu Lübeck untersuchte eine Planetary-Health-Lehrintervention im allgemeinmedizinischen Blockpraktikum. 14 Studierende bewerteten das Thema als relevant, nutzten freiwillige Zusatzangebote wegen Zeitmangels aber kaum; zurückhaltende Reaktionen in Lehrpraxen wirkten zusätzlich demotivierend. Die Autor*innen empfehlen deshalb, Planetary Health verbindlich und longitudinal ins Medizinstudium zu integrieren – bevorzugt fallbasiert in kleinen Gruppen.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde.",
+        "contentType": "solution",
+        "visualMode": "editorial-photo",
+        "imageStyle": "nature",
+        "imageFamily": "editorial"
+      },
+      "sourceType": "Begutachtete qualitative Originalstudie in einer medizinischen Fachzeitschrift; vier leitf",
+      "screenConnection": "Medizinische Lehre, hausärztliche Versorgung, Klimafolgen und die Umweltwirkungen des Gesundheitssektors hängen zusammen.",
+      "relatedNewsIds": [],
+      "relatedNewsCount": 0
     }
   ],
   "contentSchema": 5,
@@ -1300,16 +1441,16 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-26T22:02:28+02:00",
+  "editorialGeneratedAt": "2026-07-27T07:27:31+02:00",
   "contentTypeCounts": {
     "news": 15,
-    "explainer": 6,
+    "explainer": 8,
     "solution": 0,
     "editorial": 0
   },
   "visualModeCounts": {
     "editorial-photo": 15,
-    "process-sketch": 6,
+    "process-sketch": 8,
     "symbolic": 0,
     "scientific": 0
   },
@@ -1334,7 +1475,9 @@
     "QS_0004",
     "NS_0001",
     "OA_0001",
-    "KL_0014"
+    "KL_0014",
+    "QS_0009",
+    "QS_0008"
   ],
   "playbackGroups": [
     {
@@ -1395,6 +1538,28 @@
       ],
       "newsCount": 3,
       "status": "recommended",
+      "recommendedNewsCount": {
+        "min": 2,
+        "max": 5
+      }
+    },
+    {
+      "explainerId": "QS_0009",
+      "explainerTitle": "Warum können ökologische Veränderungen das Risiko von Zoonosen erhöhen?",
+      "newsIds": [],
+      "newsCount": 0,
+      "status": "unlinked",
+      "recommendedNewsCount": {
+        "min": 2,
+        "max": 5
+      }
+    },
+    {
+      "explainerId": "QS_0008",
+      "explainerTitle": "Lübecker Studie empfiehlt Planetary Health als festen Teil des Medizinstudiums",
+      "newsIds": [],
+      "newsCount": 0,
+      "status": "unlinked",
       "recommendedNewsCount": {
         "min": 2,
         "max": 5

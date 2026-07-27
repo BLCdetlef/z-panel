@@ -1,0 +1,44 @@
+{
+  "id": "QS_0009",
+  "status": "freigegeben",
+  "title": "Warum können ökologische Veränderungen das Risiko von Zoonosen erhöhen?",
+  "summary": "Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam.",
+  "planetaryBoundary": "BD",
+  "keywords": [
+    "Zoonosen",
+    "One Health",
+    "Klimawandel",
+    "Biodiversitätsverlust",
+    "Landnutzungsänderung",
+    "Infektionskrankheiten",
+    "Wirte",
+    "Vektoren",
+    "Ökosysteme",
+    "globale Veränderungen",
+    "Natur verstehen"
+  ],
+  "imageId": "QS_0009_01",
+  "sourceUrl": "https://doi.org/10.1038/s41586-024-07380-6",
+  "publicationDate": "2024-05-08",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Natur verstehen; Originalquelle: A meta-analysis on global change drivers and the risk of infectious disease",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

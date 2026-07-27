@@ -1,0 +1,55 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "articles": [
+    {
+      "title": "Lübecker Studie empfiehlt Planetary Health als festen Teil des Medizinstudiums",
+      "summary": "Eine qualitative Studie der Universität zu Lübeck untersuchte eine Planetary-Health-Lehrintervention im allgemeinmedizinischen Blockpraktikum. 14 Studierende bewerteten das Thema als relevant, nutzten freiwillige Zusatzangebote wegen Zeitmangels aber kaum; zurückhaltende Reaktionen in Lehrpraxen wirkten zusätzlich demotivierend. Die Autor*innen empfehlen deshalb, Planetary Health verbindlich und longitudinal ins Medizinstudium zu integrieren – bevorzugt fallbasiert in kleinen Gruppen.",
+      "planetaryBoundary": "Klimawandel",
+      "keywords": [
+        "Planetary Health",
+        "Medizinstudium",
+        "Allgemeinmedizin",
+        "Primärversorgung",
+        "Curriculumsentwicklung",
+        "Klimagesundheit",
+        "Gesundheitsbildung",
+        "Universität zu Lübeck"
+      ],
+      "sourceTitle": "Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen (ZEFQ)",
+      "sourceUrl": "https://doi.org/10.1016/j.zefq.2023.03.005",
+      "publicationDate": "2023-05-17",
+      "category": "Bildung",
+      "interviewPotential": "hoch",
+      "contentType": "solution",
+      "visualMode": "editorial-photo",
+      "imageStyle": "editorial",
+      "contacts": [
+        {
+          "name": "Prof. Dr. med. Thomas Kötter, MPH",
+          "role": "Lehrprofessur, Facharzt für Allgemeinmedizin und korrespondierender Autor",
+          "institution": "Institut für Allgemeinmedizin, Universität zu Lübeck / UKSH Campus Lübeck",
+          "email": "thomas.koetter@uni-luebeck.de",
+          "phone": "+49 451 3101 8006",
+          "profileUrl": "https://research.uni-luebeck.de/de/persons/thomas-k%C3%B6tter/",
+          "contactSourceUrl": "https://univis.uni-luebeck.de/formbot/dsc_3Danew_2Ftel_26dir_3Dmf_2Flehrau_26collection_3D2013w_2Ftnf_2Finstit_2Fzentr_2F_progr_4_26ref_3Dtel",
+          "relevance": "Korrespondierender Autor mit ausgewiesenem Forschungsinteresse an Planetary Health; geeignet für ein Interview zum aktuellen Stand der curricularen Integration und zur Übertragung in die Primärversorgung."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Begutachtete qualitative Originalstudie in einer medizinischen Fachzeitschrift; vier leitfadengestützte Fokusgruppen mit insgesamt 14 Medizinstudierenden sowie ergänzende Auswertung der Semesterevaluation.",
+        "coreChange": "Die Studie belegt nicht die erfolgreiche Integration klimasensibler Beratung in die Versorgung. Ihr eigentlicher Befund ist, dass freiwillige Zusatzangebote und eine kurze Lehrintervention trotz hohen Interesses kaum zur selbstständigen Vertiefung motivierten. Empfohlen wird deshalb eine verbindliche, longitudinale und fallbasierte Verankerung von Planetary Health im Medizinstudium.",
+        "questionBehindNews": "Wie muss medizinische Lehre organisiert sein, damit angehende Ärzt*innen Umwelt- und Klimafolgen dauerhaft mit ihrer späteren Versorgungspraxis verbinden, statt das Thema nur freiwillig zusätzlich zu bearbeiten?",
+        "causalChain": "Klima- und Umweltveränderungen beeinflussen Gesundheit und Versorgung → Ärzt*innen benötigen dafür Wissen und Handlungskompetenz → freiwillige Materialien konkurrieren mit Zeitdruck und einer teils zurückhaltenden Lehrpraxis → selbstständige Vertiefung bleibt gering → verpflichtende, wiederkehrende und fallbasierte Lehre könnte Kompetenzen zuverlässiger verankern.",
+        "affectedSystems": "Direkt untersucht wurden medizinische Ausbildung, Lehrpraxen und die spätere Primärversorgung. Natürliche Systeme sind nur indirekt betroffen: vor allem das Klimasystem sowie Energie-, Mobilitäts- und Materialflüsse des Gesundheitssektors.",
+        "planetaryBoundaries": "Vor allem Klimawandel; indirekt auch neuartige Substanzen und weitere Ressourcen- und Stoffströme. Die Studie selbst erhebt keine Messwerte zu planetaren Grenzen.",
+        "societalRelevance": "Hausärztliche Versorgung erreicht große Teile der Bevölkerung. Eine bessere Ausbildung kann langfristig Prävention, Anpassung an Klimafolgen, klimasensible Beratung und einen ressourcenschonenderen Gesundheitssektor unterstützen. Die Studie zeigt jedoch vor allem didaktische Hürden und keine gemessene Wirkung auf Patient*innen oder Emissionen.",
+        "uncertainties": "Kleine Stichprobe von 14 Studierenden an einer deutschen Universität, qualitative Auswertung ohne Kontrollgruppe und begrenzte Übertragbarkeit. Die Intervention zeigte nur eingeschränkte motivierende Wirkung. Patient*innenberatung, Versorgungsergebnisse und Emissionsminderungen wurden nicht untersucht. Die Veröffentlichung erschien 2023; der heutige Stand des Curriculums muss im Interview aktualisiert werden.",
+        "interviewPotential": "Hoch, weil der korrespondierende Autor in Lübeck erreichbar ist und das Thema unmittelbar zu Hochschule, Lehre und Primärversorgung passt. Mögliche Fragen: Was hat sich seit 2023 verändert? Welche Planetary-Health-Inhalte sind heute verpflichtend? Wie lässt sich klimasensible Beratung praxisnah lehren, ohne Lehrpraxen zusätzlich zu überlasten? Welche Wirkungen sollten künftig gemessen werden?",
+        "sources": "Originalstudie: Kötter, Hoschek, Pohontsch und Steinhäuser, ZEFQ, DOI https://doi.org/10.1016/j.zefq.2023.03.005; bibliografischer Eintrag und Abstract: Universität zu Lübeck, https://research.uni-luebeck.de/de/publications/planetary-health-in-der-curricularen-lehre-im-fach-humanmedizin-e/; Primärdatenbank mit Abstract und Korrespondenzadresse: PubMed/US National Library of Medicine, https://pubmed.ncbi.nlm.nih.gov/37208274/; offizielles Personenprofil: Universität zu Lübeck, https://research.uni-luebeck.de/de/persons/thomas-k%C3%B6tter/; offizielles Telefonverzeichnis: Universität zu Lübeck, https://univis.uni-luebeck.de/formbot/dsc_3Danew_2Ftel_26dir_3Dmf_2Flehrau_26collection_3D2013w_2Ftnf_2Finstit_2Fzentr_2F_progr_4_26ref_3Dtel",
+        "imageIdea": "Ruhige, glaubwürdige Lehrsituation in einem Seminar- oder hausärztlichen Praxisraum: eine kleine Gruppe Medizinstudierender bespricht mit einer Lehrärztin einen Patientenfall; auf einem Blatt oder Monitor nur dezente Hinweise auf Hitze, Luftqualität, Mobilität und Medikamente. Nicht zeigen: dramatische Naturkatastrophen, kranke Patient*innen als Blickfang, OP-Szenen, Werbeästhetik, grüne Blätter als pauschales Nachhaltigkeitssymbol oder eine behauptete bereits etablierte Klimasprechstunde.",
+        "screenConnection": "Medizinische Lehre, hausärztliche Versorgung, Klimafolgen und die Umweltwirkungen des Gesundheitssektors hängen zusammen."
+      }
+    }
+  ]
+}

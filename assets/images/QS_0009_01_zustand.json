@@ -1,0 +1,31 @@
+{
+  "id": "QS_0009_01",
+  "type": "ai-generated-or-editorial-image",
+  "created": "2026-07-27T05:18:39.462298+00:00",
+  "sourceFile": "ChatGPT Image 27. Juli 2026, 07_18_25.png",
+  "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum können ökologische Veränderungen das Risiko von Zoonosen erhöhen?.\nKernaussage: Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam..\nInhaltlicher Ausgangspunkt: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nSchlagwörter: Zoonosen, One Health, Klimawandel, Biodiversitätsverlust, Landnutzungsänderung, Infektionskrankheiten, Wirte, Vektoren, Ökosysteme, globale Veränderungen, Natur verstehen.\n\nZiel des Bildes: Es soll Wissen anbahnen, vor allem aber Interesse und Neugier auf Forschung zu unseren natürlichen Lebensgrundlagen wecken. Das Bild ist ein Titelbild und keine vollständige Lehrtafel. Es öffnet die Frage; der Beitrag erklärt die Einzelheiten.\n\nBildtyp: hochwertige wissenschaftsjournalistische Prozessskizze für die Rubrik „Natur verstehen“, in Schwarz-Weiß oder kontrastreichen Graustufen. Zeige genau eine zentrale Ursache-Wirkungs-Beziehung aus dem Artikel.\n\nVerbindliche Reduktion:\n- genau ein dominantes Hauptmotiv\n- genau eine Kernaussage\n- höchstens drei klar unterscheidbare Prozessstufen\n- höchstens vier Pfeile oder Richtungslinien\n- höchstens drei sehr kurze Beschriftungen, Kürzel oder Formelzeichen\n- höchstens ein zurückhaltender Nebenaspekt\n- das Bild muss auch ohne Lesen der Beschriftungen verständlich sein\n\nFalls der Artikel mehrere Aspekte enthält, wähle ausschließlich den für Titel und Kernaussage wichtigsten Zusammenhang. Zeige keine vollständige Prozesskette, keine Materialsammlung, keine vielen Beispiele und keine parallelen Erklärstränge.\n\nGestaltung:\n- feine Linien, klare Umrisse und dezente Schraffuren\n- ruhiger heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- erwachsen, hochwertig und wissenschaftsnah\n- einfache Pfeile, Symbole, Abkürzungen oder Formelzeichen sind erlaubt, aber nur wenn sie die eine Hauptidee unmittelbar klären\n- Beschriftungen auf Deutsch oder als allgemein verständliche Fachkürzel, sehr kurz und kontrastreich\n\nUnbedingt vermeiden:\n- vollständige Flussdiagramme oder Ablaufpläne\n- mehr als drei Stationen\n- viele Kreise, Kästen, Materialbehälter oder Symbolgruppen\n- lange Sätze, Erklärtexte, Legenden und Zusammenfassungsleisten\n- mehrere Landschaftsräume oder mehrere gleichwertige Hauptmotive\n- bunte Infografik, Comic, Kinderbuchstil oder CAD-Zeichnung\n- Logos, Wasserzeichen, dekorative Rahmen oder Collagen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9\n- für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms\n- aus drei bis fünf Metern Entfernung sofort erfassbar\n- wichtige Motive mindestens zehn Prozent vom Bildrand entfernt\n- eindeutige Blickführung und viel ruhige Fläche\n\nLeitgedanke: Ein Blick – ein Zusammenhang. Vermittle lieber einen klaren Gedanken als viele Details. Das Bild soll ein unmittelbares „Ach so“ auslösen und zugleich zum Weiterlesen anregen.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+  "altText": "Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam.",
+  "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+  "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "imageStyle": "monochrome-editorial-sketch",
+  "imageFamily": "explainer-sketch",
+  "didacticElements": {
+    "allowArrows": true,
+    "allowSymbols": true,
+    "allowShortLabels": true,
+    "allowFormulaSigns": true,
+    "colorMode": "grayscale-high-contrast",
+    "textDensity": "low"
+  },
+  "editorialPurpose": "Grundverständnis und Neugier auf Forschung zu den natürlichen Lebensgrundlagen",
+  "complexityLimits": {
+    "mainIdeas": 1,
+    "maxProcessStages": 3,
+    "maxArrows": 4,
+    "maxShortLabels": 3,
+    "maxSecondaryAspects": 1,
+    "mustWorkWithoutReading": true
+  }
+}

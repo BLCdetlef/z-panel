@@ -1,0 +1,57 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "articles": [
+    {
+      "title": "Warum können ökologische Veränderungen das Risiko von Zoonosen erhöhen?",
+      "summary": "Zoonosen entstehen nicht allein durch Eigenschaften eines Erregers. Klimawandel, Artenverlust, eingeführte Arten, Schadstoffe und veränderte Lebensräume verschieben Wirte, Vektoren und ihre Kontakte. Eine globale Metaanalyse mit 2.938 Beobachtungen zeigt, dass mehrere dieser Veränderungen mit höheren Infektionsrisiken verbunden sind. Der One-Health-Ansatz betrachtet deshalb Menschen, Tiere und Ökosysteme gemeinsam.",
+      "planetaryBoundary": "Biosphäre, Klimawandel und Landnutzung",
+      "keywords": [
+        "Zoonosen",
+        "One Health",
+        "Klimawandel",
+        "Biodiversitätsverlust",
+        "Landnutzungsänderung",
+        "Infektionskrankheiten",
+        "Wirte",
+        "Vektoren",
+        "Ökosysteme",
+        "globale Veränderungen"
+      ],
+      "sourceTitle": "A meta-analysis on global change drivers and the risk of infectious disease",
+      "sourceUrl": "https://doi.org/10.1038/s41586-024-07380-6",
+      "publicationDate": "2024-05-08",
+      "category": "Natur verstehen",
+      "interviewPotential": "hoch",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "imageStyle": "monochrome-editorial-sketch",
+      "contacts": [
+        {
+          "name": "Prof. Dr. med. Jan Rupp",
+          "role": "Direktor der Klinik für Infektiologie und Mikrobiologie",
+          "institution": "Universität zu Lübeck / Universitätsklinikum Schleswig-Holstein, Campus Lübeck",
+          "email": "jan.rupp@uksh.de",
+          "phone": "+49 451 500-45300",
+          "profileUrl": "https://www.uksh.de/IMM/%C3%9Cber%20uns/Mitarbeitende/Direktion.html",
+          "contactSourceUrl": "https://univis.uni-luebeck.de/formbot/dsc_3Danew_2Ftel_26dir_3Dmf_2Fmemihy_26ref_3Dtel_26collection_3D2013w_2Ftnf_2Finstit_2Fzentr_2F_progr_4%2C_2Fprogra_5F52%2C_2F_2F_2Finstit_2_2Fzentr_2Feinfhr_2%2C_2Feinfhr_5%2C_2Fphoton%2C_2Fphoton_3%2C_2F_2F_2Fmedinf_2Fzent",
+          "relevance": "Lübecker Ansprechpartner für Infektionsmedizin und medizinische Mikrobiologie. Geeignet für ein Interview zur Verbindung von Erregereigenschaften, Übertragungswegen, Umweltveränderungen und One Health; nicht Autor der zugrunde gelegten Metaanalyse."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Eigenständiger Grundlagenbeitrag auf Basis einer begutachteten globalen Metaanalyse in Nature. Der vom Nutzer angegebene BMFTR-Link ist lediglich ein allgemeines Inhaltsverzeichnis und keine konkrete Originalveröffentlichung oder Lübecker Projektseite.",
+        "coreChange": "Keine einzelne neue Lübecker Entdeckung, sondern ein länger gültiger Zusammenhang: Globale Umweltveränderungen können Infektionsgeschehen beeinflussen, indem sie Lebensräume, Artengemeinschaften, Vektoren, Wirte und Kontaktmuster verändern. Die Metaanalyse fand im Mittel erhöhte krankheitsbezogene Endpunkte bei Biodiversitätsveränderung, Klimawandel, chemischer Verschmutzung und eingeführten Arten.",
+        "questionBehindNews": "Warum reicht es bei Zoonosen nicht aus, nur den Erreger zu untersuchen, und weshalb müssen auch Wirte, Vektoren, menschliche Aktivitäten und Ökosysteme betrachtet werden?",
+        "causalChain": "Klimawandel, Artenverlust, Schadstoffe oder eingeführte Arten verändern Lebensräume und Artengemeinschaften → Wirte und Vektoren verschieben ihre Verbreitung oder ihr Verhalten → Kontakte zwischen Wildtieren, Nutztieren und Menschen verändern sich → Erreger erhalten neue Übertragungsgelegenheiten → Ausbruchs- und Erkrankungsrisiken können steigen. Die Wirkung ist jedoch je nach Erreger, Region und Veränderung unterschiedlich.",
+        "affectedSystems": "Landökosysteme, Gewässer, Wildtierpopulationen, Nutztierhaltung, Vektorpopulationen wie Zecken und Mücken, mikrobielle Gemeinschaften sowie menschliche Siedlungs-, Landwirtschafts- und Gesundheitssysteme.",
+        "planetaryBoundaries": "Vor allem Integrität der Biosphäre, Klimawandel und Veränderung der Landsysteme; zusätzlich können neuartige Substanzen beziehungsweise chemische Verschmutzung und Veränderungen des Süßwassersystems eine Rolle spielen.",
+        "societalRelevance": "Zoonosen und andere Infektionskrankheiten betreffen Gesundheitsschutz, Landwirtschaft, Lebensmittelversorgung, Naturschutz und Krisenvorsorge zugleich. One Health verbindet diese Bereiche, damit Überwachung und Prävention nicht erst beim erkrankten Menschen beginnen.",
+        "uncertainties": "Die Metaanalyse bündelt sehr unterschiedliche Erreger, Wirte, Regionen und Studiendesigns. Zusammenhänge gelten nicht für jede Zoonose gleichermaßen und belegen nicht automatisch einen einfachen direkten Ursache-Wirkungs-Pfad. Effekte mehrerer gleichzeitig wirkender Umweltveränderungen sind noch unzureichend untersucht. Der angegebene BMFTR-Link belegt zudem keine spezifische Beteiligung der Universität zu Lübeck an einer neuen Studie.",
+        "interviewPotential": "Hoch wegen des starken lokalen Bezugs zur Lübecker Infektionsforschung. Mögliche Fragen: Welche Umweltveränderungen sind für Norddeutschland besonders relevant? Wie lassen sich molekulare Erregereigenschaften mit Daten zu Wirten, Vektoren und Umwelt verbinden? Welche Zoonosen oder Resistenzen sollten gemeinsam überwacht werden? Wo liegen derzeit die größten Wissenslücken des One-Health-Ansatzes?",
+        "sources": "Primärquelle und Hauptbeleg: Mahon et al., Nature 629, 830–836, veröffentlicht am 8. Mai 2024, DOI https://doi.org/10.1038/s41586-024-07380-6. Institutionelle Einordnung: WHO, One Health, https://www.who.int/health-topics/one-health und WHO Europe, Environment and One Health, https://www.who.int/europe/news-room/fact-sheets/item/environment-and-one-health. Kontext der deutschen Forschungsförderung: BMFTR, Forschungsverbünde zur Pandemieprävention im One-Health-Ansatz, https://www.gesundheitsforschung-bmftr.de/de/forschungsverbunde-zum-thema-pandemiepravention-und-reaktion-im-rahmen-eines-one-health-19057.php. Angegebenes Fundstück: BMFTR-Inhaltsverzeichnis, https://www.gesundheitsforschung-bmftr.de/de/inhaltsverzeichnis.php. Lokaler Forschungskontext: Universität zu Lübeck, Forschungsschwerpunkt Infektion und Entzündung, https://www.uni-luebeck.de/forschung/forschungsprofil/forschungsschwerpunkte/infektion-und-entzuendung-ziel.html.",
+        "imageIdea": "Reduzierte monochrome Prozessskizze mit drei Stufen: links ein veränderter Lebensraum mit Hitze, gerodetem Rand oder verschobenen Tierarten; mittig enger werdende Kontakte zwischen Wildtier, Nutztier beziehungsweise Mensch und einem kleinen Vektor; rechts ein stilisiertes Übertragungsnetz. Höchstens vier Pfeile und drei Beschriftungen: „Lebensraum verändert“, „Kontakte verschieben sich“, „Übertragung wird wahrscheinlicher“. Nicht zeigen: dramatische Pandemie-Szenen, konkrete Krankheitssymptome, Monster-Viren, Weltkarten voller Gefahrenzeichen oder die Behauptung, jede Umweltveränderung führe zwangsläufig zu Zoonosen.",
+        "screenConnection": "Klimawandel, Artenvielfalt, Landnutzung, Tierkontakte und menschliche Gesundheit hängen zusammen."
+      }
+    }
+  ]
+}
