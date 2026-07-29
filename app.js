@@ -18,8 +18,12 @@ const boundaryNames = {
 };
 
 const state = {
+  allArticles: [],
   articles: [],
   editorialScreens: [],
+  topics: [],
+  selectedTopic: "",
+  topicSelectionOpen: true,
   items: [],
   currentIndex: 0,
   paused: false,
@@ -55,6 +59,9 @@ const fullscreenButton = document.getElementById("fullscreen-button");
 const dialog = document.getElementById("article-dialog");
 const dialogContent = document.getElementById("dialog-content");
 const dialogClose = document.getElementById("dialog-close");
+const topicButton = document.getElementById("topic-button");
+const topicSelector = document.getElementById("topic-selector");
+const topicOptions = document.getElementById("topic-options");
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -358,7 +365,12 @@ function togglePause(forceState = null) {
 function tick(now) {
   const elapsed = now - state.lastTick;
   state.lastTick = now;
-  if (!state.paused && state.items.length > 1 && !dialog.open) {
+  if (
+    !state.paused
+    && !state.topicSelectionOpen
+    && state.items.length > 1
+    && !dialog.open
+  ) {
     state.remainingMs -= elapsed;
     if (state.remainingMs <= 0 && !state.transitioning) {
       state.remainingMs = itemDurationSeconds() * 1000;
@@ -489,6 +501,153 @@ function buildRotation(articles, editorialScreens, editorialEvery) {
   return items;
 }
 
+
+function normalizeTopicLabel(value) {
+  return String(value || "").trim().replace(/\s+/g, " ");
+}
+
+function topicCompareKey(value) {
+  return normalizeTopicLabel(value).toLocaleLowerCase("de-DE");
+}
+
+function prepareTopicModel(articles) {
+  const explainerTopics = new Map();
+
+  for (const article of articles) {
+    if (article?.contentType !== "explainer") continue;
+    const identifier = String(article.id || "").trim();
+    const label = normalizeTopicLabel(
+      article.topic || article.selectionLabel || article.title
+    );
+    if (identifier && label) explainerTopics.set(identifier, label);
+  }
+
+  const topics = new Map();
+  for (const article of articles) {
+    let label = normalizeTopicLabel(article.topic);
+    if (!label && article?.contentType === "explainer") {
+      label = explainerTopics.get(String(article.id || "").trim())
+        || normalizeTopicLabel(article.title);
+    }
+    if (!label) {
+      label = explainerTopics.get(String(article.explainerId || "").trim()) || "";
+    }
+
+    article._topicLabel = label;
+    if (!label) continue;
+
+    const key = topicCompareKey(label);
+    if (!topics.has(key)) {
+      topics.set(key, { label, articleCount: 0, explainerCount: 0 });
+    }
+    const entry = topics.get(key);
+    entry.articleCount += 1;
+    if (article.contentType === "explainer") entry.explainerCount += 1;
+  }
+
+  return [...topics.values()];
+}
+
+function makeTopicOption(label, count, { all = false } = {}) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = `topic-option${all ? " is-all" : ""}`;
+
+  const labelElement = document.createElement("span");
+  labelElement.className = "topic-option-label";
+  labelElement.textContent = label;
+
+  const countElement = document.createElement("span");
+  countElement.className = "topic-option-count";
+  countElement.textContent = String(count);
+  countElement.setAttribute(
+    "aria-label",
+    `${count} ${count === 1 ? "Beitrag" : "Beiträge"}`
+  );
+
+  button.append(labelElement, countElement);
+  return button;
+}
+
+function renderTopicOptions() {
+  topicOptions.replaceChildren();
+
+  const allButton = makeTopicOption(
+    "Alle Themen",
+    state.allArticles.length,
+    { all: true }
+  );
+  allButton.addEventListener("click", () => selectTopic(""));
+  topicOptions.appendChild(allButton);
+
+  for (const topic of state.topics) {
+    const button = makeTopicOption(topic.label, topic.articleCount);
+    button.addEventListener("click", () => selectTopic(topic.label));
+    topicOptions.appendChild(button);
+  }
+}
+
+function showTopicSelector() {
+  state.topicSelectionOpen = true;
+  topicSelector.hidden = false;
+  togglePause(true);
+  window.setTimeout(() => {
+    topicOptions.querySelector("button")?.focus();
+  }, 0);
+}
+
+function hideTopicSelector({ resume = true } = {}) {
+  state.topicSelectionOpen = false;
+  topicSelector.hidden = true;
+  if (resume) togglePause(false);
+}
+
+function filteredArticles(topicLabel) {
+  const key = topicCompareKey(topicLabel);
+  if (!key) return [...state.allArticles];
+  return state.allArticles.filter(
+    (article) => topicCompareKey(article._topicLabel) === key
+  );
+}
+
+async function selectTopic(topicLabel) {
+  const normalized = normalizeTopicLabel(topicLabel);
+  const selectedArticles = filteredArticles(normalized);
+  if (!selectedArticles.length && normalized) return;
+
+  state.selectedTopic = normalized;
+  state.articles = selectedArticles;
+  state.currentIndex = 0;
+
+  // Leitbild, Kodex und unzugeordnete Meldungen gehören zur Gesamtauswahl.
+  const editorialScreens = normalized ? [] : state.editorialScreens;
+  state.items = buildRotation(
+    state.articles,
+    editorialScreens,
+    state.editorialEvery
+  );
+
+  if (!state.items.length) {
+    showLoadError(
+      "Für dieses Thema gibt es noch keine Beiträge",
+      "Bitte wählen Sie ein anderes Thema oder erzeugen Sie news.json im Studio neu."
+    );
+    return;
+  }
+
+  topicButton.hidden = false;
+  topicButton.textContent = normalized ? `Thema: ${normalized}` : "Alle Themen";
+  topicButton.title = normalized
+    ? `Aktuelles Thema: ${normalized}. Klicken zum Wechseln.`
+    : "Alle Themen. Klicken zum Wechseln.";
+
+  hideTopicSelector({ resume: true });
+  preloadItem(state.items[0]);
+  preloadItem(state.items[1]);
+  state.remainingMs = itemDurationSeconds(state.items[0]) * 1000;
+  await renderItem({ animate: false });
+}
+
 function showLoadError(title, summary) {
   articleMeta.textContent = "Fehler beim Laden";
   articleTitle.textContent = title;
@@ -497,7 +656,7 @@ function showLoadError(title, summary) {
   imageStatus.textContent = "Keine Daten";
   articleSource.hidden = true;
   articleConnection.hidden = true;
-  [pauseButton, nextButton, readMoreButton].forEach((button) => {
+  [pauseButton, nextButton, readMoreButton, topicButton].forEach((button) => {
     button.disabled = true;
   });
 }
@@ -523,17 +682,13 @@ async function loadNews() {
       DEFAULT_EDITORIAL_EVERY,
       1
     );
-    state.articles = Array.isArray(data.articles) ? data.articles : [];
+    state.allArticles = Array.isArray(data.articles) ? data.articles : [];
     state.editorialScreens = Array.isArray(data.editorialScreens)
       ? data.editorialScreens
       : [];
-    state.items = buildRotation(
-      state.articles,
-      state.editorialScreens,
-      state.editorialEvery
-    );
+    state.topics = prepareTopicModel(state.allArticles);
 
-    if (!state.items.length) {
+    if (!state.allArticles.length && !state.editorialScreens.length) {
       showLoadError(
         "Noch keine Inhalte vorhanden",
         "Sobald news.json Beiträge oder redaktionelle Screens enthält, erscheinen sie automatisch hier."
@@ -541,11 +696,14 @@ async function loadNews() {
       return;
     }
 
-    preloadItem(state.items[0]);
-    preloadItem(state.items[1]);
-    state.remainingMs = itemDurationSeconds(state.items[0]) * 1000;
-    await renderItem({ animate: false });
     state.animationFrame = requestAnimationFrame(tick);
+
+    if (state.topics.length) {
+      renderTopicOptions();
+      showTopicSelector();
+    } else {
+      await selectTopic("");
+    }
   } catch (error) {
     console.error(error);
     showLoadError(
@@ -559,6 +717,7 @@ pauseButton.addEventListener("click", () => togglePause());
 nextButton.addEventListener("click", nextItem);
 readMoreButton.addEventListener("click", openArticle);
 fullscreenButton.addEventListener("click", toggleFullscreen);
+topicButton.addEventListener("click", showTopicSelector);
 dialogClose.addEventListener("click", () => dialog.close());
 
 dialog.addEventListener("click", (event) => {
@@ -566,6 +725,13 @@ dialog.addEventListener("click", (event) => {
 });
 
 document.addEventListener("keydown", (event) => {
+  if (state.topicSelectionOpen) {
+    if (event.key === "Escape" && state.items.length) {
+      event.preventDefault();
+      hideTopicSelector({ resume: true });
+    }
+    return;
+  }
   if (dialog.open) {
     if (event.key === "Escape") dialog.close();
     return;

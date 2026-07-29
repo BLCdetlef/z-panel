@@ -20,6 +20,9 @@
       </a>
 
       <div class="top-actions">
+        <button id="topic-button" class="topic-button" type="button" title="Thema wechseln" hidden>
+          Thema wechseln
+        </button>
         <button id="fullscreen-button" class="icon-button" type="button" title="Vollbild">⛶</button>
         <button id="pause-button" class="pause-button" type="button" aria-pressed="false">
           <span id="pause-icon">⏸</span>
@@ -27,6 +30,30 @@
         </button>
       </div>
     </header>
+
+    <section
+      id="topic-selector"
+      class="topic-selector"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="topic-selector-title"
+      aria-describedby="topic-selector-note"
+      hidden
+    >
+      <div class="topic-selector-card">
+        <div class="topic-selector-kicker">ZUSTAND · Themenauswahl</div>
+        <h1 id="topic-selector-title">Welches Thema möchten Sie sehen?</h1>
+        <p class="topic-selector-intro">
+          Wählen Sie ein Thema. Danach startet automatisch die Endlosschleife
+          mit den passenden Meldungen und Grundlagenbeiträgen.
+        </p>
+        <div id="topic-options" class="topic-options"></div>
+        <p id="topic-selector-note" class="topic-selector-note">
+          Unter „Alle Themen“ erscheinen zusätzlich Meldungen ohne Grundlagenzuordnung
+          sowie Leitbild und Redaktionskodex.
+        </p>
+      </div>
+    </section>
 
     <section id="stage" class="stage" aria-live="polite">
       <div class="visual">

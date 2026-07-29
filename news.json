@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T14:00:39.470558+00:00",
+  "generatedAt": "2026-07-29T04:53:49.333822+00:00",
   "articleCount": 28,
   "articles": [
     {
@@ -71,7 +71,9 @@
       "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Strahlungsphysik und offizieller NA",
       "screenConnection": "Weniger Eis bedeutet eine dunklere Erde – und eine dunklere Oberfläche nimmt mehr Wärme auf.",
       "relatedNewsIds": [],
-      "relatedNewsCount": 0
+      "relatedNewsCount": 0,
+      "topic": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
+      "topicIsFallback": true
     },
     {
       "id": "QS_0004",
@@ -127,7 +129,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Repräsentative Befragung im Auftrag des UBA, durchgeführt vom IÖW und Verian als Teil eine",
-      "screenConnection": "Der Zustand der Lebensgrundlagen beeinflusst Vertrauen, Demokratie und Zukunftsvorstellungen."
+      "screenConnection": "Der Zustand der Lebensgrundlagen beeinflusst Vertrauen, Demokratie und Zukunftsvorstellungen.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0008",
@@ -185,7 +189,9 @@
         "imageFamily": "editorial"
       },
       "sourceType": "Begutachtete qualitative Originalstudie in einer medizinischen Fachzeitschrift; vier leitf",
-      "screenConnection": "Medizinische Lehre, hausärztliche Versorgung, Klimafolgen und die Umweltwirkungen des Gesundheitssektors hängen zusammen."
+      "screenConnection": "Medizinische Lehre, hausärztliche Versorgung, Klimafolgen und die Umweltwirkungen des Gesundheitssektors hängen zusammen.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0006",
@@ -241,7 +247,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Offizielle Rechts- und Behördenmeldung des Bundesministeriums für Arbeit und Soziales; bes",
-      "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention."
+      "screenConnection": "Was hängt zusammen? Chemikalieneinsatz, Arbeitsbedingungen, Erkrankungsrisiken, soziale Absicherung und Prävention.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0011",
@@ -304,7 +312,9 @@
         "imageFamily": "editorial"
       },
       "sourceType": "Redaktioneller Einordnungsbeitrag. Die Kernaussage ist eine Verdichtung mehrerer öffentlic",
-      "screenConnection": "Die Lage ehrlich sehen – und gerade deshalb gemeinsam Veränderung möglich machen."
+      "screenConnection": "Die Lage ehrlich sehen – und gerade deshalb gemeinsam Veränderung möglich machen.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0005",
@@ -359,7 +369,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Begutachteter Forschungsartikel in Nature Mental Health auf Grundlage australischer bevölk",
-      "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit."
+      "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0010",
@@ -408,6 +420,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Gesundheit & Lifestyle",
       "imageFile": "assets/images/QS_0010_01_zustand.png",
       "imageMetadata": {
         "id": "QS_0010_01",
@@ -449,7 +462,8 @@
         "QS_0011",
         "QS_0008"
       ],
-      "relatedNewsCount": 5
+      "relatedNewsCount": 5,
+      "topicIsFallback": false
     },
     {
       "id": "KL_0013",
@@ -492,6 +506,7 @@
       "category": "Natur verstehen",
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
+      "topic": "Klima und Meere",
       "imageFile": "assets/images/KL_0013_01_zustand.png",
       "imageMetadata": {
         "id": "KL_0013_01",
@@ -519,7 +534,8 @@
       "screenConnection": "Mehr Wärme beschleunigt Verdunstung und kann zugleich stärkeren Starkregen ermöglichen.",
       "relatedNewsIds": [],
       "relatedNewsCount": 0,
-      "sequenceRole": "explainer-after-news"
+      "sequenceRole": "explainer-after-news",
+      "topicIsFallback": false
     },
     {
       "id": "BD_0010",
@@ -574,7 +590,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Neue BfN-Schrift mit rechtswissenschaftlicher Analyse; im Auftrag des BfN durch das UFZ er",
-      "screenConnection": "Naturerholung braucht nicht nur Ziele, sondern Fristen, Indikatoren und überprüfbare Umsetzung."
+      "screenConnection": "Naturerholung braucht nicht nur Ziele, sondern Fristen, Indikatoren und überprüfbare Umsetzung.",
+      "topic": "Arten & Süßwasser",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0009",
@@ -634,7 +652,9 @@
         "imageFamily": "editorial"
       },
       "sourceType": "Eigenständiger Grundlagenbeitrag auf Basis einer begutachteten globalen Metaanalyse in Nat",
-      "screenConnection": "Klimawandel, Artenvielfalt, Landnutzung, Tierkontakte und menschliche Gesundheit hängen zusammen."
+      "screenConnection": "Klimawandel, Artenvielfalt, Landnutzung, Tierkontakte und menschliche Gesundheit hängen zusammen.",
+      "topic": "Arten & Süßwasser",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0007",
@@ -680,6 +700,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Arten & Süßwasser",
       "imageFile": "assets/images/QS_0007_01_zustand.png",
       "imageMetadata": {
         "id": "QS_0007_01",
@@ -718,7 +739,8 @@
         "BD_0010",
         "QS_0009"
       ],
-      "relatedNewsCount": 2
+      "relatedNewsCount": 2,
+      "topicIsFallback": false
     },
     {
       "id": "KL_0006",
@@ -772,7 +794,9 @@
         "altText": "Die 1.794 deutschen Industrie- und Energieanlagen im EU-Emissionshandel verursachten 2025 rund 264 Millionen Tonnen CO₂-Äquivalente, 3,2 Prozent weniger als im Vorjahr. Auch der Luftverkehr sank um 2,2 Prozent. Der Rückgang ist jedoch nur teilweise ein Fortschritt: Bei Industrieanlagen beruht er laut Umweltbundesamt wesentlich auf der schwachen Wirtschaftsentwicklung, während sich die Minderung der Energieanlagen deutlich verlangsamte.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      }
+      },
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0017",
@@ -832,7 +856,9 @@
         "imageFamily": "editorial"
       },
       "sourceType": "Peer-reviewte, frei zugängliche Primärstudie in Communications Sustainability. Das verlink",
-      "screenConnection": "Hoher Konsum beansprucht über Lieferketten gleichzeitig Klima-, Natur- und Ressourcenspielräume."
+      "screenConnection": "Hoher Konsum beansprucht über Lieferketten gleichzeitig Klima-, Natur- und Ressourcenspielräume.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "LN_0001",
@@ -887,7 +913,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Amtliche Fortschreibung des Gebäude- und Wohnungsbestands auf Basis der Gebäude- und Wohnu",
-      "screenConnection": "Wohnraummangel hängt nicht nur von der Zahl der Wohnungen, sondern auch von Fläche, Verteilung und Nutzung zusammen."
+      "screenConnection": "Wohnraummangel hängt nicht nur von der Zahl der Wohnungen, sondern auch von Fläche, Verteilung und Nutzung zusammen.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0011",
@@ -942,7 +970,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Amtliche Statistik auf Basis von KBA-Bestandszahlen und Regionalatlas-Berechnungen.",
-      "screenConnection": "Mehr Autos bedeuten nicht nur mehr Verkehr, sondern auch mehr Material, Fläche und Infrastruktur."
+      "screenConnection": "Mehr Autos bedeuten nicht nur mehr Verkehr, sondern auch mehr Material, Fläche und Infrastruktur.",
+      "topic": "Gesundheit & Lifestyle",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0018",
@@ -990,6 +1020,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Gesundheit & Lifestyle",
       "imageFile": "assets/images/KL_0018_01_zustand.png",
       "imageMetadata": {
         "id": "KL_0018_01",
@@ -1030,7 +1061,8 @@
         "KL_0006",
         "KL_0017"
       ],
-      "relatedNewsCount": 4
+      "relatedNewsCount": 4,
+      "topicIsFallback": false
     },
     {
       "id": "KL_0009",
@@ -1090,7 +1122,9 @@
       },
       "sourceType": "Aktuelle Einsatz- und Behördenmeldungen aus Frankreich und Spanien, ergänzt um europäische",
       "screenConnection": "Hitze, Trockenheit, Landschaftsstruktur und Zündquellen entscheiden gemeinsam, ob aus einem Feuer eine ökologische und gesellschaftliche Großschadenslage wird.",
-      "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:"
+      "sourceTitle": "Ausgangsfundstück / journalistische Sekundärquelle:",
+      "topic": "Klima und Meere",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0010",
@@ -1166,7 +1200,9 @@
         }
       },
       "sourceType": "Offizielle saisonale Klimavorhersage der WMO auf Basis eines Multi-Modell-Ensembles intern",
-      "screenConnection": "Eine Temperaturänderung im Pazifik kann Wetterrisiken auf mehreren Kontinenten verschieben."
+      "screenConnection": "Eine Temperaturänderung im Pazifik kann Wetterrisiken auf mehreren Kontinenten verschieben.",
+      "topic": "Klima und Meere",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0004",
@@ -1222,7 +1258,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Monatlicher Klimadienst-Bericht auf Basis des ERA5-Reanalysedatensatzes; offizielle Copern",
-      "screenConnection": "Warme Meere, trockene Böden, Hitze und Waldbrände hängen direkt zusammen."
+      "screenConnection": "Warme Meere, trockene Böden, Hitze und Waldbrände hängen direkt zusammen.",
+      "topic": "Klima und Meere",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0012",
@@ -1265,6 +1303,7 @@
       "category": "Natur verstehen",
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
+      "topic": "Klima und Meere",
       "imageFile": "assets/images/KL_0012_01_zustand.png",
       "imageMetadata": {
         "id": "KL_0012_01",
@@ -1296,7 +1335,8 @@
         "KL_0010"
       ],
       "relatedNewsCount": 3,
-      "sequenceRole": "explainer-after-news"
+      "sequenceRole": "explainer-after-news",
+      "topicIsFallback": false
     },
     {
       "id": "OA_0001",
@@ -1340,6 +1380,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Klima und Meere",
       "imageFile": "assets/images/OA_0001_01_zustand.png",
       "imageMetadata": {
         "id": "OA_0001_01",
@@ -1375,7 +1416,8 @@
       "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Carbonatchemie und offizieller wiss",
       "screenConnection": "Dasselbe CO₂ erwärmt die Atmosphäre und verändert zugleich die Chemie der Meere.",
       "relatedNewsIds": [],
-      "relatedNewsCount": 0
+      "relatedNewsCount": 0,
+      "topicIsFallback": false
     },
     {
       "id": "KL_0005",
@@ -1430,7 +1472,9 @@
         "altText": "Die Auswertung von 25 Jahren am AWI-Langzeitobservatorium HAUSGARTEN dokumentiert tiefgreifende Veränderungen in der Framstraße. Die Meereisdicke nahm in den vergangenen Jahrzehnten um bis zu 40 Prozent ab; im östlichen Gebiet wurden Jahresmitteltemperaturen bis 1,5 °C über dem langjährigen Durchschnitt gemessen. Kälteliebendes Zooplankton geht zurück, wärmetolerante Arten wandern ein und weniger energiereiches Material erreicht den Tiefseeboden.",
         "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      }
+      },
+      "topic": "Klima und Meere",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "KL_0016",
@@ -1473,6 +1517,7 @@
       "category": "Natur verstehen",
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
+      "topic": "Klima und Meere",
       "imageFile": "assets/images/KL_0016_01_zustand.png",
       "imageMetadata": {
         "id": "KL_0016_01",
@@ -1502,7 +1547,8 @@
         "KL_0005"
       ],
       "relatedNewsCount": 1,
-      "sequenceRole": "explainer-after-news"
+      "sequenceRole": "explainer-after-news",
+      "topicIsFallback": false
     },
     {
       "id": "NS_0002",
@@ -1558,7 +1604,9 @@
         "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
       },
       "sourceType": "Empirischer Forschungsbericht des Umweltbundesamtes auf Grundlage umfangreicher Erhebungen",
-      "screenConnection": "Produktdesign, Sammlung und Sortiertechnik entscheiden gemeinsam, ob aus Verpackungsabfall tatsächlich neuer Rohstoff wird."
+      "screenConnection": "Produktdesign, Sammlung und Sortiertechnik entscheiden gemeinsam, ob aus Verpackungsabfall tatsächlich neuer Rohstoff wird.",
+      "topic": "Neue Substanzen",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "NS_0001",
@@ -1616,7 +1664,9 @@
         "visualMode": "editorial-photo",
         "imageStyle": "scientific",
         "imageFamily": "editorial"
-      }
+      },
+      "topic": "Neue Substanzen",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "NS_0003",
@@ -1665,6 +1715,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Neue Substanzen",
       "imageFile": "assets/images/NS_0003_01_zustand.png",
       "imageMetadata": {
         "id": "NS_0003_01",
@@ -1703,7 +1754,8 @@
         "NS_0002",
         "NS_0001"
       ],
-      "relatedNewsCount": 2
+      "relatedNewsCount": 2,
+      "topicIsFallback": false
     },
     {
       "id": "KL_0019",
@@ -1765,7 +1817,9 @@
         "imageFamily": "editorial"
       },
       "sourceType": "Redaktioneller Querschnittsbeitrag auf Basis einer peer-reviewten UFZ-Primärstudie, aktuel",
-      "screenConnection": "Was hängt zusammen? Hitze, Luftfeuchtigkeit, Brennstoff, Landschaft, Zündquelle, Ökosystemfolgen – und die Art, wie wir darüber berichten."
+      "screenConnection": "Was hängt zusammen? Hitze, Luftfeuchtigkeit, Brennstoff, Landschaft, Zündquelle, Ökosystemfolgen – und die Art, wie wir darüber berichten.",
+      "topic": "Wissen & Orientierung",
+      "topicSource": "linked-explainer"
     },
     {
       "id": "QS_0012",
@@ -1819,6 +1873,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Wissen & Orientierung",
       "imageFile": "assets/images/QS_0012_01_zustand.png",
       "imageMetadata": {
         "id": "QS_0012_01",
@@ -1856,10 +1911,11 @@
       "relatedNewsIds": [
         "KL_0019"
       ],
-      "relatedNewsCount": 1
+      "relatedNewsCount": 1,
+      "topicIsFallback": false
     }
   ],
-  "contentSchema": 6,
+  "contentSchema": 7,
   "rotation": {
     "articleSeconds": 30,
     "editorialSeconds": 18,
@@ -1892,7 +1948,7 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-27T16:00:41+02:00",
+  "editorialGeneratedAt": "2026-07-29T06:53:52+02:00",
   "contentTypeCounts": {
     "news": 17,
     "explainer": 10,
@@ -1944,7 +2000,9 @@
       "playbackIds": [
         "KL_0014"
       ],
-      "status": "unlinked"
+      "status": "unlinked",
+      "topic": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
+      "topicKey": "warum-beschleunigt-schmelzendes-eis-die-erderwarmung"
     },
     {
       "explainerId": "QS_0010",
@@ -1965,7 +2023,9 @@
         "QS_0005",
         "QS_0010"
       ],
-      "status": "recommended"
+      "status": "recommended",
+      "topic": "Gesundheit & Lifestyle",
+      "topicKey": "gesundheit-lifestyle"
     },
     {
       "explainerId": "KL_0013",
@@ -1975,7 +2035,9 @@
       "playbackIds": [
         "KL_0013"
       ],
-      "status": "unlinked"
+      "status": "unlinked",
+      "topic": "Klima und Meere",
+      "topicKey": "klima-und-meere"
     },
     {
       "explainerId": "QS_0007",
@@ -1990,7 +2052,9 @@
         "QS_0009",
         "QS_0007"
       ],
-      "status": "recommended"
+      "status": "recommended",
+      "topic": "Arten & Süßwasser",
+      "topicKey": "arten-suwasser"
     },
     {
       "explainerId": "KL_0018",
@@ -2009,7 +2073,9 @@
         "KL_0011",
         "KL_0018"
       ],
-      "status": "recommended"
+      "status": "recommended",
+      "topic": "Gesundheit & Lifestyle",
+      "topicKey": "gesundheit-lifestyle"
     },
     {
       "explainerId": "KL_0012",
@@ -2026,7 +2092,9 @@
         "KL_0004",
         "KL_0012"
       ],
-      "status": "recommended"
+      "status": "recommended",
+      "topic": "Klima und Meere",
+      "topicKey": "klima-und-meere"
     },
     {
       "explainerId": "OA_0001",
@@ -2036,7 +2104,9 @@
       "playbackIds": [
         "OA_0001"
       ],
-      "status": "unlinked"
+      "status": "unlinked",
+      "topic": "Klima und Meere",
+      "topicKey": "klima-und-meere"
     },
     {
       "explainerId": "KL_0016",
@@ -2049,7 +2119,9 @@
         "KL_0005",
         "KL_0016"
       ],
-      "status": "thin"
+      "status": "thin",
+      "topic": "Klima und Meere",
+      "topicKey": "klima-und-meere"
     },
     {
       "explainerId": "NS_0003",
@@ -2064,7 +2136,9 @@
         "NS_0001",
         "NS_0003"
       ],
-      "status": "recommended"
+      "status": "recommended",
+      "topic": "Neue Substanzen",
+      "topicKey": "neue-substanzen"
     },
     {
       "explainerId": "QS_0012",
@@ -2077,7 +2151,9 @@
         "KL_0019",
         "QS_0012"
       ],
-      "status": "thin"
+      "status": "thin",
+      "topic": "Wissen & Orientierung",
+      "topicKey": "wissen-orientierung"
     }
   ],
   "playbackPolicy": {
@@ -2088,5 +2164,112 @@
       "min": 2,
       "max": 5
     }
+  },
+  "topics": [
+    {
+      "key": "warum-beschleunigt-schmelzendes-eis-die-erderwarmung",
+      "label": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
+      "explainerIds": [
+        "KL_0014"
+      ],
+      "articleIds": [
+        "KL_0014"
+      ],
+      "articleCount": 1,
+      "explainerCount": 1
+    },
+    {
+      "key": "gesundheit-lifestyle",
+      "label": "Gesundheit & Lifestyle",
+      "explainerIds": [
+        "QS_0010",
+        "KL_0018"
+      ],
+      "articleIds": [
+        "QS_0004",
+        "QS_0008",
+        "QS_0006",
+        "QS_0011",
+        "QS_0005",
+        "QS_0010",
+        "KL_0006",
+        "KL_0017",
+        "LN_0001",
+        "KL_0011",
+        "KL_0018"
+      ],
+      "articleCount": 11,
+      "explainerCount": 2
+    },
+    {
+      "key": "klima-und-meere",
+      "label": "Klima und Meere",
+      "explainerIds": [
+        "KL_0013",
+        "KL_0012",
+        "OA_0001",
+        "KL_0016"
+      ],
+      "articleIds": [
+        "KL_0013",
+        "KL_0009",
+        "KL_0010",
+        "KL_0004",
+        "KL_0012",
+        "OA_0001",
+        "KL_0005",
+        "KL_0016"
+      ],
+      "articleCount": 8,
+      "explainerCount": 4
+    },
+    {
+      "key": "arten-suwasser",
+      "label": "Arten & Süßwasser",
+      "explainerIds": [
+        "QS_0007"
+      ],
+      "articleIds": [
+        "BD_0010",
+        "QS_0009",
+        "QS_0007"
+      ],
+      "articleCount": 3,
+      "explainerCount": 1
+    },
+    {
+      "key": "neue-substanzen",
+      "label": "Neue Substanzen",
+      "explainerIds": [
+        "NS_0003"
+      ],
+      "articleIds": [
+        "NS_0002",
+        "NS_0001",
+        "NS_0003"
+      ],
+      "articleCount": 3,
+      "explainerCount": 1
+    },
+    {
+      "key": "wissen-orientierung",
+      "label": "Wissen & Orientierung",
+      "explainerIds": [
+        "QS_0012"
+      ],
+      "articleIds": [
+        "KL_0019",
+        "QS_0012"
+      ],
+      "articleCount": 2,
+      "explainerCount": 1
+    }
+  ],
+  "topicCount": 6,
+  "topicPolicy": {
+    "source": "explainer.topic",
+    "fallback": "explainer.title",
+    "linkedNews": "inherit-topic-from-explainerId",
+    "standaloneNews": "only-in-all-topics"
   }
 }
