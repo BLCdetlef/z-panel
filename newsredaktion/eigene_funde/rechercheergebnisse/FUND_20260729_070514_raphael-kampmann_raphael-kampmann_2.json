@@ -1,0 +1,93 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "generatedAt": "2026-07-29T07:08:44+02:00",
+  "articles": [
+    {
+      "title": "Korrosionsfreie Bewehrung: länger haltbar, aber nicht automatisch nachhaltig",
+      "summary": "Glas- und Basaltfaserstäbe können Stahl in Beton ersetzen und vermeiden dessen Korrosion. Arbeiten von Raphael Kampmann zeigen jedoch, dass diese Bewehrungen sich anders verformen, unter Frost-Tau- und Meerwasserbeanspruchung produktabhängig altern und deshalb eigene Prüf- und Bemessungsregeln brauchen. Ob sie wirklich nachhaltiger sind, entscheidet nicht allein die Lebensdauer, sondern auch Herstellung, Materialeinsatz, Reparierbarkeit und Verwertung.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Beton",
+        "Glasfaserbewehrung",
+        "Basaltfaserbewehrung",
+        "Korrosion",
+        "Dauerhaftigkeit",
+        "Lebensdauer",
+        "Frost-Tau-Wechsel",
+        "Meerwasser",
+        "Ressourcenverbrauch",
+        "Kreislaufwirtschaft",
+        "Technische Hochschule Lübeck"
+      ],
+      "sourceTitle": "Durability assessment of GFRP rebars in marine environments",
+      "sourceUrl": "https://doi.org/10.1016/j.conbuildmat.2022.127028",
+      "publicationDate": "2022-04-25",
+      "category": "Querschnitt: Bauwesen und Ressourcenschonung",
+      "interviewPotential": "hoch",
+      "contacts": [
+        {
+          "name": "Prof. Dr.-Ing. Raphael Kampmann",
+          "role": "Professor für Baustofftechnologie; Leiter der Materialprüfanstalt Schleswig-Holstein",
+          "institution": "Technische Hochschule Lübeck",
+          "country": "Deutschland",
+          "email": "raphael.kampmann@th-luebeck.de",
+          "phone": "+49 451 300 5731",
+          "profileUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactSourceUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactType": "Autor*in und Interviewpartner",
+          "preferred": true,
+          "notes": "Geeignet für ein Gespräch über technische Dauerhaftigkeit, reale Lebensdauer, Bemessung, Materialprüfung und die Grenzen einer rein technischen Nachhaltigkeitsbewertung."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Begutachteter Forschungsartikel in Construction and Building Materials. Die Studie untersucht sechs Glasfaser-Bewehrungsprodukte unter beschleunigten Meerwasserbedingungen und entwickelt Ansätze zur Abschätzung ihrer Langzeitentwicklung. Eine vollständige Ökobilanz ist nicht Bestandteil der Veröffentlichung.",
+        "coreChange": "Die Studie zeigt, dass Glasfaserbewehrungen in salzhaltigen Umgebungen produktabhängig altern und ihre langfristige Leistungsfähigkeit deshalb nicht pauschal, sondern anhand konkreter Material- und Prüfwerte bewertet werden muss.",
+        "questionBehindNews": "Wann führt ein langlebigerer Baustoff tatsächlich zu weniger Ressourcenverbrauch und wann entstehen nur neue Material-, Bemessungs- und Entsorgungsprobleme?",
+        "causalChain": "Feuchtigkeit und Salze fördern Stahlkorrosion → Risse, Abplatzungen und Sanierungen entstehen → Faserverbundstäbe vermeiden Rost → Verformung, Versagen und Alterung unterscheiden sich jedoch von Stahl → Bemessung, Produktprüfung und Lebensweg müssen neu bewertet werden.",
+        "affectedSystems": "Gebäude, Brücken und Küsteninfrastruktur; Rohstoff- und Energieverbrauch; Instandhaltung; Bauabfälle und Verwertung von Faserverbundkunststoffen.",
+        "uncertainties": "Laborversuche und beschleunigte Alterung bilden reale Jahrzehnte nur näherungsweise ab. Die Ergebnisse gelten nicht pauschal für alle Produkte. Herstellung, Brandverhalten, Reparatur, Rückbau und End-of-Life sind in den Einzelstudien nicht umfassend bewertet.",
+        "editorialNotes": "Im Infoscreen ausschließlich auf diese Leitquelle verweisen. Andere Arbeiten von Raphael Kampmann können im Interview als fachlicher Hintergrund angesprochen werden, sollten aber nicht als zusätzliche Quellen im Beitrag erscheinen. Die technische Korrosionsbeständigkeit ist ein möglicher Vorteil, aber noch kein vollständiger Nachhaltigkeitsnachweis.",
+        "imageIdea": "Ruhige, fotorealistische Nahaufnahme eines Betonquerschnitts mit sichtbar unterschiedlicher Stahl- und Faserverbundbewehrung; sachlich, ohne Herstellerlogos, grüne Symbolik oder Werbeästhetik.",
+        "contactProposal": "Prof. Dr.-Ing. Raphael Kampmann zu einem Gespräch über die Frage einladen: Machen korrosionsfreie Bewehrungen Betonbauwerke wirklich nachhaltiger?",
+        "sources": [
+          {
+            "title": "Durability assessment of GFRP rebars in marine environments",
+            "url": "https://doi.org/10.1016/j.conbuildmat.2022.127028",
+            "year": 2022
+          }
+        ]
+      },
+      "interviewQuestions": {
+        "opening": [
+          "Was unterscheidet Glas- und Basaltfaserbewehrungen grundsätzlich von Stahlbewehrung?",
+          "Welches Problem im heutigen Betonbau wollten Sie mit diesen Untersuchungen besser verstehen?"
+        ],
+        "technicalCore": [
+          "Unter welchen Bedingungen verlängern Faserverbundstäbe die reale Lebensdauer eines Bauwerks?",
+          "Warum verformen sich Bauteile mit diesen Bewehrungen anders als klassischer Stahlbeton?",
+          "Wie zuverlässig lassen sich Jahrzehnte der Alterung durch Laborversuche mit Frost, Wärme oder Meerwasser vorhersagen?",
+          "Wie groß sind die Unterschiede zwischen einzelnen Produkten derselben Materialgruppe?"
+        ],
+        "sustainability": [
+          "Ist ein korrosionsfreier Baustoff automatisch nachhaltiger?",
+          "Welche Rolle spielen zusätzliche Materialmengen, Kunstharze und Energiebedarf bei der Herstellung?",
+          "Was geschieht mit solchen Bewehrungen beim Rückbau eines Bauwerks?",
+          "Gibt es heute belastbare Aussagen zur Recyclingfähigkeit oder Wiederverwendung?",
+          "Wann ist eine längere Lebensdauer ökologisch wichtiger als eine einfache Trennbarkeit der Materialien?"
+        ],
+        "practiceAndOutlook": [
+          "Wo ist der Einsatz heute technisch und wirtschaftlich besonders sinnvoll?",
+          "Welche Normen, Zulassungen oder Prüfverfahren fehlen noch?",
+          "Welche Fehler macht die öffentliche Debatte über nachhaltige Baustoffe aus Ihrer Sicht häufig?",
+          "Welche Forschungsfrage müsste als Nächstes beantwortet werden, um eine ehrliche Gesamtbewertung zu ermöglichen?"
+        ],
+        "closing": [
+          "Was sollten Studierende des Bauwesens über Dauerhaftigkeit lernen, das bisher oft zu kurz kommt?",
+          "Welche eine Botschaft möchten Sie den Zuschauerinnen und Zuschauern von ZUSTAND mitgeben?"
+        ]
+      }
+    }
+  ]
+}

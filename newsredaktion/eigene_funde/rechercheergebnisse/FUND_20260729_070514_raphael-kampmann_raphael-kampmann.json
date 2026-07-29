@@ -1,0 +1,170 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "generatedAt": "2026-07-29T07:03:21+02:00",
+  "articles": [
+    {
+      "title": "Korrosionsfreie Bewehrung verändert das Tragverhalten von Beton",
+      "summary": "Stahlbewehrung kann korrodieren und dadurch die Lebensdauer von Betonbauwerken verkürzen. Kampmann und sein Team prüften Betonbalken mit Glas- und Basaltfaserbewehrung. Die Alternativen rosten nicht, verformten sich unter gleicher Last jedoch deutlich stärker und versagten anders als Stahlbeton. Die Studie zeigt: Ein Materialwechsel kann Dauerhaftigkeit verbessern, verlangt aber neue Bemessungsregeln und eine Betrachtung des gesamten Lebenswegs.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Beton",
+        "Stahlbeton",
+        "Glasfaserbewehrung",
+        "Basaltfaserbewehrung",
+        "Faserverbundkunststoffe",
+        "Korrosion",
+        "Dauerhaftigkeit",
+        "Lebensdauer",
+        "Ressourcenverbrauch",
+        "Bemessung",
+        "Technische Hochschule Lübeck",
+        "Deutschland"
+      ],
+      "sourceTitle": "Structural and Deformational Behavior of Flexural Concrete Beams Reinforced with GFRP and BFRP Rebars",
+      "sourceUrl": "https://doi.org/10.14359/51740635",
+      "publicationDate": "2024-03-01",
+      "category": "Querschnitt: Bauwesen und Ressourcenschonung",
+      "interviewPotential": "hoch",
+      "contacts": [
+        {
+          "name": "Prof. Dr.-Ing. Raphael Kampmann",
+          "role": "Professor für Baustofftechnologie; Leiter der Materialprüfanstalt Schleswig-Holstein",
+          "institution": "Technische Hochschule Lübeck",
+          "country": "Deutschland",
+          "email": "raphael.kampmann@th-luebeck.de",
+          "phone": "+49 451 300 5731",
+          "profileUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactSourceUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactType": "Autor*in",
+          "preferred": true,
+          "notes": "Erstautor der Veröffentlichung. Besonders geeignet für ein Gespräch darüber, warum korrosionsfreie Bewehrungen nicht einfach wie Stahl bemessen werden können und wie Dauerhaftigkeit, Sicherheit, Materialeinsatz und Kreislauffähigkeit gemeinsam zu bewerten sind."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Begutachteter technischer Symposiumsbeitrag im International Concrete Abstracts Portal des American Concrete Institute. Experimentelle Untersuchung von 15 Betonbalken; keine vollständige Ökobilanz und keine allgemeine Nachhaltigkeitsbewertung.",
+        "coreChange": "Betonbalken mit Glas- oder Basaltfaserbewehrung zeigten gegenüber der Stahlbeton-Kontrollgruppe deutlich größere Verformungen und ein anderes Verhalten bis zum Versagen. Vorhandene Berechnungsansätze bildeten die Durchbiegungen nur unzureichend ab.",
+        "questionBehindNews": "Kann eine korrosionsbeständige Bewehrung Bauwerke wirklich nachhaltiger machen, wenn sie zugleich andere Bemessungsregeln, Materialmengen und Rückbauwege erfordert?",
+        "causalChain": "Feuchtigkeit und Salze fördern Stahlkorrosion → Korrosionsprodukte schädigen Beton und verkürzen die Nutzungsdauer → Faserverbundstäbe vermeiden Rost → ihr geringerer Elastizitätsmodul verändert Verformung und Versagen → Bemessung und Materialeinsatz müssen angepasst werden.",
+        "affectedSystems": "Gebäude und Infrastruktur, Rohstoff- und Energieverbrauch des Bauwesens, Instandhaltung, Rückbau und Abfallströme.",
+        "planetaryBoundaries": "Vor allem Klimawandel und neuartige Substanzen über Zement-, Stahl-, Faser- und Kunstharzherstellung; die Veröffentlichung selbst quantifiziert diese Wirkungen nicht.",
+        "societalRelevance": "Längere Nutzungsdauern können Sanierungen, Sperrungen und Ersatzneubauten vermeiden. Eine vorschnelle Gleichsetzung von Korrosionsbeständigkeit und Nachhaltigkeit würde jedoch Herstellung, Reparierbarkeit und Verwertung ausblenden.",
+        "uncertainties": "Untersucht wurden begrenzte Balkengeometrien und Bewehrungsanordnungen. Langzeitverhalten, Brand, Produktstreuung, Kosten und Umweltbilanz sind nicht Gegenstand dieser Einzelstudie. Ergebnisse sind nicht pauschal auf alle Faserverbundprodukte übertragbar.",
+        "interviewPotential": "Hoch. Mögliche Fragen: Wann verlängern Faserverbundstäbe die reale Bauwerkslebensdauer? Warum ist Gebrauchstauglichkeit kritischer als Tragfähigkeit? Brauchen alternative Bewehrungen mehr Material? Wie werden Reparatur, Rückbau und Recycling bewertet?",
+        "sources": "American Concrete Institute, DOI 10.14359/51740635: https://doi.org/10.14359/51740635; offizielles Personenprofil der TH Lübeck: https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+        "imageIdea": "Ruhige, fotorealistische Nahaufnahme eines aufgeschnittenen Betonbalkens mit zwei erkennbar unterschiedlichen Bewehrungsarten; sachlich, ohne Werbeästhetik. Keine Herstellerlogos, keine grünen Nachhaltigkeitssymbole und keine unlesbaren Diagramme.",
+        "screenConnection": "Längere Lebensdauer hängt nicht nur von Korrosionsfreiheit, sondern auch vom Tragverhalten ab."
+      }
+    },
+    {
+      "title": "Frost-Tau-Wechsel treffen alternative Bewehrungen unterschiedlich",
+      "summary": "Glas- und Basaltfaserstäbe gelten als korrosionsbeständige Alternative zu Stahlbewehrung. In Versuchen mit 80 und 160 Frost-Tau-Wechseln reagierten die untersuchten Produkte jedoch unterschiedlich: Bei einigen nahm die verbleibende Festigkeit ab, andere Eigenschaften blieben weitgehend stabil. Für langlebige und klimaangepasste Bauwerke reicht deshalb die Materialbezeichnung allein nicht aus; Produktqualität, Alterung und Prüfstandards sind entscheidend.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Frost-Tau-Wechsel",
+        "Klimaresilienz",
+        "Dauerhaftigkeit",
+        "Glasfaserbewehrung",
+        "Basaltfaserbewehrung",
+        "Faserverbundkunststoffe",
+        "Beton",
+        "Produktqualität",
+        "Materialprüfung",
+        "Lebensdauer",
+        "Technische Hochschule Lübeck",
+        "Deutschland"
+      ],
+      "sourceTitle": "Freeze-Thaw Durability of GFRP and BFRP Rebars",
+      "sourceUrl": "https://doi.org/10.14359/51740656",
+      "publicationDate": "2024-03-01",
+      "category": "Querschnitt: Bauwesen und Klimaresilienz",
+      "interviewPotential": "hoch",
+      "contacts": [
+        {
+          "name": "Prof. Dr.-Ing. Raphael Kampmann",
+          "role": "Professor für Baustofftechnologie; Leiter der Materialprüfanstalt Schleswig-Holstein",
+          "institution": "Technische Hochschule Lübeck",
+          "country": "Deutschland",
+          "email": "raphael.kampmann@th-luebeck.de",
+          "phone": "+49 451 300 5731",
+          "profileUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactSourceUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactType": "Autor*in",
+          "preferred": true,
+          "notes": "Erstautor der Veröffentlichung. Geeignet für ein verständliches Gespräch über Materialalterung, Frost-Tau-Prüfungen, Produktunterschiede und die Frage, welche Nachweise nötig sind, bevor neue Bewehrungsmaterialien breit eingesetzt werden."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Begutachteter technischer Symposiumsbeitrag des American Concrete Institute. Laborversuche an Glas- und Basaltfaserstäben nach 80 und 160 Frost-Tau-Zyklen mit mehreren mechanischen Prüfverfahren.",
+        "coreChange": "Die Festigkeit blieb nach Frost-Tau-Beanspruchung nicht bei allen Produkten und Eigenschaften gleich. Einige Stabtypen verloren mit zunehmender Zyklenzahl mehr Festigkeit, während andere Messgrößen kaum beeinflusst wurden.",
+        "questionBehindNews": "Wie lässt sich sicherstellen, dass ein als langlebig beworbener Baustoff auch unter wechselnden Umweltbedingungen über Jahrzehnte zuverlässig bleibt?",
+        "causalChain": "Wasser dringt in Material und Grenzflächen ein → Gefrieren und Auftauen erzeugen wiederholte Beanspruchungen → Fasern, Harz oder Verbund können unterschiedlich altern → mechanische Eigenschaften verändern sich → Lebensdauer und Sicherheitsreserven hängen vom konkreten Produkt ab.",
+        "affectedSystems": "Betonbauwerke in kalten und wechselhaften Klimazonen, Verkehrs- und Küsteninfrastruktur, Instandhaltung sowie Material- und Ersatzteilströme.",
+        "planetaryBoundaries": "Indirekter Bezug zu Klimawandel und neuartigen Substanzen: Klima- und Witterungsbeanspruchung beeinflusst Nutzungsdauern; Faserverbundstäbe enthalten mineralische oder gläserne Fasern und polymere Harze. Die Studie bilanziert diese Grenzen nicht.",
+        "societalRelevance": "Fehleinschätzungen der Alterung können zu vorzeitigen Schäden oder unnötig hohen Sicherheits- und Materialzuschlägen führen. Verlässliche Prüfstandards sind deshalb Voraussetzung für langlebiges, ressourcenschonendes Bauen.",
+        "uncertainties": "Beschleunigte Laborzyklen bilden reale Jahrzehnte nur näherungsweise ab. Untersucht wurden ausgewählte Produkte und Durchmesser. Ergebnisse dürfen nicht ohne weitere Nachweise auf alle GFRP- und BFRP-Bewehrungen übertragen werden.",
+        "interviewPotential": "Hoch. Mögliche Fragen: Was bildet ein Frost-Tau-Test realistisch ab? Warum unterscheiden sich Produkte derselben Materialgruppe? Wie viel Sicherheit brauchen Zulassung und Normung? Verändert der Klimawandel die Anforderungen an Baustoffprüfungen?",
+        "sources": "American Concrete Institute, DOI 10.14359/51740656: https://doi.org/10.14359/51740656; offizielles Personenprofil der TH Lübeck: https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+        "imageIdea": "Sachliche Nahaufnahme eines Betonprüfkörpers und zweier Faserverbundstäbe mit dezent angedeutetem Frost und Tauwasser. Kein dramatisches Eisbild, keine zerberstende Brücke, keine Logos oder Schrift.",
+        "screenConnection": "Nicht die Materialgruppe, sondern das konkrete Produkt entscheidet über die Alterung."
+      }
+    },
+    {
+      "title": "Wie lange halten Glasfaser-Bewehrungen im Meerwasser?",
+      "summary": "Korrosion durch Salze und Feuchtigkeit kann Betonbauwerke frühzeitig schädigen und Sanierungen auslösen. Eine Studie mit Beteiligung von Raphael Kampmann untersuchte sechs Glasfaser-Bewehrungsprodukte unter beschleunigten Meerwasserbedingungen und entwickelte Modelle für ihre Langzeitentwicklung. Die Ergebnisse unterstützen Lebensdauerprognosen, beantworten aber nicht automatisch die Umweltbilanz: Herstellung, Kunstharz, Reparatur und Verwertung müssen zusätzlich bewertet werden.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Meerwasser",
+        "Küsteninfrastruktur",
+        "Glasfaserbewehrung",
+        "GFRP",
+        "Korrosion",
+        "Dauerhaftigkeit",
+        "Lebensdauerprognose",
+        "Beton",
+        "Instandhaltung",
+        "Ressourcenverbrauch",
+        "Kreislaufwirtschaft",
+        "Technische Hochschule Lübeck",
+        "Deutschland"
+      ],
+      "sourceTitle": "Durability assessment of GFRP rebars in marine environments",
+      "sourceUrl": "https://doi.org/10.1016/j.conbuildmat.2022.127028",
+      "publicationDate": "2022-04-25",
+      "category": "Querschnitt: Bauwesen und Ressourcenschonung",
+      "interviewPotential": "hoch",
+      "contacts": [
+        {
+          "name": "Prof. Dr.-Ing. Raphael Kampmann",
+          "role": "Professor für Baustofftechnologie; Leiter der Materialprüfanstalt Schleswig-Holstein",
+          "institution": "Technische Hochschule Lübeck",
+          "country": "Deutschland",
+          "email": "raphael.kampmann@th-luebeck.de",
+          "phone": "+49 451 300 5731",
+          "profileUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactSourceUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+          "contactType": "Autor*in",
+          "preferred": true,
+          "notes": "Mitautor der Veröffentlichung und heutiger Professor an der TH Lübeck. Besonders geeignet für Fragen zur beschleunigten Alterungsprüfung, zu Lebensdauerprognosen im Küstenbau und zur Grenze zwischen technischer Dauerhaftigkeit und umfassender Nachhaltigkeitsbewertung."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Begutachteter Forschungsartikel in Construction and Building Materials. Sechs kommerzielle GFRP-Bewehrungsprodukte wurden unter beschleunigten Bedingungen untersucht, um ihre langfristige Entwicklung in salzhaltigen Umgebungen abzuschätzen.",
+        "coreChange": "Die Studie vergleicht die Dauerhaftigkeit verschiedener Glasfaser-Bewehrungen und nutzt beschleunigte Alterungsdaten für Modelle zur Vorhersage des Langzeitverhaltens in Meerwasserumgebungen.",
+        "questionBehindNews": "Wie viel Umwelt- und Ressourcenbelastung lässt sich vermeiden, wenn Küstenbauwerke länger halten – und welche neuen Stoff- und Entsorgungsprobleme entstehen durch Faserverbundkunststoffe?",
+        "causalChain": "Chloride und Feuchtigkeit fördern Stahlkorrosion → Beton reißt oder platzt ab → Sanierung und Ersatzneubau verbrauchen Material und Energie → GFRP korrodiert nicht wie Stahl → Harz, Fasern und Grenzflächen können dennoch altern → Lebensdauer muss produktbezogen vorhergesagt werden.",
+        "affectedSystems": "Brücken, Hafen- und Küstenbauwerke, Rohstoff- und Energieverbrauch, Instandhaltungsbudgets, Bauabfälle und potenzielle Kunststoffverbund-Abfälle.",
+        "planetaryBoundaries": "Indirekter Bezug zu Klimawandel, Ozeanen und neuartigen Substanzen über Bauwerkslebensdauer, Zement- und Stahlbedarf sowie polymergebundene Faserverbundwerkstoffe. Eine Lebenszyklusanalyse war nicht Gegenstand der Studie.",
+        "societalRelevance": "Küsten- und Verkehrsinfrastruktur ist teuer, sicherheitsrelevant und materialintensiv. Bessere Lebensdauerprognosen können Sanierungen gezielter planen und unnötige Ersatzbauten vermeiden, dürfen aber nicht als vollständiger Nachhaltigkeitsnachweis missverstanden werden.",
+        "uncertainties": "Beschleunigte Laboralterung ist eine Modellierung realer Langzeitbedingungen. Produktzusammensetzung, Belastung, Temperatur und Einbauzustand beeinflussen die Übertragbarkeit. Herstellung, Brandverhalten, Reparatur und End-of-Life wurden nicht umfassend bewertet.",
+        "interviewPotential": "Hoch. Mögliche Fragen: Wie werden aus Laborversuchen Jahrzehnte abgeleitet? Was unterscheidet die Produkte? Wann rechnet sich eine korrosionsfreie Bewehrung ökologisch? Was geschieht beim Rückbau? Welche Daten fehlen für eine ehrliche Gesamtbilanz?",
+        "sources": "Elsevier, Construction and Building Materials, DOI 10.1016/j.conbuildmat.2022.127028: https://doi.org/10.1016/j.conbuildmat.2022.127028; offizielles Personenprofil der TH Lübeck: https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/raphael-kampmann/",
+        "imageIdea": "Fotorealistische, ruhige Detailansicht eines Betonbauteils an einer Küste oder Hafenanlage, bei der eine Glasfaserbewehrung im Anschnitt sichtbar wird. Kein Herstellerprodukt, keine idyllische Meereskulisse, kein Rost-Übertreibungsbild und keine Schrift.",
+        "screenConnection": "Korrosionsfreiheit kann Sanierungen vermeiden, ersetzt aber keine vollständige Umweltbilanz."
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "QS_0015",
+  "status": "freigegeben",
+  "title": "Welche Stadtform benötigt am wenigsten Material?",
+  "summary": "Wie viel Material eine Stadt pro Kopf benötigt, hängt nicht nur vom Baustoff ab, sondern auch von Dichte, Gebäudetyp und Straßen. Weidner, Bechmann und Sobek verglichen fünf Wohnformen in 15 Szenarien. Unter ihren Annahmen war das sechsgeschossige Mehrfamilienhaus stets am ressourceneffizientesten; Hochhäuser benötigten dagegen die geringste überbaute Fläche. Die Studie zeigt: Ressourcenschonung beginnt bereits im Städtebau.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Bauwesen",
+    "Stadtplanung",
+    "Ressourcenverbrauch",
+    "Flächenverbrauch",
+    "Siedlungsdichte",
+    "Mehrfamilienhaus",
+    "Einfamilienhaus",
+    "Hochhaus",
+    "Verkehrsinfrastruktur",
+    "graue Emissionen",
+    "planetare Grenzen",
+    "Ressourcenschonung",
+    "Querschnitt: Bauwesen und Ressourcenschonung"
+  ],
+  "imageId": "QS_0015_01",
+  "sourceUrl": "https://doi.org/10.1002/bate.202100093",
+  "publicationDate": "2021-12-20",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-29",
+  "lastModified": "2026-07-29",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Bauwesen und Ressourcenschonung; Originalquelle: Ressourcenminimierung im urbanen Kontext",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "QS_0014",
+  "sequenceRole": "context-news"
+}

@@ -1,0 +1,91 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "generatedAt": "2026-07-29T07:32:24+02:00",
+  "articles": [
+    {
+      "title": "Welche Stadtform benötigt am wenigsten Material?",
+      "summary": "Wie viel Material eine Stadt pro Kopf benötigt, hängt nicht nur vom Baustoff ab, sondern auch von Dichte, Gebäudetyp und Straßen. Weidner, Bechmann und Sobek verglichen fünf Wohnformen in 15 Szenarien. Unter ihren Annahmen war das sechsgeschossige Mehrfamilienhaus stets am ressourceneffizientesten; Hochhäuser benötigten dagegen die geringste überbaute Fläche. Die Studie zeigt: Ressourcenschonung beginnt bereits im Städtebau.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Stadtplanung",
+        "Ressourcenverbrauch",
+        "Flächenverbrauch",
+        "Siedlungsdichte",
+        "Mehrfamilienhaus",
+        "Einfamilienhaus",
+        "Hochhaus",
+        "Verkehrsinfrastruktur",
+        "graue Emissionen",
+        "planetare Grenzen",
+        "Ressourcenschonung"
+      ],
+      "sourceTitle": "Ressourcenminimierung im urbanen Kontext",
+      "sourceUrl": "https://doi.org/10.1002/bate.202100093",
+      "publicationDate": "2021-12-20",
+      "category": "Querschnitt: Bauwesen und Ressourcenschonung",
+      "interviewPotential": "hoch",
+      "articleType": "Newsbeitrag",
+      "selectionLabel": "Stadtform und Ressourcen",
+      "contacts": [
+        {
+          "name": "Dr.-Ing. Stefanie Weidner",
+          "role": "Korrespondenzautorin; Vorständin und Director Sustainability Strategies",
+          "institution": "Werner Sobek AG",
+          "country": "Deutschland",
+          "email": "stefanie.weidner@wernersobek.com",
+          "profileUrl": "https://www.wernersobek.com/de/personen/stefanie-weidner/",
+          "contactSourceUrl": "https://doi.org/10.1002/bate.202100093",
+          "contactType": "Korrespondenzautorin",
+          "preferred": true,
+          "notes": "Bevorzugte Ansprechpartnerin. Die Untersuchung geht auf ihre Dissertation zu ressourcenminimalen urbanen Strukturen zurück. Geeignet für Fragen zu Methodik, Siedlungsdichte, Wohnfläche, Gebäudetypologien und Grenzen der Modellrechnung."
+        },
+        {
+          "name": "Dipl.-Ing. Roland Bechmann",
+          "role": "Mitautor; Vorstand und Partner",
+          "institution": "Werner Sobek AG",
+          "country": "Deutschland",
+          "email": "roland.bechmann@wernersobek.com",
+          "profileUrl": "https://www.wernersobek.com/de/personen/roland-bechmann/",
+          "contactSourceUrl": "https://doi.org/10.1002/bate.202100093",
+          "contactType": "Mitautor",
+          "preferred": false,
+          "notes": "Geeignet für den Übergang von der Untersuchung zur Planungspraxis: Tragwerke, Masterplanung, Materialeffizienz und die Bedeutung gemeinsam genutzter Infrastruktur."
+        },
+        {
+          "name": "Prof. Dr.-Ing. Dr.-Ing. E.h. Dr. h.c. Werner Sobek",
+          "role": "Mitautor; Firmengründer und Vorsitzender des Aufsichtsrats",
+          "institution": "Werner Sobek AG",
+          "country": "Deutschland",
+          "email": "werner.sobek@wernersobek.com",
+          "profileUrl": "https://www.wernersobek.com/de/personen/werner-sobek/",
+          "contactSourceUrl": "https://doi.org/10.1002/bate.202100093",
+          "contactType": "Mitautor",
+          "preferred": false,
+          "notes": "Geeignet für die übergeordnete Frage, wie mit weniger Material für mehr Menschen gebaut werden kann und welche politischen Rahmenbedingungen dafür erforderlich wären."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Peer-reviewter Fachaufsatz in der Zeitschrift Bautechnik. Die Autor:innen vergleichen in einer phänomenologischen Modellstudie fünf Wohngebäudetypologien bei drei Siedlungsdichten. Insgesamt entstehen 15 Szenarien auf einer virtuellen Fläche von einem Quadratkilometer.",
+        "coreChange": "Nicht nur die Konstruktion eines einzelnen Gebäudes, sondern auch Gebäudetyp, Siedlungsdichte und die benötigte Straßeninfrastruktur bestimmen den Ressourcen- und Flächenverbrauch pro Person. Unter den gesetzten Annahmen war das sechsgeschossige Mehrfamilienhaus in Blockrandbebauung am ressourceneffizientesten.",
+        "questionBehindNews": "Welche Wohn- und Stadtformen ermöglichen ausreichend Lebensraum, ohne pro Person immer mehr Boden, Baustoffe und Verkehrsinfrastruktur zu beanspruchen?",
+        "causalChain": "Geringe Siedlungsdichte → größere Gebäude- und Straßenflächen pro Person → höherer Materialbedarf für Gebäude und Erschließung → mehr versiegelter Boden und gebundene Rohstoffe. Kompakte mehrgeschossige Strukturen → Gebäude und Infrastruktur werden von mehr Menschen geteilt → Ressourcen- und Flächenbedarf pro Person sinken.",
+        "affectedSystems": "Rohstofflager, Böden und Flächen, Klima durch graue Emissionen, Wohnungsversorgung, Verkehrsinfrastruktur und langfristige Materialbestände der Städte.",
+        "uncertainties": "Die Ergebnisse beruhen auf modellierten Szenarien mit einheitlichen Annahmen, darunter 40 Quadratmeter Wohnfläche pro Person, 2,2 Personen je Wohnung und überwiegend konventionelle Massivbauweisen. Soziale Qualität, Kosten, Bestandsnutzung, tatsächliche Mobilität und vollständige Lebenszyklen werden nicht umfassend verglichen.",
+        "editorialNotes": "Nur auf den Fachaufsatz mit DOI 10.1002/bate.202100093 verweisen. Nicht verkürzen zu „Hochhäuser sind am nachhaltigsten“: Hochhäuser waren flächeneffizient, aber nicht materialeffizienter als das sechsgeschossige Mehrfamilienhaus. Ergebnisse immer als Resultat der gewählten Modellannahmen kennzeichnen.",
+        "imageIdea": "Fotorealistisch-schematische Gegenüberstellung eines locker bebauten Einfamilienhausgebiets, eines kompakten sechsgeschossigen Stadtblocks und eines Hochhausquartiers. Gebäude- und Straßenflächen sollen vergleichbar wirken; keine Schrift, keine Logos und keine grüne Werbesymbolik.",
+        "contactProposal": "Zuerst Stefanie Weidner als Korrespondenzautorin anfragen. Leitfrage: Warum entscheidet bereits die Stadtform darüber, wie viele Rohstoffe und wie viel Boden pro Person benötigt werden?",
+        "sources": [
+          {
+            "title": "Ressourcenminimierung im urbanen Kontext",
+            "authors": "Stefanie Weidner, Roland Bechmann, Werner Sobek",
+            "journal": "Bautechnik 99, Heft 1, Seiten 41–49",
+            "url": "https://doi.org/10.1002/bate.202100093",
+            "year": 2022
+          }
+        ]
+      }
+    }
+  ]
+}

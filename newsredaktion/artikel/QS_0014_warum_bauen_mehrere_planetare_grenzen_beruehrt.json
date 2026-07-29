@@ -1,0 +1,47 @@
+{
+  "id": "QS_0014",
+  "status": "freigegeben",
+  "title": "Warum Bauen mehrere planetare Grenzen berührt",
+  "summary": "Jedes Bauwerk beginnt weit vor der Baustelle: Rohstoffe werden abgebaut, Flächen verändert, Energie und Wasser eingesetzt und Materialien über große Entfernungen transportiert. Später folgen Nutzung, Umbau, Abriss und Entsorgung. Bauen berührt deshalb Klima, Biodiversität, Landnutzung, Süßwasser und neue Stoffe zugleich. Entscheidend ist nicht nur, womit wir bauen, sondern auch wie viel, wie lange und für welchen Bedarf.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Grundlagen",
+    "Bauwesen",
+    "planetare Grenzen",
+    "Ressourcenverbrauch",
+    "Materialverbrauch",
+    "Flächenverbrauch",
+    "Klimawandel",
+    "Biodiversität",
+    "Süßwasser",
+    "neue Substanzen",
+    "Kreislaufwirtschaft",
+    "Werner Sobek",
+    "Grundlagenbeitrag: Bauen und planetare Grenzen"
+  ],
+  "imageId": "QS_0014_01",
+  "sourceUrl": "https://www.wernersobek.com/de/themen/non-nobis-ueber-das-bauen-in-der-zukunft/",
+  "publicationDate": "2022-02-09",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-29",
+  "lastModified": "2026-07-29",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Grundlagenbeitrag: Bauen und planetare Grenzen; Originalquelle: non nobis – über das Bauen in der Zukunft. Band 1: Ausgehen muss man von dem, was ist",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news",
+  "topic": "Bauen"
+}

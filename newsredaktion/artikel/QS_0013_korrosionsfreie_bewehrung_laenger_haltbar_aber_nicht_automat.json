@@ -1,0 +1,45 @@
+{
+  "id": "QS_0013",
+  "status": "freigegeben",
+  "title": "Korrosionsfreie Bewehrung: länger haltbar, aber nicht automatisch nachhaltig",
+  "summary": "Glas- und Basaltfaserstäbe können Stahl in Beton ersetzen und vermeiden dessen Korrosion. Arbeiten von Raphael Kampmann zeigen jedoch, dass diese Bewehrungen sich anders verformen, unter Frost-Tau- und Meerwasserbeanspruchung produktabhängig altern und deshalb eigene Prüf- und Bemessungsregeln brauchen. Ob sie wirklich nachhaltiger sind, entscheidet nicht allein die Lebensdauer, sondern auch Herstellung, Materialeinsatz, Reparierbarkeit und Verwertung.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "Bauwesen",
+    "Beton",
+    "Glasfaserbewehrung",
+    "Basaltfaserbewehrung",
+    "Korrosion",
+    "Dauerhaftigkeit",
+    "Lebensdauer",
+    "Frost-Tau-Wechsel",
+    "Meerwasser",
+    "Ressourcenverbrauch",
+    "Kreislaufwirtschaft",
+    "Technische Hochschule Lübeck",
+    "Querschnitt: Bauwesen und Ressourcenschonung"
+  ],
+  "imageId": "QS_0013_01",
+  "sourceUrl": "https://doi.org/10.1016/j.conbuildmat.2022.127028",
+  "publicationDate": "2022-04-25",
+  "author": "",
+  "interviewPotential": "hoch",
+  "created": "2026-07-29",
+  "lastModified": "2026-07-29",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Bauwesen und Ressourcenschonung; Originalquelle: Durability assessment of GFRP rebars in marine environments",
+  "contentType": "news",
+  "visualMode": "editorial-photo",
+  "imageStyle": "nature",
+  "explainerId": "QS_0014",
+  "sequenceRole": "context-news"
+}

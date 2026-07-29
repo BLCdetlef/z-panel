@@ -1,0 +1,59 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "generatedAt": "2026-07-29T07:25:33+02:00",
+  "articles": [
+    {
+      "title": "Warum Bauen mehrere planetare Grenzen berührt",
+      "summary": "Jedes Bauwerk beginnt weit vor der Baustelle: Rohstoffe werden abgebaut, Flächen verändert, Energie und Wasser eingesetzt und Materialien über große Entfernungen transportiert. Später folgen Nutzung, Umbau, Abriss und Entsorgung. Bauen berührt deshalb Klima, Biodiversität, Landnutzung, Süßwasser und neue Stoffe zugleich. Entscheidend ist nicht nur, womit wir bauen, sondern auch wie viel, wie lange und für welchen Bedarf.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Grundlagen",
+        "Bauwesen",
+        "planetare Grenzen",
+        "Ressourcenverbrauch",
+        "Materialverbrauch",
+        "Flächenverbrauch",
+        "Klimawandel",
+        "Biodiversität",
+        "Süßwasser",
+        "neue Substanzen",
+        "Kreislaufwirtschaft",
+        "Werner Sobek"
+      ],
+      "sourceTitle": "non nobis – über das Bauen in der Zukunft. Band 1: Ausgehen muss man von dem, was ist",
+      "sourceUrl": "https://www.wernersobek.com/de/themen/non-nobis-ueber-das-bauen-in-der-zukunft/",
+      "publicationDate": "2022-02-09",
+      "category": "Grundlagenbeitrag: Bauen und planetare Grenzen",
+      "interviewPotential": "hoch",
+      "articleType": "Grundlagenbeitrag",
+      "selectionLabel": "Bauen und planetare Grenzen",
+      "editorial": {
+        "sourceType": "Fachbuch und umfassende Bestandsaufnahme des weltweiten Bauwesens durch Werner Sobek. Die Veröffentlichung bündelt Daten und Zusammenhänge zu Material- und Ressourcenverbrauch, Baustoffen, Energie, Emissionen und Abfällen. Sie ist kein einzelner begutachteter Zeitschriftenaufsatz und ordnet nicht alle planetaren Grenzen systematisch einzeln ein.",
+        "coreChange": "Das Bauen wird nicht nur als lokale Tätigkeit auf einer Baustelle betrachtet, sondern als weltweites System aus Rohstoffgewinnung, Materialherstellung, Transport, Flächennutzung, Gebäudebetrieb, Sanierung und Rückbau.",
+        "questionBehindNews": "Warum reicht es beim nachhaltigen Bauen nicht aus, nur den CO₂-Ausstoß eines einzelnen Baustoffs oder Gebäudes zu betrachten?",
+        "causalChain": "Bedarf an Gebäuden und Infrastruktur → Abbau von Sand, Kies, Metallen, Holz und fossilen Rohstoffen → Energie-, Wasser- und Flächenverbrauch → Emissionen, Lebensraumveränderungen und Stoffeinträge → langfristig gebundene Materialien → Sanierung, Abriss und Abfälle.",
+        "affectedSystems": "Klima, Ökosysteme, Böden, Süßwasser, Siedlungsflächen, Rohstofflager, Verkehrswege, Abfallströme und die Lebensbedingungen zukünftiger Generationen.",
+        "uncertainties": "Die Veröffentlichung liefert eine breite Gesamtschau, aber keine vollständige Zuordnung aller Wirkungen zu den neun planetaren Grenzen. Einzelne Zusammenhänge hängen stark von Standort, Bauweise, Nutzung, Lebensdauer, Energieversorgung und Rückbaukonzept ab.",
+        "editorialNotes": "Im Infoscreen ausschließlich auf diese Leitquelle verweisen. Die Verbindung zu den planetaren Grenzen als redaktionelle Einordnung kenntlich machen. Nicht behaupten, dass Werner Sobek in dem Buch jede planetare Grenze einzeln wissenschaftlich bilanziert.",
+        "imageIdea": "Ruhige schematische Darstellung eines Gebäudes im Zentrum. Von links führen Sand, Holz, Metalle, Wasser und Energie hinein; rechts werden Flächenverbrauch, Emissionen, langlebige Stoffe und Bauabfälle sichtbar. Sachlich, reduziert, ohne grüne Werbesymbole oder Logos.",
+        "contactProposal": "Werner Sobek zu der Leitfrage anfragen: Wie muss sich das Bauen verändern, wenn Material, Fläche und ökologische Belastbarkeit der Erde begrenzt sind?",
+        "planetaryBoundaryConnections": {
+          "Klimawandel": "Emissionen aus Herstellung, Transport, Bau, Betrieb, Sanierung und Ersatzneubau.",
+          "Biosphäre": "Rohstoffabbau, Versiegelung und Infrastruktur verändern und zerschneiden Lebensräume.",
+          "Landnutzung": "Siedlungen, Verkehrsflächen und Rohstoffgewinnung beanspruchen und verändern Flächen.",
+          "Süßwasser": "Wasser wird bei Rohstoffgewinnung, Materialherstellung, Bau und Gebäudenutzung benötigt.",
+          "Neue Substanzen": "Kunststoffe, Harze, Beschichtungen, Klebstoffe, Biozide und Verbundstoffe gelangen in langlebige Materialströme.",
+          "Biogeochemische Kreisläufe": "Indirekte Wirkungen entstehen durch Energie-, Flächen- und Biomassenutzung."
+        },
+        "sources": [
+          {
+            "title": "non nobis – über das Bauen in der Zukunft. Band 1: Ausgehen muss man von dem, was ist",
+            "url": "https://www.wernersobek.com/de/themen/non-nobis-ueber-das-bauen-in-der-zukunft/",
+            "year": 2022
+          }
+        ]
+      }
+    }
+  ]
+}

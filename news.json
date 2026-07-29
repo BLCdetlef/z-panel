@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T04:53:49.333822+00:00",
-  "articleCount": 28,
+  "generatedAt": "2026-07-29T05:43:34.030897+00:00",
+  "articleCount": 29,
   "articles": [
     {
       "id": "KL_0014",
@@ -45,6 +45,7 @@
       "displayLabel": "NATUR VERSTEHEN",
       "imageStyle": "monochrome-editorial-sketch",
       "sequenceRole": "explainer-after-news",
+      "topic": "Klima und Meere",
       "imageFile": "assets/images/KL_0014_01_zustand.png",
       "imageMetadata": {
         "id": "KL_0014_01",
@@ -72,66 +73,7 @@
       "screenConnection": "Weniger Eis bedeutet eine dunklere Erde – und eine dunklere Oberfläche nimmt mehr Wärme auf.",
       "relatedNewsIds": [],
       "relatedNewsCount": 0,
-      "topic": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
-      "topicIsFallback": true
-    },
-    {
-      "id": "QS_0004",
-      "status": "freigegeben",
-      "title": "73 Prozent der jungen Menschen blicken pessimistisch auf Deutschlands Zukunft",
-      "summary": "Die repräsentative UBA-Studie „Zukunft? Jugend fragen!“ mit 1.311 Menschen zwischen 14 und 22 Jahren zeigt wachsende Zukunftssorgen. 73 Prozent beurteilen Deutschlands gesellschaftliche Zukunft pessimistisch; 2021 waren es 54 Prozent. Umwelt- und Klimaschutz bleibt für 73 Prozent wichtig, doch nur noch 30 Prozent nennen ihn sehr wichtig. Zugleich halten 88 Prozent das Leben in einer Demokratie für sehr wichtig und 70 Prozent wünschen mehr politisches Gehör.",
-      "planetaryBoundary": "QS",
-      "keywords": [
-        "Jugend",
-        "Zukunftspessimismus",
-        "Umweltbewusstsein",
-        "Demokratie",
-        "Beteiligung",
-        "soziale Gerechtigkeit",
-        "IÖW",
-        "Umweltbundesamt",
-        "Deutschland",
-        "Querschnitt",
-        "Priorität 5"
-      ],
-      "imageId": "QS_0004_01",
-      "sourceUrl": "https://www.umweltbundesamt.de/presse/pressemitteilungen/junge-menschen-schauen-zunehmend-pessimistisch-in",
-      "publicationDate": "2026-07-09",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-25",
-      "lastModified": "2026-07-27",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Priorität: 5; Originalquelle: Junge Menschen schauen zunehmend pessimistisch in die Zukunft",
-      "contentType": "news",
-      "visualMode": "editorial-photo",
-      "imageStyle": "nature",
-      "explainerId": "QS_0010",
-      "sequenceRole": "context-news",
-      "imageFile": "assets/images/QS_0004_01_zustand.png",
-      "imageMetadata": {
-        "id": "QS_0004_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T01:51:44.275867+00:00",
-        "sourceFile": "8636baf7-f809-4587-8cdc-44dac242b60c.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: 73 Prozent der jungen Menschen blicken pessimistisch auf Deutschlands Zukunft.\nKernaussage: Die repräsentative UBA-Studie „Zukunft? Jugend fragen!“ mit 1.311 Menschen zwischen 14 und 22 Jahren zeigt wachsende Zukunftssorgen. 73 Prozent beurteilen Deutschlands gesellschaftliche Zukunft pessimistisch; 2021 waren es 54 Prozent. Umwelt- und Klimaschutz bleibt für 73 Prozent wichtig, doch nur noch 30 Prozent nennen ihn sehr wichtig. Zugleich halten 88 Prozent das Leben in einer Demokratie für sehr wichtig und 70 Prozent wünschen mehr politisches Gehör..\nMögliche Bildassoziationen: ein heller Sitzungssaal, ein runder Beratungstisch, eine öffentliche Bibliothek oder eine Wahlurne; keine Bäume, Wälder oder andere Naturmetaphern als Hauptmotiv.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Sie soll sofort verständlich, fotorealistisch und weder plakativ noch werblich wirken.\nSchlagwörter: Jugend, Zukunftspessimismus, Umweltbewusstsein, Demokratie, Beteiligung, soziale Gerechtigkeit, IÖW, Umweltbundesamt, Deutschland, Querschnitt, Priorität 5.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Die repräsentative UBA-Studie „Zukunft? Jugend fragen!“ mit 1.311 Menschen zwischen 14 und 22 Jahren zeigt wachsende Zukunftssorgen. 73 Prozent beurteilen Deutschlands gesellschaftliche Zukunft pessimistisch; 2021 waren es 54 Prozent. Umwelt- und Klimaschutz bleibt für 73 Prozent wichtig, doch nur noch 30 Prozent nennen ihn sehr wichtig. Zugleich halten 88 Prozent das Leben in einer Demokratie für sehr wichtig und 70 Prozent wünschen mehr politisches Gehör.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Repräsentative Befragung im Auftrag des UBA, durchgeführt vom IÖW und Verian als Teil eine",
-      "screenConnection": "Der Zustand der Lebensgrundlagen beeinflusst Vertrauen, Demokratie und Zukunftsvorstellungen.",
-      "topic": "Gesundheit & Lifestyle",
-      "topicSource": "linked-explainer"
+      "topicIsFallback": false
     },
     {
       "id": "QS_0008",
@@ -317,63 +259,6 @@
       "topicSource": "linked-explainer"
     },
     {
-      "id": "QS_0005",
-      "status": "freigegeben",
-      "title": "Klimakatastrophen treffen psychisch vorbelastete Menschen besonders stark",
-      "summary": "Eine australische Langzeitstudie zeigt, dass Extremwetter und Klimakatastrophen psychische Ungleichheiten verschärfen. Bei Menschen mit bereits bestehender psychischer Erkrankung stiegen Belastung und Risiko mittelstarker bis schwerer Störungen im Katastrophenjahr deutlich stärker als bei anderen. Wohnunsicherheit und geringe soziale Unterstützung verstärkten die Folgen. Klimaanpassung braucht deshalb auch stabile Wohnverhältnisse und psychosoziale Vorsorge.",
-      "planetaryBoundary": "QS",
-      "keywords": [
-        "Psychische Gesundheit",
-        "Extremwetter",
-        "Klimagerechtigkeit",
-        "Wohnunsicherheit",
-        "Soziale Unterstützung",
-        "Langzeitstudie",
-        "University of Melbourne",
-        "Australien",
-        "Nature Mental Health",
-        "Querschnitt"
-      ],
-      "imageId": "QS_0005_01",
-      "sourceUrl": "https://www.nature.com/articles/s44220-026-00687-5",
-      "publicationDate": "2026-07-24",
-      "author": "",
-      "interviewPotential": "hoch",
-      "created": "2026-07-25",
-      "lastModified": "2026-07-27",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: Unequal mental health impacts of extreme weather and climate events",
-      "contentType": "news",
-      "visualMode": "editorial-photo",
-      "imageStyle": "nature",
-      "explainerId": "QS_0010",
-      "sequenceRole": "context-news",
-      "imageFile": "assets/images/QS_0005_01_zustand.png",
-      "imageMetadata": {
-        "id": "QS_0005_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-25T19:38:19.524542+00:00",
-        "sourceFile": "ChatGPT Image 25. Juli 2026, 21_38_01.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Klimakatastrophen treffen psychisch vorbelastete Menschen besonders stark.\nKernaussage: Eine australische Langzeitstudie zeigt, dass Extremwetter und Klimakatastrophen psychische Ungleichheiten verschärfen. Bei Menschen mit bereits bestehender psychischer Erkrankung stiegen Belastung und Risiko mittelstarker bis schwerer Störungen im Katastrophenjahr deutlich stärker als bei anderen. Wohnunsicherheit und geringe soziale Unterstützung verstärkten die Folgen. Klimaanpassung braucht deshalb auch stabile Wohnverhältnisse und psychosoziale Vorsorge..\nMögliche Bildassoziationen: eine glaubwürdige Alltagsszene aus Praxis, Prävention, Bewegung oder Gesundheitsversorgung, alternativ ein zurückhaltendes wissenschaftliches Motiv.\nGewählter Bildstil: Symbolisch. Nutze eine klare, zurückhaltende visuelle Metapher. Sie soll sofort verständlich, fotorealistisch und weder plakativ noch werblich wirken.\nSchlagwörter: Psychische Gesundheit, Extremwetter, Klimagerechtigkeit, Wohnunsicherheit, Soziale Unterstützung, Langzeitstudie, University of Melbourne, Australien, Nature Mental Health, Querschnitt.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
-        "altText": "Eine australische Langzeitstudie zeigt, dass Extremwetter und Klimakatastrophen psychische Ungleichheiten verschärfen. Bei Menschen mit bereits bestehender psychischer Erkrankung stiegen Belastung und Risiko mittelstarker bis schwerer Störungen im Katastrophenjahr deutlich stärker als bei anderen. Wohnunsicherheit und geringe soziale Unterstützung verstärkten die Folgen. Klimaanpassung braucht deshalb auch stabile Wohnverhältnisse und psychosoziale Vorsorge.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde."
-      },
-      "sourceType": "Begutachteter Forschungsartikel in Nature Mental Health auf Grundlage australischer bevölk",
-      "screenConnection": "Naturgefahren treffen nicht alle gleich: Gesundheit, sicheres Wohnen und soziale Unterstützung bestimmen die Folgen mit.",
-      "topic": "Gesundheit & Lifestyle",
-      "topicSource": "linked-explainer"
-    },
-    {
       "id": "QS_0010",
       "status": "freigegeben",
       "title": "Warum hängt unsere Gesundheit von intakten natürlichen Lebensgrundlagen ab?",
@@ -456,13 +341,11 @@
       "sourceType": "Zeitunabhängiger Grundlagenbeitrag auf Basis einer aktuellen WHO-Sammlung verbindlicher un",
       "screenConnection": "Gesundheit beginnt bei Luft, Wasser, Nahrung, Klima und Ökosystemen – lange bevor medizinische Behandlung nötig wird.",
       "relatedNewsIds": [
-        "QS_0005",
         "QS_0006",
-        "QS_0004",
         "QS_0011",
         "QS_0008"
       ],
-      "relatedNewsCount": 5,
+      "relatedNewsCount": 3,
       "topicIsFallback": false
     },
     {
@@ -1913,6 +1796,224 @@
       ],
       "relatedNewsCount": 1,
       "topicIsFallback": false
+    },
+    {
+      "id": "QS_0013",
+      "status": "freigegeben",
+      "title": "Korrosionsfreie Bewehrung: länger haltbar, aber nicht automatisch nachhaltig",
+      "summary": "Glas- und Basaltfaserstäbe können Stahl in Beton ersetzen und vermeiden dessen Korrosion. Arbeiten von Raphael Kampmann zeigen jedoch, dass diese Bewehrungen sich anders verformen, unter Frost-Tau- und Meerwasserbeanspruchung produktabhängig altern und deshalb eigene Prüf- und Bemessungsregeln brauchen. Ob sie wirklich nachhaltiger sind, entscheidet nicht allein die Lebensdauer, sondern auch Herstellung, Materialeinsatz, Reparierbarkeit und Verwertung.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Beton",
+        "Glasfaserbewehrung",
+        "Basaltfaserbewehrung",
+        "Korrosion",
+        "Dauerhaftigkeit",
+        "Lebensdauer",
+        "Frost-Tau-Wechsel",
+        "Meerwasser",
+        "Ressourcenverbrauch",
+        "Kreislaufwirtschaft",
+        "Technische Hochschule Lübeck",
+        "Querschnitt: Bauwesen und Ressourcenschonung"
+      ],
+      "imageId": "QS_0013_01",
+      "sourceUrl": "https://doi.org/10.1016/j.conbuildmat.2022.127028",
+      "publicationDate": "2022-04-25",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-29",
+      "lastModified": "2026-07-29",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Bauwesen und Ressourcenschonung; Originalquelle: Durability assessment of GFRP rebars in marine environments",
+      "contentType": "news",
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature",
+      "explainerId": "QS_0014",
+      "sequenceRole": "context-news",
+      "imageFile": "assets/images/QS_0013_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0013_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-29T05:18:10.257510+00:00",
+        "sourceFile": "ChatGPT Image 29. Juli 2026, 07_17_28.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Korrosionsfreie Bewehrung: länger haltbar, aber nicht automatisch nachhaltig.\nKernaussage: Glas- und Basaltfaserstäbe können Stahl in Beton ersetzen und vermeiden dessen Korrosion. Arbeiten von Raphael Kampmann zeigen jedoch, dass diese Bewehrungen sich anders verformen, unter Frost-Tau- und Meerwasserbeanspruchung produktabhängig altern und deshalb eigene Prüf- und Bemessungsregeln brauchen. Ob sie wirklich nachhaltiger sind, entscheidet nicht allein die Lebensdauer, sondern auch Herstellung, Materialeinsatz, Reparierbarkeit und Verwertung..\nMögliche Bildassoziationen: ein glaubwürdiger Hörsaal, ein Klassenzimmer, eine Werkstatt oder eine Bibliothek; keine Naturmetapher als Hauptmotiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Bauwesen, Beton, Glasfaserbewehrung, Basaltfaserbewehrung, Korrosion, Dauerhaftigkeit, Lebensdauer, Frost-Tau-Wechsel, Meerwasser, Ressourcenverbrauch, Kreislaufwirtschaft, Technische Hochschule Lübeck, Querschnitt: Bauwesen und Ressourcenschonung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Glas- und Basaltfaserstäbe können Stahl in Beton ersetzen und vermeiden dessen Korrosion. Arbeiten von Raphael Kampmann zeigen jedoch, dass diese Bewehrungen sich anders verformen, unter Frost-Tau- und Meerwasserbeanspruchung produktabhängig altern und deshalb eigene Prüf- und Bemessungsregeln brauchen. Ob sie wirklich nachhaltiger sind, entscheidet nicht allein die Lebensdauer, sondern auch Herstellung, Materialeinsatz, Reparierbarkeit und Verwertung.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde.",
+        "contentType": "news",
+        "visualMode": "editorial-photo",
+        "imageStyle": "nature",
+        "imageFamily": "editorial"
+      },
+      "sourceType": "Begutachteter Forschungsartikel in Construction and Building Materials. Die Studie untersu",
+      "screenConnection": "Längere Lebensdauer hängt nicht nur von Korrosionsfreiheit, sondern auch vom Tragverhalten ab.",
+      "sourceTitle": "title: Durability assessment of GFRP rebars in marine environments",
+      "topic": "Bauen",
+      "topicSource": "linked-explainer"
+    },
+    {
+      "id": "QS_0015",
+      "status": "freigegeben",
+      "title": "Welche Stadtform benötigt am wenigsten Material?",
+      "summary": "Wie viel Material eine Stadt pro Kopf benötigt, hängt nicht nur vom Baustoff ab, sondern auch von Dichte, Gebäudetyp und Straßen. Weidner, Bechmann und Sobek verglichen fünf Wohnformen in 15 Szenarien. Unter ihren Annahmen war das sechsgeschossige Mehrfamilienhaus stets am ressourceneffizientesten; Hochhäuser benötigten dagegen die geringste überbaute Fläche. Die Studie zeigt: Ressourcenschonung beginnt bereits im Städtebau.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Bauwesen",
+        "Stadtplanung",
+        "Ressourcenverbrauch",
+        "Flächenverbrauch",
+        "Siedlungsdichte",
+        "Mehrfamilienhaus",
+        "Einfamilienhaus",
+        "Hochhaus",
+        "Verkehrsinfrastruktur",
+        "graue Emissionen",
+        "planetare Grenzen",
+        "Ressourcenschonung",
+        "Querschnitt: Bauwesen und Ressourcenschonung"
+      ],
+      "imageId": "QS_0015_01",
+      "sourceUrl": "https://doi.org/10.1002/bate.202100093",
+      "publicationDate": "2021-12-20",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-29",
+      "lastModified": "2026-07-29",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: Bauwesen und Ressourcenschonung; Originalquelle: Ressourcenminimierung im urbanen Kontext",
+      "contentType": "news",
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature",
+      "explainerId": "QS_0014",
+      "sequenceRole": "context-news",
+      "imageFile": "assets/images/QS_0015_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0015_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-29T05:42:58.297081+00:00",
+        "sourceFile": "ChatGPT Image 29. Juli 2026, 07_42_34.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Welche Stadtform benötigt am wenigsten Material?.\nKernaussage: Wie viel Material eine Stadt pro Kopf benötigt, hängt nicht nur vom Baustoff ab, sondern auch von Dichte, Gebäudetyp und Straßen. Weidner, Bechmann und Sobek verglichen fünf Wohnformen in 15 Szenarien. Unter ihren Annahmen war das sechsgeschossige Mehrfamilienhaus stets am ressourceneffizientesten; Hochhäuser benötigten dagegen die geringste überbaute Fläche. Die Studie zeigt: Ressourcenschonung beginnt bereits im Städtebau..\nMögliche Bildassoziationen: eine klare, leicht verständliche und glaubwürdige Assoziation zum Artikel.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Bauwesen, Stadtplanung, Ressourcenverbrauch, Flächenverbrauch, Siedlungsdichte, Mehrfamilienhaus, Einfamilienhaus, Hochhaus, Verkehrsinfrastruktur, graue Emissionen, planetare Grenzen, Ressourcenschonung, Querschnitt: Bauwesen und Ressourcenschonung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Wie viel Material eine Stadt pro Kopf benötigt, hängt nicht nur vom Baustoff ab, sondern auch von Dichte, Gebäudetyp und Straßen. Weidner, Bechmann und Sobek verglichen fünf Wohnformen in 15 Szenarien. Unter ihren Annahmen war das sechsgeschossige Mehrfamilienhaus stets am ressourceneffizientesten; Hochhäuser benötigten dagegen die geringste überbaute Fläche. Die Studie zeigt: Ressourcenschonung beginnt bereits im Städtebau.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde.",
+        "contentType": "news",
+        "visualMode": "editorial-photo",
+        "imageStyle": "nature",
+        "imageFamily": "editorial"
+      },
+      "sourceType": "Peer-reviewter Fachaufsatz in der Zeitschrift Bautechnik. Die Autor:innen vergleichen in e",
+      "screenConnection": "Korrosionsfreiheit kann Sanierungen vermeiden, ersetzt aber keine vollständige Umweltbilanz.",
+      "sourceTitle": "title: Ressourcenminimierung im urbanen Kontext",
+      "topic": "Bauen",
+      "topicSource": "linked-explainer"
+    },
+    {
+      "id": "QS_0014",
+      "status": "freigegeben",
+      "title": "Warum Bauen mehrere planetare Grenzen berührt",
+      "summary": "Jedes Bauwerk beginnt weit vor der Baustelle: Rohstoffe werden abgebaut, Flächen verändert, Energie und Wasser eingesetzt und Materialien über große Entfernungen transportiert. Später folgen Nutzung, Umbau, Abriss und Entsorgung. Bauen berührt deshalb Klima, Biodiversität, Landnutzung, Süßwasser und neue Stoffe zugleich. Entscheidend ist nicht nur, womit wir bauen, sondern auch wie viel, wie lange und für welchen Bedarf.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Grundlagen",
+        "Bauwesen",
+        "planetare Grenzen",
+        "Ressourcenverbrauch",
+        "Materialverbrauch",
+        "Flächenverbrauch",
+        "Klimawandel",
+        "Biodiversität",
+        "Süßwasser",
+        "neue Substanzen",
+        "Kreislaufwirtschaft",
+        "Werner Sobek",
+        "Grundlagenbeitrag: Bauen und planetare Grenzen"
+      ],
+      "imageId": "QS_0014_01",
+      "sourceUrl": "https://www.wernersobek.com/de/themen/non-nobis-ueber-das-bauen-in-der-zukunft/",
+      "publicationDate": "2022-02-09",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-29",
+      "lastModified": "2026-07-29",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Grundlagenbeitrag: Bauen und planetare Grenzen; Originalquelle: non nobis – über das Bauen in der Zukunft. Band 1: Ausgehen muss man von dem, was ist",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "sequenceRole": "explainer-after-news",
+      "topic": "Bauen",
+      "imageFile": "assets/images/QS_0014_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0014_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-29T05:30:55.782338+00:00",
+        "sourceFile": "ChatGPT Image 29. Juli 2026, 07_30_34.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum Bauen mehrere planetare Grenzen berührt.\nKernaussage: Jedes Bauwerk beginnt weit vor der Baustelle: Rohstoffe werden abgebaut, Flächen verändert, Energie und Wasser eingesetzt und Materialien über große Entfernungen transportiert. Später folgen Nutzung, Umbau, Abriss und Entsorgung. Bauen berührt deshalb Klima, Biodiversität, Landnutzung, Süßwasser und neue Stoffe zugleich. Entscheidend ist nicht nur, womit wir bauen, sondern auch wie viel, wie lange und für welchen Bedarf..\nInhaltlicher Ausgangspunkt: eine Reparaturwerkstatt, wiederverwendete Bauteile oder klar sortierte Materialien; kein Müllberg als Hauptmotiv.\nSchlagwörter: Grundlagen, Bauwesen, planetare Grenzen, Ressourcenverbrauch, Materialverbrauch, Flächenverbrauch, Klimawandel, Biodiversität, Süßwasser, neue Substanzen, Kreislaufwirtschaft, Werner Sobek, Grundlagenbeitrag: Bauen und planetare Grenzen.\n\nZiel des Bildes: Es soll Wissen anbahnen, vor allem aber Interesse und Neugier auf Forschung zu unseren natürlichen Lebensgrundlagen wecken. Das Bild ist ein Titelbild und keine vollständige Lehrtafel. Es öffnet die Frage; der Beitrag erklärt die Einzelheiten.\n\nBildtyp: hochwertige wissenschaftsjournalistische Prozessskizze für die Rubrik „Natur verstehen“, in Schwarz-Weiß oder kontrastreichen Graustufen. Zeige genau eine zentrale Ursache-Wirkungs-Beziehung aus dem Artikel.\n\nVerbindliche Reduktion:\n- genau ein dominantes Hauptmotiv\n- genau eine Kernaussage\n- höchstens drei klar unterscheidbare Prozessstufen\n- höchstens vier Pfeile oder Richtungslinien\n- höchstens drei sehr kurze Beschriftungen, Kürzel oder Formelzeichen\n- höchstens ein zurückhaltender Nebenaspekt\n- das Bild muss auch ohne Lesen der Beschriftungen verständlich sein\n\nFalls der Artikel mehrere Aspekte enthält, wähle ausschließlich den für Titel und Kernaussage wichtigsten Zusammenhang. Zeige keine vollständige Prozesskette, keine Materialsammlung, keine vielen Beispiele und keine parallelen Erklärstränge.\n\nGestaltung:\n- feine Linien, klare Umrisse und dezente Schraffuren\n- ruhiger heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- erwachsen, hochwertig und wissenschaftsnah\n- einfache Pfeile, Symbole, Abkürzungen oder Formelzeichen sind erlaubt, aber nur wenn sie die eine Hauptidee unmittelbar klären\n- Beschriftungen auf Deutsch oder als allgemein verständliche Fachkürzel, sehr kurz und kontrastreich\n\nUnbedingt vermeiden:\n- vollständige Flussdiagramme oder Ablaufpläne\n- mehr als drei Stationen\n- viele Kreise, Kästen, Materialbehälter oder Symbolgruppen\n- lange Sätze, Erklärtexte, Legenden und Zusammenfassungsleisten\n- mehrere Landschaftsräume oder mehrere gleichwertige Hauptmotive\n- bunte Infografik, Comic, Kinderbuchstil oder CAD-Zeichnung\n- Logos, Wasserzeichen, dekorative Rahmen oder Collagen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9\n- für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms\n- aus drei bis fünf Metern Entfernung sofort erfassbar\n- wichtige Motive mindestens zehn Prozent vom Bildrand entfernt\n- eindeutige Blickführung und viel ruhige Fläche\n\nLeitgedanke: Ein Blick – ein Zusammenhang. Vermittle lieber einen klaren Gedanken als viele Details. Das Bild soll ein unmittelbares „Ach so“ auslösen und zugleich zum Weiterlesen anregen.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Jedes Bauwerk beginnt weit vor der Baustelle: Rohstoffe werden abgebaut, Flächen verändert, Energie und Wasser eingesetzt und Materialien über große Entfernungen transportiert. Später folgen Nutzung, Umbau, Abriss und Entsorgung. Bauen berührt deshalb Klima, Biodiversität, Landnutzung, Süßwasser und neue Stoffe zugleich. Entscheidend ist nicht nur, womit wir bauen, sondern auch wie viel, wie lange und für welchen Bedarf.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        },
+        "editorialPurpose": "Grundverständnis und Neugier auf Forschung zu den natürlichen Lebensgrundlagen",
+        "complexityLimits": {
+          "mainIdeas": 1,
+          "maxProcessStages": 3,
+          "maxArrows": 4,
+          "maxShortLabels": 3,
+          "maxSecondaryAspects": 1,
+          "mustWorkWithoutReading": true
+        }
+      },
+      "sourceType": "Fachbuch und umfassende Bestandsaufnahme des weltweiten Bauwesens durch Werner Sobek. Die",
+      "screenConnection": "Nicht die Materialgruppe, sondern das konkrete Produkt entscheidet über die Alterung.",
+      "sourceTitle": "title: non nobis – über das Bauen in der Zukunft. Band 1: Ausgehen muss man von dem, was ist",
+      "relatedNewsIds": [
+        "QS_0013",
+        "QS_0015"
+      ],
+      "relatedNewsCount": 2,
+      "topicIsFallback": false
     }
   ],
   "contentSchema": 7,
@@ -1948,26 +2049,24 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-29T06:53:52+02:00",
+  "editorialGeneratedAt": "2026-07-29T07:43:36+02:00",
   "contentTypeCounts": {
     "news": 17,
-    "explainer": 10,
+    "explainer": 11,
     "solution": 0,
     "editorial": 1
   },
   "visualModeCounts": {
     "editorial-photo": 15,
-    "process-sketch": 10,
+    "process-sketch": 11,
     "symbolic": 3,
     "scientific": 0
   },
   "playbackOrder": [
     "KL_0014",
-    "QS_0004",
     "QS_0008",
     "QS_0006",
     "QS_0011",
-    "QS_0005",
     "QS_0010",
     "KL_0013",
     "BD_0010",
@@ -1989,7 +2088,10 @@
     "NS_0001",
     "NS_0003",
     "KL_0019",
-    "QS_0012"
+    "QS_0012",
+    "QS_0013",
+    "QS_0015",
+    "QS_0014"
   ],
   "playbackGroups": [
     {
@@ -2001,26 +2103,22 @@
         "KL_0014"
       ],
       "status": "unlinked",
-      "topic": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
-      "topicKey": "warum-beschleunigt-schmelzendes-eis-die-erderwarmung"
+      "topic": "Klima und Meere",
+      "topicKey": "klima-und-meere"
     },
     {
       "explainerId": "QS_0010",
       "order": 2,
       "newsIds": [
-        "QS_0004",
         "QS_0008",
         "QS_0006",
-        "QS_0011",
-        "QS_0005"
+        "QS_0011"
       ],
-      "newsCount": 5,
+      "newsCount": 3,
       "playbackIds": [
-        "QS_0004",
         "QS_0008",
         "QS_0006",
         "QS_0011",
-        "QS_0005",
         "QS_0010"
       ],
       "status": "recommended",
@@ -2154,6 +2252,23 @@
       "status": "thin",
       "topic": "Wissen & Orientierung",
       "topicKey": "wissen-orientierung"
+    },
+    {
+      "explainerId": "QS_0014",
+      "order": 11,
+      "newsIds": [
+        "QS_0013",
+        "QS_0015"
+      ],
+      "newsCount": 2,
+      "playbackIds": [
+        "QS_0013",
+        "QS_0015",
+        "QS_0014"
+      ],
+      "status": "recommended",
+      "topic": "Bauen",
+      "topicKey": "bauen"
     }
   ],
   "playbackPolicy": {
@@ -2167,50 +2282,17 @@
   },
   "topics": [
     {
-      "key": "warum-beschleunigt-schmelzendes-eis-die-erderwarmung",
-      "label": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
-      "explainerIds": [
-        "KL_0014"
-      ],
-      "articleIds": [
-        "KL_0014"
-      ],
-      "articleCount": 1,
-      "explainerCount": 1
-    },
-    {
-      "key": "gesundheit-lifestyle",
-      "label": "Gesundheit & Lifestyle",
-      "explainerIds": [
-        "QS_0010",
-        "KL_0018"
-      ],
-      "articleIds": [
-        "QS_0004",
-        "QS_0008",
-        "QS_0006",
-        "QS_0011",
-        "QS_0005",
-        "QS_0010",
-        "KL_0006",
-        "KL_0017",
-        "LN_0001",
-        "KL_0011",
-        "KL_0018"
-      ],
-      "articleCount": 11,
-      "explainerCount": 2
-    },
-    {
       "key": "klima-und-meere",
       "label": "Klima und Meere",
       "explainerIds": [
+        "KL_0014",
         "KL_0013",
         "KL_0012",
         "OA_0001",
         "KL_0016"
       ],
       "articleIds": [
+        "KL_0014",
         "KL_0013",
         "KL_0009",
         "KL_0010",
@@ -2220,8 +2302,29 @@
         "KL_0005",
         "KL_0016"
       ],
-      "articleCount": 8,
-      "explainerCount": 4
+      "articleCount": 9,
+      "explainerCount": 5
+    },
+    {
+      "key": "gesundheit-lifestyle",
+      "label": "Gesundheit & Lifestyle",
+      "explainerIds": [
+        "QS_0010",
+        "KL_0018"
+      ],
+      "articleIds": [
+        "QS_0008",
+        "QS_0006",
+        "QS_0011",
+        "QS_0010",
+        "KL_0006",
+        "KL_0017",
+        "LN_0001",
+        "KL_0011",
+        "KL_0018"
+      ],
+      "articleCount": 9,
+      "explainerCount": 2
     },
     {
       "key": "arten-suwasser",
@@ -2262,6 +2365,20 @@
         "QS_0012"
       ],
       "articleCount": 2,
+      "explainerCount": 1
+    },
+    {
+      "key": "bauen",
+      "label": "Bauen",
+      "explainerIds": [
+        "QS_0014"
+      ],
+      "articleIds": [
+        "QS_0013",
+        "QS_0015",
+        "QS_0014"
+      ],
+      "articleCount": 3,
       "explainerCount": 1
     }
   ],

@@ -9,7 +9,8 @@
     "explainer:OA_0001",
     "explainer:KL_0016",
     "explainer:NS_0003",
-    "explainer:QS_0012"
+    "explainer:QS_0012",
+    "explainer:QS_0014"
   ],
   "groupNewsOrder": {
     "KL_0012": [
@@ -38,14 +39,16 @@
       "QS_0009"
     ],
     "QS_0010": [
-      "QS_0004",
       "QS_0008",
       "QS_0006",
-      "QS_0011",
-      "QS_0005"
+      "QS_0011"
     ],
     "QS_0012": [
       "KL_0019"
+    ],
+    "QS_0014": [
+      "QS_0013",
+      "QS_0015"
     ]
   },
   "version": 1
