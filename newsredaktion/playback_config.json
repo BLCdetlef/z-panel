@@ -1,6 +1,5 @@
 {
   "blockOrder": [
-    "explainer:KL_0014",
     "explainer:QS_0010",
     "explainer:KL_0013",
     "explainer:QS_0007",
@@ -10,16 +9,17 @@
     "explainer:KL_0016",
     "explainer:NS_0003",
     "explainer:QS_0012",
-    "explainer:QS_0014"
+    "explainer:QS_0014",
+    "explainer:QS_0016"
   ],
   "groupNewsOrder": {
     "KL_0012": [
       "KL_0009",
       "KL_0010",
-      "KL_0004"
+      "KL_0004",
+      "KL_0014"
     ],
     "KL_0013": [],
-    "KL_0014": [],
     "KL_0016": [
       "KL_0005"
     ],
@@ -48,8 +48,10 @@
     ],
     "QS_0014": [
       "QS_0013",
-      "QS_0015"
-    ]
+      "QS_0015",
+      "QS_0017"
+    ],
+    "QS_0016": []
   },
   "version": 1
 }

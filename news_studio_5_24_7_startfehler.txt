@@ -1,0 +1,31 @@
+ZUSTAND News Studio 5.24.7 konnte nicht gestartet werden.
+
+Fehlertyp: TypeError
+Fehler: create_app_class.<locals>.NewsStudio524._find_widget_by_text() missing 1 required positional argument: 'text'
+
+Technische Details:
+Traceback (most recent call last):
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_24_7.py", line 2482, in main
+    app = app_class()
+          ^^^^^^^^^^^
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_24_7.py", line 1257, in __init__
+    super().__init__()
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_23.py", line 242, in __init__
+    super().__init__()
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_21.py", line 152, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_20.py", line 93, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_19.py", line 307, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_14.py", line 165, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_13.py", line 85, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_12.py", line 221, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_11.py", line 307, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_10.py", line 53, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_9.py", line 205, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_8.py", line 231, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_7.py", line 99, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_6.py", line 184, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_5_2.py", line 410, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_3.py", line 82, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_2_1.py", line 350, in __init__
+  File "C:\Users\haud\AppData\Local\Temp\zustand_studio_5247__qdsfosg\news_studio_5_2_1.py", line 565, in _add_article_contact_box
+TypeError: create_app_class.<locals>.NewsStudio524._find_widget_by_text() missing 1 required positional argument: 'text'

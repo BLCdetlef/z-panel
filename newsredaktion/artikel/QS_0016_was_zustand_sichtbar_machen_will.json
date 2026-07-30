@@ -1,0 +1,45 @@
+{
+  "id": "QS_0016",
+  "status": "freigegeben",
+  "title": "Was ZUSTAND sichtbar machen will",
+  "summary": "ZUSTAND fragt nicht zuerst, welche einzelne Lösung Hoffnung macht, sondern wie es um unsere natürlichen Lebensgrundlagen tatsächlich steht. Grundlage sind wissenschaftliche Quellen, verständliche Zusammenhänge und Gespräche mit Forschenden. Die Pilotsendung stellt das Format vor und erprobt ChatGPT als offen gekennzeichnete Rechercheunterstützung. Wichtige Aussagen und Quellen werden anschließend nochmals geprüft.",
+  "planetaryBoundary": "QS",
+  "keywords": [
+    "ZUSTAND",
+    "Pilotsendung",
+    "planetare Grenzen",
+    "natürliche Lebensgrundlagen",
+    "Wissenschaftskommunikation",
+    "Primärquellen",
+    "Bauwesen",
+    "öffentlicher Dialog",
+    "Offener Kanal Lübeck",
+    "KI-Recherche",
+    "ChatGPT",
+    "Querschnitt: ZUSTAND und Wissenschaftskommunikation"
+  ],
+  "imageId": "QS_0016_01",
+  "sourceUrl": "https://blcdetlef.github.io/z-panel/",
+  "publicationDate": "2026-07-29",
+  "author": "ChatGPT",
+  "interviewPotential": "",
+  "created": "2026-07-29",
+  "lastModified": "2026-07-29",
+  "language": "de",
+  "article": [
+    {
+      "heading": "",
+      "text": ""
+    }
+  ],
+  "facts": [],
+  "links": [],
+  "license": "",
+  "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: ZUSTAND und Wissenschaftskommunikation; Originalquelle: ZUSTAND – Leitbild und redaktionelles Konzept",
+  "contentType": "explainer",
+  "visualMode": "process-sketch",
+  "category": "Natur verstehen",
+  "displayLabel": "NATUR VERSTEHEN",
+  "imageStyle": "monochrome-editorial-sketch",
+  "sequenceRole": "explainer-after-news"
+}

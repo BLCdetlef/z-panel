@@ -1,0 +1,13 @@
+ZUSTAND News Studio 5.24 konnte nicht gestartet werden.
+
+Fehlertyp: RuntimeError
+Fehler: Die Anwendungsklasse von News Studio 5.23 wurde nicht gefunden.
+
+Technische Details:
+Traceback (most recent call last):
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_24.py", line 670, in main
+    base_class = discover_app_class(base_module)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_24.py", line 446, in discover_app_class
+    raise RuntimeError(
+RuntimeError: Die Anwendungsklasse von News Studio 5.23 wurde nicht gefunden.

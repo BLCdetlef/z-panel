@@ -22,7 +22,7 @@
   "author": "",
   "interviewPotential": "gering",
   "created": "2026-07-26",
-  "lastModified": "2026-07-27",
+  "lastModified": "2026-07-30",
   "language": "de",
   "article": [
     {
@@ -34,11 +34,9 @@
   "links": [],
   "license": "",
   "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Earthdata: Albedo",
-  "contentType": "explainer",
+  "contentType": "news",
   "visualMode": "process-sketch",
-  "category": "Natur verstehen",
-  "displayLabel": "NATUR VERSTEHEN",
   "imageStyle": "monochrome-editorial-sketch",
-  "sequenceRole": "explainer-after-news",
-  "topic": "Klima und Meere"
+  "explainerId": "KL_0012",
+  "sequenceRole": "context-news"
 }

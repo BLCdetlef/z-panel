@@ -1,80 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:43:34.030897+00:00",
-  "articleCount": 29,
+  "generatedAt": "2026-07-30T00:52:07.265908+00:00",
+  "articleCount": 31,
   "articles": [
-    {
-      "id": "KL_0014",
-      "status": "freigegeben",
-      "title": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
-      "summary": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
-      "planetaryBoundary": "KL",
-      "keywords": [
-        "Natur verstehen",
-        "Grundlagen",
-        "Eis-Albedo-Effekt",
-        "Schnee",
-        "Meereis",
-        "Arktis",
-        "Rückkopplung",
-        "Sonnenenergie",
-        "Klimawandel",
-        "Querschnitt"
-      ],
-      "imageId": "KL_0014_01",
-      "sourceUrl": "https://www.earthdata.nasa.gov/topics/cryosphere/albedo",
-      "publicationDate": "2026-07-26",
-      "author": "",
-      "interviewPotential": "gering",
-      "created": "2026-07-26",
-      "lastModified": "2026-07-27",
-      "language": "de",
-      "article": [
-        {
-          "heading": "",
-          "text": ""
-        }
-      ],
-      "facts": [],
-      "links": [],
-      "license": "",
-      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Earthdata: Albedo",
-      "contentType": "explainer",
-      "visualMode": "process-sketch",
-      "category": "Natur verstehen",
-      "displayLabel": "NATUR VERSTEHEN",
-      "imageStyle": "monochrome-editorial-sketch",
-      "sequenceRole": "explainer-after-news",
-      "topic": "Klima und Meere",
-      "imageFile": "assets/images/KL_0014_01_zustand.png",
-      "imageMetadata": {
-        "id": "KL_0014_01",
-        "type": "ai-generated-or-editorial-image",
-        "created": "2026-07-26T09:16:20.102987+00:00",
-        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_15_58.png",
-        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum beschleunigt schmelzendes Eis die Erwärmung?.\nKernaussage: Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Eis-Albedo-Effekt, Schnee, Meereis, Arktis, Rückkopplung, Sonnenenergie, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
-        "altText": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
-        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
-        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
-        "contentType": "explainer",
-        "visualMode": "process-sketch",
-        "imageStyle": "monochrome-editorial-sketch",
-        "imageFamily": "explainer-sketch",
-        "didacticElements": {
-          "allowArrows": true,
-          "allowSymbols": true,
-          "allowShortLabels": true,
-          "allowFormulaSigns": true,
-          "colorMode": "grayscale-high-contrast",
-          "textDensity": "low"
-        }
-      },
-      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Strahlungsphysik und offizieller NA",
-      "screenConnection": "Weniger Eis bedeutet eine dunklere Erde – und eine dunklere Oberfläche nimmt mehr Wärme auf.",
-      "relatedNewsIds": [],
-      "relatedNewsCount": 0,
-      "topicIsFallback": false
-    },
     {
       "id": "QS_0008",
       "status": "freigegeben",
@@ -1146,6 +1074,75 @@
       "topicSource": "linked-explainer"
     },
     {
+      "id": "KL_0014",
+      "status": "freigegeben",
+      "title": "Warum beschleunigt schmelzendes Eis die Erderwärmung?",
+      "summary": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
+      "planetaryBoundary": "KL",
+      "keywords": [
+        "Natur verstehen",
+        "Grundlagen",
+        "Eis-Albedo-Effekt",
+        "Schnee",
+        "Meereis",
+        "Arktis",
+        "Rückkopplung",
+        "Sonnenenergie",
+        "Klimawandel",
+        "Querschnitt"
+      ],
+      "imageId": "KL_0014_01",
+      "sourceUrl": "https://www.earthdata.nasa.gov/topics/cryosphere/albedo",
+      "publicationDate": "2026-07-26",
+      "author": "",
+      "interviewPotential": "gering",
+      "created": "2026-07-26",
+      "lastModified": "2026-07-30",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt; Originalquelle: NASA Earthdata: Albedo",
+      "contentType": "news",
+      "visualMode": "editorial-photo",
+      "imageStyle": "monochrome-editorial-sketch",
+      "explainerId": "KL_0012",
+      "sequenceRole": "context-news",
+      "imageFile": "assets/images/KL_0014_01_zustand.png",
+      "imageMetadata": {
+        "id": "KL_0014_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-26T09:16:20.102987+00:00",
+        "sourceFile": "ChatGPT Image 26. Juli 2026, 11_15_58.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Warum beschleunigt schmelzendes Eis die Erwärmung?.\nKernaussage: Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern..\nInhaltlicher Ausgangspunkt: Hitze, Sonne, blauer Himmel, Thermometer, körperliche Hitzebelastung.\nSchlagwörter: Natur verstehen, Grundlagen, Eis-Albedo-Effekt, Schnee, Meereis, Arktis, Rückkopplung, Sonnenenergie, Klimawandel, Querschnitt.\n\nBildtyp: skizzenhafte Prozessdarstellung für die Rubrik „Natur verstehen“. Zeige nicht primär das sichtbare Ergebnis, sondern den naturwissenschaftlichen Vorgang, das Naturgesetz oder den systemischen Zusammenhang selbst.\n\nDie Darstellung soll wie eine hochwertige editorielle Wissenschaftsskizze wirken: reduziert, ruhig, klar und wissenschaftsnah. Nutze feine Linien, klare Umrissformen, dezente Schraffuren und bei Bedarf einfache Querschnitte oder sichtbare Schichten von Boden, Wasser, Luft, Pflanze oder Atmosphäre, wenn dies zum Verständnis des konkreten Prozesses beiträgt.\n\nZusätzlich dürfen zur besseren Verständlichkeit einfache visuelle Erklärungselemente verwendet werden:\n- klare Pfeile oder Richtungslinien\n- einfache Symbole\n- kurze fachliche Abkürzungen\n- einzelne Formelzeichen\n- wenige kurze Bezeichnungen für zentrale Prozessbestandteile\n\nDiese Elemente sollen sparsam, klar lesbar und gestalterisch integriert sein. Verwende dafür kontrastreiche Graustufen oder Schwarz-Weiß. Die grafischen Ergänzungen sollen die Skizze verständlicher machen, aber nicht dominieren.\n\nDie Darstellung darf leicht modellhaft und didaktisch reduziert sein, soll aber nicht wie eine bunte Infografik, ein Comic, ein Kinderbuchbild oder eine technische CAD-Zeichnung wirken. Sie soll erwachsen, hochwertig und wissenschaftsjournalistisch erscheinen.\n\nDarstellungsvorgaben:\n- vorzugsweise in Schwarz-Weiß oder kontrastreichen Graustufen\n- ruhiger, heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- genau ein dominantes Hauptmotiv\n- Prozessverständnis durch Bildaufbau und sparsame grafische Erläuterung\n- grafische Elemente nur so viel wie nötig\n- keine Logos, Wasserzeichen oder dekorativen Rahmen\n- keine Collage und keine geteilte Vorher-nachher-Ansicht\n- keine überladene Infografik\n\nErlaubte Textelemente:\n- nur sehr kurze fachliche Kürzel, Formelzeichen oder Einzelbegriffe\n- keine langen Sätze oder Fließtexte\n- keine Zahlenkolonnen\n- keine Legendenkästen mit vielen Einträgen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Ruhige Komposition mit eindeutiger Blickführung.\n\nVerbindliche ZUSTAND-Bildsprache für Grundlagen: hochwertige wissenschaftsjournalistische Skizze in Schwarz-Weiß oder kontrastreichen Graustufen, reduziert, ruhig, verständlich und mit unmittelbarer Beziehung zum konkreten Artikelthema.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "Schnee und Eis sind hell und werfen viel Sonnenlicht zurück. Dunkles Meer oder dunkler Boden nehmen deutlich mehr Energie auf und erwärmen sich stärker. Wenn Eis schmilzt, wird die Oberfläche dunkler. Dadurch wird mehr Sonnenenergie aufgenommen, was weiteres Schmelzen begünstigt. Diese verstärkende Rückkopplung heißt Eis-Albedo-Effekt und trägt dazu bei, dass sich Polarregionen besonders schnell verändern.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        }
+      },
+      "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Strahlungsphysik und offizieller NA",
+      "screenConnection": "Weniger Eis bedeutet eine dunklere Erde – und eine dunklere Oberfläche nimmt mehr Wärme auf.",
+      "topic": "Klima und Meere",
+      "topicSource": "linked-explainer"
+    },
+    {
       "id": "KL_0012",
       "status": "freigegeben",
       "title": "Warum machen Treibhausgase die Erde wärmer?",
@@ -1213,11 +1210,12 @@
       "sourceType": "Redaktioneller Grundlagenbeitrag auf Basis etablierter Strahlungsphysik und einer offiziel",
       "screenConnection": "Mehr Treibhausgase verändern den Weg der Wärme – und damit das gesamte Klimasystem.",
       "relatedNewsIds": [
+        "KL_0014",
         "KL_0009",
         "KL_0004",
         "KL_0010"
       ],
-      "relatedNewsCount": 3,
+      "relatedNewsCount": 4,
       "sequenceRole": "explainer-after-news",
       "topicIsFallback": false
     },
@@ -1928,6 +1926,73 @@
       "topicSource": "linked-explainer"
     },
     {
+      "id": "QS_0017",
+      "status": "freigegeben",
+      "title": "Altes Bauholz braucht Prüfregeln statt pauschaler Entsorgung",
+      "summary": "Prof. Günther Schall und das KWSH-Team der TH Lübeck untersuchen, wie Balken aus Rück- und Umbauten erneut als tragende Bauteile eingesetzt werden können. Heute wird geeignetes Gebrauchtholz häufig früh verbrannt, weil verlässliche Bewertungs-, Sortier- und Nachweisverfahren fehlen. Das Projekt prüft Holz, entwickelt Kriterien für ein europäisches Bewertungsdokument und erprobt den Ansatz in Pilotvorhaben.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Gebrauchtholz",
+        "Altholz",
+        "Bauholz",
+        "Wiederverwendung",
+        "Kreislaufwirtschaft",
+        "Rückbau",
+        "Holzbau",
+        "Ressourcenschonung",
+        "Materialprüfung",
+        "Festigkeitsklasse",
+        "Europäisches Bewertungsdokument",
+        "Kaskadennutzung",
+        "Bauwesen",
+        "Technische Hochschule Lübeck",
+        "Schleswig-Holstein",
+        "Lösung"
+      ],
+      "imageId": "QS_0017_01",
+      "sourceUrl": "https://www.th-luebeck.de/hochschule/aktuelles/veranstaltungen/termin/2025-09-14-nordbau-2025-mehrfachnutzung-bauholz/",
+      "publicationDate": "2025-09-14",
+      "author": "",
+      "interviewPotential": "hoch",
+      "created": "2026-07-30",
+      "lastModified": "2026-07-30",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Lösung; Originalquelle: Mehrfachnutzung Bauholz! – Altholz konsequent einsetzen",
+      "contentType": "news",
+      "visualMode": "editorial-photo",
+      "imageStyle": "nature",
+      "explainerId": "QS_0014",
+      "sequenceRole": "context-news",
+      "imageFile": "assets/images/QS_0017_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0017_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-30T00:43:49.883985+00:00",
+        "sourceFile": "ChatGPT Image 30. Juli 2026, 02_43_32.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Altes Bauholz braucht Prüfregeln statt pauschaler Entsorgung.\nKernaussage: Prof. Günther Schall und das KWSH-Team der TH Lübeck untersuchen, wie Balken aus Rück- und Umbauten erneut als tragende Bauteile eingesetzt werden können. Heute wird geeignetes Gebrauchtholz häufig früh verbrannt, weil verlässliche Bewertungs-, Sortier- und Nachweisverfahren fehlen. Das Projekt prüft Holz, entwickelt Kriterien für ein europäisches Bewertungsdokument und erprobt den Ansatz in Pilotvorhaben..\nMögliche Bildassoziationen: ein glaubwürdiger Hörsaal, ein Klassenzimmer, eine Werkstatt oder eine Bibliothek; keine Naturmetapher als Hauptmotiv.\nGewählter Bildstil: Natur. Nutze eine natürliche, glaubwürdige Szenerie mit Landschaft, Tier, Pflanze, Wasser, Boden oder Himmel. Ruhig, realistisch und nicht romantisierend.\nSchlagwörter: Gebrauchtholz, Altholz, Bauholz, Wiederverwendung, Kreislaufwirtschaft, Rückbau, Holzbau, Ressourcenschonung, Materialprüfung, Festigkeitsklasse, Europäisches Bewertungsdokument, Kaskadennutzung, Bauwesen, Technische Hochschule Lübeck, Schleswig-Holstein, Lösung.\n\nZeige keine konkrete Nachrichtenszene und erfinde kein dokumentarisches Ereignis. Entwickle stattdessen eine glaubwürdige und fotorealistische Assoziation, die den Inhalt auf den ersten Blick verständlich macht. Menschen nur dann zeigen, wenn sie inhaltlich sinnvoll sind; dann respektvoll, alltäglich und nicht posierend.\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9.\n- Das Bild füllt die linke Hälfte eines vertikal geteilten 16:9-Bildschirms.\n- Genau ein dominantes, klar erkennbares Hauptmotiv.\n- Auch aus drei bis fünf Metern Entfernung verständlich.\n- Ruhiger Hintergrund und deutliche Hell-Dunkel-Trennung.\n- Wichtige Motive mindestens zehn Prozent vom Bildrand entfernt.\n- Keine Schrift, Zahlen, Diagramme, Logos, Wasserzeichen, Rahmen oder Collagen.\n- Keine überladene Komposition und keine gestellte Werbeszene.\n\nVerbindliche ZUSTAND-Bildsprache: Fotorealistische, glaubwürdige redaktionelle Fotografie für ein hochwertiges deutschsprachiges Wissenschaftsmagazin. Ruhige, glaubwürdige Bildsprache, realistische Lichtstimmung, klare Komposition, realistische Materialien und Hauttöne, dezente Tiefenschärfe. Ein einziges starkes Hauptmotiv mit verständlicher symbolischer Beziehung zum Artikel. Keine Katastrophenästhetik, keine übertriebene Dramatik, keine Collage, keine geteilte Ansicht, keine Diagramme, keine Infografik, keine Schrift, keine Buchstaben, keine Zahlen, keine Logos und keine Wasserzeichen. Für die linke Bildhälfte eines vertikal geteilten 16:9-Infoscreens; Ausgabe im Hochformat 8:9. Wichtige Motive mit mindestens zehn Prozent Sicherheitsabstand zum Bildrand platzieren.\n\nDas Hauptmotiv soll sich unmittelbar aus dem Artikelthema ergeben und nicht aus einer allgemeinen Naturmetapher.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9, ohne Text im Bild.",
+        "altText": "Prof. Günther Schall und das KWSH-Team der TH Lübeck untersuchen, wie Balken aus Rück- und Umbauten erneut als tragende Bauteile eingesetzt werden können. Heute wird geeignetes Gebrauchtholz häufig früh verbrannt, weil verlässliche Bewertungs-, Sortier- und Nachweisverfahren fehlen. Das Projekt prüft Holz, entwickelt Kriterien für ein europäisches Bewertungsdokument und erprobt den Ansatz in Pilotvorhaben.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Symbolisches Titelbild für den Infoscreen. Keine dokumentarische Aufnahme eines konkreten Ereignisses, sofern es KI-generiert wurde.",
+        "contentType": "news",
+        "visualMode": "editorial-photo",
+        "imageStyle": "nature",
+        "imageFamily": "editorial"
+      },
+      "sourceType": "Offizielle Projekt- und Veranstaltungsseiten der Technischen Hochschule Lübeck zu einem la",
+      "screenConnection": "Rückbau → Prüfung → neue Tragfähigkeit → weniger Abfall und weniger neues Holz",
+      "topic": "Bauen",
+      "topicSource": "linked-explainer"
+    },
+    {
       "id": "QS_0014",
       "status": "freigegeben",
       "title": "Warum Bauen mehrere planetare Grenzen berührt",
@@ -2009,11 +2074,95 @@
       "screenConnection": "Nicht die Materialgruppe, sondern das konkrete Produkt entscheidet über die Alterung.",
       "sourceTitle": "title: non nobis – über das Bauen in der Zukunft. Band 1: Ausgehen muss man von dem, was ist",
       "relatedNewsIds": [
+        "QS_0017",
         "QS_0013",
         "QS_0015"
       ],
-      "relatedNewsCount": 2,
+      "relatedNewsCount": 3,
       "topicIsFallback": false
+    },
+    {
+      "id": "QS_0016",
+      "status": "freigegeben",
+      "title": "Was ZUSTAND sichtbar machen will",
+      "summary": "ZUSTAND fragt nicht zuerst, welche einzelne Lösung Hoffnung macht, sondern wie es um unsere natürlichen Lebensgrundlagen tatsächlich steht. Grundlage sind wissenschaftliche Quellen, verständliche Zusammenhänge und Gespräche mit Forschenden. Die Pilotsendung stellt das Format vor und erprobt ChatGPT als offen gekennzeichnete Rechercheunterstützung. Wichtige Aussagen und Quellen werden anschließend nochmals geprüft.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "ZUSTAND",
+        "Pilotsendung",
+        "planetare Grenzen",
+        "natürliche Lebensgrundlagen",
+        "Wissenschaftskommunikation",
+        "Primärquellen",
+        "Bauwesen",
+        "öffentlicher Dialog",
+        "Offener Kanal Lübeck",
+        "KI-Recherche",
+        "ChatGPT",
+        "Querschnitt: ZUSTAND und Wissenschaftskommunikation"
+      ],
+      "imageId": "QS_0016_01",
+      "sourceUrl": "https://blcdetlef.github.io/z-panel/",
+      "publicationDate": "2026-07-29",
+      "author": "ChatGPT",
+      "interviewPotential": "",
+      "created": "2026-07-29",
+      "lastModified": "2026-07-29",
+      "language": "de",
+      "article": [
+        {
+          "heading": "",
+          "text": ""
+        }
+      ],
+      "facts": [],
+      "links": [],
+      "license": "",
+      "notes": "Importiert über Recherche-Assistent 5.1; Meldungsart: Querschnitt: ZUSTAND und Wissenschaftskommunikation; Originalquelle: ZUSTAND – Leitbild und redaktionelles Konzept",
+      "contentType": "explainer",
+      "visualMode": "process-sketch",
+      "category": "Natur verstehen",
+      "displayLabel": "NATUR VERSTEHEN",
+      "imageStyle": "monochrome-editorial-sketch",
+      "sequenceRole": "explainer-after-news",
+      "imageFile": "assets/images/QS_0016_01_zustand.png",
+      "imageMetadata": {
+        "id": "QS_0016_01",
+        "type": "ai-generated-or-editorial-image",
+        "created": "2026-07-29T12:32:13.348136+00:00",
+        "sourceFile": "ChatGPT Image 29. Juli 2026, 14_31_54.png",
+        "prompt": "Erzeuge ein einzelnes Titelbild für einen öffentlichen Infoscreen.\n\nArtikelthema: Was ZUSTAND sichtbar machen will.\nKernaussage: ZUSTAND fragt nicht zuerst, welche einzelne Lösung Hoffnung macht, sondern wie es um unsere natürlichen Lebensgrundlagen tatsächlich steht. Grundlage sind wissenschaftliche Quellen, verständliche Zusammenhänge und Gespräche mit Forschenden. Die Pilotsendung stellt das Format vor und erprobt ChatGPT als offen gekennzeichnete Rechercheunterstützung. Wichtige Aussagen und Quellen werden anschließend nochmals geprüft..\nInhaltlicher Ausgangspunkt: Menschen im sachlichen Austausch, gemeinsames Arbeiten oder ein ruhiger öffentlicher Begegnungsort; keine gestellte Werbeszene.\nSchlagwörter: ZUSTAND, Pilotsendung, planetare Grenzen, natürliche Lebensgrundlagen, Wissenschaftskommunikation, Primärquellen, Bauwesen, öffentlicher Dialog, Offener Kanal Lübeck, KI-Recherche, ChatGPT, Querschnitt: ZUSTAND und Wissenschaftskommunikation.\n\nZiel des Bildes: Es soll Wissen anbahnen, vor allem aber Interesse und Neugier auf Forschung zu unseren natürlichen Lebensgrundlagen wecken. Das Bild ist ein Titelbild und keine vollständige Lehrtafel. Es öffnet die Frage; der Beitrag erklärt die Einzelheiten.\n\nBildtyp: hochwertige wissenschaftsjournalistische Prozessskizze für die Rubrik „Natur verstehen“, in Schwarz-Weiß oder kontrastreichen Graustufen. Zeige genau eine zentrale Ursache-Wirkungs-Beziehung aus dem Artikel.\n\nVerbindliche Reduktion:\n- genau ein dominantes Hauptmotiv\n- genau eine Kernaussage\n- höchstens drei klar unterscheidbare Prozessstufen\n- höchstens vier Pfeile oder Richtungslinien\n- höchstens drei sehr kurze Beschriftungen, Kürzel oder Formelzeichen\n- höchstens ein zurückhaltender Nebenaspekt\n- das Bild muss auch ohne Lesen der Beschriftungen verständlich sein\n\nFalls der Artikel mehrere Aspekte enthält, wähle ausschließlich den für Titel und Kernaussage wichtigsten Zusammenhang. Zeige keine vollständige Prozesskette, keine Materialsammlung, keine vielen Beispiele und keine parallelen Erklärstränge.\n\nGestaltung:\n- feine Linien, klare Umrisse und dezente Schraffuren\n- ruhiger heller oder neutraler Hintergrund\n- klare Hell-Dunkel-Trennung\n- erwachsen, hochwertig und wissenschaftsnah\n- einfache Pfeile, Symbole, Abkürzungen oder Formelzeichen sind erlaubt, aber nur wenn sie die eine Hauptidee unmittelbar klären\n- Beschriftungen auf Deutsch oder als allgemein verständliche Fachkürzel, sehr kurz und kontrastreich\n\nUnbedingt vermeiden:\n- vollständige Flussdiagramme oder Ablaufpläne\n- mehr als drei Stationen\n- viele Kreise, Kästen, Materialbehälter oder Symbolgruppen\n- lange Sätze, Erklärtexte, Legenden und Zusammenfassungsleisten\n- mehrere Landschaftsräume oder mehrere gleichwertige Hauptmotive\n- bunte Infografik, Comic, Kinderbuchstil oder CAD-Zeichnung\n- Logos, Wasserzeichen, dekorative Rahmen oder Collagen\n\nKomposition für den Infoscreen:\n- Hochformat im Seitenverhältnis 8:9\n- für die linke Hälfte eines vertikal geteilten 16:9-Bildschirms\n- aus drei bis fünf Metern Entfernung sofort erfassbar\n- wichtige Motive mindestens zehn Prozent vom Bildrand entfernt\n- eindeutige Blickführung und viel ruhige Fläche\n\nLeitgedanke: Ein Blick – ein Zusammenhang. Vermittle lieber einen klaren Gedanken als viele Details. Das Bild soll ein unmittelbares „Ach so“ auslösen und zugleich zum Weiterlesen anregen.\n\nAusgabe: genau ein fertiges Bild im Hochformat 8:9.",
+        "altText": "ZUSTAND fragt nicht zuerst, welche einzelne Lösung Hoffnung macht, sondern wie es um unsere natürlichen Lebensgrundlagen tatsächlich steht. Grundlage sind wissenschaftliche Quellen, verständliche Zusammenhänge und Gespräche mit Forschenden. Die Pilotsendung stellt das Format vor und erprobt ChatGPT als offen gekennzeichnete Rechercheunterstützung. Wichtige Aussagen und Quellen werden anschließend nochmals geprüft.",
+        "license": "Titelbild für ZUSTAND; Nutzungsrechte redaktionell prüfen",
+        "editorialNote": "Skizzenhafte Schwarz-Weiß-Prozessdarstellung für die Rubrik „Natur verstehen“; didaktische Elemente wie Pfeile, Symbole und kurze Kürzel sind sparsam erlaubt.",
+        "contentType": "explainer",
+        "visualMode": "process-sketch",
+        "imageStyle": "monochrome-editorial-sketch",
+        "imageFamily": "explainer-sketch",
+        "didacticElements": {
+          "allowArrows": true,
+          "allowSymbols": true,
+          "allowShortLabels": true,
+          "allowFormulaSigns": true,
+          "colorMode": "grayscale-high-contrast",
+          "textDensity": "low"
+        },
+        "editorialPurpose": "Grundverständnis und Neugier auf Forschung zu den natürlichen Lebensgrundlagen",
+        "complexityLimits": {
+          "mainIdeas": 1,
+          "maxProcessStages": 3,
+          "maxArrows": 4,
+          "maxShortLabels": 3,
+          "maxSecondaryAspects": 1,
+          "mustWorkWithoutReading": true
+        }
+      },
+      "sourceType": "Redaktioneller Eigenbeitrag zur Einführung des Projekts und Sendungsformats ZUSTAND. Der T",
+      "sourceTitle": "title: ZUSTAND – Leitbild und redaktionelles Konzept",
+      "relatedNewsIds": [],
+      "relatedNewsCount": 0,
+      "topic": "Was ZUSTAND sichtbar machen will",
+      "topicIsFallback": true
     }
   ],
   "contentSchema": 7,
@@ -2049,21 +2198,20 @@
       "enabled": true
     }
   ],
-  "editorialGeneratedAt": "2026-07-29T07:43:36+02:00",
+  "editorialGeneratedAt": "2026-07-30T02:52:12+02:00",
   "contentTypeCounts": {
-    "news": 17,
+    "news": 19,
     "explainer": 11,
     "solution": 0,
     "editorial": 1
   },
   "visualModeCounts": {
-    "editorial-photo": 15,
+    "editorial-photo": 17,
     "process-sketch": 11,
     "symbolic": 3,
     "scientific": 0
   },
   "playbackOrder": [
-    "KL_0014",
     "QS_0008",
     "QS_0006",
     "QS_0011",
@@ -2080,6 +2228,7 @@
     "KL_0009",
     "KL_0010",
     "KL_0004",
+    "KL_0014",
     "KL_0012",
     "OA_0001",
     "KL_0005",
@@ -2091,24 +2240,14 @@
     "QS_0012",
     "QS_0013",
     "QS_0015",
-    "QS_0014"
+    "QS_0017",
+    "QS_0014",
+    "QS_0016"
   ],
   "playbackGroups": [
     {
-      "explainerId": "KL_0014",
-      "order": 1,
-      "newsIds": [],
-      "newsCount": 0,
-      "playbackIds": [
-        "KL_0014"
-      ],
-      "status": "unlinked",
-      "topic": "Klima und Meere",
-      "topicKey": "klima-und-meere"
-    },
-    {
       "explainerId": "QS_0010",
-      "order": 2,
+      "order": 1,
       "newsIds": [
         "QS_0008",
         "QS_0006",
@@ -2127,7 +2266,7 @@
     },
     {
       "explainerId": "KL_0013",
-      "order": 3,
+      "order": 2,
       "newsIds": [],
       "newsCount": 0,
       "playbackIds": [
@@ -2139,7 +2278,7 @@
     },
     {
       "explainerId": "QS_0007",
-      "order": 4,
+      "order": 3,
       "newsIds": [
         "BD_0010",
         "QS_0009"
@@ -2156,7 +2295,7 @@
     },
     {
       "explainerId": "KL_0018",
-      "order": 5,
+      "order": 4,
       "newsIds": [
         "KL_0006",
         "KL_0017",
@@ -2177,17 +2316,19 @@
     },
     {
       "explainerId": "KL_0012",
-      "order": 6,
+      "order": 5,
       "newsIds": [
         "KL_0009",
         "KL_0010",
-        "KL_0004"
+        "KL_0004",
+        "KL_0014"
       ],
-      "newsCount": 3,
+      "newsCount": 4,
       "playbackIds": [
         "KL_0009",
         "KL_0010",
         "KL_0004",
+        "KL_0014",
         "KL_0012"
       ],
       "status": "recommended",
@@ -2196,7 +2337,7 @@
     },
     {
       "explainerId": "OA_0001",
-      "order": 7,
+      "order": 6,
       "newsIds": [],
       "newsCount": 0,
       "playbackIds": [
@@ -2208,7 +2349,7 @@
     },
     {
       "explainerId": "KL_0016",
-      "order": 8,
+      "order": 7,
       "newsIds": [
         "KL_0005"
       ],
@@ -2223,7 +2364,7 @@
     },
     {
       "explainerId": "NS_0003",
-      "order": 9,
+      "order": 8,
       "newsIds": [
         "NS_0002",
         "NS_0001"
@@ -2240,7 +2381,7 @@
     },
     {
       "explainerId": "QS_0012",
-      "order": 10,
+      "order": 9,
       "newsIds": [
         "KL_0019"
       ],
@@ -2255,20 +2396,34 @@
     },
     {
       "explainerId": "QS_0014",
-      "order": 11,
+      "order": 10,
       "newsIds": [
         "QS_0013",
-        "QS_0015"
+        "QS_0015",
+        "QS_0017"
       ],
-      "newsCount": 2,
+      "newsCount": 3,
       "playbackIds": [
         "QS_0013",
         "QS_0015",
+        "QS_0017",
         "QS_0014"
       ],
       "status": "recommended",
       "topic": "Bauen",
       "topicKey": "bauen"
+    },
+    {
+      "explainerId": "QS_0016",
+      "order": 11,
+      "newsIds": [],
+      "newsCount": 0,
+      "playbackIds": [
+        "QS_0016"
+      ],
+      "status": "unlinked",
+      "topic": "Was ZUSTAND sichtbar machen will",
+      "topicKey": "was-zustand-sichtbar-machen-will"
     }
   ],
   "playbackPolicy": {
@@ -2281,30 +2436,6 @@
     }
   },
   "topics": [
-    {
-      "key": "klima-und-meere",
-      "label": "Klima und Meere",
-      "explainerIds": [
-        "KL_0014",
-        "KL_0013",
-        "KL_0012",
-        "OA_0001",
-        "KL_0016"
-      ],
-      "articleIds": [
-        "KL_0014",
-        "KL_0013",
-        "KL_0009",
-        "KL_0010",
-        "KL_0004",
-        "KL_0012",
-        "OA_0001",
-        "KL_0005",
-        "KL_0016"
-      ],
-      "articleCount": 9,
-      "explainerCount": 5
-    },
     {
       "key": "gesundheit-lifestyle",
       "label": "Gesundheit & Lifestyle",
@@ -2325,6 +2456,29 @@
       ],
       "articleCount": 9,
       "explainerCount": 2
+    },
+    {
+      "key": "klima-und-meere",
+      "label": "Klima und Meere",
+      "explainerIds": [
+        "KL_0013",
+        "KL_0012",
+        "OA_0001",
+        "KL_0016"
+      ],
+      "articleIds": [
+        "KL_0013",
+        "KL_0009",
+        "KL_0010",
+        "KL_0004",
+        "KL_0014",
+        "KL_0012",
+        "OA_0001",
+        "KL_0005",
+        "KL_0016"
+      ],
+      "articleCount": 9,
+      "explainerCount": 4
     },
     {
       "key": "arten-suwasser",
@@ -2376,13 +2530,26 @@
       "articleIds": [
         "QS_0013",
         "QS_0015",
+        "QS_0017",
         "QS_0014"
       ],
-      "articleCount": 3,
+      "articleCount": 4,
+      "explainerCount": 1
+    },
+    {
+      "key": "was-zustand-sichtbar-machen-will",
+      "label": "Was ZUSTAND sichtbar machen will",
+      "explainerIds": [
+        "QS_0016"
+      ],
+      "articleIds": [
+        "QS_0016"
+      ],
+      "articleCount": 1,
       "explainerCount": 1
     }
   ],
-  "topicCount": 6,
+  "topicCount": 7,
   "topicPolicy": {
     "source": "explainer.topic",
     "fallback": "explainer.title",

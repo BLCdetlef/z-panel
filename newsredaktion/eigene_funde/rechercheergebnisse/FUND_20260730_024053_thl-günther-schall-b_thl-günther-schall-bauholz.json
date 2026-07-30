@@ -1,0 +1,66 @@
+{
+  "format": "zustand-recherche-import-v1",
+  "researchOutputMode": "auto",
+  "generatedAt": "2026-07-30T02:31:00+02:00",
+  "articles": [
+    {
+      "title": "Altes Bauholz braucht Prüfregeln statt pauschaler Entsorgung",
+      "summary": "Prof. Günther Schall und das KWSH-Team der TH Lübeck untersuchen, wie Balken aus Rück- und Umbauten erneut als tragende Bauteile eingesetzt werden können. Heute wird geeignetes Gebrauchtholz häufig früh verbrannt, weil verlässliche Bewertungs-, Sortier- und Nachweisverfahren fehlen. Das Projekt prüft Holz, entwickelt Kriterien für ein europäisches Bewertungsdokument und erprobt den Ansatz in Pilotvorhaben.",
+      "planetaryBoundary": "QS",
+      "keywords": [
+        "Gebrauchtholz",
+        "Altholz",
+        "Bauholz",
+        "Wiederverwendung",
+        "Kreislaufwirtschaft",
+        "Rückbau",
+        "Holzbau",
+        "Ressourcenschonung",
+        "Materialprüfung",
+        "Festigkeitsklasse",
+        "Europäisches Bewertungsdokument",
+        "Kaskadennutzung",
+        "Bauwesen",
+        "Technische Hochschule Lübeck",
+        "Schleswig-Holstein"
+      ],
+      "sourceTitle": "Mehrfachnutzung Bauholz! – Altholz konsequent einsetzen",
+      "sourceUrl": "https://www.th-luebeck.de/hochschule/aktuelles/veranstaltungen/termin/2025-09-14-nordbau-2025-mehrfachnutzung-bauholz/",
+      "publicationDate": "2025-09-14",
+      "category": "Lösung",
+      "interviewPotential": "hoch",
+      "contentType": "news",
+      "articleType": "Newsbeitrag",
+      "selectionLabel": "Gebrauchtholz wiederverwenden",
+      "contacts": [
+        {
+          "name": "Prof. Dr.-Ing. Günther Schall",
+          "role": "Seniorprofessor und Projektleitung KWSH; Stahlbau, Technische Mechanik und Lehre im Holzbau",
+          "institution": "Technische Hochschule Lübeck, Fachbereich Bauwesen",
+          "country": "Deutschland",
+          "email": "guenther.schall@th-luebeck.de",
+          "phone": "+49 451 300 5142",
+          "profileUrl": "https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/guenther-schall/",
+          "contactSourceUrl": "https://www.th-luebeck.de/forschung-und-transfer/forschung/projekte/kwsh/personen/",
+          "contactType": "Projektleitung",
+          "preferred": true,
+          "notes": "Sehr gut geeignet für ein Gespräch über die technische Bewertung alten Bauholzes, die Grenzen heutiger Normen, Schadstoff- und Festigkeitsprüfungen sowie die Frage, warum brauchbares Holz noch häufig verbrannt statt erneut verbaut wird. Berufliche Kontaktdaten auf offiziellen Seiten der TH Lübeck verifiziert."
+        }
+      ],
+      "editorial": {
+        "sourceType": "Offizielle Projekt- und Veranstaltungsseiten der Technischen Hochschule Lübeck zu einem laufenden angewandten Forschungsvorhaben. Es handelt sich noch nicht um eine abgeschlossene peer-reviewte Ergebnisstudie. Der Beitrag beschreibt Ziel, Verfahren, Hemmnisse und den aktuellen Entwicklungsstand des Projekts.",
+        "coreChange": "Gebrauchtes Konstruktionsholz soll nicht mehr pauschal als Abfall oder Brennstoff behandelt werden. Das KWSH-Projekt entwickelt technische Prüf-, Sortier- und Nachweisgrundlagen, mit denen geeignete Balken erneut als Bauholz eingesetzt werden könnten.",
+        "questionBehindNews": "Warum werden tragfähige Holzbalken aus Rückbauten häufig verbrannt, obwohl Wälder unter Klimawandel und Nutzungsdruck stehen und die Bauwirtschaft zugleich neue Rohstoffe benötigt?",
+        "causalChain": "Gebäude werden zurückgebaut → Holzbauteile gelten häufig als Abfall und besitzen keine einfach nutzbaren Nachweise → geeignetes Holz wird thermisch verwertet → neue Bäume und Rohstoffe müssen zusätzlich genutzt werden → Prüfungen, Sortierung und Bewertungsregeln können eine erneute tragende Nutzung ermöglichen → Materialbedarf, Abfall und Emissionen können sinken.",
+        "affectedSystems": "Wälder und Holzressourcen, Klima, Biodiversität, Abfallströme, regionale Rohstoffversorgung, Bauwirtschaft, Rückbaupraxis, Materialprüfung und europäische Bauproduktregeln.",
+        "planetaryBoundaries": "Vor allem Klimawandel, Landnutzungswandel und Biosphärenintegrität; zusätzlich die Grenze für neuartige Substanzen, weil Schadstoffe, Beschichtungen und Holzschutzmittel die Wiederverwendung begrenzen können.",
+        "societalRelevance": "Die Wiederverwendung vorhandener Bauteile verbindet Ressourcenschutz mit einer konkreten Frage der Baupraxis. Sie zeigt zugleich, dass Kreislaufwirtschaft nicht allein am Material scheitert, sondern auch an Haftung, Kosten, Zulassung, Dokumentation und auf Neuprodukte zugeschnittenen Regeln.",
+        "uncertainties": "Nicht jedes Gebrauchtholz ist wiederverwendbar. Alter, Holzart, Schäden, frühere Nutzung, Verbindungen, Feuchte und mögliche Schadstoffbelastungen müssen beurteilt werden. Ökologische Vorteile hängen außerdem von Transport, Aufbereitung, Ausbeute und der tatsächlich ersetzten Neuproduktion ab. Das europäische Bewertungsdokument befindet sich noch in Entwicklung.",
+        "interviewPotential": "Hoch. Günther Schall kann technische Mechanik, Holzbau, Materialprüfung und die praktische Umsetzung verbinden. Mögliche Fragen: Woran erkennt man wiederverwendbares Bauholz? Welche Prüfungen sind unverzichtbar? Welche Risiken werden überschätzt? Was verhindern heutige Normen? Wann ist Wiederverwendung ökologisch und wirtschaftlich wirklich sinnvoll?",
+        "sources": "Technische Hochschule Lübeck: Projekt KWSH – Technische Voraussetzungen für den Wiedereinsatz von Gebrauchtbaustoffen, https://www.th-luebeck.de/forschung-und-transfer/forschung/projekte/kwsh/uebersicht/ ; TH Lübeck: Vorgehen im Projekt KWSH, https://www.th-luebeck.de/forschung-und-transfer/forschung/projekte/kwsh/kompetenzen/ ; TH Lübeck: Mehrfachnutzung Bauholz! – Altholz konsequent einsetzen, https://www.th-luebeck.de/hochschule/aktuelles/veranstaltungen/termin/2025-09-14-nordbau-2025-mehrfachnutzung-bauholz/ ; TH Lübeck: Lübecker Bautag 2025 – Kreislaufwirtschaft und nachhaltiges Bauen, https://www.th-luebeck.de/hochschule/aktuelles/neuigkeiten/beitrag/2025-06-25-luebecker-bautag-2025-kreislaufwirtschaft-und-nachhaltiges-bauen/",
+        "imageIdea": "Ruhige, glaubwürdige Szene in einer Materialprüfhalle: ein alter, sichtbar gebrauchter Dachbalken liegt auf einem Prüfstand; daneben Messwerkzeug, markierte Probenstelle und ein kleiner Stapel sorgfältig ausgebauter Balken. Natürliches Holz, sachliche Werkstattatmosphäre, keine Personen zwingend erforderlich. Nicht zeigen: brennendes Holz, Abrissbagger, makellosen Neubau, grüne Werbesymbole, CO₂-Schriftzüge oder romantisierten Wald.",
+        "screenConnection": "Rückbau → Prüfung → neue Tragfähigkeit → weniger Abfall und weniger neues Holz"
+      }
+    }
+  ]
+}
