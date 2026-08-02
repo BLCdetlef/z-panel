@@ -1,0 +1,14 @@
+ZUSTAND News Studio 5.24.16 konnte nicht gestartet werden.
+
+Fehlertyp: NameError
+Fehler: name 'NewsStudio524' is not defined
+
+Technische Details:
+Traceback (most recent call last):
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_25.py", line 4096, in main
+    app_class = create_app_class(base_class, runtime)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haud\Documents\GitHub\z-panel\news_studio_5_25.py", line 3585, in create_app_class
+    NewsStudio524.__name__ = "NewsStudio524"
+    ^^^^^^^^^^^^^
+NameError: name 'NewsStudio524' is not defined

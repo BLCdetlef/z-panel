@@ -1,5 +1,13 @@
 "use strict";
 
+const pageParameters = new URLSearchParams(window.location.search);
+const HOMEPAGE_MODE = pageParameters.get("mode") === "homepage";
+
+if (HOMEPAGE_MODE) {
+  document.documentElement.classList.add("homepage-mode");
+  document.body.classList.add("homepage-mode");
+}
+
 const DEFAULT_ARTICLE_SECONDS = 30;
 const DEFAULT_EDITORIAL_SECONDS = 18;
 const DEFAULT_EDITORIAL_EVERY = 8;
@@ -635,7 +643,7 @@ async function selectTopic(topicLabel) {
     return;
   }
 
-  topicButton.hidden = false;
+  topicButton.hidden = HOMEPAGE_MODE;
   topicButton.textContent = normalized ? `Thema: ${normalized}` : "Alle Themen";
   topicButton.title = normalized
     ? `Aktuelles Thema: ${normalized}. Klicken zum Wechseln.`
@@ -698,7 +706,9 @@ async function loadNews() {
 
     state.animationFrame = requestAnimationFrame(tick);
 
-    if (state.topics.length) {
+    if (HOMEPAGE_MODE) {
+      await selectTopic("");
+    } else if (state.topics.length) {
       renderTopicOptions();
       showTopicSelector();
     } else {

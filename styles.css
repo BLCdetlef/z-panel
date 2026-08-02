@@ -825,3 +825,80 @@ dialog::backdrop {
     min-height: 76px;
   }
 }
+
+/* Z-PANEL 5.25: kompakte Live-Vorschau für die ZUSTAND-Landingpage.
+   Aufruf: index.html?mode=homepage */
+html.homepage-mode,
+body.homepage-mode {
+  min-height: 0;
+  background: transparent;
+}
+
+body.homepage-mode .screen {
+  min-height: 0;
+  padding: 0;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 9px;
+  background: transparent;
+}
+
+body.homepage-mode .topbar,
+body.homepage-mode .topic-selector,
+body.homepage-mode #topic-button,
+body.homepage-mode #fullscreen-button,
+body.homepage-mode .keyboard-hint,
+body.homepage-mode #countdown-label {
+  display: none !important;
+}
+
+body.homepage-mode .stage {
+  min-height: 520px;
+  max-height: none;
+  aspect-ratio: 16 / 8.5;
+  border-radius: 16px;
+}
+
+body.homepage-mode .story {
+  padding: clamp(26px, 3.2vw, 54px);
+}
+
+body.homepage-mode h1 {
+  font-size: clamp(2rem, 3.4vw, 4.1rem);
+}
+
+body.homepage-mode .article-summary {
+  font-size: clamp(1rem, 1.2vw, 1.3rem);
+}
+
+body.homepage-mode .story-actions {
+  margin-top: clamp(20px, 3vh, 34px);
+}
+
+body.homepage-mode .bottombar {
+  min-height: 24px;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+}
+
+body.homepage-mode .footer-meta {
+  gap: 0;
+}
+
+@media (max-width: 760px) {
+  body.homepage-mode .stage {
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  body.homepage-mode .visual {
+    min-height: 270px;
+  }
+
+  body.homepage-mode .story {
+    padding: 25px 22px 28px;
+  }
+
+  body.homepage-mode .bottombar {
+    padding: 0 4px;
+  }
+}
