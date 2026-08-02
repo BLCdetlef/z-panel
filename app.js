@@ -100,6 +100,12 @@ function currentItem() {
 }
 
 function itemDurationSeconds(item = currentItem()) {
+  // Die Homepage-Vorschau wechselt bewusst schneller als der Infoscreen.
+  // Das normale Z-PANEL behält weiterhin die Zeiten aus news.json.
+  if (HOMEPAGE_MODE) {
+    return isEditorial(item) ? 11 : 14;
+  }
+
   const explicit = Number(item?.durationSeconds);
   if (Number.isFinite(explicit) && explicit >= 5) return explicit;
   return isEditorial(item) ? state.editorialSeconds : state.articleSeconds;
